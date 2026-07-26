@@ -1,6 +1,6 @@
 # 🏰 Utrecht Voor Jou
 
-![Build & Deploy](https://github.com/utrecht-beslist/utrecht-voor-jou/actions/workflows/deploy.yml/badge.svg)
+![Build & Deploy](https://github.com/utrecht-voor-iedereen/utrecht-voor-jou/actions/workflows/deploy.yml/badge.svg)
 ![License EUPL-1.2](https://img.shields.io/badge/license-EUPL--1.2-red.svg)
 ![i18n 9 Languages](https://img.shields.io/badge/i18n-9%20languages-blue.svg)
 ![GitHub Pages](https://img.shields.io/badge/hosting-GitHub%20Pages-success.svg)
@@ -28,7 +28,7 @@
 Clone de repository en start de lokale preview server:
 
 ```bash
-git clone https://github.com/utrecht-beslist/utrecht-voor-jou.git
+git clone https://github.com/utrecht-voor-iedereen/utrecht-voor-jou.git
 cd utrecht-voor-jou
 
 # 1. Valideer de JSON dataset en taalbestanden

@@ -157,7 +157,7 @@ function renderHtmlShell({ title, description, content, langCode, currentSubpath
         <h4 style="color: var(--color-white); margin-bottom: 0.8rem;">Links</h4>
         <ul class="footer-links-list">
           <li><a href="/${langCode}/over/">${dict.nav_about}</a></li>
-          <li><a href="https://github.com/utrecht-beslist/utrecht-voor-jou" target="_blank" rel="noopener">${dict.nav_contribute}</a></li>
+          <li><a href="https://github.com/utrecht-voor-iedereen/utrecht-voor-jou" target="_blank" rel="noopener">${dict.nav_contribute}</a></li>
           <li><a href="/rss/${langCode}.xml">RSS Feed (${langCode.toUpperCase()})</a></li>
         </ul>
       </div>
@@ -503,7 +503,7 @@ function generateRssFeed(catalog, dict, langCode) {
   const itemsXml = catalog.map(item => {
     const title = item.title[langCode] || item.title['nl'] || item.title['en'];
     const desc = item.shortDescription[langCode] || item.shortDescription['nl'] || item.shortDescription['en'];
-    const link = `https://utrecht-beslist.github.io/utrecht-voor-jou/${langCode}/beneficio/${item.id}/`;
+    const link = `https://utrecht-voor-iedereen.github.io/utrecht-voor-jou/${langCode}/beneficio/${item.id}/`;
 
     return `
     <item>
@@ -519,7 +519,7 @@ function generateRssFeed(catalog, dict, langCode) {
 <rss version="2.0">
   <channel>
     <title>Utrecht Voor Jou (${langCode.toUpperCase()})</title>
-    <link>https://utrecht-beslist.github.io/utrecht-voor-jou/${langCode}/</link>
+    <link>https://utrecht-voor-iedereen.github.io/utrecht-voor-jou/${langCode}/</link>
     <description>${dict.tagline}</description>
     <language>${langCode}</language>
     ${itemsXml}
@@ -532,11 +532,11 @@ function generateSitemap(catalog) {
   let urls = [];
 
   LANGUAGES.forEach(lang => {
-    urls.push(`https://utrecht-beslist.github.io/utrecht-voor-jou/${lang.code}/`);
-    urls.push(`https://utrecht-beslist.github.io/utrecht-voor-jou/${lang.code}/over/`);
+    urls.push(`https://utrecht-voor-iedereen.github.io/utrecht-voor-jou/${lang.code}/`);
+    urls.push(`https://utrecht-voor-iedereen.github.io/utrecht-voor-jou/${lang.code}/over/`);
 
     catalog.forEach(item => {
-      urls.push(`https://utrecht-beslist.github.io/utrecht-voor-jou/${lang.code}/beneficio/${item.id}/`);
+      urls.push(`https://utrecht-voor-iedereen.github.io/utrecht-voor-jou/${lang.code}/beneficio/${item.id}/`);
     });
   });
 
