@@ -2,6 +2,7 @@
  * Utrecht Voor Jou — Static Site Generator Build Pipeline
  * Reads data/beneficios.json and locales/*.json to generate fully pre-rendered static HTML
  * for all 9 languages, 50 benefit detail pages, about pages, sitemap.xml, and RSS feeds.
+ * Uses relative paths so GitHub Pages project sites (/utrecht-voor-jou/) work 100% seamlessly.
  */
 
 const fs = require('fs');
@@ -24,14 +25,12 @@ const LANGUAGES = [
   { code: 'pt-BR', name: 'Português (Brasil)', flag: 'PT-BR' }
 ];
 
-// Helper to ensure directory exists
 function ensureDir(dirPath) {
   if (!fs.existsSync(dirPath)) {
     fs.mkdirSync(dirPath, { recursive: true });
   }
 }
 
-// Load dataset and localization dictionaries
 function loadData() {
   const rawData = fs.readFileSync(DATA_FILE, 'utf8');
   const catalog = JSON.parse(rawData);
@@ -49,15 +48,12 @@ function loadData() {
   return { catalog, locales };
 }
 
-// Generate hreflang meta tags HTML string
-function renderHreflangTags(currentPath) {
+function renderHreflangTags(basePath, currentSubpath) {
   return LANGUAGES.map(l => {
-    const localizedPath = `/${l.code}${currentPath}`;
-    return `<link rel="alternate" hreflang="${l.code}" href="${localizedPath}" />`;
+    return `<link rel="alternate" hreflang="${l.code}" href="${basePath}${l.code}${currentSubpath}" />`;
   }).join('\n    ');
 }
 
-// Language selector HTML options
 function renderLangSelectOptions(currentCode) {
   return LANGUAGES.map(l => {
     const selected = l.code === currentCode ? 'selected' : '';
@@ -65,9 +61,9 @@ function renderLangSelectOptions(currentCode) {
   }).join('\n');
 }
 
-// Main HTML Shell Component
-function renderHtmlShell({ title, description, content, langCode, currentSubpath, catalogData, dict }) {
-  const hreflangs = renderHreflangTags(currentSubpath);
+// Main HTML Shell Component using dynamic basePath
+function renderHtmlShell({ title, description, content, langCode, currentSubpath, catalogData, dict, basePath }) {
+  const hreflangs = renderHreflangTags(basePath, currentSubpath);
   const langOptions = renderLangSelectOptions(langCode);
 
   return `<!DOCTYPE html>
@@ -86,11 +82,12 @@ function renderHtmlShell({ title, description, content, langCode, currentSubpath
   
   ${hreflangs}
 
-  <link rel="stylesheet" href="/css/styles.css">
-  <link rel="alternate" type="application/rss+xml" title="Utrecht Voor Jou RSS (${langCode})" href="/rss/${langCode}.xml" />
+  <link rel="stylesheet" href="${basePath}css/styles.css">
+  <link rel="alternate" type="application/rss+xml" title="Utrecht Voor Jou RSS (${langCode})" href="${basePath}rss/${langCode}.xml" />
 
   <script>
     window.BENEFICIOS_DATA = ${JSON.stringify(catalogData)};
+    window.BASE_PATH = "${basePath}";
   </script>
 </head>
 <body>
@@ -99,7 +96,7 @@ function renderHtmlShell({ title, description, content, langCode, currentSubpath
   <!-- SITE HEADER -->
   <header class="site-header" role="banner">
     <div class="header-container">
-      <a href="/${langCode}/" class="brand-logo" aria-label="${dict.site_title} Home">
+      <a href="${basePath}${langCode}/" class="brand-logo" aria-label="${dict.site_title} Home">
         <svg width="36" height="36" viewBox="0 0 100 100">
           <rect x="5" y="5" width="90" height="90" rx="16" fill="#FFFFFF"/>
           <polygon points="5,5 95,5 5,95" fill="#CC0000"/>
@@ -113,9 +110,9 @@ function renderHtmlShell({ title, description, content, langCode, currentSubpath
 
       <nav class="site-nav" aria-label="Main Navigation">
         <ul class="nav-menu">
-          <li><a href="/${langCode}/" class="nav-link">${dict.nav_home}</a></li>
-          <li><a href="/${langCode}/#checker" class="nav-link highlight">${dict.nav_checker}</a></li>
-          <li><a href="/${langCode}/over/" class="nav-link">${dict.nav_about}</a></li>
+          <li><a href="${basePath}${langCode}/" class="nav-link">${dict.nav_home}</a></li>
+          <li><a href="${basePath}${langCode}/#checker" class="nav-link highlight">${dict.nav_checker}</a></li>
+          <li><a href="${basePath}${langCode}/over/" class="nav-link">${dict.nav_about}</a></li>
           <li>
             <div class="lang-selector-wrapper">
               <select id="lang-select" class="lang-select" aria-label="Taal selecteren / Select Language">
@@ -156,9 +153,9 @@ function renderHtmlShell({ title, description, content, langCode, currentSubpath
       <div>
         <h4 style="color: var(--color-white); margin-bottom: 0.8rem;">Links</h4>
         <ul class="footer-links-list">
-          <li><a href="/${langCode}/over/">${dict.nav_about}</a></li>
+          <li><a href="${basePath}${langCode}/over/">${dict.nav_about}</a></li>
           <li><a href="https://github.com/utrecht-voor-iedereen/utrecht-voor-jou" target="_blank" rel="noopener">${dict.nav_contribute}</a></li>
-          <li><a href="/rss/${langCode}.xml">RSS Feed (${langCode.toUpperCase()})</a></li>
+          <li><a href="${basePath}rss/${langCode}.xml">RSS Feed (${langCode.toUpperCase()})</a></li>
         </ul>
       </div>
     </div>
@@ -168,19 +165,18 @@ function renderHtmlShell({ title, description, content, langCode, currentSubpath
     </div>
   </footer>
 
-  <script src="/js/i18n-selector.js"></script>
-  <script src="/js/catalog.js"></script>
-  <script src="/js/checker.js"></script>
+  <script src="${basePath}js/i18n-selector.js"></script>
+  <script src="${basePath}js/catalog.js"></script>
+  <script src="${basePath}js/checker.js"></script>
 </body>
 </html>`;
 }
 
-// Render Catalog Homepage HTML
-function renderCatalogHome(catalog, dict, langCode) {
+function renderCatalogHome(catalog, dict, langCode, basePath) {
   const cardsHtml = catalog.map(item => {
     const title = item.title[langCode] || item.title['nl'] || item.title['en'];
     const desc = item.shortDescription[langCode] || item.shortDescription['nl'] || item.shortDescription['en'];
-    const detailUrl = `/${langCode}/beneficio/${item.id}/`;
+    const detailUrl = `${basePath}${langCode}/beneficio/${item.id}/`;
 
     return `<article class="benefit-card" data-id="${item.id}" data-category="${item.category}" data-type="${item.type}">
       <div class="card-header-bar">
@@ -398,8 +394,7 @@ function renderCatalogHome(catalog, dict, langCode) {
   `;
 }
 
-// Render Benefit Detail Page HTML
-function renderBenefitDetail(item, dict, langCode) {
+function renderBenefitDetail(item, dict, langCode, basePath) {
   const title = item.title[langCode] || item.title['nl'] || item.title['en'];
   const desc = item.shortDescription[langCode] || item.shortDescription['nl'] || item.shortDescription['en'];
   
@@ -411,7 +406,7 @@ function renderBenefitDetail(item, dict, langCode) {
 
   return `
     <div class="detail-container">
-      <a href="/${langCode}/" class="back-link">← ${dict.nav_home}</a>
+      <a href="${basePath}${langCode}/" class="back-link">← ${dict.nav_home}</a>
 
       <article class="detail-card-main">
         <div class="detail-header-tags">
@@ -452,11 +447,10 @@ function renderBenefitDetail(item, dict, langCode) {
   `;
 }
 
-// Render About Page (/over/) HTML
-function renderAboutPage(dict, langCode) {
+function renderAboutPage(dict, langCode, basePath) {
   return `
     <div class="over-container">
-      <a href="/${langCode}/" class="back-link">← ${dict.nav_home}</a>
+      <a href="${basePath}${langCode}/" class="back-link">← ${dict.nav_home}</a>
 
       <article class="detail-card-main">
         <h1 class="detail-title">Over "Utrecht Voor Jou"</h1>
@@ -488,7 +482,7 @@ function renderAboutPage(dict, langCode) {
             Ontbreekt er een regeling of klopt een link niet meer? Iedereen kan een wijziging voorstellen via een Pull Request op GitHub. Bewerk eenvoudig <code>data/beneficios.json</code> of dien een issue in via onze sjablonen.
           </p>
           <div style="margin-top: 1.5rem;">
-            <a href="https://github.com/zaswear/utrecht-voor-jou" target="_blank" rel="noopener" class="official-btn-large">
+            <a href="https://github.com/utrecht-voor-iedereen/utrecht-voor-jou" target="_blank" rel="noopener" class="official-btn-large">
               Bekijk op GitHub (PR indienen) ↗
             </a>
           </div>
@@ -498,7 +492,6 @@ function renderAboutPage(dict, langCode) {
   `;
 }
 
-// Generate RSS Feed per language
 function generateRssFeed(catalog, dict, langCode) {
   const itemsXml = catalog.map(item => {
     const title = item.title[langCode] || item.title['nl'] || item.title['en'];
@@ -527,7 +520,6 @@ function generateRssFeed(catalog, dict, langCode) {
 </rss>`;
 }
 
-// Generate XML Sitemap
 function generateSitemap(catalog) {
   let urls = [];
 
@@ -548,17 +540,14 @@ ${urlElements}
 </urlset>`;
 }
 
-// Execute static site generation
 function build() {
-  console.log('🚀 Starting Utrecht Voor Jou SSG build...');
+  console.log('🚀 Starting Utrecht Voor Jou SSG build with relative paths...');
   ensureDir(DIST_DIR);
 
   const { catalog, locales } = loadData();
 
-  // Create RSS output dir
   ensureDir(path.join(DIST_DIR, 'rss'));
 
-  // Copy assets
   ['css', 'js', 'svg'].forEach(assetDir => {
     const srcPath = path.join(ROOT_DIR, 'src', assetDir);
     const destPath = path.join(DIST_DIR, assetDir);
@@ -577,8 +566,9 @@ function build() {
     const langDir = path.join(DIST_DIR, code);
     ensureDir(langDir);
 
-    // 1. Catalog Home Page /<lang>/index.html
-    const homeContent = renderCatalogHome(catalog, dict, code);
+    // 1. Catalog Home Page /<lang>/index.html (depth: 1 -> basePath = '../')
+    const homeBasePath = '../';
+    const homeContent = renderCatalogHome(catalog, dict, code, homeBasePath);
     const homeHtml = renderHtmlShell({
       title: dict.nav_home,
       description: dict.tagline,
@@ -586,14 +576,16 @@ function build() {
       langCode: code,
       currentSubpath: '/',
       catalogData: catalog,
-      dict: dict
+      dict: dict,
+      basePath: homeBasePath
     });
     fs.writeFileSync(path.join(langDir, 'index.html'), homeHtml);
 
-    // 2. About Page /<lang>/over/index.html
+    // 2. About Page /<lang>/over/index.html (depth: 2 -> basePath = '../../')
     const overDir = path.join(langDir, 'over');
     ensureDir(overDir);
-    const overContent = renderAboutPage(dict, code);
+    const overBasePath = '../../';
+    const overContent = renderAboutPage(dict, code, overBasePath);
     const overHtml = renderHtmlShell({
       title: dict.nav_about,
       description: 'Over het onafhankelijke burgerinitiatief Utrecht Voor Jou',
@@ -601,18 +593,20 @@ function build() {
       langCode: code,
       currentSubpath: '/over/',
       catalogData: catalog,
-      dict: dict
+      dict: dict,
+      basePath: overBasePath
     });
     fs.writeFileSync(path.join(overDir, 'index.html'), overHtml);
 
-    // 3. Benefit Detail Pages /<lang>/beneficio/<id>/index.html
+    // 3. Benefit Detail Pages /<lang>/beneficio/<id>/index.html (depth: 3 -> basePath = '../../../')
     catalog.forEach(item => {
       const detailDir = path.join(langDir, 'beneficio', `${item.id}`);
       ensureDir(detailDir);
+      const detailBasePath = '../../../';
 
       const titleText = item.title[code] || item.title['nl'] || item.title['en'];
       const descText = item.shortDescription[code] || item.shortDescription['nl'] || item.shortDescription['en'];
-      const detailContent = renderBenefitDetail(item, dict, code);
+      const detailContent = renderBenefitDetail(item, dict, code, detailBasePath);
 
       const detailHtml = renderHtmlShell({
         title: titleText,
@@ -621,42 +615,40 @@ function build() {
         langCode: code,
         currentSubpath: `/beneficio/${item.id}/`,
         catalogData: catalog,
-        dict: dict
+        dict: dict,
+        basePath: detailBasePath
       });
       fs.writeFileSync(path.join(detailDir, 'index.html'), detailHtml);
     });
 
-    // 4. RSS Feed per language /rss/<lang>.xml
     const rssXml = generateRssFeed(catalog, dict, code);
     fs.writeFileSync(path.join(DIST_DIR, 'rss', `${code}.xml`), rssXml);
   });
 
-  // 5. Root Redirect index.html
+  // 4. Root Redirect index.html (depth: 0 -> relative redirect to ./nl/)
   const rootRedirectHtml = `<!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="0;url=/nl/">
+  <title>Utrecht Voor Jou</title>
   <script>
     var preferred = localStorage.getItem('utrecht_lang');
-    if (preferred && ['nl','en','es','de','tr','fr','it','pt','pt-BR'].includes(preferred)) {
-      window.location.href = '/' + preferred + '/';
-    } else {
-      window.location.href = '/nl/';
-    }
+    var targetLang = (preferred && ['nl','en','es','de','tr','fr','it','pt','pt-BR'].includes(preferred)) ? preferred : 'nl';
+    var loc = window.location;
+    var newPath = loc.pathname.endsWith('/') ? loc.pathname + targetLang + '/' : loc.pathname + '/' + targetLang + '/';
+    window.location.replace(newPath);
   </script>
 </head>
 <body>
-  <p>Redirecting to <a href="/nl/">Utrecht Voor Jou</a>...</p>
+  <p>Redirecting to <a href="./nl/">Utrecht Voor Jou</a>...</p>
 </body>
 </html>`;
   fs.writeFileSync(path.join(DIST_DIR, 'index.html'), rootRedirectHtml);
 
-  // 6. XML Sitemap
   const sitemapXml = generateSitemap(catalog);
   fs.writeFileSync(path.join(DIST_DIR, 'sitemap.xml'), sitemapXml);
 
-  console.log('✅ SSG Build complete! Generated static site in dist/');
+  console.log('✅ SSG Build complete! Generated static site with relative basePaths in dist/');
 }
 
 build();
