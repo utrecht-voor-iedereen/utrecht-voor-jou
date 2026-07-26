@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="40" height="40" aria-label="Utrecht Monogram Logo">
+  <!-- Square with sheared Utrecht diagonal split -->
+  <rect x="5" y="5" width="90" height="90" rx="16" fill="#FFFFFF" stroke="#CC0000" stroke-width="4" />
+  
+  <!-- Diagonal Sint Maarten Red Split -->
+  <polygon points="5,5 95,5 5,95" fill="#CC0000" />
+  
+  <!-- U Monogram -->
+  <text x="50" y="70" font-family="'Bricolage Grotesque', 'Space Grotesk', system-ui, sans-serif" font-size="64" font-weight="900" fill="#FFFFFF" text-anchor="middle">U</text>
+  <text x="52" y="70" font-family="'Bricolage Grotesque', 'Space Grotesk', system-ui, sans-serif" font-size="64" font-weight="900" fill="#000000" text-anchor="middle" opacity="0.3">U</text>
+</svg>

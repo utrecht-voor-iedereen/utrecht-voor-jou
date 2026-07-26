@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="80" height="80" aria-label="Boomspiegel Tree Pit Illustration">
+  <!-- Soil patch -->
+  <ellipse cx="50" cy="75" rx="40" ry="18" fill="#AD643B" />
+  
+  <!-- Tree Trunk -->
+  <rect x="44" y="25" width="12" height="50" rx="3" fill="#757575" />
+  
+  <!-- Foliage -->
+  <circle cx="50" cy="25" r="22" fill="#32AB27" />
+  <circle cx="36" cy="30" r="15" fill="#99D000" />
+  <circle cx="64" cy="30" r="15" fill="#32AB27" />
+
+  <!-- Flowers in tree pit -->
+  <circle cx="30" cy="72" r="5" fill="#FFCC00" />
+  <circle cx="45" cy="80" r="4" fill="#F02198" />
+  <circle cx="68" cy="74" r="5" fill="#CC0000" />
+
+  <!-- Zelfbeheertegel badge -->
+  <rect x="68" y="80" width="14" height="10" fill="#FFFFFF" stroke="#CC0000" stroke-width="1.5" />
+  <text x="75" y="87" font-size="7" font-weight="bold" fill="#CC0000" text-anchor="middle">U</text>
+</svg>

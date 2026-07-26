@@ -1,0 +1,977 @@
+/* ==========================================================================
+   UTRECHT VOOR JOU — DESIGN SYSTEM & STYLESHEET
+   Aesthetics: Utrecht Red #CC0000, Sint Maarten Diagonal Split Motif,
+   Bold Display Typography, Hand-coded SVGs, High-Contrast Accessibility AA.
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,900&family=Space+Grotesk:wght@500;700&display=swap');
+
+:root {
+  /* Utrecht Official Color Palette */
+  --color-utrecht-red: #CC0000;
+  --color-utrecht-red-dark: #990000;
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+  --color-text-body: #111111;
+  --color-yellow-accent: #FFCC00;
+  --color-blue-interactive: #006DFF;
+  --color-navy-footer: #1C4181;
+  --color-gray-meta: #757575;
+  --color-bg-light: #F8F9FA;
+  --color-border: #E0E0E0;
+
+  /* Category Specific Accent Colors */
+  --cat-verde: #32AB27;
+  --cat-dinero: #FF6E00;
+  --cat-energia: #009ED4;
+  --cat-legal: #762CD1;
+  --cat-cultura: #F02198;
+  --cat-movilidad: #AD643B;
+  --cat-comunidad: #99D000;
+  --cat-vida: #CC0000;
+
+  /* Fonts */
+  --font-heading: 'Bricolage Grotesque', 'Space Grotesk', system-ui, sans-serif;
+  --font-body: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Spacing & Borders */
+  --radius-sharp: 0px;
+  --radius-sm: 4px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+
+  /* Transitions */
+  --transition-fast: 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-smooth: 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Reset & Core */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  background-color: var(--color-white);
+  color: var(--color-text-body);
+  font-family: var(--font-body);
+  line-height: 1.5;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+/* Accessibility Focus States */
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible {
+  outline: 3px solid var(--color-yellow-accent);
+  outline-offset: 3px;
+  box-shadow: 0 0 0 5px var(--color-utrecht-red);
+}
+
+a {
+  color: var(--color-blue-interactive);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 600;
+  transition: color var(--transition-fast);
+}
+
+a:hover {
+  color: var(--color-utrecht-red);
+}
+
+/* Typography */
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-heading);
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  color: var(--color-black);
+}
+
+h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 900; }
+h2 { font-size: clamp(1.6rem, 3.5vw, 2.5rem); font-weight: 700; }
+h3 { font-size: clamp(1.2rem, 2vw, 1.6rem); font-weight: 700; }
+
+/* Skip Link for Accessibility */
+.skip-link {
+  position: absolute;
+  top: -60px;
+  left: 10px;
+  background: var(--color-yellow-accent);
+  color: var(--color-black);
+  padding: 12px 20px;
+  font-weight: bold;
+  z-index: 9999;
+  transition: top 0.2s;
+  text-decoration: none;
+  border: 2px solid var(--color-black);
+}
+.skip-link:focus {
+  top: 10px;
+}
+
+/* ==========================================================================
+   HEADER & NAVIGATION WITH DIAGONAL MOTIF
+   ========================================================================== */
+.site-header {
+  background-color: var(--color-utrecht-red);
+  color: var(--color-white);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+/* Sint Maarten Diagonal Top Bar Accent */
+.site-header::before {
+  content: '';
+  display: block;
+  height: 6px;
+  background: linear-gradient(90deg, var(--color-yellow-accent) 0%, var(--color-white) 50%, var(--color-yellow-accent) 100%);
+}
+
+.header-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0.8rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.brand-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+.brand-logo svg {
+  flex-shrink: 0;
+}
+
+.brand-title {
+  font-family: var(--font-heading);
+  font-size: 1.6rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -0.03em;
+  color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-subtitle {
+  font-size: 0.72rem;
+  font-family: var(--font-body);
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--color-yellow-accent);
+  text-transform: uppercase;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  list-style: none;
+}
+
+.nav-link {
+  color: var(--color-white);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.95rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: var(--radius-sm);
+  transition: background var(--transition-fast), color var(--transition-fast);
+}
+
+.nav-link:hover, .nav-link.active {
+  background-color: var(--color-white);
+  color: var(--color-utrecht-red);
+}
+
+.nav-link.highlight {
+  background-color: var(--color-yellow-accent);
+  color: var(--color-black);
+  clip-path: polygon(5% 0, 100% 0, 95% 100%, 0 100%);
+  padding: 0.5rem 1rem;
+}
+
+/* Language Selector */
+.lang-selector-wrapper {
+  position: relative;
+}
+
+.lang-select {
+  background-color: var(--color-white);
+  color: var(--color-black);
+  border: 2px solid var(--color-black);
+  font-weight: 800;
+  font-size: 0.9rem;
+  padding: 0.35rem 0.6rem;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  appearance: none;
+  padding-right: 1.8rem;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='3'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.5rem center;
+}
+
+/* ==========================================================================
+   HERO SECTION & DIAGONAL SPLIT MOTIF
+   ========================================================================== */
+.hero-section {
+  position: relative;
+  background-color: var(--color-utrecht-red);
+  color: var(--color-white);
+  padding: 4rem 1.5rem 6rem 1.5rem;
+  clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%);
+  overflow: hidden;
+}
+
+/* Animated Diagonal Background Band */
+.hero-section::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -20%;
+  width: 60%;
+  height: 200%;
+  background: linear-gradient(135deg, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.02) 100%);
+  transform: rotate(-15deg);
+  pointer-events: none;
+  animation: slideDiagonal 12s infinite linear;
+}
+
+@keyframes slideDiagonal {
+  0% { transform: rotate(-15deg) translateY(0); }
+  50% { transform: rotate(-15deg) translateY(20px); }
+  100% { transform: rotate(-15deg) translateY(0); }
+}
+
+.hero-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 2.5rem;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-text h1 {
+  color: var(--color-white);
+  margin-bottom: 1rem;
+}
+
+.hero-text h1 span.accent {
+  color: var(--color-yellow-accent);
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.95);
+  margin-bottom: 2rem;
+  max-width: 750px;
+}
+
+.hero-badge {
+  display: inline-block;
+  background-color: var(--color-black);
+  color: var(--color-yellow-accent);
+  font-weight: 800;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  padding: 0.4rem 1rem;
+  margin-bottom: 1rem;
+  clip-path: polygon(0 0, 95% 0, 100% 100%, 0 100%);
+}
+
+.hero-illustration {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.hero-illustration svg {
+  filter: drop-shadow(4px 8px 12px rgba(0,0,0,0.3));
+}
+
+/* ==========================================================================
+   SEARCH & FILTER BAR
+   ========================================================================== */
+.catalog-controls {
+  max-width: 1200px;
+  margin: -3.5rem auto 3rem auto;
+  padding: 1.8rem;
+  background-color: var(--color-white);
+  border: 3px solid var(--color-black);
+  box-shadow: 8px 8px 0px var(--color-black);
+  position: relative;
+  z-index: 10;
+  transform: rotate(-0.5deg);
+}
+
+.search-box-container {
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.search-input {
+  width: 100%;
+  padding: 1.1rem 1.4rem 1.1rem 3.2rem;
+  font-size: 1.15rem;
+  font-family: var(--font-body);
+  border: 2px solid var(--color-black);
+  border-radius: var(--radius-sm);
+  background-color: #FAFAFA;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);
+  transition: border-color var(--transition-fast), background var(--transition-fast);
+}
+
+.search-input:focus {
+  background-color: var(--color-white);
+  border-color: var(--color-utrecht-red);
+}
+
+.search-icon {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 22px;
+  height: 22px;
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.filter-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.filter-label {
+  font-size: 0.82rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-gray-meta);
+}
+
+.filter-select {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 600;
+  border: 2px solid var(--color-black);
+  border-radius: var(--radius-sm);
+  background-color: var(--color-white);
+  cursor: pointer;
+}
+
+/* ==========================================================================
+   WIST JE DAT ROTATING CARD
+   ========================================================================== */
+.wist-je-dat-container {
+  max-width: 1200px;
+  margin: 0 auto 3rem auto;
+  padding: 0 1.5rem;
+}
+
+.wist-je-dat-card {
+  background: linear-gradient(135deg, var(--color-yellow-accent) 0%, #FFE566 100%);
+  border: 3px solid var(--color-black);
+  box-shadow: 6px 6px 0px var(--color-black);
+  padding: 1.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.wist-je-dat-card::before {
+  content: '';
+  position: absolute;
+  top: 0; right: 0; bottom: 0; width: 150px;
+  background-color: rgba(204, 0, 0, 0.08);
+  clip-path: polygon(30% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.wist-je-dat-header {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 0.4rem;
+}
+
+.wist-je-dat-title {
+  font-size: 1.25rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--color-utrecht-red);
+}
+
+.wist-je-dat-text {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--color-black);
+}
+
+.wist-je-dat-btn {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  border: none;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 0.75rem 1.4rem;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: transform var(--transition-fast), background var(--transition-fast);
+}
+
+.wist-je-dat-btn:hover {
+  background-color: var(--color-utrecht-red);
+  transform: translateY(-2px);
+}
+
+/* ==========================================================================
+   BENEFIT CARDS CATALOG GRID
+   ========================================================================== */
+.catalog-section {
+  max-width: 1200px;
+  margin: 0 auto 5rem auto;
+  padding: 0 1.5rem;
+}
+
+.catalog-stats-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 3px solid var(--color-black);
+}
+
+.benefit-count-giant {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: var(--color-utrecht-red);
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 2rem;
+}
+
+.benefit-card {
+  background-color: var(--color-white);
+  border: 3px solid var(--color-black);
+  box-shadow: 6px 6px 0px var(--color-black);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+  overflow: hidden;
+  animation: fadeInUp 0.4s ease forwards;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.benefit-card:hover {
+  transform: translate(-4px, -4px);
+  box-shadow: 10px 10px 0px var(--color-black);
+}
+
+/* Asymmetrical rotated touch on alternating cards */
+.benefit-card:nth-child(3n+1) { transform: rotate(-0.5deg); }
+.benefit-card:nth-child(3n+2) { transform: rotate(0.6deg); }
+.benefit-card:nth-child(3n+1):hover, .benefit-card:nth-child(3n+2):hover { transform: translate(-4px, -4px) rotate(0deg); }
+
+.card-header-bar {
+  padding: 0.8rem 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FAFAFA;
+  border-bottom: 2px solid var(--color-black);
+}
+
+.category-chip {
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.3rem 0.7rem;
+  color: var(--color-white);
+  clip-path: polygon(0 0, 92% 0, 100% 100%, 0 100%);
+}
+
+.category-chip[data-cat="verde"] { background-color: var(--cat-verde); }
+.category-chip[data-cat="dinero"] { background-color: var(--cat-dinero); }
+.category-chip[data-cat="energia"] { background-color: var(--cat-energia); }
+.category-chip[data-cat="legal"] { background-color: var(--cat-legal); }
+.category-chip[data-cat="cultura"] { background-color: var(--cat-cultura); }
+.category-chip[data-cat="movilidad"] { background-color: var(--cat-movilidad); }
+.category-chip[data-cat="comunidad"] { background-color: var(--cat-comunidad); }
+.category-chip[data-cat="vida"] { background-color: var(--cat-vida); }
+
+.type-tag {
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 0.2rem 0.5rem;
+  border: 1.5px solid var(--color-black);
+  background-color: var(--color-yellow-accent);
+  color: var(--color-black);
+}
+
+.card-body {
+  padding: 1.4rem 1.4rem 1.2rem 1.4rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title {
+  font-size: 1.35rem;
+  font-weight: 800;
+  margin-bottom: 0.75rem;
+  line-height: 1.2;
+}
+
+.card-title a {
+  color: var(--color-black);
+  text-decoration: none;
+}
+
+.card-title a:hover {
+  color: var(--color-utrecht-red);
+}
+
+.card-description {
+  font-size: 0.98rem;
+  color: #333333;
+  margin-bottom: 1.2rem;
+  line-height: 1.5;
+  flex-grow: 1;
+}
+
+.expiry-alert-banner {
+  background-color: #FFF3CD;
+  border: 1.5px solid #FFEBAA;
+  color: #856404;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.card-footer-meta {
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--color-border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: var(--color-gray-meta);
+}
+
+.verification-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 700;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.status-dot.verificado { background-color: #32AB27; }
+.status-dot.por-verificar { background-color: #FF6E00; }
+
+.btn-detail {
+  display: inline-block;
+  background-color: var(--color-utrecht-red);
+  color: var(--color-white);
+  text-decoration: none;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 0.85rem;
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--color-black);
+  transition: background var(--transition-fast);
+}
+
+.btn-detail:hover {
+  background-color: var(--color-black);
+  color: var(--color-yellow-accent);
+}
+
+/* ==========================================================================
+   INTERACTIVE "HEB IK RECHT?" CHECKER WIZARD
+   ========================================================================== */
+.checker-section {
+  background-color: var(--color-bg-light);
+  border-top: 4px solid var(--color-black);
+  border-bottom: 4px solid var(--color-black);
+  padding: 4rem 1.5rem;
+  position: relative;
+}
+
+.checker-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: var(--color-white);
+  border: 3px solid var(--color-black);
+  box-shadow: 8px 8px 0px var(--color-black);
+  padding: 2.5rem;
+}
+
+.checker-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.checker-header h2 {
+  color: var(--color-utrecht-red);
+  margin-bottom: 0.5rem;
+}
+
+.checker-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .checker-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.checker-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.checker-field label {
+  font-weight: 800;
+  font-size: 0.95rem;
+}
+
+.checker-field select {
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 2px solid var(--color-black);
+  border-radius: var(--radius-sm);
+  background-color: #FAFAFA;
+}
+
+.checker-submit-btn {
+  display: block;
+  width: 100%;
+  padding: 1.1rem;
+  background-color: var(--color-utrecht-red);
+  color: var(--color-white);
+  border: 3px solid var(--color-black);
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 4px 4px 0px var(--color-black);
+  transition: transform var(--transition-fast), background var(--transition-fast);
+}
+
+.checker-submit-btn:hover {
+  background-color: var(--color-black);
+  color: var(--color-yellow-accent);
+  transform: translate(-2px, -2px);
+}
+
+/* Animated Check Mark SVG Results Indicator */
+.checker-results-box {
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 3px dashed var(--color-black);
+  display: none;
+}
+
+.checker-results-box.active {
+  display: block;
+  animation: fadeInUp 0.4s ease forwards;
+}
+
+.results-header-icon {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.checkmark-svg {
+  width: 48px;
+  height: 48px;
+}
+
+.checkmark-circle {
+  stroke-dasharray: 166;
+  stroke-dashoffset: 166;
+  stroke-width: 4;
+  stroke: #32AB27;
+  fill: none;
+  animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+}
+
+.checkmark-check {
+  transform-origin: 50% 50%;
+  stroke-dasharray: 48;
+  stroke-dashoffset: 48;
+  stroke-width: 4;
+  stroke: #32AB27;
+  fill: none;
+  animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.6s forwards;
+}
+
+@keyframes stroke {
+  100% { stroke-dashoffset: 0; }
+}
+
+/* ==========================================================================
+   DETAIL PAGE & OVER PAGE LAYOUTS
+   ========================================================================== */
+.detail-container, .over-container {
+  max-width: 900px;
+  margin: 3rem auto 6rem auto;
+  padding: 0 1.5rem;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 800;
+  text-decoration: none;
+  color: var(--color-black);
+  margin-bottom: 2rem;
+}
+
+.detail-card-main {
+  background-color: var(--color-white);
+  border: 4px solid var(--color-black);
+  box-shadow: 10px 10px 0px var(--color-black);
+  padding: 3rem;
+  position: relative;
+}
+
+@media (max-width: 600px) {
+  .detail-card-main { padding: 1.5rem; }
+}
+
+.detail-header-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.detail-title {
+  font-size: 2.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.detail-section-block {
+  margin-bottom: 2rem;
+}
+
+.detail-section-block h3 {
+  color: var(--color-utrecht-red);
+  margin-bottom: 0.8rem;
+  border-bottom: 2px solid var(--color-black);
+  padding-bottom: 0.4rem;
+}
+
+.steps-list {
+  list-style: none;
+  counter-reset: step-counter;
+}
+
+.steps-list li {
+  counter-increment: step-counter;
+  position: relative;
+  padding-left: 3rem;
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+}
+
+.steps-list li::before {
+  content: counter(step-counter);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2rem;
+  height: 2rem;
+  background-color: var(--color-black);
+  color: var(--color-yellow-accent);
+  font-family: var(--font-heading);
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.official-btn-large {
+  display: inline-block;
+  background-color: var(--color-blue-interactive);
+  color: var(--color-white);
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-weight: 800;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border: 3px solid var(--color-black);
+  box-shadow: 4px 4px 0px var(--color-black);
+  transition: transform var(--transition-fast), background var(--transition-fast);
+}
+
+.official-btn-large:hover {
+  background-color: var(--color-utrecht-red);
+  color: var(--color-white);
+  transform: translate(-2px, -2px);
+}
+
+/* ==========================================================================
+   FOOTER WITH LOOPING BICYCLE ANIMATION
+   ========================================================================== */
+.site-footer {
+  background-color: var(--color-navy-footer);
+  color: var(--color-white);
+  margin-top: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Looping Bicycle Animation Banner */
+.footer-bike-track {
+  height: 50px;
+  background-color: #153266;
+  border-bottom: 3px solid var(--color-yellow-accent);
+  position: relative;
+  overflow: hidden;
+}
+
+.riding-bike-svg {
+  position: absolute;
+  bottom: 4px;
+  left: -150px;
+  animation: rideBicycle 20s linear infinite;
+}
+
+@keyframes rideBicycle {
+  0% { left: -150px; }
+  100% { left: 105%; }
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 3rem;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+.footer-disclaimer-box {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-left: 4px solid var(--color-yellow-accent);
+  padding: 1.2rem;
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.footer-links-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.footer-links-list a {
+  color: var(--color-white);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.footer-links-list a:hover {
+  color: var(--color-yellow-accent);
+  text-decoration: underline;
+}
+
+.footer-bottom-bar {
+  background-color: #10264D;
+  text-align: center;
+  padding: 1rem 1.5rem;
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.7);
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+/* ==========================================================================
+   ACCESSIBILITY & PREFERS-REDUCED-MOTION
+   ========================================================================== */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .riding-bike-svg {
+    display: none;
+  }
+}

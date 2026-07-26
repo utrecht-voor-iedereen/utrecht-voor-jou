@@ -1,0 +1,45 @@
+name: "Nieuwe Regeling / New Benefit Request"
+description: Propose a new Utrecht benefit, grant, or free service to be added to the catalog.
+title: "[Nieuw]: "
+labels: ["nieuw-beneficio", "community-proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Bedankt voor het voorstellen van een nieuwe regeling van de Gemeente Utrecht!
+  - type: input
+    id: title
+    attributes:
+      label: Titel van de regeling (Title of benefit)
+      placeholder: bijv. "Gratis fruitbomen voor binnentuin"
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Categorie (Category)
+      options:
+        - Verde y Naturaleza
+        - Dinero y Ayudas
+        - Energía y Vivienda
+        - Legal y Trámites
+        - Cultura y Ocio
+        - Movilidad
+        - Comunidad y Economía Circular
+        - Vida Cotidiana
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Korte beschrijving & Wie kan dit aanvragen?
+      placeholder: Leg in 2-3 zinnen uit wat het inhoudt en wie er recht op heeft.
+    validations:
+      required: true
+  - type: input
+    id: official_url
+    attributes:
+      label: Officiële link (Official Link on utrecht.nl or partner)
+      placeholder: https://www.utrecht.nl/...
+    validations:
+      required: true

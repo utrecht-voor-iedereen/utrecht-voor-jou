@@ -1,0 +1,19 @@
+name: "Correctie / Update Information"
+description: Report an outdated link, changed eligibility rule, or typo in an existing item.
+title: "[Correctie]: "
+labels: ["correctie", "needs-review"]
+body:
+  - type: input
+    id: item_id
+    attributes:
+      label: ID of Naam van de regeling
+      placeholder: bijv. "ID #14 - Witgoedregeling"
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Wat klopt er niet of wat is gewijzigd?
+      placeholder: Beschrijf de verouderde link of gewijzigde voorwaarden.
+    validations:
+      required: true

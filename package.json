@@ -1,0 +1,25 @@
+{
+  "name": "utrecht-voor-jou",
+  "version": "1.0.0",
+  "description": "Citizen catalog of benefits, grants, and free services offered by Gemeente Utrecht",
+  "main": "scripts/build.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "dev": "node scripts/dev.js",
+    "validate": "node scripts/validate.js",
+    "test": "node scripts/validate.js"
+  },
+  "keywords": [
+    "utrecht",
+    "gemeente",
+    "beneficios",
+    "subsidies",
+    "open-source",
+    "github-pages",
+    "i18n"
+  ],
+  "author": "Utrecht Voor Jou Community",
+  "license": "EUPL-1.2",
+  "devDependencies": {}
+}
