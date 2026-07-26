@@ -10,7 +10,7 @@
     "officialUrl": "https://www.utrecht.nl/wonen-en-leven/parken-en-groen/zelfbeheer-openbare-ruimte/",
     "profiles": ["iedereen", "huurder", "huiseienaar"],
     "title": {
-      "nl": "Adoptar un alcorque (boomspiegel)",
+      "nl": "Boomspiegel adopteren",
       "en": "Adopt a tree pit (boomspiegel)",
       "es": "Adoptar un alcorque (boomspiegel)",
       "de": "Baumscheibe adoptieren (boomspiegel)",
@@ -342,7 +342,7 @@
     "title": {
       "nl": "Blauwe Bewonersinitiatieven (Waterschap HDSR)",
       "en": "Blue Resident Initiatives (HDSR Water Board)",
-      "es": "Blauwe Bewonersinitiatieven (Waterschap HDSR)",
+      "es": "Iniciativas Azules de Vecinos (Waterschap HDSR)",
       "de": "Blaue Bürgerinitiativen (Wasserverband HDSR)",
       "tr": "Mavi Mahalle İnisiyatifleri (HDSR Su Kurulu)",
       "fr": "Initiatives Bleues Citoyennes (HDSR)",
@@ -1001,7 +1001,7 @@
     "officialUrl": "https://www.u-pas.nl/kindtegoed",
     "profiles": ["gezin", "lage-inkomens"],
     "title": {
-      "nl": "Extra kindtegoed (Bici, sport, zwemles, schoolkamp)",
+      "nl": "Extra kindtegoed (Fiets, sport, zwemles, schoolkamp)",
       "en": "Extra child credit (Bikes, sports, swimming lessons, school trips)",
       "es": "Extra kindtegoed (Bici, deporte, zwemdiploma, schoolkamp)",
       "de": "Extra Kindtegoed (Fahrrad, Schwimmkurs, Klassenfahrt)",
@@ -1258,7 +1258,7 @@
       "en": ["Walk into your neighborhood Buurtteam office or call 030 - 286 00 00"],
       "es": ["Acude al centro Buurtteam de tu wijk o llama gratis al 030 - 286 00 00"],
       "de": ["Beim Buurtteam im Stadtteil vorbeigehen oder anrufen"],
-      "tr": ["Mahallenizdeki Buurtteam merkezine gidin veya anrufen"],
+      "tr": ["Mahallenizdeki Buurtteam merkezine gidin veya 030 - 286 00 00'ı arayın"],
       "fr": ["Rendez-vous au Buurtteam de quartier ou appelez"],
       "it": ["Passa al Buurtteam del tuo quartiere o chiama"],
       "pt": ["Visite o Buurtteam do seu bairro ou ligue"],
@@ -1281,7 +1281,7 @@
       "es": "Ondernemer Centraal (Consultoría gratuita para autónomos y zzp'ers)",
       "de": "Ondernemer Centraal (Kostenlose Beratung für Selbstständige)",
       "tr": "Ondernemer Centraal (Serbest çalışanlar için ücretsiz danışmanlık)",
-      "fr": "Oweb-Ondernemer Centraal (Conseil gratuit aux indépendants)",
+      "fr": "Ondernemer Centraal (Conseil gratuit aux indépendants)",
       "it": "Ondernemer Centraal (Consulenza gratuita per autonomi)",
       "pt": "Ondernemer Centraal (Consultoria gratuita para trabalhadores independentes)",
       "pt-BR": "Ondernemer Centraal (Consultoria gratuita para autônomos e MEI/zzp)"
@@ -1938,7 +1938,7 @@
     "title": {
       "nl": "U-pas cultuur- en bioscoopkortingen",
       "en": "U-pas Culture & Cinema Discounts",
-      "es": "Descuentos U-pas: cine, museos, zwemlessen y teatros",
+      "es": "Descuentos U-pas: cine, museos, piscinas y teatros",
       "de": "U-Pas Kultur- und Kinorabatte",
       "tr": "U-pas Kültür ve Sinema İndirimleri",
       "fr": "Réductions culture et cinéma U-pas",
@@ -2191,7 +2191,7 @@
     "howToApply": {
       "nl": ["Check in met je OV-chipkaart of stallingpas bij de ingang van de stalling"],
       "en": ["Check in with your OV-chipkaart or parking tag at garage entrance"],
-      "es": ["Escanea tu OV-chipkaart o pase de parking al entrar en la fiestenstalling"],
+      "es": ["Escanea tu OV-chipkaart o pase de parking al entrar en la fietsenstalling"],
       "de": ["Mit OV-Chipkaart am Eingang einchecken"],
       "tr": ["Girişte kartınızı okutun"],
       "fr": ["Badger avec votre carte à l'entrée"],
