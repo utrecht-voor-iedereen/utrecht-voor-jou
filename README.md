@@ -7,11 +7,31 @@
 
 > **Utrecht Voor Jou** is een 100% open-source, meertalig en onafhankelijk burgerinitiatief dat 50+ gratis regelingen, subsidies, vergoedingen en voorzieningen van de Gemeente Utrecht inzichtelijk maakt.
 
+🌐 **Live Website**: [https://utrecht-voor-iedereen.github.io/utrecht-voor-jou/](https://utrecht-voor-iedereen.github.io/utrecht-voor-jou/)
+
+---
+
+## 🌍 Directe Links per Taal / Direct Links by Language (9 Languages)
+
+Elke taalversie is direct toegankelijk via de onderstaande links:
+
+| Vlag | Taal (Language) | Code | Directe Link |
+| :---: | :--- | :---: | :--- |
+| 🇳🇱 | **Nederlands** | `nl` | [Bekijk in het Nederlands](https://utrecht-voor-iedereen.github.io/utrecht-voor-jou/nl/) |
+| 🇬🇧 | **English** | `en` | [View in English](https://utrecht-voor-iedereen.github.io/utrecht-voor-jou/en/) |
+| 🇪🇸 | **Español** | `es` | [Ver en Español](https://utrecht-voor-iedereen.github.io/utrecht-voor-jou/es/) |
+| 🇩🇪 | **Deutsch** | `de` | [Auf Deutsch ansehen](https://utrecht-voor-iedereen.github.io/utrecht-voor-jou/de/) |
+| 🇹🇷 | **Türkçe** | `tr` | [Türkçe olarak görüntüle](https://utrecht-voor-iedereen.github.io/utrecht-voor-jou/tr/) |
+| 🇫🇷 | **Français** | `fr` | [Voir en Français](https://utrecht-voor-iedereen.github.io/utrecht-voor-jou/fr/) |
+| 🇮🇹 | **Italiano** | `it` | [Visualizza in Italiano](https://utrecht-voor-iedereen.github.io/utrecht-voor-jou/it/) |
+| 🇵🇹 | **Português** | `pt` | [Ver em Português](https://utrecht-voor-iedereen.github.io/utrecht-voor-jou/pt/) |
+| 🇧🇷 | **Português (Brasil)** | `pt-BR` | [Ver em Português do Brasil](https://utrecht-voor-iedereen.github.io/utrecht-voor-jou/pt-BR/) |
+
 ---
 
 ## 🌟 Kenmerken / Key Features
 
-- **9 Talen vanaf dag 1 (9 Languages)**: Nederlands (`nl`), Engels (`en`), Spaans (`es`), Duits (`de`), Turks (`tr`), Frans (`fr`), Italiaans (`it`), Portugees (`pt`), Portugees van Brazilië (`pt-BR`).
+- **9 Talen vanaf dag 1**: Nederlands (`nl`), Engels (`en`), Spaans (`es`), Duits (`de`), Turks (`tr`), Frans (`fr`), Italiaans (`it`), Portugees (`pt`), Portugees van Brazilië (`pt-BR`).
 - **Interactive "Heb ik recht?" Checker**: 4-vragen wizard tool die 100% client-side werkt in de browser. Geen dataverzameling, geen cookies, geen privacyzorgen.
 - **50 Initiële Regelingen**: Verdeeld over 8 categorieën (Verde y Naturaleza, Dinero y Ayudas, Energía y Vivienda, Legal y Trámites, Cultura y Ocio, Mobiliteit, Comunidad & Circulair, Vida Cotidiana).
 - **Utrecht Huisstijl & Design**:
