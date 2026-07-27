@@ -1,6 +1,7 @@
 # 🏰 Utrecht Voor Jou
 
 ![Build & Deploy](https://github.com/utrecht-voor-iedereen/utrecht-voor-jou/actions/workflows/deploy.yml/badge.svg)
+![Link Check](https://github.com/utrecht-voor-iedereen/utrecht-voor-jou/actions/workflows/link-check.yml/badge.svg)
 ![License EUPL-1.2](https://img.shields.io/badge/license-EUPL--1.2-red.svg)
 ![i18n 9 Languages](https://img.shields.io/badge/i18n-9%20languages-blue.svg)
 ![GitHub Pages](https://img.shields.io/badge/hosting-GitHub%20Pages-success.svg)
@@ -33,7 +34,13 @@ Elke taalversie is direct toegankelijk via de onderstaande links:
 
 - **9 Talen vanaf dag 1**: Nederlands (`nl`), Engels (`en`), Spaans (`es`), Duits (`de`), Turks (`tr`), Frans (`fr`), Italiaans (`it`), Portugees (`pt`), Portugees van Brazilië (`pt-BR`).
 - **Interactive "Heb ik recht?" Checker**: 4-vragen wizard tool die 100% client-side werkt in de browser. Geen dataverzameling, geen cookies, geen privacyzorgen.
-- **50 Initiële Regelingen**: Verdeeld over 8 categorieën (Verde y Naturaleza, Dinero y Ayudas, Energía y Vivienda, Legal y Trámites, Cultura y Ocio, Mobiliteit, Comunidad & Circulair, Vida Cotidiana).
+- **50 Initiële Regelingen**: Verdeeld over 8 categorieën (Groen & Natuur, Geld & Subsidies, Energie & Wonen, Recht & Regelzaken, Cultuur & Vrije Tijd, Mobiliteit, Gemeenschap & Circulair, Dagelijks Leven).
+- **Deelbare filters**: de zoekterm en de vier filters staan in de query string. Een gefilterd overzicht (`?type=gratis&wijk=Overvecht`) is dus een link die je kunt doorsturen, en de terugknop maakt één filter ongedaan in plaats van de pagina te verlaten.
+- **Zoeken op de Nederlandse term**: elke regeling heeft `searchAliases` met de officiële programmanaam, de organisatie en de afkorting. Wie aan het loket "Witgoedregeling" of "BghU" hoort, vindt de regeling terug ongeacht de taal waarin de site staat.
+- **Offline & installeerbaar**: een manifest en een service worker maken de site installeerbaar; een eerder geopende pagina blijft leesbaar zonder verbinding. Handig aan de balie of met een beperkte databundel.
+- **Printbaar als hand-out**: een printstylesheet verbergt de interactieve onderdelen en schrijft de officiële URL voluit, zodat elke regelingpagina als papieren blad meegegeven kan worden.
+- **Zichtbare houdbaarheid**: regelingen waarvan `lastReviewed` ouder is dan negen maanden krijgen automatisch een waarschuwingsbadge, vertaald in alle 9 talen.
+- **Wekelijkse linkcontrole**: een GitHub Action bevraagt elke `officialUrl` en opent een issue met de onbereikbare links, zodat een verhuisde gemeentepagina niet stilletjes een doodlopende link wordt.
 - **Utrecht Huisstijl & Design**:
   - Primaire kleur: **Utrecht Rood** (`#CC0000`) en Sint Maarten diagonaalmotief.
   - Handgemaakte geometrische SVG-illustraties (Domtoren, omafiets, Oudegracht gracht, boomspiegel).
@@ -61,6 +68,19 @@ npm run build
 npm run dev
 ```
 
+Controleer daarnaast of alle officiële bronnen nog bereikbaar zijn. Dit doet
+netwerkverzoeken naar utrecht.nl en de andere organisaties, dus draai het niet
+in een lus:
+
+```bash
+npm run check-links
+```
+
+> **Let op bij de service worker.** Zodra je de site één keer lokaal hebt geopend,
+> registreert de browser de service worker en serveert hij assets uit de cache.
+> Zie je je wijziging niet terug, gebruik dan een hard reload of vink
+> *Application → Service Workers → Update on reload* aan in de DevTools.
+
 ---
 
 ## 📦 Project Structuur (Structure)
@@ -77,18 +97,27 @@ utrecht-voor-jou/
 ├── schemas/
 │   └── beneficios.schema.json # JSON Schema voor validering
 ├── src/
-│   ├── css/styles.css        # Utrecht Design System & Animatie
+│   ├── css/styles.css        # Design system, printstylesheet, animatie
 │   ├── js/                   # Client-side logica (checker, filters, i18n)
-│   └── svg/                  # Handgemaakte SVG-illustraties
+│   ├── sw.js                 # Service worker (build.js schrijft hem naar dist/)
+│   └── svg/                  # Handgemaakte SVG-illustraties + app-icon
 ├── scripts/
 │   ├── build.js              # Node.js SSG generator
 │   ├── validate.js           # PR & Data valideringsscript
+│   ├── check-links.js        # Controleert elke officialUrl
 │   └── dev.js                # Lokale HTTP preview server
 └── .github/
     └── workflows/
         ├── deploy.yml        # Build + Deploy naar GitHub Pages
-        └── validate.yml      # PR schema check
+        ├── validate.yml      # PR schema check
+        └── link-check.yml    # Wekelijkse linkcontrole → GitHub issue
 ```
+
+`dist/` staat in `.gitignore`: de gepubliceerde site wordt door `deploy.yml`
+gebouwd, niet vanuit een lokale build gecommit. `manifest.webmanifest` en
+`sw.js` worden bij elke build gegenereerd; de service worker krijgt het
+build-tijdstip als cachenaam mee, zodat een nieuwe deploy de vorige cache
+opruimt.
 
 ---
 

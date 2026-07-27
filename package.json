@@ -8,6 +8,7 @@
     "build": "node scripts/build.js",
     "dev": "node scripts/dev.js",
     "validate": "node scripts/validate.js",
+    "check-links": "node scripts/check-links.js",
     "test": "node scripts/validate.js"
   },
   "keywords": [
