@@ -30,6 +30,7 @@
   "type_servicio": "Servizio",
   "verified_badge": "Verificato il",
   "unverified_badge": "Da verificare",
+  "stale_badge": "Informazioni forse non aggiornate — verifica la fonte",
   "expires_soon_badge": "In scadenza / Verifica data",
   "official_link_btn": "Vedi su Utrecht.nl",
   "wist_je_dat_title": "Lo sapevi che...?",

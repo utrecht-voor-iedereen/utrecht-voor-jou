@@ -91,6 +91,17 @@
           ]
         }
       },
+      "searchAliases": {
+        "description": "Extra terms the live search matches on. 'all' holds language-independent words (the Dutch programme name, the organisation, the acronym someone was given at the counter); a language key holds everyday words in that language that the title and description do not already contain.",
+        "type": "object",
+        "properties": {
+          "all": { "type": "array", "items": { "type": "string" } }
+        },
+        "additionalProperties": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
       "title": {
         "type": "object",
         "required": ["nl", "en", "es"]

@@ -961,13 +961,32 @@ h3 { font-size: clamp(1.2rem, 2vw, 1.6rem); font-weight: 700; }
   border-top: 1px solid rgba(255,255,255,0.1);
 }
 
+/* Generated at build time when lastReviewed is older than the staleness
+   window, so an entry nobody has revisited stops looking authoritative. */
+.stale-badge {
+  background-color: #FFF3CD;
+  color: #856404;
+  border-left: 4px solid #E0B400;
+  padding: 0.5rem 0.75rem;
+  margin: 0.75rem 0;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  border-radius: 2px;
+}
+
+.footer-signature {
+  margin-top: 0.4rem;
+  color: rgba(255,255,255,0.55);
+  font-size: 0.8rem;
+}
+
 
 /* ==========================================================================
    KO-FI SUPPORT BUTTON
    ========================================================================== */
 .footer-kofi-section {
   grid-column: 1 / -1;
-  text-align: center;
+  text-align: left;
   padding: 1.5rem 0 0.5rem;
 }
 
@@ -1007,5 +1026,113 @@ h3 { font-size: clamp(1.2rem, 2vw, 1.6rem); font-weight: 700; }
   }
   .riding-bike-svg {
     display: none;
+  }
+}
+
+/* ==========================================================================
+   PRINT — hand-out sheet
+   Volunteers at the Buurtteam and Taalhuis print a benefit page and give it to
+   someone with no mobile data, so paper must carry everything that matters:
+   what it is, who qualifies, the steps, and the official URL spelled out.
+   ========================================================================== */
+@media print {
+  @page {
+    margin: 1.5cm;
+  }
+
+  body {
+    background: #FFFFFF !important;
+    color: #000000 !important;
+    font-size: 11pt;
+  }
+
+  /* Interactive chrome carries no meaning on paper. */
+  .site-header,
+  .site-nav,
+  .lang-selector-wrapper,
+  .skip-link,
+  .catalog-controls,
+  .wist-je-dat-container,
+  .checker-section,
+  .hero-illustration,
+  .footer-bike-track,
+  .footer-kofi-section,
+  .footer-links-list,
+  .back-link,
+  .btn-detail,
+  .catalog-stats-bar {
+    display: none !important;
+  }
+
+  main,
+  .detail-container,
+  .over-container,
+  .detail-card-main {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    border: none !important;
+    max-width: 100% !important;
+  }
+
+  .detail-title {
+    font-size: 18pt;
+    margin-bottom: 0.4cm;
+  }
+
+  .detail-section-block {
+    page-break-inside: avoid;
+    margin-bottom: 0.6cm;
+  }
+
+  .detail-section-block h3 {
+    font-size: 12pt;
+    border-bottom: 1pt solid #000000;
+    padding-bottom: 0.1cm;
+  }
+
+  /* A tap target becomes useless in print, so print the address itself. */
+  .official-btn-large {
+    display: block;
+    background: none !important;
+    color: #000000 !important;
+    border: 1pt solid #000000;
+    padding: 0.3cm;
+    text-align: left;
+    font-weight: 700;
+  }
+
+  .official-btn-large::after {
+    content: ' — ' attr(href);
+    display: block;
+    font-weight: 400;
+    font-size: 10pt;
+    word-break: break-all;
+  }
+
+  /* Cards print as a plain list when someone prints the catalog itself. */
+  .cards-grid {
+    display: block !important;
+  }
+
+  .benefit-card {
+    page-break-inside: avoid;
+    border: 1pt solid #999999 !important;
+    box-shadow: none !important;
+    margin-bottom: 0.4cm;
+  }
+
+  .site-footer,
+  .footer-content,
+  .footer-bottom-bar {
+    background: none !important;
+    color: #000000 !important;
+    padding: 0 !important;
+  }
+
+  .footer-disclaimer-box {
+    border: 1pt solid #000000;
+    padding: 0.3cm;
+    page-break-inside: avoid;
   }
 }

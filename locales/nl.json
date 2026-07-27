@@ -30,6 +30,7 @@
   "type_servicio": "Dienst",
   "verified_badge": "Geverifieerd op",
   "unverified_badge": "Nog te verifiëren",
+  "stale_badge": "Informatie mogelijk verouderd — controleer de bron",
   "expires_soon_badge": "Verloopt binnenkort / Datum bekijken",
   "official_link_btn": "Bekijk op Utrecht.nl",
   "wist_je_dat_title": "Wist je dat...?",

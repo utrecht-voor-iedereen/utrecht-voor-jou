@@ -30,6 +30,7 @@
   "type_servicio": "Hizmet",
   "verified_badge": "Doğrulanma tarihi",
   "unverified_badge": "Doğrulanacak",
+  "stale_badge": "Bilgiler güncelliğini yitirmiş olabilir — kaynağı kontrol edin",
   "expires_soon_badge": "Yakında bitiyor / Tarihi kontrol et",
   "official_link_btn": "Utrecht.nl sitesinde gör",
   "wist_je_dat_title": "Biliyor muydunuz...?",

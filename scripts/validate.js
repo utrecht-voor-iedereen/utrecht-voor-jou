@@ -60,6 +60,23 @@ if (!fs.existsSync(DATA_FILE)) {
 
         if (!item.officialUrl || !item.officialUrl.startsWith('http')) errors.push(`${itemRef}: Invalid officialUrl`);
 
+        // searchAliases is optional, but a malformed one silently breaks search
+        // instead of erroring, so check the shape when it is present.
+        if (item.searchAliases !== undefined) {
+          if (typeof item.searchAliases !== 'object' || Array.isArray(item.searchAliases)) {
+            errors.push(`${itemRef}: 'searchAliases' must be an object keyed by 'all' or a language code`);
+          } else {
+            Object.entries(item.searchAliases).forEach(([key, list]) => {
+              if (key !== 'all' && !REQUIRED_LANGS.includes(key)) {
+                errors.push(`${itemRef}: Unknown searchAliases key '${key}'`);
+              }
+              if (!Array.isArray(list) || list.some(a => typeof a !== 'string')) {
+                errors.push(`${itemRef}: searchAliases.${key} must be an array of strings`);
+              }
+            });
+          }
+        }
+
         if (!item.title || !item.title.nl) errors.push(`${itemRef}: Missing title.nl`);
         if (!item.shortDescription || !item.shortDescription.nl) errors.push(`${itemRef}: Missing shortDescription.nl`);
         if (!item.eligibility || !item.eligibility.nl) errors.push(`${itemRef}: Missing eligibility.nl`);

@@ -25,6 +25,24 @@ const LANGUAGES = [
   { code: 'pt-BR', name: 'Português (Brasil)', flag: 'PT-BR' }
 ];
 
+// Stamped into the service worker so each deploy invalidates the previous cache.
+const BUILD_ID = new Date().toISOString().replace(/[:.]/g, '-');
+
+// An entry whose lastReviewed is older than this is flagged in the UI. Municipal
+// schemes are typically revised per budget year, so a little under a year keeps
+// the warning meaningful instead of constant.
+const STALE_AFTER_MONTHS = 9;
+const BUILD_DATE = new Date();
+
+function isStale(lastReviewed) {
+  if (!lastReviewed) return false;
+  const reviewed = new Date(lastReviewed);
+  if (Number.isNaN(reviewed.getTime())) return false;
+  const cutoff = new Date(BUILD_DATE);
+  cutoff.setMonth(cutoff.getMonth() - STALE_AFTER_MONTHS);
+  return reviewed < cutoff;
+}
+
 function ensureDir(dirPath) {
   if (!fs.existsSync(dirPath)) {
     fs.mkdirSync(dirPath, { recursive: true });
@@ -84,6 +102,12 @@ function renderHtmlShell({ title, description, content, langCode, currentSubpath
 
   <link rel="stylesheet" href="${basePath}css/styles.css">
   <link rel="alternate" type="application/rss+xml" title="Utrecht Voor Jou RSS (${langCode})" href="${basePath}rss/${langCode}.xml" />
+
+  <!-- Installable / offline -->
+  <link rel="manifest" href="${basePath}manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="${basePath}svg/app-icon.svg">
+  <link rel="apple-touch-icon" href="${basePath}svg/app-icon.svg">
+  <meta name="theme-color" content="#CC0000">
 
   <script>
     window.BENEFICIOS_DATA = ${JSON.stringify(catalogData)};
@@ -169,12 +193,25 @@ function renderHtmlShell({ title, description, content, langCode, currentSubpath
 
     <div class="footer-bottom-bar">
       <p>&copy; 2026 Utrecht Voor Jou Community. ${dict.footer_rights}</p>
+      <p class="footer-signature">Hecho con amor ❤️ por Zaswear</p>
     </div>
   </footer>
 
   <script src="${basePath}js/i18n-selector.js"></script>
   <script src="${basePath}js/catalog.js"></script>
   <script src="${basePath}js/checker.js"></script>
+
+  <script>
+    // The worker lives at the site root so its scope covers every language and
+    // detail page, which sit one to three levels deeper.
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker
+          .register("${basePath}sw.js", { scope: "${basePath}" })
+          .catch(function (err) { console.warn('Service worker registration failed:', err); });
+      });
+    }
+  </script>
 </body>
 </html>`;
 }
@@ -194,6 +231,7 @@ function renderCatalogHome(catalog, dict, langCode, basePath) {
         <h3 class="card-title"><a href="${detailUrl}">${title}</a></h3>
         <p class="card-description">${desc}</p>
         ${item.expiresSoon ? `<div class="expiry-alert-banner">⏰ ${dict.expires_soon_badge} (${item.expiryDate || '30-06-2026'})</div>` : ''}
+        ${isStale(item.lastReviewed) ? `<div class="stale-badge">🕗 ${dict.stale_badge}</div>` : ''}
         <div class="card-footer-meta">
           <span class="verification-status">
             <span class="status-dot ${item.verificationStatus}"></span>
@@ -428,6 +466,8 @@ function renderBenefitDetail(item, dict, langCode, basePath) {
         <h1 class="detail-title">${title}</h1>
         <p class="card-description" style="font-size: 1.2rem; margin-bottom: 2rem;">${desc}</p>
 
+        ${isStale(item.lastReviewed) ? `<div class="stale-badge" style="margin-bottom: 2rem;">🕗 <strong>${dict.stale_badge}</strong></div>` : ''}
+
         ${item.expiresSoon ? `<div class="expiry-alert-banner" style="margin-bottom: 2rem;">⚠️ <strong>${dict.expires_soon_badge}:</strong> ${item.expiryDate || '30-06-2026'}</div>` : ''}
 
         <div class="detail-section-block">
@@ -654,6 +694,36 @@ function build() {
 
   const sitemapXml = generateSitemap(catalog);
   fs.writeFileSync(path.join(DIST_DIR, 'sitemap.xml'), sitemapXml);
+
+  // 5. Web app manifest. Every URL is relative to the manifest, so the install
+  //    works unchanged on the GitHub Pages subpath and on a custom domain.
+  const manifest = {
+    name: 'Utrecht Voor Jou',
+    short_name: 'Voor Jou',
+    description: locales.nl.tagline,
+    start_url: './',
+    scope: './',
+    display: 'standalone',
+    background_color: '#FFFFFF',
+    theme_color: '#CC0000',
+    icons: [
+      {
+        src: './svg/app-icon.svg',
+        sizes: 'any',
+        type: 'image/svg+xml',
+        purpose: 'any maskable'
+      }
+    ]
+  };
+  fs.writeFileSync(path.join(DIST_DIR, 'manifest.webmanifest'), JSON.stringify(manifest, null, 2));
+
+  // 6. Service worker, stamped with the build time so a deploy retires the
+  //    caches the previous one left behind.
+  const swSource = fs.readFileSync(path.join(ROOT_DIR, 'src', 'sw.js'), 'utf8');
+  fs.writeFileSync(
+    path.join(DIST_DIR, 'sw.js'),
+    swSource.replace('__CACHE_VERSION__', BUILD_ID)
+  );
 
   console.log('✅ SSG Build complete! Generated static site with relative basePaths in dist/');
 }

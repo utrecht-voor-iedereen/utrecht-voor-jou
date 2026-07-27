@@ -9,6 +9,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.utrecht.nl/wonen-en-leven/parken-en-groen/zelfbeheer-openbare-ruimte/",
     "profiles": ["iedereen", "huurder", "huiseienaar"],
+    "searchAliases": {
+      "all": ["boomspiegel", "zelfbeheer", "zelfbeheertegel", "boom", "stadsboom", "tuin"]
+    },
     "title": {
       "nl": "Boomspiegel adopteren",
       "en": "Adopt a tree pit (boomspiegel)",
@@ -64,6 +67,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.utrecht.nl/bestuur-en-organisatie/subsidies/initiatievenfonds/",
     "profiles": ["iedereen", "huurder", "huiseienaar"],
+    "searchAliases": {
+      "all": ["initiatievenfonds", "planten", "tuinaarde", "aarde", "geveltuin", "boomspiegel"]
+    },
     "title": {
       "nl": "Gratis planten en aarde voor boomspiegel of geveltuin",
       "en": "Free plants and soil for tree pit or facade garden",
@@ -119,6 +125,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.utrecht.nl/wonen-en-leven/parken-en-groen/geveltuin-aanleggen/",
     "profiles": ["iedereen", "huurder", "huiseienaar"],
+    "searchAliases": {
+      "all": ["geveltuin", "geveltuinburendag", "tegels", "stoep", "voordeur"]
+    },
     "title": {
       "nl": "Gratis geveltuin (geveltuinburendag)",
       "en": "Free facade garden (Geveltuinburendag)",
@@ -174,6 +183,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.utrecht.nl/wonen-en-leven/parken-en-groen/tegeltaxi/",
     "profiles": ["iedereen", "huurder", "huiseienaar"],
+    "searchAliases": {
+      "all": ["tegeltaxi", "tegels", "stoeptegels", "tegelwippen", "zand", "ophalen"]
+    },
     "title": {
       "nl": "Tegeltaxi (Gratis tegels ophalen)",
       "en": "Tegeltaxi (Free tile pickup service)",
@@ -229,6 +241,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.utrecht.nl/wonen-en-leven/parken-en-groen/regentonactie/",
     "profiles": ["iedereen", "huurder", "huiseienaar"],
+    "searchAliases": {
+      "all": ["regenton", "regentonactie", "regenwater", "korting"]
+    },
     "title": {
       "nl": "Regentonactie (Korting op regentonnen)",
       "en": "Regentonactie (Rain barrel discount)",
@@ -284,6 +299,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.utrecht.nl/bestuur-en-organisatie/subsidies/subsidie-kiem-voor-buurtinitiatieven/",
     "profiles": ["iedereen"],
+    "searchAliases": {
+      "all": ["kiem", "subsidie", "bewonersinitiatief", "buurtproject", "groen"]
+    },
     "title": {
       "nl": "Subsidie KIEM (tot € 5.000 voor groene buurtprojecten)",
       "en": "KIEM Grant (up to € 5,000 for green neighborhood projects)",
@@ -339,6 +357,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.hdsr.nl/subsidie-blauw-initiatief/",
     "profiles": ["iedereen"],
+    "searchAliases": {
+      "all": ["hdsr", "waterschap", "hoogheemraadschap", "stichtse rijnlanden", "regenwater", "ontstenen"]
+    },
     "title": {
       "nl": "Blauwe Bewonersinitiatieven (Waterschap HDSR)",
       "en": "Blue Resident Initiatives (HDSR Water Board)",
@@ -394,6 +415,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.utrecht.nl/bestuur-en-organisatie/subsidies/initiatievenfonds/",
     "profiles": ["iedereen"],
+    "searchAliases": {
+      "all": ["initiatievenfonds", "buurtboom", "boom planten", "wijkbureau", "buurtidee"]
+    },
     "title": {
       "nl": "Initiatievenfonds (Geld of hulp, incl. gratis boom planten)",
       "en": "Initiatievenfonds (Budget or in-kind support, incl. free tree planting)",
@@ -449,6 +473,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.utrecht.nl/bestuur-en-organisatie/subsidies/subsidie-groenblauw-dak/",
     "profiles": ["huiseienaar", "huurder", "ondernemer"],
+    "searchAliases": {
+      "all": ["groendak", "groenblauw dak", "dak", "sedum", "waterbergend dak"]
+    },
     "title": {
       "nl": "Subsidie groenblauw dak (groendak voor woning/schuur)",
       "en": "Green-blue roof subsidy (Green roof for home/shed)",
@@ -504,6 +531,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.utrecht.nl/bestuur-en-organisatie/subsidies/subsidie-groenblauw-schoolplein/",
     "profiles": ["gezin", "iedereen"],
+    "searchAliases": {
+      "all": ["schoolplein", "groenblauw schoolplein", "school", "speelplein"]
+    },
     "title": {
       "nl": "Subsidie groenblauw schoolplein",
       "en": "Green-blue schoolyard subsidy",
@@ -559,6 +589,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.buurtnatuur030.nl/",
     "profiles": ["iedereen"],
+    "searchAliases": {
+      "all": ["buurtnatuur030", "biodiversiteit", "gereedschap", "natuur", "coaching"]
+    },
     "title": {
       "nl": "BuurtNatuur030 (Netwerk & Groene ondersteuning)",
       "en": "BuurtNatuur030 (Green Support & Network)",
@@ -614,6 +647,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.utrecht.nl/wonen-en-leven/parken-en-groen/",
     "profiles": ["iedereen"],
+    "searchAliases": {
+      "all": ["plantenruil", "stekjes", "stekjesmarkt", "zaden", "ruilen", "groenmarkt"]
+    },
     "title": {
       "nl": "Plantenruil & Stekjesmarkt",
       "en": "Plant Swap & Cutting Market",
@@ -669,6 +705,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.u-pas.nl/",
     "profiles": ["lage-inkomens", "gezin", "senior", "student"],
+    "searchAliases": {
+      "all": ["u-pas", "upas", "voordeelpas", "tegoed", "bijstand", "laag inkomen", "korting"]
+    },
     "title": {
       "nl": "U-pas (Gratis budget voor sport, cultuur en OV)",
       "en": "U-pas (Free credit card for sports, culture and public transport)",
@@ -725,6 +764,9 @@
     "expiryDate": "2026-06-30",
     "officialUrl": "https://www.utrecht.nl/werk-en-inkomen/u-pas/witgoedregeling/",
     "profiles": ["lage-inkomens", "gezin", "senior"],
+    "searchAliases": {
+      "all": ["witgoed", "witgoedregeling", "koelkast", "wasmachine", "apparaat", "a-label", "u-pas"]
+    },
     "title": {
       "nl": "Witgoedregeling (Gratis zuinige koelkast of wasmachine)",
       "en": "Witgoedregeling (Free energy-efficient fridge or washing machine)",
@@ -780,6 +822,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.bghu.nl/kwijtschelding",
     "profiles": ["lage-inkomens", "senior", "student"],
+    "searchAliases": {
+      "all": ["kwijtschelding", "bghu", "belasting", "belastingen", "afvalstoffenheffing", "waterschapsbelasting"]
+    },
     "title": {
       "nl": "Kwijtschelding gemeentelijke belastingen (BghU)",
       "en": "Exemption from municipal taxes (BghU kwijtschelding)",
@@ -835,6 +880,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.utrecht.nl/werk-en-inkomen/bijzondere-bijstand/",
     "profiles": ["lage-inkomens", "gezin", "senior"],
+    "searchAliases": {
+      "all": ["bijzondere bijstand", "bijstand", "advocaat", "verhuizing", "bewindvoering", "noodkosten"]
+    },
     "title": {
       "nl": "Bijzondere bijstand (Vergoeding bijzondere kosten)",
       "en": "Bijzondere bijstand (Special assistance for unexpected expenses)",
@@ -890,6 +938,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.utrecht.nl/werk-en-inkomen/individuele-inkomenstoeslag/",
     "profiles": ["lage-inkomens", "senior"],
+    "searchAliases": {
+      "all": ["individuele inkomenstoeslag", "inkomenstoeslag", "toeslag", "bijstand", "laag inkomen"]
+    },
     "title": {
       "nl": "Individuele inkomenstoeslag",
       "en": "Individual income allowance (Individuele inkomenstoeslag)",
@@ -945,6 +996,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.u-pas.nl/",
     "profiles": ["gezin", "lage-inkomens"],
+    "searchAliases": {
+      "all": ["gezinstegoed", "kindtegoed", "u-pas", "mijn u-pas", "tegoed", "samenvoegen"]
+    },
     "title": {
       "nl": "Gezinstegoed U-pas (Samenvoegen kindtegoeden)",
       "en": "Family Credit U-pas (Pooling children budgets)",
@@ -1000,6 +1054,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.u-pas.nl/kindtegoed",
     "profiles": ["gezin", "lage-inkomens"],
+    "searchAliases": {
+      "all": ["kindtegoed", "zwemles", "zwemdiploma", "schoolkamp", "schoolfiets", "fiets", "schoolreis"]
+    },
     "title": {
       "nl": "Extra kindtegoed (Fiets, sport, zwemles, schoolkamp)",
       "en": "Extra child credit (Bikes, sports, swimming lessons, school trips)",
@@ -1055,6 +1112,9 @@
     "expiresSoon": false,
     "officialUrl": "https://jeugdfondssportencultuur.nl/utrecht/",
     "profiles": ["gezin", "lage-inkomens"],
+    "searchAliases": {
+      "all": ["jeugdfonds", "sport", "cultuur", "contributie", "sportclub", "sportkleding"]
+    },
     "title": {
       "nl": "Hulp bij sporten (Jeugdfonds Sport & Cultuur)",
       "en": "Sports support for youth (Jeugdfonds Sport & Cultuur)",
@@ -1110,6 +1170,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.utrecht.nl/onderwijs/peuterspeelzaal-en-voorschool/",
     "profiles": ["gezin", "lage-inkomens"],
+    "searchAliases": {
+      "all": ["voorschool", "peuteropvang", "peuterspeelzaal", "kinderopvang", "overvecht", "peuter"]
+    },
     "title": {
       "nl": "Voorschool gratis (met U-pas of in Overvecht)",
       "en": "Free Preschool / Voorschool (with U-pas or in Overvecht)",
@@ -1165,6 +1228,9 @@
     "expiresSoon": false,
     "officialUrl": "https://utrecht.berekenjerecht.nl/",
     "profiles": ["iedereen"],
+    "searchAliases": {
+      "all": ["bereken je recht", "berekenjerecht", "rekentool", "toeslagen", "calculator"]
+    },
     "title": {
       "nl": "Bereken je recht (Officiële subsidiecalculator)",
       "en": "Bereken je recht (Official benefits calculator)",
@@ -1220,6 +1286,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.utrecht.nl/werk-en-inkomen/hulp-bij-schulden/",
     "profiles": ["iedereen", "lage-inkomens"],
+    "searchAliases": {
+      "all": ["schulden", "schuldhulp", "schuldhulpverlening", "geldzorgen", "buurtteam", "betalingsachterstand"]
+    },
     "title": {
       "nl": "Hulp bij geldzorgen (Gratis schuldhulpverlening)",
       "en": "Help with money worries (Free debt advice)",
@@ -1275,6 +1344,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.ondernemercentraal.nl/",
     "profiles": ["ondernemer"],
+    "searchAliases": {
+      "all": ["ondernemer centraal", "zzp", "zzp'er", "ondernemer", "zelfstandige", "coaching"]
+    },
     "title": {
       "nl": "Ondernemer Centraal (Gratis advies voor zzp'ers)",
       "en": "Ondernemer Centraal (Free consulting for freelancers)",
@@ -1330,6 +1402,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.leergeldutrecht.nl/",
     "profiles": ["gezin", "lage-inkomens"],
+    "searchAliases": {
+      "all": ["leergeld", "laptop", "schoolspullen", "schoolbenodigdheden", "fiets", "computer"]
+    },
     "title": {
       "nl": "Leergeld Utrecht (Schoolspullen & laptops voor kinderen)",
       "en": "Leergeld Utrecht (School supplies & laptops for kids)",
@@ -1385,6 +1460,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.utrecht.nl/wonen-en-leven/duurzaam-wonen/energieadvies-aan-huis/",
     "profiles": ["huiseienaar", "huurder"],
+    "searchAliases": {
+      "all": ["energieadvies", "energiecoach", "isolatie", "verduurzamen", "adviesgesprek"]
+    },
     "title": {
       "nl": "Energieadvies aan huis + trajectbegeleiding",
       "en": "Home energy advice + guidance process",
@@ -1440,6 +1518,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.utrecht.nl/bestuur-en-organisatie/subsidies/duurzaamheidslening/",
     "profiles": ["huiseienaar"],
+    "searchAliases": {
+      "all": ["duurzaamheidslening", "lening", "zonnepanelen", "warmtepomp", "isolatie", "hr++", "svn"]
+    },
     "title": {
       "nl": "Duurzaamheidslening (Voordelige lening verduurzamen)",
       "en": "Sustainability Loan (Low-interest loan for green improvements)",
@@ -1495,6 +1576,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.utrecht.nl/bestuur-en-organisatie/subsidies/subsidie-samen-verduurzamen/",
     "profiles": ["huiseienaar", "huurder"],
+    "searchAliases": {
+      "all": ["samen verduurzamen", "isolatie", "buren", "collectief", "straatactie"]
+    },
     "title": {
       "nl": "Subsidie samen verduurzamen (tot € 150/woning in groep)",
       "en": "Collective greening subsidy (up to € 150/home in group)",
@@ -1550,6 +1634,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.utrecht.nl/bestuur-en-organisatie/subsidies/subsidie-verduurzamen-vve/",
     "profiles": ["huiseienaar"],
+    "searchAliases": {
+      "all": ["vve", "vereniging van eigenaars", "isolatie", "appartement", "elinkwijk", "julianapark"]
+    },
     "title": {
       "nl": "Subsidies isolatie VvE (Extra in Elinkwijk, Julianapark)",
       "en": "VvE Insulation Subsidies (Extra top-up in Elinkwijk, Julianapark)",
@@ -1605,6 +1692,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.utrecht.nl/wonen-en-leven/monumenten/lening-monument-opknappen/",
     "profiles": ["huiseienaar"],
+    "searchAliases": {
+      "all": ["monument", "rijksmonument", "restauratielening", "monumentenzorg", "erfgoed", "restauratie"]
+    },
     "title": {
       "nl": "Lening monument opknappen (Restauratielening)",
       "en": "Historic monument restoration loan",
@@ -1660,6 +1750,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.energiebox.org/utrecht/",
     "profiles": ["huurder", "huiseienaar", "iedereen"],
+    "searchAliases": {
+      "all": ["energiebox", "tochtstrips", "ledlampen", "radiatorfolie", "bibliotheek", "besparen"]
+    },
     "title": {
       "nl": "Energiebox gratis in de bibliotheek",
       "en": "Free Energybox kit in the library",
@@ -1715,6 +1808,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.juridischloket.nl/ons-element/utrecht/",
     "profiles": ["iedereen", "huurder", "lage-inkomens"],
+    "searchAliases": {
+      "all": ["juridisch loket", "advocaat", "juridisch advies", "catharijnesingel", "huur", "contract", "scheiding"]
+    },
     "title": {
       "nl": "Juridisch Loket Utrecht (Gratis inloop spreekuur & advies)",
       "en": "Juridisch Loket Utrecht (Free legal walk-in consultation)",
@@ -1770,6 +1866,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.buurtteamsutrecht.nl/",
     "profiles": ["iedereen"],
+    "searchAliases": {
+      "all": ["sociaal raadslieden", "wijkteam", "wijkteams", "buurtteam", "digid", "bezwaarschrift", "toeslagen"]
+    },
     "title": {
       "nl": "Sociaal raadslieden & Wijkteams",
       "en": "Social Advisors & Neighborhood Teams",
@@ -1825,6 +1924,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.utrecht.nl/wonen-en-leven/welzijn/buurthuizen/",
     "profiles": ["iedereen"],
+    "searchAliases": {
+      "all": ["maatschappelijk werk", "buurthuis", "buurthuizen", "mantelzorg", "eenzaamheid", "opvoeding"]
+    },
     "title": {
       "nl": "Maatschappelijk werk in buurthuizen",
       "en": "Social work in community centers",
@@ -1880,6 +1982,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.bibliotheekutrecht.nl/lid-worden.html",
     "profiles": ["iedereen", "student", "gezin"],
+    "searchAliases": {
+      "all": ["bibliotheek", "bieb", "neude", "wifi", "kranten", "studeerplek", "lidmaatschap"]
+    },
     "title": {
       "nl": "Bibliotheek Utrecht gratis tot 18 jaar + wifi & digitale pers",
       "en": "Bibliotheek Utrecht free for under 18s + Wi-Fi & Digital Press",
@@ -1935,6 +2040,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.u-pas.nl/aanbod",
     "profiles": ["lage-inkomens", "gezin", "senior", "student"],
+    "searchAliases": {
+      "all": ["u-pas", "pathé", "tivolivredenburg", "stadsschouwburg", "bioscoop", "zwembad", "theater"]
+    },
     "title": {
       "nl": "U-pas cultuur- en bioscoopkortingen",
       "en": "U-pas Culture & Cinema Discounts",
@@ -1990,6 +2098,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.utrecht.nl/speelotheek",
     "profiles": ["gezin"],
+    "searchAliases": {
+      "all": ["speel-o-theek", "speelotheek", "speelgoed", "gezelschapsspellen", "lenen"]
+    },
     "title": {
       "nl": "Speel-o-theek (Speelgoed lenen voor kinderen)",
       "en": "Speel-o-theek (Toy library for children)",
@@ -2045,6 +2156,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.u-pas.nl/musea",
     "profiles": ["iedereen", "lage-inkomens", "senior"],
+    "searchAliases": {
+      "all": ["museum", "musea", "spoorwegmuseum", "centraal museum", "nijntje", "miffy", "u-pas"]
+    },
     "title": {
       "nl": "Gratis museumdagen met U-pas",
       "en": "Free Museum Days with U-pas",
@@ -2100,6 +2214,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.u-pas.nl/ov-saldo",
     "profiles": ["lage-inkomens", "senior"],
+    "searchAliases": {
+      "all": ["ov", "ov-chipkaart", "u-ov", "syntus", "bus", "tram", "reizen", "u-pas", "saldo"]
+    },
     "title": {
       "nl": "Saldo OV op U-pas (Gratis reizen met bus & tram)",
       "en": "Public Transport Credit on U-pas (Free bus & tram travel)",
@@ -2155,6 +2272,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.utrecht.nl/wonen-en-leven/parkeren/fiets-parkeren/",
     "profiles": ["iedereen"],
+    "searchAliases": {
+      "all": ["fietsenstalling", "stalling", "fiets", "parkeren", "stationsplein", "bewaakt"]
+    },
     "title": {
       "nl": "Fietsenstalling gratis eerste 24 uur",
       "en": "Bicycle parking free for first 24 hours",
@@ -2210,6 +2330,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.utrecht.nl/wonen-en-leven/verkeer/fietsen/fietscursus/",
     "profiles": ["iedereen", "senior"],
+    "searchAliases": {
+      "all": ["fietscursus", "fietsles", "fietsersbond", "leren fietsen", "fiets", "volwassenen"]
+    },
     "title": {
       "nl": "Fietscursus gratis voor volwassenen",
       "en": "Free cycling lessons for adults",
@@ -2265,6 +2388,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.repaircafe.org/nl/locatie/repair-cafe-utrecht/",
     "profiles": ["iedereen"],
+    "searchAliases": {
+      "all": ["repair café", "repaircafe", "repareren", "kapot", "kleding", "fiets", "elektronica"]
+    },
     "title": {
       "nl": "Repair Cafés Utrecht (Gratis apparaten en kleding repareren)",
       "en": "Repair Cafés Utrecht (Free appliance & clothes repair)",
@@ -2320,6 +2446,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.weggeefwinkelutrecht.nl/",
     "profiles": ["iedereen", "lage-inkomens"],
+    "searchAliases": {
+      "all": ["weggeefwinkel", "gratis winkel", "kleding", "tweedehands", "kanonstraat", "speelgoed"]
+    },
     "title": {
       "nl": "Weggeefwinkel Utrecht (Winkel waar alles gratis is)",
       "en": "Weggeefwinkel Utrecht (Store where everything is free)",
@@ -2375,6 +2504,9 @@
     "expiresSoon": false,
     "officialUrl": "https://voedselbankutrecht.nl/",
     "profiles": ["lage-inkomens"],
+    "searchAliases": {
+      "all": ["voedselbank", "voedselpakket", "boodschappen", "eten", "noodhulp"]
+    },
     "title": {
       "nl": "Voedselbank Utrecht (Wekelijks voedselpakket)",
       "en": "Voedselbank Utrecht (Weekly food parcel support)",
@@ -2430,6 +2562,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.utrechtvoorelkaar.nl/",
     "profiles": ["iedereen", "senior"],
+    "searchAliases": {
+      "all": ["utrechtvoorelkaar", "vcu", "vrijwilliger", "vrijwilligers", "buurthulp", "klusjes", "maatje"]
+    },
     "title": {
       "nl": "Utrechtvoorelkaar / VCU (Vrijwilligers & Buurthulp)",
       "en": "Utrechtvoorelkaar (Volunteering & Neighborhood help)",
@@ -2485,6 +2620,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.utrecht.nl/buurthuizen/",
     "profiles": ["iedereen", "senior", "gezin"],
+    "searchAliases": {
+      "all": ["buurthuis", "buurthuizen", "huiswerkbegeleiding", "koffie", "activiteiten", "kookgroep"]
+    },
     "title": {
       "nl": "Buurthuizen (Wekelijkse gratis activiteiten)",
       "en": "Neighborhood Centers (Free weekly activities)",
@@ -2540,6 +2678,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.taalhuisutrecht.nl/",
     "profiles": ["iedereen"],
+    "searchAliases": {
+      "all": ["taalmaatje", "taalmaatjes", "taalhuis", "taalcafé", "nederlands leren", "taal"]
+    },
     "title": {
       "nl": "Taalmaatjes & Taalhuis (Gratis Nederlands oefenen)",
       "en": "Taalmaatjes & Taalhuis (Free Dutch language practice)",
@@ -2595,6 +2736,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.utrecht.nl/drinkwaterpunten/",
     "profiles": ["iedereen"],
+    "searchAliases": {
+      "all": ["drinkwaterpunt", "drinkwater", "tappunt", "water", "bidon", "kraanwater"]
+    },
     "title": {
       "nl": "Drinkwaterpunten (Gratis openbaar drinkwater)",
       "en": "Public Drinking Water Taps (Free fresh water points)",
@@ -2650,6 +2794,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.utrecht.nl/gratis-wifi/",
     "profiles": ["iedereen", "student"],
+    "searchAliases": {
+      "all": ["wifi", "wi-fi", "internet", "hotspot", "public-wifi-utrecht"]
+    },
     "title": {
       "nl": "Gratis Wifi Hotspots in de stad",
       "en": "Free Public Wi-Fi Hotspots",
@@ -2705,6 +2852,9 @@
     "expiresSoon": false,
     "officialUrl": "https://www.utrecht.nl/vrijmarkt-koningsdag/",
     "profiles": ["iedereen", "gezin"],
+    "searchAliases": {
+      "all": ["vrijmarkt", "koningsdag", "koningsnacht", "kleedjesmarkt", "rommelmarkt", "tweedehands"]
+    },
     "title": {
       "nl": "Vrijmarkt Koningsdag (Gratis verkopen & kleedjesmarkt)",
       "en": "King's Day Free Market (Vrijmarkt Koningsdag)",

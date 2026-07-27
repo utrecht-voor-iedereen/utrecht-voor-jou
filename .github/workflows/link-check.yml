@@ -1,0 +1,66 @@
+name: Weekly Official Link Check
+
+# The catalog is only useful while every officialUrl still resolves. This job
+# requests them once a week and opens (or updates) a single issue listing the
+# dead ones, so maintainers get a GitHub notification without any of it being
+# visible on the published site.
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: 'link-check'
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Check Official URLs
+        id: check
+        continue-on-error: true
+        run: node scripts/check-links.js --report=link-report.md
+
+      - name: Open or Update Issue
+        if: steps.check.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TITLE="🔗 Broken official links detected"
+          BODY_FILE=link-report.md
+          EXISTING=$(gh issue list --state open --search "$TITLE in:title" --json number --jq '.[0].number')
+          if [ -n "$EXISTING" ]; then
+            gh issue comment "$EXISTING" --body-file "$BODY_FILE"
+            echo "Commented on existing issue #$EXISTING"
+          else
+            gh issue create --title "$TITLE" --body-file "$BODY_FILE"
+          fi
+
+      - name: Close Issue When Everything Resolves
+        if: steps.check.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TITLE="🔗 Broken official links detected"
+          EXISTING=$(gh issue list --state open --search "$TITLE in:title" --json number --jq '.[0].number')
+          if [ -n "$EXISTING" ]; then
+            gh issue close "$EXISTING" --comment "All official URLs are reachable again."
+          fi
+
+      - name: Fail the Run if Links Are Broken
+        if: steps.check.outcome == 'failure'
+        run: exit 1
