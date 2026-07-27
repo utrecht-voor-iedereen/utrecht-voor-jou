@@ -5,9 +5,9 @@
     "type": "gratis",
     "wijk": "all",
     "verificationStatus": "verificado",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.utrecht.nl/wonen-en-leven/parken-en-groen/zelfbeheer-openbare-ruimte/",
+    "officialUrl": "https://www.utrecht.nl/wonen-en-leven/parken-en-groen/zelf-openbaar-groen-onderhouden/boomspiegel-en-plantenbak",
     "profiles": ["iedereen", "huurder", "huiseienaar"],
     "searchAliases": {
       "all": ["boomspiegel", "zelfbeheer", "zelfbeheertegel", "boom", "stadsboom", "tuin"]
@@ -63,9 +63,9 @@
     "type": "gratis",
     "wijk": "all",
     "verificationStatus": "verificado",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.utrecht.nl/bestuur-en-organisatie/subsidies/initiatievenfonds/",
+    "officialUrl": "https://www.utrecht.nl/bestuur-en-organisatie/initiatief-en-invloed/uw-initiatief/initiatievenfonds",
     "profiles": ["iedereen", "huurder", "huiseienaar"],
     "searchAliases": {
       "all": ["initiatievenfonds", "planten", "tuinaarde", "aarde", "geveltuin", "boomspiegel"]
@@ -121,9 +121,9 @@
     "type": "gratis",
     "wijk": "all",
     "verificationStatus": "verificado",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.utrecht.nl/wonen-en-leven/parken-en-groen/geveltuin-aanleggen/",
+    "officialUrl": "https://www.utrecht.nl/wonen-en-leven/parken-en-groen/zelfbeheer/geveltuin",
     "profiles": ["iedereen", "huurder", "huiseienaar"],
     "searchAliases": {
       "all": ["geveltuin", "geveltuinburendag", "tegels", "stoep", "voordeur"]
@@ -179,9 +179,9 @@
     "type": "gratis",
     "wijk": "all",
     "verificationStatus": "verificado",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.utrecht.nl/wonen-en-leven/parken-en-groen/tegeltaxi/",
+    "officialUrl": "https://loket.digitaal.utrecht.nl/nl/producten/tuintegels-laten-ophalen-tegeltaxi",
     "profiles": ["iedereen", "huurder", "huiseienaar"],
     "searchAliases": {
       "all": ["tegeltaxi", "tegels", "stoeptegels", "tegelwippen", "zand", "ophalen"]
@@ -237,9 +237,9 @@
     "type": "subsidio",
     "wijk": "all",
     "verificationStatus": "verificado",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.utrecht.nl/wonen-en-leven/parken-en-groen/regentonactie/",
+    "officialUrl": "https://www.utrecht.nl/wonen-en-leven/duurzame-stad/groen-en-water/wateroverlast/regenton-plaatsen-of-regenpijp-loskoppelen",
     "profiles": ["iedereen", "huurder", "huiseienaar"],
     "searchAliases": {
       "all": ["regenton", "regentonactie", "regenwater", "korting"]
@@ -295,9 +295,9 @@
     "type": "subsidio",
     "wijk": "all",
     "verificationStatus": "verificado",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.utrecht.nl/bestuur-en-organisatie/subsidies/subsidie-kiem-voor-buurtinitiatieven/",
+    "officialUrl": "https://www.utrecht.nl/wonen-en-leven/duurzame-stad/groen-en-water/klimaatklaar-uw-omgeving-groener-maken-en-slim-water-opvangen",
     "profiles": ["iedereen"],
     "searchAliases": {
       "all": ["kiem", "subsidie", "bewonersinitiatief", "buurtproject", "groen"]
@@ -353,9 +353,9 @@
     "type": "subsidio",
     "wijk": "all",
     "verificationStatus": "verificado",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.hdsr.nl/subsidie-blauw-initiatief/",
+    "officialUrl": "https://www.hdsr.nl/zelf-regelen/initiatiefnemers-onderhoudsplichtigen/subsidieregeling-blauwe/",
     "profiles": ["iedereen"],
     "searchAliases": {
       "all": ["hdsr", "waterschap", "hoogheemraadschap", "stichtse rijnlanden", "regenwater", "ontstenen"]
@@ -372,37 +372,37 @@
       "pt-BR": "Iniciativas Azuis de Moradores (HDSR)"
     },
     "shortDescription": {
-      "nl": "Subsidie tot € 5.000 van hoogheemraadschap De Stichtse Rijnlanden voor wateropvang- en klimaatadaptatieprojecten met minimaal 8 deelnemers.",
-      "en": "Subsidies up to € 5,000 from HDSR Water Board for water retention and climate adaptation projects with at least 8 participants.",
-      "es": "Subvención de hasta 5.000 € del distrito hidráulico HDSR para proyectos comunitarios de gestión de agua lluvia (mínimo 8 participantes).",
-      "de": "Bis zu 5.000 € Förderung für Wasserspeicherprojekte mit mindestens 8 Beteiligten.",
-      "tr": "En az 8 katılımcılı yağmur suyu biriktirme ve çevre projeleri için HDSR Su Kurulu'ndan 5.000 €'ya kadar hibe.",
-      "fr": "Subvention jusqu'à 5 000 € de l'office des eaux HDSR pour la gestion de l'eau (minimum 8 participants).",
-      "it": "Sussidio fino a 5.000 € dal Consorzio HDSR per la raccolta acque con almeno 8 partecipanti.",
-      "pt": "Subsídio até 5.000 € da autoridade da água HDSR para retenção de água (mínimo 8 participantes).",
-      "pt-BR": "Ajuda de até € 5.000 da autoridade de águas HDSR para captação de chuva (mínimo 8 participantes)."
+      "nl": "Subsidie tot € 5.000 van hoogheemraadschap De Stichtse Rijnlanden voor wateropvang- en klimaatadaptatieprojecten met minimaal 5 deelnemers.",
+      "en": "Subsidies up to € 5,000 from HDSR Water Board for water retention and climate adaptation projects with at least 5 participants.",
+      "es": "Subvención de hasta 5.000 € del distrito hidráulico HDSR para proyectos comunitarios de gestión de agua lluvia (mínimo 5 participantes).",
+      "de": "Bis zu 5.000 € Förderung für Wasserspeicherprojekte mit mindestens 5 Beteiligten.",
+      "tr": "En az 5 katılımcılı yağmur suyu biriktirme ve çevre projeleri için HDSR Su Kurulu'ndan 5.000 €'ya kadar hibe.",
+      "fr": "Subvention jusqu'à 5 000 € de l'office des eaux HDSR pour la gestion de l'eau (minimum 5 participants).",
+      "it": "Sussidio fino a 5.000 € dal Consorzio HDSR per la raccolta acque con almeno 5 partecipanti.",
+      "pt": "Subsídio até 5.000 € da autoridade da água HDSR para retenção de água (mínimo 5 participantes).",
+      "pt-BR": "Ajuda de até € 5.000 da autoridade de águas HDSR para captação de chuva (mínimo 5 participantes)."
     },
     "eligibility": {
-      "nl": ["Groep van minimaal 8 buurtgenoten", "Project richt zich op regenwater vasthouden of ontstenen"],
-      "en": ["Group of at least 8 neighbors", "Project focuses on rainwater retention or unpaving"],
-      "es": ["Grupo de al menos 8 vecinos", "Orientado a retener agua de lluvia o retirar pavimentos"],
-      "de": ["Gruppe von mindestens 8 Nachbarn", "Fokus auf Regenwasserrückhaltung"],
-      "tr": ["En az 8 komşudan oluşan grup", "Yağmur suyunu tutma veya karoları kaldırma hedefi"],
-      "fr": ["Au moins 8 voisins engagés", "Projet axé sur la rétention d'eau"],
-      "it": ["Gruppo di almeno 8 residenti", "Focus su ritenzione idrica"],
-      "pt": ["Grupo de pelo menos 8 moradores", "Foco em retenção de água da chuva"],
-      "pt-BR": ["Grupo de pelo menos 8 vizinhos", "Foco em retenção de água"]
+      "nl": ["Groep van minimaal 5 buurtgenoten", "Project richt zich op regenwater vasthouden of ontstenen"],
+      "en": ["Group of at least 5 neighbors", "Project focuses on rainwater retention or unpaving"],
+      "es": ["Grupo de al menos 5 vecinos", "Orientado a retener agua de lluvia o retirar pavimentos"],
+      "de": ["Gruppe von mindestens 5 Nachbarn", "Fokus auf Regenwasserrückhaltung"],
+      "tr": ["En az 5 komşudan oluşan grup", "Yağmur suyunu tutma veya karoları kaldırma hedefi"],
+      "fr": ["Au moins 5 voisins engagés", "Projet axé sur la rétention d'eau"],
+      "it": ["Gruppo di almeno 5 residenti", "Focus su ritenzione idrica"],
+      "pt": ["Grupo de pelo menos 5 moradores", "Foco em retenção de água da chuva"],
+      "pt-BR": ["Grupo de pelo menos 5 vizinhos", "Foco em retenção de água"]
     },
     "howToApply": {
-      "nl": ["Formeer een buurtgroep van 8 personen", "Meld de aanvraag aan via hdsr.nl/subsidie"],
-      "en": ["Gather a neighbor group of 8 people", "Apply via hdsr.nl/subsidie"],
-      "es": ["Reúne un grupo vecinal de 8 personas", "Solicítalo en hdsr.nl/subsidie"],
+      "nl": ["Formeer een buurtgroep van 5 personen", "Meld de aanvraag aan via hdsr.nl"],
+      "en": ["Gather a neighbor group of 5 people", "Apply via hdsr.nl"],
+      "es": ["Reúne un grupo vecinal de 5 personas", "Solicítalo en hdsr.nl"],
       "de": ["Nachbargruppe bilden", "Antrag auf hdsr.nl einreichen"],
-      "tr": ["8 kişilik grup oluşturun", "hdsr.nl/subsidie sayfasından başvurun"],
-      "fr": ["Forme un groupe de 8 personnes", "Déposer la demande sur hdsr.nl"],
-      "it": ["Crea un gruppo di 8 persone", "Presenta domanda su hdsr.nl"],
-      "pt": ["Junte um grupo de 8 pessoas", "Submeta em hdsr.nl"],
-      "pt-BR": ["Monte um grupo de 8 pessoas", "Solicite em hdsr.nl"]
+      "tr": ["5 kişilik grup oluşturun", "hdsr.nl sayfasından başvurun"],
+      "fr": ["Forme un groupe de 5 personnes", "Déposer la demande sur hdsr.nl"],
+      "it": ["Crea un gruppo di 5 persone", "Presenta domanda su hdsr.nl"],
+      "pt": ["Junte um grupo de 5 pessoas", "Submeta em hdsr.nl"],
+      "pt-BR": ["Monte um grupo de 5 pessoas", "Solicite em hdsr.nl"]
     }
   },
   {
@@ -411,9 +411,9 @@
     "type": "subsidio",
     "wijk": "all",
     "verificationStatus": "verificado",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.utrecht.nl/bestuur-en-organisatie/subsidies/initiatievenfonds/",
+    "officialUrl": "https://www.utrecht.nl/bestuur-en-organisatie/initiatief-en-invloed/uw-initiatief/initiatievenfonds",
     "profiles": ["iedereen"],
     "searchAliases": {
       "all": ["initiatievenfonds", "buurtboom", "boom planten", "wijkbureau", "buurtidee"]
@@ -469,9 +469,9 @@
     "type": "subsidio",
     "wijk": "all",
     "verificationStatus": "verificado",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.utrecht.nl/bestuur-en-organisatie/subsidies/subsidie-groenblauw-dak/",
+    "officialUrl": "https://loket.digitaal.utrecht.nl/nl/producten/groenblauw-dak-subsidie-aanvragen",
     "profiles": ["huiseienaar", "huurder", "ondernemer"],
     "searchAliases": {
       "all": ["groendak", "groenblauw dak", "dak", "sedum", "waterbergend dak"]
@@ -527,9 +527,9 @@
     "type": "subsidio",
     "wijk": "all",
     "verificationStatus": "verificado",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.utrecht.nl/bestuur-en-organisatie/subsidies/subsidie-groenblauw-schoolplein/",
+    "officialUrl": "https://loket.digitaal.utrecht.nl/nl/producten/groenblauw-schoolplein-subsidie-aanvragen",
     "profiles": ["gezin", "iedereen"],
     "searchAliases": {
       "all": ["schoolplein", "groenblauw schoolplein", "school", "speelplein"]
@@ -585,7 +585,7 @@
     "type": "servicio",
     "wijk": "all",
     "verificationStatus": "verificado",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://www.buurtnatuur030.nl/",
     "profiles": ["iedereen"],
@@ -643,7 +643,7 @@
     "type": "gratis",
     "wijk": "all",
     "verificationStatus": "por-verificar",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://www.utrecht.nl/wonen-en-leven/parken-en-groen/",
     "profiles": ["iedereen"],
@@ -701,7 +701,7 @@
     "type": "gratis",
     "wijk": "all",
     "verificationStatus": "verificado",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://www.u-pas.nl/",
     "profiles": ["lage-inkomens", "gezin", "senior", "student"],
@@ -759,10 +759,10 @@
     "type": "gratis",
     "wijk": "all",
     "verificationStatus": "verificado",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": true,
     "expiryDate": "2026-06-30",
-    "officialUrl": "https://www.utrecht.nl/werk-en-inkomen/u-pas/witgoedregeling/",
+    "officialUrl": "https://www.utrecht.nl/werk-en-inkomen/geld-en-hulp-bij-rondkomen/vergoeding-voor-producten-die-nodig-zijn-in-uw-huis",
     "profiles": ["lage-inkomens", "gezin", "senior"],
     "searchAliases": {
       "all": ["witgoed", "witgoedregeling", "koelkast", "wasmachine", "apparaat", "a-label", "u-pas"]
@@ -818,9 +818,9 @@
     "type": "subsidio",
     "wijk": "all",
     "verificationStatus": "verificado",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.bghu.nl/kwijtschelding",
+    "officialUrl": "https://bghu.nl/alles-over/kwijtschelding",
     "profiles": ["lage-inkomens", "senior", "student"],
     "searchAliases": {
       "all": ["kwijtschelding", "bghu", "belasting", "belastingen", "afvalstoffenheffing", "waterschapsbelasting"]
@@ -876,9 +876,9 @@
     "type": "subsidio",
     "wijk": "all",
     "verificationStatus": "verificado",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.utrecht.nl/werk-en-inkomen/bijzondere-bijstand/",
+    "officialUrl": "https://loket.digitaal.utrecht.nl/nl/producten/bijzondere-bijstand-aanvragen",
     "profiles": ["lage-inkomens", "gezin", "senior"],
     "searchAliases": {
       "all": ["bijzondere bijstand", "bijstand", "advocaat", "verhuizing", "bewindvoering", "noodkosten"]
@@ -934,9 +934,9 @@
     "type": "subsidio",
     "wijk": "all",
     "verificationStatus": "verificado",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.utrecht.nl/werk-en-inkomen/individuele-inkomenstoeslag/",
+    "officialUrl": "https://loket.digitaal.utrecht.nl/nl/producten/individuele-inkomenstoeslag-aanvragen",
     "profiles": ["lage-inkomens", "senior"],
     "searchAliases": {
       "all": ["individuele inkomenstoeslag", "inkomenstoeslag", "toeslag", "bijstand", "laag inkomen"]
@@ -992,7 +992,7 @@
     "type": "gratis",
     "wijk": "all",
     "verificationStatus": "verificado",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://www.u-pas.nl/",
     "profiles": ["gezin", "lage-inkomens"],
@@ -1050,9 +1050,9 @@
     "type": "gratis",
     "wijk": "all",
     "verificationStatus": "verificado",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.u-pas.nl/kindtegoed",
+    "officialUrl": "https://www.u-pas.nl/extra-kindtegoed",
     "profiles": ["gezin", "lage-inkomens"],
     "searchAliases": {
       "all": ["kindtegoed", "zwemles", "zwemdiploma", "schoolkamp", "schoolfiets", "fiets", "schoolreis"]
@@ -1108,7 +1108,7 @@
     "type": "subsidio",
     "wijk": "all",
     "verificationStatus": "verificado",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://jeugdfondssportencultuur.nl/utrecht/",
     "profiles": ["gezin", "lage-inkomens"],
@@ -1166,9 +1166,9 @@
     "type": "gratis",
     "wijk": "all",
     "verificationStatus": "verificado",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.utrecht.nl/onderwijs/peuterspeelzaal-en-voorschool/",
+    "officialUrl": "https://www.utrecht.nl/zorg-en-onderwijs/kinderopvang/voorschool",
     "profiles": ["gezin", "lage-inkomens"],
     "searchAliases": {
       "all": ["voorschool", "peuteropvang", "peuterspeelzaal", "kinderopvang", "overvecht", "peuter"]
@@ -1224,9 +1224,9 @@
     "type": "servicio",
     "wijk": "all",
     "verificationStatus": "verificado",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://utrecht.berekenjerecht.nl/",
+    "officialUrl": "https://berekenjerecht.nl/utrecht",
     "profiles": ["iedereen"],
     "searchAliases": {
       "all": ["bereken je recht", "berekenjerecht", "rekentool", "toeslagen", "calculator"]
@@ -1265,15 +1265,15 @@
       "pt-BR": ["Disponível para todos os moradores"]
     },
     "howToApply": {
-      "nl": ["Vul de vragenlijst anoniem in op utrecht.berekenjerecht.nl"],
-      "en": ["Complete the anonymous form on utrecht.berekenjerecht.nl"],
-      "es": ["Rellena el cuestionario anónimo en utrecht.berekenjerecht.nl"],
-      "de": ["Anonymen Fragebogen auf utrecht.berekenjerecht.nl ausfüllen"],
-      "tr": ["utrecht.berekenjerecht.nl adresindeki formu anket şeklinde doldurun"],
-      "fr": ["Remplir le questionnaire sur utrecht.berekenjerecht.nl"],
-      "it": ["Compila il modulo anonimo su utrecht.berekenjerecht.nl"],
-      "pt": ["Preencha o questionário em utrecht.berekenjerecht.nl"],
-      "pt-BR": ["Preencha o formulário em utrecht.berekenjerecht.nl"]
+      "nl": ["Vul de vragenlijst anoniem in op berekenjerecht.nl/utrecht"],
+      "en": ["Complete the anonymous form on berekenjerecht.nl/utrecht"],
+      "es": ["Rellena el cuestionario anónimo en berekenjerecht.nl/utrecht"],
+      "de": ["Anonymen Fragebogen auf berekenjerecht.nl/utrecht ausfüllen"],
+      "tr": ["berekenjerecht.nl/utrecht adresindeki formu anket şeklinde doldurun"],
+      "fr": ["Remplir le questionnaire sur berekenjerecht.nl/utrecht"],
+      "it": ["Compila il modulo anonimo su berekenjerecht.nl/utrecht"],
+      "pt": ["Preencha o questionário em berekenjerecht.nl/utrecht"],
+      "pt-BR": ["Preencha o formulário em berekenjerecht.nl/utrecht"]
     }
   },
   {
@@ -1282,9 +1282,9 @@
     "type": "servicio",
     "wijk": "all",
     "verificationStatus": "verificado",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.utrecht.nl/werk-en-inkomen/hulp-bij-schulden/",
+    "officialUrl": "https://www.utrecht.nl/werk-en-inkomen/geld-en-hulp-bij-rondkomen/hulp-bij-geldzorgen-en-schulden/hoe-werkt-hulp-bij-schulden-van-de-gemeente",
     "profiles": ["iedereen", "lage-inkomens"],
     "searchAliases": {
       "all": ["schulden", "schuldhulp", "schuldhulpverlening", "geldzorgen", "buurtteam", "betalingsachterstand"]
@@ -1340,7 +1340,7 @@
     "type": "servicio",
     "wijk": "all",
     "verificationStatus": "verificado",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://www.ondernemercentraal.nl/",
     "profiles": ["ondernemer"],
@@ -1398,7 +1398,7 @@
     "type": "subsidio",
     "wijk": "all",
     "verificationStatus": "verificado",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://www.leergeldutrecht.nl/",
     "profiles": ["gezin", "lage-inkomens"],
@@ -1456,9 +1456,9 @@
     "type": "servicio",
     "wijk": "all",
     "verificationStatus": "verificado",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.utrecht.nl/wonen-en-leven/duurzaam-wonen/energieadvies-aan-huis/",
+    "officialUrl": "https://loket.digitaal.utrecht.nl/nl/producten/energieadvies-aan-huis-en-trajectbegeleiding-subsidie-aanvragen",
     "profiles": ["huiseienaar", "huurder"],
     "searchAliases": {
       "all": ["energieadvies", "energiecoach", "isolatie", "verduurzamen", "adviesgesprek"]
@@ -1514,9 +1514,9 @@
     "type": "préstamo",
     "wijk": "all",
     "verificationStatus": "verificado",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.utrecht.nl/bestuur-en-organisatie/subsidies/duurzaamheidslening/",
+    "officialUrl": "https://loket.digitaal.utrecht.nl/nl/producten/duurzaamheidslening",
     "profiles": ["huiseienaar"],
     "searchAliases": {
       "all": ["duurzaamheidslening", "lening", "zonnepanelen", "warmtepomp", "isolatie", "hr++", "svn"]
@@ -1572,9 +1572,9 @@
     "type": "subsidio",
     "wijk": "all",
     "verificationStatus": "verificado",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.utrecht.nl/bestuur-en-organisatie/subsidies/subsidie-samen-verduurzamen/",
+    "officialUrl": "https://loket.digitaal.utrecht.nl/nl/producten/samen-woning-duurzamer-maken-subsidie-aanvragen",
     "profiles": ["huiseienaar", "huurder"],
     "searchAliases": {
       "all": ["samen verduurzamen", "isolatie", "buren", "collectief", "straatactie"]
@@ -1630,9 +1630,9 @@
     "type": "subsidio",
     "wijk": "all",
     "verificationStatus": "verificado",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.utrecht.nl/bestuur-en-organisatie/subsidies/subsidie-verduurzamen-vve/",
+    "officialUrl": "https://www.utrecht.nl/wonen-en-leven/duurzame-stad/energie/besparen/grote-vve-energiezuinig-maken",
     "profiles": ["huiseienaar"],
     "searchAliases": {
       "all": ["vve", "vereniging van eigenaars", "isolatie", "appartement", "elinkwijk", "julianapark"]
@@ -1688,9 +1688,9 @@
     "type": "préstamo",
     "wijk": "all",
     "verificationStatus": "verificado",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.utrecht.nl/wonen-en-leven/monumenten/lening-monument-opknappen/",
+    "officialUrl": "https://loket.digitaal.utrecht.nl/nl/producten/monument-opknappen-lening-aanvragen",
     "profiles": ["huiseienaar"],
     "searchAliases": {
       "all": ["monument", "rijksmonument", "restauratielening", "monumentenzorg", "erfgoed", "restauratie"]
@@ -1746,7 +1746,7 @@
     "type": "gratis",
     "wijk": "all",
     "verificationStatus": "por-verificar",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://www.energiebox.org/utrecht/",
     "profiles": ["huurder", "huiseienaar", "iedereen"],
@@ -1804,9 +1804,9 @@
     "type": "gratis",
     "wijk": "all",
     "verificationStatus": "verificado",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.juridischloket.nl/ons-element/utrecht/",
+    "officialUrl": "https://www.juridischloket.nl/contact/utrecht/",
     "profiles": ["iedereen", "huurder", "lage-inkomens"],
     "searchAliases": {
       "all": ["juridisch loket", "advocaat", "juridisch advies", "catharijnesingel", "huur", "contract", "scheiding"]
@@ -1862,7 +1862,7 @@
     "type": "servicio",
     "wijk": "all",
     "verificationStatus": "por-verificar",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://www.buurtteamsutrecht.nl/",
     "profiles": ["iedereen"],
@@ -1920,9 +1920,9 @@
     "type": "servicio",
     "wijk": "all",
     "verificationStatus": "por-verificar",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.utrecht.nl/wonen-en-leven/welzijn/buurthuizen/",
+    "officialUrl": "https://www.utrecht.nl/zorg-en-onderwijs/activiteiten-welzijn-in-de-wijk/buurtcentrum",
     "profiles": ["iedereen"],
     "searchAliases": {
       "all": ["maatschappelijk werk", "buurthuis", "buurthuizen", "mantelzorg", "eenzaamheid", "opvoeding"]
@@ -1978,7 +1978,7 @@
     "type": "gratis",
     "wijk": "all",
     "verificationStatus": "verificado",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://www.bibliotheekutrecht.nl/lid-worden.html",
     "profiles": ["iedereen", "student", "gezin"],
@@ -2036,7 +2036,7 @@
     "type": "subsidio",
     "wijk": "all",
     "verificationStatus": "verificado",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://www.u-pas.nl/aanbod",
     "profiles": ["lage-inkomens", "gezin", "senior", "student"],
@@ -2094,9 +2094,9 @@
     "type": "servicio",
     "wijk": "all",
     "verificationStatus": "por-verificar",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.utrecht.nl/speelotheek",
+    "officialUrl": "https://www.ugids.nl/gezin-relatie/gezinnen-met-weinig-geld/speelgoed/",
     "profiles": ["gezin"],
     "searchAliases": {
       "all": ["speel-o-theek", "speelotheek", "speelgoed", "gezelschapsspellen", "lenen"]
@@ -2152,9 +2152,9 @@
     "type": "gratis",
     "wijk": "all",
     "verificationStatus": "por-verificar",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.u-pas.nl/musea",
+    "officialUrl": "https://www.u-pas.nl/aanbod",
     "profiles": ["iedereen", "lage-inkomens", "senior"],
     "searchAliases": {
       "all": ["museum", "musea", "spoorwegmuseum", "centraal museum", "nijntje", "miffy", "u-pas"]
@@ -2210,9 +2210,9 @@
     "type": "subsidio",
     "wijk": "all",
     "verificationStatus": "verificado",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.u-pas.nl/ov-saldo",
+    "officialUrl": "https://www.u-pas.nl/mobiliteit-tegoed",
     "profiles": ["lage-inkomens", "senior"],
     "searchAliases": {
       "all": ["ov", "ov-chipkaart", "u-ov", "syntus", "bus", "tram", "reizen", "u-pas", "saldo"]
@@ -2268,9 +2268,9 @@
     "type": "gratis",
     "wijk": "all",
     "verificationStatus": "por-verificar",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.utrecht.nl/wonen-en-leven/parkeren/fiets-parkeren/",
+    "officialUrl": "https://www.utrecht.nl/wonen-en-leven/verkeer/fiets/fiets-stallen",
     "profiles": ["iedereen"],
     "searchAliases": {
       "all": ["fietsenstalling", "stalling", "fiets", "parkeren", "stationsplein", "bewaakt"]
@@ -2326,9 +2326,9 @@
     "type": "gratis",
     "wijk": "all",
     "verificationStatus": "por-verificar",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.utrecht.nl/wonen-en-leven/verkeer/fietsen/fietscursus/",
+    "officialUrl": "https://defietsmeesters.nl/fietslessen/",
     "profiles": ["iedereen", "senior"],
     "searchAliases": {
       "all": ["fietscursus", "fietsles", "fietsersbond", "leren fietsen", "fiets", "volwassenen"]
@@ -2384,9 +2384,9 @@
     "type": "gratis",
     "wijk": "all",
     "verificationStatus": "por-verificar",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.repaircafe.org/nl/locatie/repair-cafe-utrecht/",
+    "officialUrl": "https://repaircafe-utrecht.nl/home/",
     "profiles": ["iedereen"],
     "searchAliases": {
       "all": ["repair café", "repaircafe", "repareren", "kapot", "kleding", "fiets", "elektronica"]
@@ -2425,11 +2425,11 @@
       "pt-BR": ["Aberto a todos"]
     },
     "howToApply": {
-      "nl": ["Bekijk de kalender op repaircafe.org en wandel binnen met je spullen"],
-      "en": ["Check monthly agenda on repaircafe.org and walk in"],
-      "es": ["Consulta el calendario de encuentros en repaircafe.org y acude"],
+      "nl": ["Bekijk de kalender op repaircafe-utrecht.nl en wandel binnen met je spullen"],
+      "en": ["Check monthly agenda on repaircafe-utrecht.nl and walk in"],
+      "es": ["Consulta el calendario de encuentros en repaircafe-utrecht.nl y acude"],
       "de": ["Termine online prüfen und vorbeikommen"],
-      "tr": ["repaircafe.org sitesinden takvime bakıp gidin"],
+      "tr": ["repaircafe-utrecht.nl sitesinden takvime bakıp gidin"],
       "fr": ["Consulter le calendrier et se rendre sur place"],
       "it": ["Controlla le date online e presenta i tuoi oggetti"],
       "pt": ["Consulte a agenda online e vá ao local"],
@@ -2442,7 +2442,7 @@
     "type": "gratis",
     "wijk": "all",
     "verificationStatus": "por-verificar",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://www.weggeefwinkelutrecht.nl/",
     "profiles": ["iedereen", "lage-inkomens"],
@@ -2500,7 +2500,7 @@
     "type": "gratis",
     "wijk": "all",
     "verificationStatus": "por-verificar",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://voedselbankutrecht.nl/",
     "profiles": ["lage-inkomens"],
@@ -2558,23 +2558,23 @@
     "type": "servicio",
     "wijk": "all",
     "verificationStatus": "por-verificar",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.utrechtvoorelkaar.nl/",
+    "officialUrl": "https://www.vcutrecht.nl/",
     "profiles": ["iedereen", "senior"],
     "searchAliases": {
-      "all": ["utrechtvoorelkaar", "vcu", "vrijwilliger", "vrijwilligers", "buurthulp", "klusjes", "maatje"]
+      "all": ["vrijwilligerscentrale", "vcutrecht", "vcu", "voar", "vrijwilliger", "vrijwilligers", "buurthulp", "klusjes", "maatje"]
     },
     "title": {
-      "nl": "Utrechtvoorelkaar / VCU (Vrijwilligers & Buurthulp)",
-      "en": "Utrechtvoorelkaar (Volunteering & Neighborhood help)",
-      "es": "Utrechtvoorelkaar / VCU (Red de voluntariado y ayuda vecinal)",
-      "de": "Utrechtvoorelkaar (Nachbarschaftshilfe)",
-      "tr": "Utrechtvoorelkaar (Gönüllü ve Komşu Yardımlaşma Ağı)",
-      "fr": "Utrechtvoorelkaar (Entraide et bénévolat)",
-      "it": "Utrechtvoorelkaar (Volontariato e aiuto tra vicini)",
-      "pt": "Utrechtvoorelkaar (Voluntariado e ajuda de vizinhança)",
-      "pt-BR": "Utrechtvoorelkaar (Rede de voluntariado e ajuda comunitária)"
+      "nl": "Vrijwilligerscentrale Utrecht / VCU (Vrijwilligers & Buurthulp)",
+      "en": "Vrijwilligerscentrale Utrecht (Volunteering & Neighborhood help)",
+      "es": "Vrijwilligerscentrale Utrecht / VCU (Red de voluntariado y ayuda vecinal)",
+      "de": "Vrijwilligerscentrale Utrecht (Nachbarschaftshilfe)",
+      "tr": "Vrijwilligerscentrale Utrecht (Gönüllü ve Komşu Yardımlaşma Ağı)",
+      "fr": "Vrijwilligerscentrale Utrecht (Entraide et bénévolat)",
+      "it": "Vrijwilligerscentrale Utrecht (Volontariato e aiuto tra vicini)",
+      "pt": "Vrijwilligerscentrale Utrecht (Voluntariado e ajuda de vizinhança)",
+      "pt-BR": "Vrijwilligerscentrale Utrecht (Rede de voluntariado e ajuda comunitária)"
     },
     "shortDescription": {
       "nl": "Hulp vragen voor praktische klusjes, boodschappen, tuinieren of maatjescontact via het centrale gemeentelijke netwerk.",
@@ -2599,15 +2599,15 @@
       "pt-BR": ["Todos os moradores"]
     },
     "howToApply": {
-      "nl": ["Plaats gratis je hulpvraag op utrechtvoorelkaar.nl"],
-      "en": ["Post your help request for free on utrechtvoorelkaar.nl"],
-      "es": ["Publica gratis tu petición de ayuda en utrechtvoorelkaar.nl"],
-      "de": ["Anfrage auf utrechtvoorelkaar.nl schalten"],
-      "tr": ["utrechtvoorelkaar.nl adresine ilan verin"],
+      "nl": ["Plaats gratis je hulpvraag op vcutrecht.nl"],
+      "en": ["Post your help request for free on vcutrecht.nl"],
+      "es": ["Publica gratis tu petición de ayuda en vcutrecht.nl"],
+      "de": ["Anfrage auf vcutrecht.nl schalten"],
+      "tr": ["vcutrecht.nl adresine ilan verin"],
       "fr": ["Publier votre demande sur le site"],
-      "it": ["Pubblica la richiesta su utrechtvoorelkaar.nl"],
-      "pt": ["Publique o seu pedido em utrechtvoorelkaar.nl"],
-      "pt-BR": ["Publique seu pedido de graça no utrechtvoorelkaar.nl"]
+      "it": ["Pubblica la richiesta su vcutrecht.nl"],
+      "pt": ["Publique o seu pedido em vcutrecht.nl"],
+      "pt-BR": ["Publique seu pedido de graça no vcutrecht.nl"]
     }
   },
   {
@@ -2616,9 +2616,9 @@
     "type": "gratis",
     "wijk": "all",
     "verificationStatus": "por-verificar",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.utrecht.nl/buurthuizen/",
+    "officialUrl": "https://www.utrecht.nl/zorg-en-onderwijs/activiteiten-welzijn-in-de-wijk/buurtcentrum/activiteiten",
     "profiles": ["iedereen", "senior", "gezin"],
     "searchAliases": {
       "all": ["buurthuis", "buurthuizen", "huiswerkbegeleiding", "koffie", "activiteiten", "kookgroep"]
@@ -2674,9 +2674,9 @@
     "type": "gratis",
     "wijk": "all",
     "verificationStatus": "por-verificar",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.taalhuisutrecht.nl/",
+    "officialUrl": "https://www.utrecht.nl/zorg-en-onderwijs/activiteiten-welzijn-in-de-wijk/hulp-bij-taal-en-computer",
     "profiles": ["iedereen"],
     "searchAliases": {
       "all": ["taalmaatje", "taalmaatjes", "taalhuis", "taalcafé", "nederlands leren", "taal"]
@@ -2715,7 +2715,7 @@
       "pt-BR": ["Qualquer pessoa querendo praticar e melhorar o holandês"]
     },
     "howToApply": {
-      "nl": ["Meld je aan bij het Taalhuis in Bibliotheek Neude of via taalhuisutrecht.nl"],
+      "nl": ["Meld je aan bij het Taalhuis in Bibliotheek Neude of via utrecht.nl"],
       "en": ["Register at the Taalhuis desk in Bibliotheek Neude or online"],
       "es": ["Inscríbete en el mostrador Taalhuis de la Bibliotheek Neude o online"],
       "de": ["In der Bibliothek Neude am Taalhuis-Schalter anmelden"],
@@ -2732,9 +2732,9 @@
     "type": "gratis",
     "wijk": "all",
     "verificationStatus": "por-verificar",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.utrecht.nl/drinkwaterpunten/",
+    "officialUrl": "https://www.utrecht.nl/wonen-en-leven/gezonde-leefomgeving/water/kraanwatertappunten",
     "profiles": ["iedereen"],
     "searchAliases": {
       "all": ["drinkwaterpunt", "drinkwater", "tappunt", "water", "bidon", "kraanwater"]
@@ -2790,9 +2790,9 @@
     "type": "gratis",
     "wijk": "all",
     "verificationStatus": "por-verificar",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.utrecht.nl/gratis-wifi/",
+    "officialUrl": "https://www.bibliotheekutrecht.nl/",
     "profiles": ["iedereen", "student"],
     "searchAliases": {
       "all": ["wifi", "wi-fi", "internet", "hotspot", "public-wifi-utrecht"]
@@ -2848,9 +2848,9 @@
     "type": "gratis",
     "wijk": "all",
     "verificationStatus": "por-verificar",
-    "lastReviewed": "2026-06-15",
+    "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.utrecht.nl/vrijmarkt-koningsdag/",
+    "officialUrl": "https://www.utrecht.nl/wonen-en-leven/vrije-tijd/koningsdag-en-vrijmarkt/de-vrijmarkt",
     "profiles": ["iedereen", "gezin"],
     "searchAliases": {
       "all": ["vrijmarkt", "koningsdag", "koningsnacht", "kleedjesmarkt", "rommelmarkt", "tweedehands"]
