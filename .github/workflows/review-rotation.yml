@@ -1,0 +1,54 @@
+name: Monthly Review Rotation
+
+# The link check catches a page that has moved. It cannot catch an amount that
+# changed or a scheme that was quietly abolished, and only reading the source
+# does. This opens a small monthly batch so the whole catalog gets re-read over
+# a year without every entry falling due on the same day.
+
+on:
+  schedule:
+    - cron: '0 7 1 * *'
+  workflow_dispatch:
+    inputs:
+      count:
+        description: 'How many entries to queue'
+        required: false
+        default: '5'
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: 'review-rotation'
+  cancel-in-progress: false
+
+jobs:
+  queue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Build the Review Queue
+        run: node scripts/review-due.js --count=${{ github.event.inputs.count || 5 }} --report=review-batch.md
+
+      - name: Open the Review Issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TITLE="📋 Catalog review batch — $(date +'%B %Y')"
+          # One issue per month. Re-running in the same month adds a comment
+          # rather than opening a duplicate.
+          EXISTING=$(gh issue list --state open --search "$TITLE in:title" --json number --jq '.[0].number')
+          if [ -n "$EXISTING" ]; then
+            gh issue comment "$EXISTING" --body-file review-batch.md
+            echo "Commented on existing issue #$EXISTING"
+          else
+            gh issue create --title "$TITLE" --body-file review-batch.md
+          fi

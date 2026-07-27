@@ -41,6 +41,7 @@ Elke taalversie is direct toegankelijk via de onderstaande links:
 - **Printbaar als hand-out**: een printstylesheet verbergt de interactieve onderdelen en schrijft de officiële URL voluit, zodat elke regelingpagina als papieren blad meegegeven kan worden.
 - **Zichtbare houdbaarheid**: regelingen waarvan `lastReviewed` ouder is dan negen maanden krijgen automatisch een waarschuwingsbadge, vertaald in alle 9 talen.
 - **Wekelijkse linkcontrole**: een GitHub Action bevraagt elke `officialUrl` en opent een issue met de onbereikbare links, zodat een verhuisde gemeentepagina niet stilletjes een doodlopende link wordt.
+- **Maandelijkse reviewronde**: een tweede Action zet elke maand een handvol regelingen in de wachtrij om opnieuw tegen de bron gelezen te worden, met de `por-verificar` regelingen voorop. Een linkcontrole ziet namelijk niet dat een bedrag is veranderd of dat een regeling stilletjes is afgeschaft.
 - **Utrecht Huisstijl & Design**:
   - Primaire kleur: **Utrecht Rood** (`#CC0000`) en Sint Maarten diagonaalmotief.
   - Handgemaakte geometrische SVG-illustraties (Domtoren, omafiets, Oudegracht gracht, boomspiegel).
@@ -76,6 +77,13 @@ in een lus:
 npm run check-links
 ```
 
+En kijk welke regelingen aan de beurt zijn om opnieuw tegen de bron gelezen te
+worden:
+
+```bash
+npm run review-due
+```
+
 > **Let op bij de service worker.** Zodra je de site één keer lokaal hebt geopend,
 > registreert de browser de service worker en serveert hij assets uit de cache.
 > Zie je je wijziging niet terug, gebruik dan een hard reload of vink
@@ -105,12 +113,14 @@ utrecht-voor-jou/
 │   ├── build.js              # Node.js SSG generator
 │   ├── validate.js           # PR & Data valideringsscript
 │   ├── check-links.js        # Controleert elke officialUrl
+│   ├── review-due.js         # Kiest de volgende regelingen om te herlezen
 │   └── dev.js                # Lokale HTTP preview server
 └── .github/
     └── workflows/
         ├── deploy.yml        # Build + Deploy naar GitHub Pages
         ├── validate.yml      # PR schema check
-        └── link-check.yml    # Wekelijkse linkcontrole → GitHub issue
+        ├── link-check.yml    # Wekelijkse linkcontrole → GitHub issue
+        └── review-rotation.yml # Maandelijkse reviewronde → GitHub issue
 ```
 
 `dist/` staat in `.gitignore`: de gepubliceerde site wordt door `deploy.yml`

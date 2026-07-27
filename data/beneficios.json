@@ -1983,18 +1983,18 @@
     "officialUrl": "https://www.u-pas.nl/aanbod",
     "profiles": ["lage-inkomens", "gezin", "senior", "student"],
     "searchAliases": {
-      "all": ["u-pas", "pathé", "tivolivredenburg", "stadsschouwburg", "bioscoop", "zwembad", "theater"]
+      "all": ["u-pas","aanbod","bioscoop","film","museum","musea","attractie","zwembad","theater","cultuur","korting"]
     },
     "title": {
-      "nl": "U-pas cultuur- en bioscoopkortingen",
-      "en": "U-pas Culture & Cinema Discounts",
-      "es": "Descuentos U-pas: cine, museos, piscinas y teatros",
-      "de": "U-Pas Kultur- und Kinorabatte",
-      "tr": "U-pas Kültür ve Sinema İndirimleri",
-      "fr": "Réductions culture et cinéma U-pas",
-      "it": "Sconti cultura e cinema U-pas",
-      "pt": "Descontos de cultura e cinema U-pas",
-      "pt-BR": "Descontos U-pas para cinema, museus e teatros"
+      "nl": "U-pas aanbod: film, musea, zwembad en cultuur",
+      "en": "U-pas offer: cinema, museums, swimming and culture",
+      "es": "Oferta U-pas: cine, museos, piscina y cultura",
+      "de": "U-Pas Angebot: Kino, Museen, Schwimmbad und Kultur",
+      "tr": "U-pas kapsamı: sinema, müze, yüzme ve kültür",
+      "fr": "Offre U-pas : cinéma, musées, piscine et culture",
+      "it": "Offerta U-pas: cinema, musei, piscina e cultura",
+      "pt": "Oferta U-pas: cinema, museus, piscina e cultura",
+      "pt-BR": "Oferta U-pas: cinema, museus, piscina e cultura"
     },
     "shortDescription": {
       "nl": "Betaal met je U-pastegoed en krijg korting bij zwembaden, bioscopen, musea, attracties, sportclubs en eettafels in de regio.",
@@ -2019,15 +2019,15 @@
       "pt-BR": ["Possuir cartão U-pas ativo"]
     },
     "howToApply": {
-      "nl": ["Toon je U-pas aan de kassa of voer het pasnummer in bij online reserveren"],
-      "en": ["Show your U-pas at the box office or enter your card number online"],
-      "es": ["Muestra tu U-pas en taquilla o introduce el número de pas al reservar online"],
-      "de": ["U-Pas an der Kasse vorzeigen"],
-      "tr": ["Gişede U-pas kartınızı gösterin veya online numarayı girin"],
-      "fr": ["Présenter le U-pas en caisse ou saisir le numéro en ligne"],
-      "it": ["Mostra la U-pas alla cassa o inserisci il numero online"],
-      "pt": ["Apresente o U-pas na bilheteira"],
-      "pt-BR": ["Mostre a U-pas na bilheteria ou digite o número online"]
+      "nl": ["Bekijk het actuele aanbod op u-pas.nl/aanbod","Toon je U-pas aan de kassa of voer het pasnummer in bij online reserveren"],
+      "en": ["Check the current offer at u-pas.nl/aanbod","Show your U-pas at the counter or enter the card number when booking online"],
+      "es": ["Consulta la oferta actual en u-pas.nl/aanbod","Muestra tu U-pas en taquilla o introduce el número al reservar online"],
+      "de": ["Aktuelles Angebot auf u-pas.nl/aanbod ansehen","U-Pas an der Kasse zeigen oder die Kartennummer bei der Onlinebuchung eingeben"],
+      "tr": ["Güncel teklifleri u-pas.nl/aanbod adresinde görün","Gişede U-pas kartınızı gösterin veya online rezervasyonda kart numarasını girin"],
+      "fr": ["Consulter l'offre actuelle sur u-pas.nl/aanbod","Présenter le U-pas en caisse ou saisir le numéro lors de la réservation en ligne"],
+      "it": ["Controlla l'offerta attuale su u-pas.nl/aanbod","Mostra la U-pas alla cassa o inserisci il numero nella prenotazione online"],
+      "pt": ["Consulte a oferta atual em u-pas.nl/aanbod","Apresente o U-pas na bilheteira ou introduza o número ao reservar online"],
+      "pt-BR": ["Confira a oferta atual em u-pas.nl/aanbod","Mostre a U-pas na bilheteria ou digite o número ao reservar online"]
     }
   },
   {
@@ -2086,64 +2086,6 @@
       "it": ["Visita la ludoteca del tuo quartiere"],
       "pt": ["Visite a ludoteca do seu bairro"],
       "pt-BR": ["Visite a brinquedoteca do seu bairro"]
-    }
-  },
-  {
-    "id": 38,
-    "category": "cultura",
-    "type": "gratis",
-    "wijk": "all",
-    "verificationStatus": "por-verificar",
-    "lastReviewed": "2026-07-27",
-    "expiresSoon": false,
-    "officialUrl": "https://www.u-pas.nl/aanbod",
-    "profiles": ["iedereen", "lage-inkomens", "senior"],
-    "searchAliases": {
-      "all": ["museum", "musea", "spoorwegmuseum", "centraal museum", "nijntje", "miffy", "u-pas"]
-    },
-    "title": {
-      "nl": "Musea en attracties met U-pas",
-      "en": "Museums and attractions with a U-pas",
-      "es": "Museos y atracciones con U-pas",
-      "de": "Museen und Attraktionen mit der U-Pas",
-      "tr": "U-pas ile müzeler ve etkinlikler",
-      "fr": "Musées et attractions avec le U-pas",
-      "it": "Musei e attrazioni con la U-pas",
-      "pt": "Museus e atrações com o U-pas",
-      "pt-BR": "Museus e atrações com a U-pas"
-    },
-    "shortDescription": {
-      "nl": "Musea en attracties staan in het U-pas aanbod: je betaalt met je tegoed en krijgt korting. Welke musea meedoen wisselt, kijk het actuele aanbod na.",
-      "en": "Museums and attractions are part of the U-pas offer: you pay with your credit and get a discount. Which museums take part varies, so check the current list.",
-      "es": "Museos y atracciones forman parte de la oferta U-pas: pagas con tu saldo y obtienes descuento. Los museos participantes cambian; consulta la oferta actual.",
-      "de": "Museen und Attraktionen gehören zum U-Pas-Angebot: Sie zahlen mit Ihrem Guthaben und erhalten Rabatt. Welche Museen mitmachen, wechselt.",
-      "tr": "Müzeler ve etkinlikler U-pas kapsamındadır: bütçenizle ödeyip indirim alırsınız. Hangi müzelerin katıldığı değişir, güncel listeye bakın.",
-      "fr": "Musées et attractions font partie de l'offre U-pas : vous payez avec votre crédit et bénéficiez d'une réduction. La liste des musées varie.",
-      "it": "Musei e attrazioni fanno parte dell'offerta U-pas: paghi con il credito e ottieni uno sconto. I musei aderenti cambiano, controlla l'offerta attuale.",
-      "pt": "Museus e atrações fazem parte da oferta U-pas: paga com o saldo e tem desconto. Os museus aderentes mudam, confirme a oferta atual.",
-      "pt-BR": "Museus e atrações fazem parte da oferta U-pas: você paga com o saldo e tem desconto. Os museus participantes mudam, confira a oferta atual."
-    },
-    "eligibility": {
-      "nl": ["U-pashouders"],
-      "en": ["U-pas cardholders"],
-      "es": ["Titulares de la tarjeta U-pas"],
-      "de": ["U-Pas Inhaber"],
-      "tr": ["U-pas sahipleri"],
-      "fr": ["Titulaires du U-pas"],
-      "it": ["Possessori di U-pas"],
-      "pt": ["Titulares do U-pas"],
-      "pt-BR": ["Titulares da carteira U-pas"]
-    },
-    "howToApply": {
-      "nl": ["Bekijk het actuele aanbod op u-pas.nl/aanbod","Toon je U-pas bij de kassa van het museum"],
-      "en": ["Check the current offer at u-pas.nl/aanbod","Show your U-pas at the museum ticket desk"],
-      "es": ["Consulta la oferta actual en u-pas.nl/aanbod","Muestra tu U-pas en la taquilla del museo"],
-      "de": ["Aktuelles Angebot auf u-pas.nl/aanbod ansehen","U-Pas an der Museumskasse zeigen"],
-      "tr": ["Güncel teklifleri u-pas.nl/aanbod adresinde görün","Müze gişesinde U-pas kartınızı gösterin"],
-      "fr": ["Consulter l'offre actuelle sur u-pas.nl/aanbod","Présenter le U-pas à la caisse du musée"],
-      "it": ["Controlla l'offerta attuale su u-pas.nl/aanbod","Mostra la U-pas alla biglietteria del museo"],
-      "pt": ["Consulte a oferta atual em u-pas.nl/aanbod","Apresente o U-pas na bilheteira do museu"],
-      "pt-BR": ["Confira a oferta atual em u-pas.nl/aanbod","Mostre a U-pas na bilheteria do museu"]
     }
   },
   {
@@ -2840,6 +2782,131 @@
       "it": ["Scegli tu il posto nell'area del vrijmarkt; attenzione ai cartelli di divieto","Dalle 18:00 della vigilia alle 18:00 del Giorno del Re; riporta a casa l'invenduto"],
       "pt": ["Escolha o seu lugar na zona do vrijmarkt; atenção aos sinais de proibição","Das 18:00 da véspera às 18:00 do Dia do Rei; leve de volta o que não vender"],
       "pt-BR": ["Escolha seu lugar na área do vrijmarkt; fique atento às placas de proibição","Das 18h da véspera às 18h do Dia do Rei; leve de volta o que não vender"]
+    }
+  },
+  {
+    "id": 51,
+    "category": "energia",
+    "type": "préstamo",
+    "wijk": "all",
+    "verificationStatus": "verificado",
+    "lastReviewed": "2026-07-27",
+    "expiresSoon": false,
+    "officialUrl": "https://www.warmtefonds.nl/",
+    "profiles": [
+      "huiseienaar",
+      "lage-inkomens"
+    ],
+    "searchAliases": {
+      "all": [
+        "warmtefonds",
+        "energiebespaarlening",
+        "lening",
+        "isolatie",
+        "zonnepanelen",
+        "warmtepomp",
+        "duurzaamheidslening",
+        "svn",
+        "energiefonds"
+      ]
+    },
+    "title": {
+      "nl": "Energiebespaarlening Warmtefonds (0% rente onder € 60.000)",
+      "en": "Warmtefonds energy-saving loan (0% interest below € 60,000)",
+      "es": "Préstamo de ahorro energético Warmtefonds (0% de interés por debajo de 60.000 €)",
+      "de": "Energiespardarlehen Warmtefonds (0% Zinsen unter € 60.000)",
+      "tr": "Warmtefonds enerji tasarrufu kredisi (€ 60.000 altında %0 faiz)",
+      "fr": "Prêt d'économie d'énergie Warmtefonds (0% sous 60 000 €)",
+      "it": "Prestito per il risparmio energetico Warmtefonds (0% sotto 60.000 €)",
+      "pt": "Empréstimo de poupança energética Warmtefonds (0% abaixo de 60.000 €)",
+      "pt-BR": "Empréstimo de economia de energia Warmtefonds (0% abaixo de € 60.000)"
+    },
+    "shortDescription": {
+      "nl": "Landelijke lening tot € 29.000 voor isolatie, zonnepanelen of een warmtepomp. Eigenaar-bewoners met een verzamelinkomen onder € 60.000 lenen tegen 0% rente.",
+      "en": "National loan of up to € 29,000 for insulation, solar panels or a heat pump. Owner-occupiers with a household income below € 60,000 borrow at 0% interest.",
+      "es": "Préstamo estatal de hasta 29.000 € para aislamiento, placas solares o bomba de calor. Los propietarios con renta conjunta inferior a 60.000 € pagan 0% de interés.",
+      "de": "Landesweites Darlehen bis € 29.000 für Dämmung, Solaranlagen oder Wärmepumpe. Eigentümer-Bewohner mit Einkommen unter € 60.000 leihen zu 0% Zinsen.",
+      "tr": "Yalıtım, güneş paneli veya ısı pompası için € 29.000'e kadar ulusal kredi. Toplam geliri € 60.000 altında olan ev sahipleri %0 faizle borçlanır.",
+      "fr": "Prêt national jusqu'à 29 000 € pour l'isolation, les panneaux solaires ou une pompe à chaleur. Les propriétaires occupants sous 60 000 € de revenus empruntent à 0%.",
+      "it": "Prestito nazionale fino a 29.000 € per isolamento, pannelli solari o pompa di calore. I proprietari residenti con reddito sotto i 60.000 € prendono a prestito allo 0%.",
+      "pt": "Empréstimo nacional até 29.000 € para isolamento, painéis solares ou bomba de calor. Proprietários residentes com rendimento abaixo de 60.000 € pagam 0% de juros.",
+      "pt-BR": "Empréstimo nacional de até € 29.000 para isolamento, painéis solares ou bomba de calor. Proprietários moradores com renda abaixo de € 60.000 pagam 0% de juros."
+    },
+    "eligibility": {
+      "nl": [
+        "Eigenaar-bewoner van een bestaande woning (geen nieuwbouw)",
+        "0% rente bij een verzamelinkomen onder € 60.000; geen leeftijdsgrens"
+      ],
+      "en": [
+        "Owner-occupier of an existing home (not new-build)",
+        "0% interest with a household income below € 60,000; no age limit"
+      ],
+      "es": [
+        "Propietario residente de vivienda existente (no obra nueva)",
+        "0% de interés con renta conjunta inferior a 60.000 €; sin límite de edad"
+      ],
+      "de": [
+        "Eigentümer-Bewohner einer bestehenden Wohnung (kein Neubau)",
+        "0% Zinsen bei Einkommen unter € 60.000; keine Altersgrenze"
+      ],
+      "tr": [
+        "Mevcut bir konutun sahibi ve oturanı olmak (yeni yapı değil)",
+        "Toplam gelir € 60.000 altındaysa %0 faiz; yaş sınırı yok"
+      ],
+      "fr": [
+        "Propriétaire occupant d'un logement existant (hors neuf)",
+        "0% d'intérêt avec un revenu sous 60 000 € ; pas de limite d'âge"
+      ],
+      "it": [
+        "Proprietario residente di un'abitazione esistente (non nuova costruzione)",
+        "0% di interessi con reddito sotto i 60.000 €; nessun limite di età"
+      ],
+      "pt": [
+        "Proprietário residente de habitação existente (não construção nova)",
+        "0% de juros com rendimento abaixo de 60.000 €; sem limite de idade"
+      ],
+      "pt-BR": [
+        "Proprietário morador de imóvel existente (não novo)",
+        "0% de juros com renda abaixo de € 60.000; sem limite de idade"
+      ]
+    },
+    "howToApply": {
+      "nl": [
+        "Vraag de Energiebespaarlening aan op warmtefonds.nl",
+        "Woon je in een woongroep, wooncoöperatie of vve? Kijk dan bij energiefondsutrecht.nl of, voor een kleine vve tot 7 appartementen, bij svn.nl"
+      ],
+      "en": [
+        "Apply for the Energiebespaarlening at warmtefonds.nl",
+        "Living in a housing group, cooperative or VvE? See energiefondsutrecht.nl, or svn.nl for a small VvE of up to 7 apartments"
+      ],
+      "es": [
+        "Solicita el Energiebespaarlening en warmtefonds.nl",
+        "¿Vives en cooperativa o comunidad VvE? Mira energiefondsutrecht.nl, o svn.nl si la VvE tiene hasta 7 pisos"
+      ],
+      "de": [
+        "Das Energiebespaarlening auf warmtefonds.nl beantragen",
+        "In einer Wohngruppe, Genossenschaft oder VvE? Dann energiefondsutrecht.nl, oder svn.nl bei einer kleinen VvE bis 7 Wohnungen"
+      ],
+      "tr": [
+        "Energiebespaarlening başvurusunu warmtefonds.nl üzerinden yapın",
+        "Konut grubu, kooperatif veya VvE'de mi yaşıyorsunuz? energiefondsutrecht.nl'ye, 7 daireye kadar küçük VvE için svn.nl'ye bakın"
+      ],
+      "fr": [
+        "Demander l'Energiebespaarlening sur warmtefonds.nl",
+        "Vous vivez en habitat groupé, coopérative ou copropriété ? Voir energiefondsutrecht.nl, ou svn.nl pour une petite copropriété jusqu'à 7 appartements"
+      ],
+      "it": [
+        "Richiedi l'Energiebespaarlening su warmtefonds.nl",
+        "Vivi in un gruppo abitativo, cooperativa o condominio? Guarda energiefondsutrecht.nl, oppure svn.nl per un piccolo condominio fino a 7 appartamenti"
+      ],
+      "pt": [
+        "Peça o Energiebespaarlening em warmtefonds.nl",
+        "Vive em grupo habitacional, cooperativa ou condomínio? Veja energiefondsutrecht.nl, ou svn.nl para um condomínio pequeno até 7 apartamentos"
+      ],
+      "pt-BR": [
+        "Peça o Energiebespaarlening no warmtefonds.nl",
+        "Mora em grupo habitacional, cooperativa ou condomínio? Veja energiefondsutrecht.nl, ou svn.nl para um condomínio pequeno de até 7 apartamentos"
+      ]
     }
   }
 ]
