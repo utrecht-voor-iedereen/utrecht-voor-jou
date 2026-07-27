@@ -1687,7 +1687,7 @@
     "category": "energia",
     "type": "gratis",
     "wijk": "all",
-    "verificationStatus": "por-verificar",
+    "verificationStatus": "verificado",
     "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://www.energiebox.org/utrecht/",
@@ -1803,7 +1803,7 @@
     "category": "legal",
     "type": "servicio",
     "wijk": "all",
-    "verificationStatus": "por-verificar",
+    "verificationStatus": "verificado",
     "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://www.buurtteamsutrecht.nl/",
@@ -1861,7 +1861,7 @@
     "category": "legal",
     "type": "servicio",
     "wijk": "all",
-    "verificationStatus": "por-verificar",
+    "verificationStatus": "verificado",
     "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://www.utrecht.nl/zorg-en-onderwijs/activiteiten-welzijn-in-de-wijk/buurtcentrum",
@@ -2209,7 +2209,7 @@
     "category": "movilidad",
     "type": "gratis",
     "wijk": "all",
-    "verificationStatus": "por-verificar",
+    "verificationStatus": "verificado",
     "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://www.utrecht.nl/wonen-en-leven/verkeer/fiets/fiets-stallen",
@@ -2265,9 +2265,9 @@
   {
     "id": 41,
     "category": "movilidad",
-    "type": "gratis",
+    "type": "servicio",
     "wijk": "all",
-    "verificationStatus": "por-verificar",
+    "verificationStatus": "verificado",
     "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://defietsmeesters.nl/fietslessen/",
@@ -2276,48 +2276,48 @@
       "all": ["fietscursus", "fietsles", "fietsersbond", "leren fietsen", "fiets", "volwassenen"]
     },
     "title": {
-      "nl": "Fietscursus gratis voor volwassenen",
-      "en": "Free cycling lessons for adults",
-      "es": "Fietscursus gratis para adultos (Aprender a andar en bici gratis)",
-      "de": "Kostenlose Fahrradkurse für Erwachsene",
-      "tr": "Yetişkinler İçin Ücretsiz Bisiklet Kursu",
-      "fr": "Cours de vélo gratuits pour adultes",
-      "it": "Corsi di bicicletta gratuiti per adulti",
-      "pt": "Aulas de bicicleta gratuitas para adultos",
-      "pt-BR": "Aulas de bicicleta gratuitas para adultos"
+      "nl": "Fietslessen voor volwassenen (€ 15 per cursus)",
+      "en": "Cycling lessons for adults (€ 15 per course)",
+      "es": "Clases de bici para adultos (15 € el curso)",
+      "de": "Fahrradkurse für Erwachsene (€ 15 pro Kurs)",
+      "tr": "Yetişkinler için bisiklet dersleri (kurs başına € 15)",
+      "fr": "Cours de vélo pour adultes (15 € le cours)",
+      "it": "Lezioni di bici per adulti (15 € a corso)",
+      "pt": "Aulas de bicicleta para adultos (15 € o curso)",
+      "pt-BR": "Aulas de bicicleta para adultos (€ 15 o curso)"
     },
     "shortDescription": {
-      "nl": "Gratis fietslessen voor volwassenen die nog nooit gefietst hebben of hun verkeerszekerheid in de stad willen vergroten.",
-      "en": "Free cycling courses for adults who never learned to cycle or want to build confidence in Dutch traffic.",
-      "es": "Clases gratuitas de bicicleta para adultos que no saben montar o quieren adquirir confianza en el tráfico urbano.",
-      "de": "Kostenloser Fahrradunterricht für Erwachsene im städtischen Verkehr.",
-      "tr": "Bisiklet sürmeyi bilmeyen veya trafikte güven kazanmak isteyen yetişkinlere ücretsiz dersler.",
-      "fr": "Cours gratuits pour apprendre à faire du vélo en ville en toute sécurité.",
-      "it": "Lezioni gratuite per imparare ad andare in bici in città in sicurezza.",
-      "pt": "Aulas gratuitas para aprender a andar de bicicleta na cidade.",
-      "pt-BR": "Aulas gratuitas para adultos aprenderem a andar de bike no trânsito."
+      "nl": "Cursus van 10 tot 13 lessen voor € 15 in totaal, op 8 locaties in Utrecht. Lesfietsen zijn aanwezig. Start twee keer per jaar, in april en september.",
+      "en": "A course of 10 to 13 lessons for € 15 in total, at 8 locations in Utrecht. Lesson bikes are provided. Starts twice a year, in April and September.",
+      "es": "Curso de 10 a 13 clases por 15 € en total, en 8 puntos de Utrecht. Hay bicis de práctica. Empieza dos veces al año, en abril y septiembre.",
+      "de": "Kurs mit 10 bis 13 Stunden für insgesamt € 15, an 8 Standorten in Utrecht. Leihräder vorhanden. Beginn zweimal jährlich, im April und September.",
+      "tr": "Utrecht'te 8 noktada, toplam € 15 karşılığında 10-13 derslik kurs. Ders bisikletleri mevcut. Yılda iki kez, nisan ve eylülde başlar.",
+      "fr": "Cours de 10 à 13 leçons pour 15 € au total, sur 8 sites à Utrecht. Vélos d'apprentissage fournis. Deux sessions par an, en avril et septembre.",
+      "it": "Corso di 10-13 lezioni a 15 € in totale, in 8 sedi a Utrecht. Le bici per le lezioni sono disponibili. Parte due volte l'anno, ad aprile e settembre.",
+      "pt": "Curso de 10 a 13 aulas por 15 € no total, em 8 locais de Utrecht. Há bicicletas de treino. Começa duas vezes por ano, em abril e setembro.",
+      "pt-BR": "Curso de 10 a 13 aulas por € 15 no total, em 8 locais de Utrecht. Há bicicletas para as aulas. Começa duas vezes por ano, em abril e setembro."
     },
     "eligibility": {
-      "nl": ["Volwassen inwoners van Utrecht"],
-      "en": ["Adult residents of Utrecht"],
-      "es": ["Residentes adultos en Utrecht"],
-      "de": ["Erwachsene Einwohner"],
-      "tr": ["Utrecht'te yaşayan yetişkinler"],
-      "fr": ["Résidents adultes à Utrecht"],
-      "it": ["Residenti adulti a Utrecht"],
-      "pt": ["Residentes adultos em Utrecht"],
-      "pt-BR": ["Moradores adultos em Utrecht"]
+      "nl": ["Volwassen inwoners van Utrecht","Let op: voor een aantal locaties geldt een wachtlijst"],
+      "en": ["Adult residents of Utrecht","Note: some locations have a waiting list"],
+      "es": ["Residentes adultos en Utrecht","Atención: algunos puntos tienen lista de espera"],
+      "de": ["Erwachsene Einwohner von Utrecht","Achtung: für einige Standorte gibt es eine Warteliste"],
+      "tr": ["Utrecht'te yaşayan yetişkinler","Dikkat: bazı noktalarda bekleme listesi var"],
+      "fr": ["Résidents adultes à Utrecht","Attention : certains sites ont une liste d'attente"],
+      "it": ["Residenti adulti a Utrecht","Attenzione: per alcune sedi c'è una lista d'attesa"],
+      "pt": ["Residentes adultos em Utrecht","Atenção: alguns locais têm lista de espera"],
+      "pt-BR": ["Moradores adultos em Utrecht","Atenção: alguns locais têm lista de espera"]
     },
     "howToApply": {
-      "nl": ["Meld je aan via de Fietsersbond Utrecht of het Buurtteam"],
-      "en": ["Sign up via Fietsersbond Utrecht or local Buurtteam"],
-      "es": ["Inscríbete a través de la Fietsersbond Utrecht o tu Buurtteam"],
-      "de": ["Über Fietsersbond Utrecht anmelden"],
-      "tr": ["Fietsersbond veya Buurtteam üzerinden kaydolun"],
-      "fr": ["S'inscrire auprès de la Fietsersbond ou du Buurtteam"],
-      "it": ["Iscriviti tramite Fietsersbond o Buurtteam"],
-      "pt": ["Inscreva-se na Fietsersbond ou Buurtteam"],
-      "pt-BR": ["Inscreva-se pela Fietsersbond Utrecht ou pelo Buurtteam"]
+      "nl": ["Meld je aan via het inschrijfformulier op defietsmeesters.nl","De cursussen starten in april en september"],
+      "en": ["Register via the sign-up form on defietsmeesters.nl","Courses start in April and September"],
+      "es": ["Inscríbete con el formulario de defietsmeesters.nl","Los cursos empiezan en abril y septiembre"],
+      "de": ["Über das Anmeldeformular auf defietsmeesters.nl anmelden","Die Kurse starten im April und September"],
+      "tr": ["defietsmeesters.nl üzerindeki kayıt formuyla başvurun","Kurslar nisan ve eylülde başlar"],
+      "fr": ["S'inscrire via le formulaire sur defietsmeesters.nl","Les cours démarrent en avril et en septembre"],
+      "it": ["Iscriviti tramite il modulo su defietsmeesters.nl","I corsi iniziano ad aprile e settembre"],
+      "pt": ["Inscreva-se pelo formulário em defietsmeesters.nl","Os cursos começam em abril e setembro"],
+      "pt-BR": ["Inscreva-se pelo formulário no defietsmeesters.nl","Os cursos começam em abril e setembro"]
     }
   },
   {
@@ -2325,7 +2325,7 @@
     "category": "comunidad",
     "type": "gratis",
     "wijk": "all",
-    "verificationStatus": "por-verificar",
+    "verificationStatus": "verificado",
     "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://repaircafe-utrecht.nl/home/",
@@ -2367,15 +2367,15 @@
       "pt-BR": ["Aberto a todos"]
     },
     "howToApply": {
-      "nl": ["Bekijk de kalender op repaircafe-utrecht.nl en wandel binnen met je spullen"],
-      "en": ["Check monthly agenda on repaircafe-utrecht.nl and walk in"],
-      "es": ["Consulta el calendario de encuentros en repaircafe-utrecht.nl y acude"],
-      "de": ["Termine online prüfen und vorbeikommen"],
-      "tr": ["repaircafe-utrecht.nl sitesinden takvime bakıp gidin"],
-      "fr": ["Consulter le calendrier et se rendre sur place"],
-      "it": ["Controlla le date online e presenta i tuoi oggetti"],
-      "pt": ["Consulte a agenda online e vá ao local"],
-      "pt-BR": ["Confira as datas no site e leve seus objetos"]
+      "nl": ["Bekijk de kalender op repaircafe-utrecht.nl/events","Kom langs bij een locatie zoals Lombok, Overvecht, Leidsche Rijn of de Reparatiebalie in Hoog Catharijne"],
+      "en": ["Check the calendar at repaircafe-utrecht.nl/events","Drop by a location such as Lombok, Overvecht, Leidsche Rijn or the Reparatiebalie in Hoog Catharijne"],
+      "es": ["Consulta el calendario en repaircafe-utrecht.nl/events","Acude a una sede como Lombok, Overvecht, Leidsche Rijn o la Reparatiebalie de Hoog Catharijne"],
+      "de": ["Kalender auf repaircafe-utrecht.nl/events ansehen","Vorbeikommen an einem Standort wie Lombok, Overvecht, Leidsche Rijn oder der Reparatiebalie in Hoog Catharijne"],
+      "tr": ["Takvimi repaircafe-utrecht.nl/events adresinde görün","Lombok, Overvecht, Leidsche Rijn veya Hoog Catharijne'deki Reparatiebalie gibi bir noktaya uğrayın"],
+      "fr": ["Consulter le calendrier sur repaircafe-utrecht.nl/events","Passer dans un lieu comme Lombok, Overvecht, Leidsche Rijn ou la Reparatiebalie à Hoog Catharijne"],
+      "it": ["Controlla il calendario su repaircafe-utrecht.nl/events","Passa in una sede come Lombok, Overvecht, Leidsche Rijn o la Reparatiebalie a Hoog Catharijne"],
+      "pt": ["Consulte o calendário em repaircafe-utrecht.nl/events","Vá a um local como Lombok, Overvecht, Leidsche Rijn ou a Reparatiebalie no Hoog Catharijne"],
+      "pt-BR": ["Confira o calendário em repaircafe-utrecht.nl/events","Vá a um local como Lombok, Overvecht, Leidsche Rijn ou a Reparatiebalie no Hoog Catharijne"]
     }
   },
   {
@@ -2383,7 +2383,7 @@
     "category": "comunidad",
     "type": "gratis",
     "wijk": "all",
-    "verificationStatus": "por-verificar",
+    "verificationStatus": "verificado",
     "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://www.weggeefwinkelutrecht.nl/",
@@ -2414,26 +2414,26 @@
       "pt-BR": "Pegue roupas, livros, louças e brinquedos de graça sem gastar um centavo."
     },
     "eligibility": {
-      "nl": ["Iedereen mag spullen meenemen (maximaal 3 tot 5 artikelen per bezoek)"],
-      "en": ["Open for all (maximum 3 to 5 items per visit)"],
-      "es": ["Abierto a todos (máximo de 3 a 5 artículos por visita)"],
-      "de": ["Für alle offen (max. 3-5 Teile)"],
-      "tr": ["Herkese açık (ziyaret başı maks. 3-5 ürün)"],
-      "fr": ["Ouvert à tous (max. 3 à 5 articles)"],
-      "it": ["Aperto a tutti (max 3-5 articoli a visita)"],
-      "pt": ["Aberto a todos (máx. 3-5 itens)"],
-      "pt-BR": ["Aberto a todos (limite de 3 a 5 itens por visita)"]
+      "nl": ["Iedereen mag spullen meenemen, gratis"],
+      "en": ["Anyone may take things home, free of charge"],
+      "es": ["Cualquiera puede llevarse cosas, gratis"],
+      "de": ["Jeder darf kostenlos Sachen mitnehmen"],
+      "tr": ["Herkes ücretsiz eşya alabilir"],
+      "fr": ["Tout le monde peut emporter des objets, gratuitement"],
+      "it": ["Chiunque può portare via oggetti, gratuitamente"],
+      "pt": ["Qualquer pessoa pode levar coisas, gratuitamente"],
+      "pt-BR": ["Qualquer pessoa pode levar coisas, de graça"]
     },
     "howToApply": {
-      "nl": ["Kom langs tijdens de openingstijden op De 2e Steeg of locatie Kanonstraat"],
-      "en": ["Drop by during opening hours at Kanonstraat location"],
-      "es": ["Visita la tienda durante sus horas de apertura"],
-      "de": ["Während der Öffnungszeiten vorbeikommen"],
-      "tr": ["Açık olduğu saatlerde ziyaret edin"],
-      "fr": ["Venir pendant les heures d'ouverture"],
-      "it": ["Vieni durante gli orari di apertura"],
-      "pt": ["Visite durante o horário de funcionamento"],
-      "pt-BR": ["Vá no horário de funcionamento"]
+      "nl": ["Kom langs op 2e Daalsedijk 2A","Open woensdag, vrijdag en zaterdag 14.00-17.00 uur en donderdagavond 17.00-20.00 uur"],
+      "en": ["Visit at 2e Daalsedijk 2A","Open Wednesday, Friday and Saturday 14:00-17:00 and Thursday evening 17:00-20:00"],
+      "es": ["Ve a 2e Daalsedijk 2A","Abre miércoles, viernes y sábado de 14:00 a 17:00 y jueves por la tarde de 17:00 a 20:00"],
+      "de": ["Vorbeikommen an der 2e Daalsedijk 2A","Geöffnet Mittwoch, Freitag und Samstag 14:00-17:00 und Donnerstagabend 17:00-20:00"],
+      "tr": ["2e Daalsedijk 2A adresine gidin","Çarşamba, cuma ve cumartesi 14.00-17.00; perşembe akşamı 17.00-20.00 açık"],
+      "fr": ["Se rendre au 2e Daalsedijk 2A","Ouvert mercredi, vendredi et samedi de 14h00 à 17h00 et jeudi soir de 17h00 à 20h00"],
+      "it": ["Vieni in 2e Daalsedijk 2A","Aperto mercoledì, venerdì e sabato 14:00-17:00 e giovedì sera 17:00-20:00"],
+      "pt": ["Vá à 2e Daalsedijk 2A","Aberto quarta, sexta e sábado das 14:00 às 17:00 e quinta à noite das 17:00 às 20:00"],
+      "pt-BR": ["Vá à 2e Daalsedijk 2A","Aberto quarta, sexta e sábado das 14h às 17h e quinta à noite das 17h às 20h"]
     }
   },
   {
@@ -2483,15 +2483,15 @@
       "pt-BR": ["Renda disponível para alimentação abaixo do limite oficial"]
     },
     "howToApply": {
-      "nl": ["Vraag een doorverwijzing via je Buurtteam of hulpverlener"],
-      "en": ["Get a referral through your local Buurtteam or care provider"],
-      "es": ["Solicita una derivación a través de tu Buurtteam o asistente social"],
-      "de": ["Über das Buurtteam anfragen"],
-      "tr": ["Buurtteam üzerinden sevk alın"],
-      "fr": ["Demander une orientation via le Buurtteam"],
-      "it": ["Ottieni un rinvio tramite il Buurtteam"],
-      "pt": ["Peça um encaminhamento no Buurtteam"],
-      "pt-BR": ["Peça um encaminhamento pelo Buurtteam do seu bairro"]
+      "nl": ["Meld je rechtstreeks aan via voedselbankutrecht.nl","Of laat een hulpverlener of je Buurtteam de aanvraag voor je doen"],
+      "en": ["Apply directly via voedselbankutrecht.nl","Or have a care worker or your Buurtteam apply on your behalf"],
+      "es": ["Solicítalo directamente en voedselbankutrecht.nl","O que lo pida por ti un trabajador social o tu Buurtteam"],
+      "de": ["Direkt über voedselbankutrecht.nl anmelden","Oder eine Fachkraft bzw. das Buurtteam beantragt es für Sie"],
+      "tr": ["voedselbankutrecht.nl üzerinden doğrudan başvurun","Ya da bir sosyal çalışan veya Buurtteam sizin adınıza başvursun"],
+      "fr": ["S'inscrire directement via voedselbankutrecht.nl","Ou faire déposer la demande par un travailleur social ou votre Buurtteam"],
+      "it": ["Iscriviti direttamente su voedselbankutrecht.nl","Oppure fai presentare la domanda da un operatore o dal tuo Buurtteam"],
+      "pt": ["Inscreva-se diretamente em voedselbankutrecht.nl","Ou peça a um técnico de apoio ou ao seu Buurtteam que o faça por si"],
+      "pt-BR": ["Inscreva-se direto no voedselbankutrecht.nl","Ou peça a um assistente social ou ao seu Buurtteam que faça por você"]
     }
   },
   {
@@ -2499,35 +2499,35 @@
     "category": "comunidad",
     "type": "servicio",
     "wijk": "all",
-    "verificationStatus": "por-verificar",
+    "verificationStatus": "verificado",
     "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.vcutrecht.nl/",
+    "officialUrl": "https://www.nlvoorelkaar.nl/vrijwilligers/vrijwilligerswerk-utrecht",
     "profiles": ["iedereen", "senior"],
     "searchAliases": {
-      "all": ["vrijwilligerscentrale", "vcutrecht", "vcu", "voar", "vrijwilliger", "vrijwilligers", "buurthulp", "klusjes", "maatje"]
+      "all": ["nlvoorelkaar","hulpvraag","vrijwilliger","vrijwilligers","buurthulp","klusjes","maatje","boodschappen"]
     },
     "title": {
-      "nl": "Vrijwilligerscentrale Utrecht / VCU (Vrijwilligers & Buurthulp)",
-      "en": "Vrijwilligerscentrale Utrecht (Volunteering & Neighborhood help)",
-      "es": "Vrijwilligerscentrale Utrecht / VCU (Red de voluntariado y ayuda vecinal)",
-      "de": "Vrijwilligerscentrale Utrecht (Nachbarschaftshilfe)",
-      "tr": "Vrijwilligerscentrale Utrecht (Gönüllü ve Komşu Yardımlaşma Ağı)",
-      "fr": "Vrijwilligerscentrale Utrecht (Entraide et bénévolat)",
-      "it": "Vrijwilligerscentrale Utrecht (Volontariato e aiuto tra vicini)",
-      "pt": "Vrijwilligerscentrale Utrecht (Voluntariado e ajuda de vizinhança)",
-      "pt-BR": "Vrijwilligerscentrale Utrecht (Rede de voluntariado e ajuda comunitária)"
+      "nl": "NLvoorelkaar (Hulpvraag plaatsen of vrijwilliger worden)",
+      "en": "NLvoorelkaar (Post a help request or volunteer)",
+      "es": "NLvoorelkaar (Pide ayuda o hazte voluntario)",
+      "de": "NLvoorelkaar (Hilfe suchen oder ehrenamtlich helfen)",
+      "tr": "NLvoorelkaar (Yardım talebi bırakın veya gönüllü olun)",
+      "fr": "NLvoorelkaar (Demander de l'aide ou devenir bénévole)",
+      "it": "NLvoorelkaar (Chiedi aiuto o diventa volontario)",
+      "pt": "NLvoorelkaar (Peça ajuda ou seja voluntário)",
+      "pt-BR": "NLvoorelkaar (Peça ajuda ou seja voluntário)"
     },
     "shortDescription": {
-      "nl": "Hulp vragen voor praktische klusjes, boodschappen, tuinieren of maatjescontact via het centrale gemeentelijke netwerk.",
-      "en": "Request help with practical chores, grocery runs, gardening, or language buddy contacts via city platform.",
-      "es": "Pide ayuda para pequeñas tareas del hogar, compras, jardinería o acompañamiento mediante la plataforma oficial.",
-      "de": "Hilfe für kleine Aufgaben im Haushalt oder Nachbarschaftskontakte finden.",
-      "tr": "Ev işleri, alışveriş ve bahçe işleri için komşu yardımı talep edin.",
-      "fr": "Demandez de l'aide pour de petits travaux, courses ou jardinage.",
-      "it": "Richiedi aiuto per piccole riparazioni, spesa o giardinaggio.",
-      "pt": "Peça ajuda para tarefas domésticas, compras ou jardinagem.",
-      "pt-BR": "Peça ajuda para pequenos reparos na casa, compras ou jardinagem."
+      "nl": "Plaats een hulpvraag voor klusjes, boodschappen, tuinieren of gezelschap, of bied jezelf aan als vrijwilliger. Het platform heeft honderden vragen en klussen in Utrecht.",
+      "en": "Post a help request for chores, shopping, gardening or company, or offer yourself as a volunteer. The platform lists hundreds of requests and tasks in Utrecht.",
+      "es": "Publica una petición de ayuda para tareas, compras, jardinería o compañía, u ofrécete como voluntario. La plataforma tiene cientos de peticiones en Utrecht.",
+      "de": "Stellen Sie eine Hilfeanfrage für Arbeiten, Einkäufe, Garten oder Gesellschaft ein, oder melden Sie sich als Freiwilliger. Hunderte Anfragen in Utrecht.",
+      "tr": "Ev işleri, alışveriş, bahçe veya arkadaşlık için yardım talebi bırakın ya da gönüllü olun. Platformda Utrecht'te yüzlerce talep ve iş var.",
+      "fr": "Publiez une demande d'aide pour des petits travaux, courses, jardinage ou compagnie, ou proposez-vous comme bénévole. Des centaines de demandes à Utrecht.",
+      "it": "Pubblica una richiesta di aiuto per lavoretti, spesa, giardinaggio o compagnia, oppure offriti come volontario. Centinaia di richieste a Utrecht.",
+      "pt": "Publique um pedido de ajuda para tarefas, compras, jardinagem ou companhia, ou ofereça-se como voluntário. Há centenas de pedidos em Utrecht.",
+      "pt-BR": "Publique um pedido de ajuda para tarefas, compras, jardinagem ou companhia, ou se ofereça como voluntário. Há centenas de pedidos em Utrecht."
     },
     "eligibility": {
       "nl": ["Alle inwoners van Utrecht die een vraag of hulp aanbieden"],
@@ -2541,15 +2541,15 @@
       "pt-BR": ["Todos os moradores"]
     },
     "howToApply": {
-      "nl": ["Plaats gratis je hulpvraag op vcutrecht.nl"],
-      "en": ["Post your help request for free on vcutrecht.nl"],
-      "es": ["Publica gratis tu petición de ayuda en vcutrecht.nl"],
-      "de": ["Anfrage auf vcutrecht.nl schalten"],
-      "tr": ["vcutrecht.nl adresine ilan verin"],
-      "fr": ["Publier votre demande sur le site"],
-      "it": ["Pubblica la richiesta su vcutrecht.nl"],
-      "pt": ["Publique o seu pedido em vcutrecht.nl"],
-      "pt-BR": ["Publique seu pedido de graça no vcutrecht.nl"]
+      "nl": ["Plaats je hulpvraag op nlvoorelkaar.nl","Of zoek in de vacatures als je zelf wilt helpen"],
+      "en": ["Post your help request on nlvoorelkaar.nl","Or browse the listings if you want to help out yourself"],
+      "es": ["Publica tu petición de ayuda en nlvoorelkaar.nl","O busca entre las ofertas si quieres ayudar tú"],
+      "de": ["Hilfeanfrage auf nlvoorelkaar.nl einstellen","Oder in den Angeboten suchen, wenn Sie selbst helfen möchten"],
+      "tr": ["Yardım talebinizi nlvoorelkaar.nl adresine bırakın","Ya da kendiniz yardım etmek isterseniz ilanlara bakın"],
+      "fr": ["Publier votre demande d'aide sur nlvoorelkaar.nl","Ou parcourir les annonces si vous souhaitez aider"],
+      "it": ["Pubblica la tua richiesta su nlvoorelkaar.nl","Oppure consulta gli annunci se vuoi dare una mano"],
+      "pt": ["Publique o seu pedido em nlvoorelkaar.nl","Ou procure nos anúncios se quiser ajudar"],
+      "pt-BR": ["Publique seu pedido no nlvoorelkaar.nl","Ou veja os anúncios se você quiser ajudar"]
     }
   },
   {
@@ -2557,7 +2557,7 @@
     "category": "comunidad",
     "type": "gratis",
     "wijk": "all",
-    "verificationStatus": "por-verificar",
+    "verificationStatus": "verificado",
     "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://www.utrecht.nl/zorg-en-onderwijs/activiteiten-welzijn-in-de-wijk/buurtcentrum/activiteiten",
@@ -2615,7 +2615,7 @@
     "category": "comunidad",
     "type": "gratis",
     "wijk": "all",
-    "verificationStatus": "por-verificar",
+    "verificationStatus": "verificado",
     "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://www.utrecht.nl/zorg-en-onderwijs/activiteiten-welzijn-in-de-wijk/hulp-bij-taal-en-computer",
@@ -2673,7 +2673,7 @@
     "category": "vida",
     "type": "gratis",
     "wijk": "all",
-    "verificationStatus": "por-verificar",
+    "verificationStatus": "verificado",
     "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://www.utrecht.nl/wonen-en-leven/gezonde-leefomgeving/water/kraanwatertappunten",
@@ -2693,15 +2693,15 @@
       "pt-BR": "Bebedouros e fontes públicas de água potável grátis"
     },
     "shortDescription": {
-      "nl": "Vul gratis je flesje bij tientallen openbare drinkwaterflesjes-tappunten verspreid over de hele stad Utrecht.",
-      "en": "Refill your water bottle for free at dozens of public municipal drinking water taps across Utrecht.",
-      "es": "Rellena gratis tu botella de agua en decenas de fuentes de agua potable repartidas por toda la ciudad.",
-      "de": "Kostenlos Trinkwasserflaschen an vielen Stellen in der Stadt auffüllen.",
-      "tr": "Şehir genelindeki onlarca noktada su şişenizi ücretsiz doldurun.",
-      "fr": "Remplissez gratuitement votre gourde aux nombreuses fontaines de la ville.",
-      "it": "Riempi gratis la tua borraccia in decine di fontanelle pubbliche.",
-      "pt": "Encha a sua garrafa de água gratuitamente em dezenas de pontos da cidade.",
-      "pt-BR": "Encha sua garrafa de água de graça em dezenas de bebedouros pela cidade."
+      "nl": "Vul je flesje bij een van de tientallen kraanwatertappunten in alle wijken van Utrecht. De gemeente breidt het net elk jaar verder uit.",
+      "en": "Refill your bottle at one of the dozens of tap water points across every district of Utrecht. The municipality adds more every year.",
+      "es": "Rellena tu botella en una de las decenas de fuentes de agua potable repartidas por todos los barrios de Utrecht. Cada año se amplían.",
+      "de": "Füllen Sie Ihre Flasche an einer der vielen Trinkwasserstellen in allen Stadtteilen von Utrecht. Jedes Jahr kommen neue dazu.",
+      "tr": "Utrecht'in tüm mahallelerindeki onlarca çeşme noktasından birinde şişenizi doldurun. Belediye her yıl ağı genişletiyor.",
+      "fr": "Remplissez votre gourde à l'un des dizaines de points d'eau potable présents dans tous les quartiers d'Utrecht. Le réseau s'étend chaque année.",
+      "it": "Riempi la borraccia in una delle decine di fontanelle presenti in tutti i quartieri di Utrecht. La rete si amplia ogni anno.",
+      "pt": "Encha a garrafa num dos dezenas de pontos de água potável espalhados por todos os bairros de Utrecht. A rede cresce todos os anos.",
+      "pt-BR": "Encha sua garrafa em um dos dezenas de pontos de água potável espalhados por todos os bairros de Utrecht. A rede cresce todo ano."
     },
     "eligibility": {
       "nl": ["Gratis en toegankelijk voor iedereen 24/7"],
@@ -2715,15 +2715,15 @@
       "pt-BR": ["Gratuito e aberto a todos 24 horas por dia"]
     },
     "howToApply": {
-      "nl": ["Bekijk de kaart op utrecht.nl/drinkwaterpunten en neem je bidon mee"],
-      "en": ["Find the tap map on utrecht.nl/drinkwaterpunten"],
-      "es": ["Consulta el mapa de fuentes en utrecht.nl/drinkwaterpunten"],
-      "de": ["Karte auf utrecht.nl ansehen"],
-      "tr": ["Haritayı utrecht.nl üzerinden görün"],
-      "fr": ["Consulter la carte sur le site de la ville"],
-      "it": ["Vedi la mappa sul sito del comune"],
-      "pt": ["Consulte o mapa no site do município"],
-      "pt-BR": ["Confira o mapa no site da prefeitura"]
+      "nl": ["Bekijk de kaart met tappunten op kaart.utrecht.nl","Neem je eigen bidon of flesje mee"],
+      "en": ["Check the map of tap points at kaart.utrecht.nl","Bring your own bottle"],
+      "es": ["Consulta el mapa de fuentes en kaart.utrecht.nl","Lleva tu propia botella"],
+      "de": ["Karte mit Trinkwasserstellen auf kaart.utrecht.nl ansehen","Eigene Flasche mitbringen"],
+      "tr": ["Çeşme noktaları haritasını kaart.utrecht.nl adresinde görün","Kendi şişenizi getirin"],
+      "fr": ["Consulter la carte des points d'eau sur kaart.utrecht.nl","Apporter votre propre gourde"],
+      "it": ["Guarda la mappa delle fontanelle su kaart.utrecht.nl","Porta la tua borraccia"],
+      "pt": ["Veja o mapa dos pontos em kaart.utrecht.nl","Leve a sua garrafa"],
+      "pt-BR": ["Veja o mapa dos pontos em kaart.utrecht.nl","Leve sua própria garrafa"]
     }
   },
   {
@@ -2731,35 +2731,35 @@
     "category": "vida",
     "type": "gratis",
     "wijk": "all",
-    "verificationStatus": "por-verificar",
+    "verificationStatus": "verificado",
     "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.bibliotheekutrecht.nl/",
+    "officialUrl": "https://www.bibliotheekutrecht.nl/nieuws/publicroam-291021.html",
     "profiles": ["iedereen", "student"],
     "searchAliases": {
-      "all": ["wifi", "wi-fi", "internet", "hotspot", "public-wifi-utrecht"]
+      "all": ["wifi","wi-fi","internet","publicroam","bibliotheek","stadskantoor"]
     },
     "title": {
-      "nl": "Gratis Wifi Hotspots in de stad",
-      "en": "Free Public Wi-Fi Hotspots",
-      "es": "Wifi gratis (Bibliotecas, Juridisch Loket, hotspots municipales)",
-      "de": "Kostenlose WLAN-Hotspots in der Stadt",
-      "tr": "Ücretsiz Şehir Wi-Fi Noktaları",
-      "fr": "Wi-Fi public gratuit",
-      "it": "Hotspot Wi-Fi gratuiti in città",
-      "pt": "Hotspots de Wi-Fi gratuito",
-      "pt-BR": "Pontos de Wi-Fi grátis pela cidade"
+      "nl": "Gratis wifi in bibliotheken en gemeentegebouwen",
+      "en": "Free Wi-Fi in libraries and municipal buildings",
+      "es": "Wifi gratis en bibliotecas y edificios municipales",
+      "de": "Kostenloses WLAN in Bibliotheken und Gemeindegebäuden",
+      "tr": "Kütüphaneler ve belediye binalarında ücretsiz Wi-Fi",
+      "fr": "Wi-Fi gratuit dans les bibliothèques et bâtiments municipaux",
+      "it": "Wi-Fi gratuito in biblioteche ed edifici comunali",
+      "pt": "Wi-Fi grátis em bibliotecas e edifícios municipais",
+      "pt-BR": "Wi-Fi grátis em bibliotecas e prédios públicos"
     },
     "shortDescription": {
-      "nl": "Gratis internettoegang in alle openbare bibliotheken, stadskantoren, buurthuizen en geselecteerde plein-hotspots.",
-      "en": "Free Wi-Fi access inside all public libraries, city offices, neighborhood hubs, and city squares.",
-      "es": "Acceso gratuito a internet en todas las bibliotecas, oficinas municipales, buurthuizen y plazas céntricas.",
-      "de": "Kostenloser Internetzugang in Bibliotheken und Stadtteilhäusern.",
-      "tr": "Kütüphaneler, belediye binaları ve meydanlarda ücretsiz Wi-Fi.",
-      "fr": "Connexion Internet gratuite dans les bibliothèques et espaces publics.",
-      "it": "Accesso Wi-Fi gratuito in biblioteche e uffici comunali.",
-      "pt": "Acesso gratuito à internet em bibliotecas e edifícios públicos.",
-      "pt-BR": "Conexão Wi-Fi gratuita em bibliotecas, prédios públicos e praças."
+      "nl": "Gratis wifi in de bibliotheekvestigingen via publicroam, en in het stadskantoor, stadhuis en de wijkbureaus. Het oude netwerk in de binnenstad bestaat niet meer.",
+      "en": "Free Wi-Fi in library branches via publicroam, and in the city office, town hall and district offices. The old city-centre network no longer exists.",
+      "es": "Wifi gratis en las bibliotecas mediante publicroam, y en el stadskantoor, el ayuntamiento y las oficinas de barrio. La antigua red del centro ya no existe.",
+      "de": "Kostenloses WLAN in den Bibliotheken über publicroam sowie im Stadtbüro, Rathaus und in den Stadtteilbüros. Das alte Innenstadtnetz gibt es nicht mehr.",
+      "tr": "Kütüphane şubelerinde publicroam ile, ayrıca belediye binası, şehir salonu ve mahalle bürolarında ücretsiz Wi-Fi. Eski şehir merkezi ağı artık yok.",
+      "fr": "Wi-Fi gratuit dans les bibliothèques via publicroam, ainsi qu'à l'hôtel de ville et dans les bureaux de quartier. L'ancien réseau du centre n'existe plus.",
+      "it": "Wi-Fi gratuito nelle biblioteche tramite publicroam e negli uffici comunali e di quartiere. La vecchia rete del centro non esiste più.",
+      "pt": "Wi-Fi grátis nas bibliotecas através do publicroam e nos edifícios municipais e juntas de bairro. A antiga rede do centro já não existe.",
+      "pt-BR": "Wi-Fi grátis nas bibliotecas pelo publicroam e nos prédios da prefeitura e subprefeituras. A antiga rede do centro não existe mais."
     },
     "eligibility": {
       "nl": ["Voor alle bezoekers en inwoners van Utrecht"],
@@ -2773,15 +2773,15 @@
       "pt-BR": ["Para todos os moradores e visitantes"]
     },
     "howToApply": {
-      "nl": ["Selecteer het netwerk 'Public-Wifi-Utrecht' en accepteer de voorwaarden"],
-      "en": ["Connect to 'Public-Wifi-Utrecht' and accept terms"],
-      "es": ["Conéctate a la red 'Public-Wifi-Utrecht' y acepta las condiciones"],
-      "de": ["Mit 'Public-Wifi-Utrecht' verbinden"],
-      "tr": ["'Public-Wifi-Utrecht' ağına bağlanın"],
-      "fr": ["Se connecter au réseau public et valider"],
-      "it": ["Connettiti alla rete pubblica e accetta i termini"],
-      "pt": ["Ligue-se à rede 'Public-Wifi-Utrecht'"],
-      "pt-BR": ["Conecte-se à rede 'Public-Wifi-Utrecht' e aceite os termos"]
+      "nl": ["Registreer je eenmalig voor publicroam in de bibliotheek","Daarna verbind je automatisch bij elk bezoek"],
+      "en": ["Register once for publicroam at the library","After that you connect automatically on every visit"],
+      "es": ["Regístrate una vez en publicroam en la biblioteca","Después te conectas automáticamente en cada visita"],
+      "de": ["Einmalig für publicroam in der Bibliothek registrieren","Danach verbinden Sie sich bei jedem Besuch automatisch"],
+      "tr": ["Kütüphanede publicroam için bir kez kaydolun","Sonrasında her ziyarette otomatik bağlanırsınız"],
+      "fr": ["S'enregistrer une fois pour publicroam à la bibliothèque","Ensuite la connexion est automatique à chaque visite"],
+      "it": ["Registrati una volta a publicroam in biblioteca","Poi ti colleghi automaticamente a ogni visita"],
+      "pt": ["Registe-se uma vez no publicroam na biblioteca","Depois liga-se automaticamente em cada visita"],
+      "pt-BR": ["Cadastre-se uma vez no publicroam na biblioteca","Depois você conecta automaticamente em cada visita"]
     }
   },
   {
@@ -2789,7 +2789,7 @@
     "category": "vida",
     "type": "gratis",
     "wijk": "all",
-    "verificationStatus": "por-verificar",
+    "verificationStatus": "verificado",
     "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://www.utrecht.nl/wonen-en-leven/vrije-tijd/koningsdag-en-vrijmarkt/de-vrijmarkt",
@@ -2820,26 +2820,26 @@
       "pt-BR": "Venda objetos usados na calçada do centro sem precisar de licença no Dia do Rei."
     },
     "eligibility": {
-      "nl": ["Iedere particulier (geen commerciële handelaren)"],
-      "en": ["Every private individual (no commercial vendors)"],
-      "es": ["Cualquier particular (se prohíbe el comercio profesional)"],
-      "de": ["Jede Privatperson"],
-      "tr": ["Ticari olmayan tüm bireysel sakinler"],
-      "fr": ["Particuliers uniquement"],
-      "it": ["Tutti i privati cittadini"],
-      "pt": ["Qualquer particular"],
-      "pt-BR": ["Qualquer pessoa física (sem fins comerciais corporativos)"]
+      "nl": ["Iedere particulier: geen vergunning nodig en je hoeft je niet aan te melden","Alleen tweedehands spullen; commerciële verkoop is niet toegestaan"],
+      "en": ["Any private individual: no permit needed and no registration","Second-hand goods only; commercial selling is not allowed"],
+      "es": ["Cualquier particular: sin licencia y sin inscripción previa","Solo objetos de segunda mano; la venta comercial no está permitida"],
+      "de": ["Jede Privatperson: keine Genehmigung und keine Anmeldung nötig","Nur Gebrauchtes; gewerblicher Verkauf ist nicht erlaubt"],
+      "tr": ["Her birey: izin gerekmez, kayıt da yaptırmazsınız","Yalnızca ikinci el eşya; ticari satış yasaktır"],
+      "fr": ["Tout particulier : aucun permis ni inscription nécessaires","Objets d'occasion uniquement ; la vente commerciale est interdite"],
+      "it": ["Qualsiasi privato: nessun permesso né iscrizione","Solo oggetti usati; la vendita commerciale non è consentita"],
+      "pt": ["Qualquer particular: sem licença e sem inscrição","Apenas artigos em segunda mão; a venda comercial não é permitida"],
+      "pt-BR": ["Qualquer pessoa física: sem licença e sem inscrição","Apenas itens usados; a venda comercial não é permitida"]
     },
     "howToApply": {
-      "nl": ["Zoek tijdig een plekje op de aangewezen vrijmarktlocaties"],
-      "en": ["Find a spot early in the designated street zones"],
-      "es": ["Reserva espacio temprano en las calles autorizadas de la vrijmarkt"],
-      "de": ["Rechtzeitig einen Platz auf der Decke sichern"],
-      "tr": ["Belirlenen serbest pazar alanlarında erken yer tutun"],
-      "fr": ["Trouvez un emplacement dans les zones autorisées"],
-      "it": ["Trova un posto in anticipo nelle zone consentite"],
-      "pt": ["Encontre um lugar cedo nas zonas permitidas"],
-      "pt-BR": ["Chegue cedo para garantir um espaço no tapete nas ruas permitidas"]
+      "nl": ["Zoek zelf een plekje in het vrijmarktgebied; let op borden met 'hier geen vrijmarkt'","Van 18.00 uur op Koningsnacht tot 18.00 uur op Koningsdag; neem onverkochte spullen weer mee"],
+      "en": ["Pick your own spot in the vrijmarkt area; watch for signs saying no vrijmarkt here","From 18:00 on King's Night to 18:00 on King's Day; take unsold items home"],
+      "es": ["Elige tú el sitio dentro de la zona del vrijmarkt; atento a los carteles que lo prohíben","De las 18:00 de la Noche del Rey a las 18:00 del Día del Rey; llévate lo que no vendas"],
+      "de": ["Suchen Sie sich selbst einen Platz im Vrijmarkt-Gebiet; achten Sie auf Verbotsschilder","Von 18:00 Uhr an Koningsnacht bis 18:00 Uhr an Koningsdag; Unverkauftes wieder mitnehmen"],
+      "tr": ["Vrijmarkt bölgesinde kendinize yer seçin; 'burada vrijmarkt yok' tabelalarına dikkat edin","Kral Gecesi 18.00'den Kral Günü 18.00'e kadar; satılmayanları geri götürün"],
+      "fr": ["Choisissez votre place dans la zone du vrijmarkt ; attention aux panneaux d'interdiction","De 18h00 la veille à 18h00 le jour du Roi ; remportez les invendus"],
+      "it": ["Scegli tu il posto nell'area del vrijmarkt; attenzione ai cartelli di divieto","Dalle 18:00 della vigilia alle 18:00 del Giorno del Re; riporta a casa l'invenduto"],
+      "pt": ["Escolha o seu lugar na zona do vrijmarkt; atenção aos sinais de proibição","Das 18:00 da véspera às 18:00 do Dia do Rei; leve de volta o que não vender"],
+      "pt-BR": ["Escolha seu lugar na área do vrijmarkt; fique atento às placas de proibição","Das 18h da véspera às 18h do Dia do Rei; leve de volta o que não vender"]
     }
   }
 ]
