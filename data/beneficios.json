@@ -645,7 +645,7 @@
     "verificationStatus": "por-verificar",
     "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.utrecht.nl/wonen-en-leven/parken-en-groen/",
+    "officialUrl": "https://www.atvutrechtzuid.nl/events/stekjes-ruilbeurs/",
     "profiles": ["iedereen"],
     "searchAliases": {
       "all": ["plantenruil", "stekjes", "stekjesmarkt", "zaden", "ruilen", "groenmarkt"]
@@ -684,15 +684,15 @@
       "pt-BR": ["Aberto a todos os moradores"]
     },
     "howToApply": {
-      "nl": ["Neem eigen stekjes of zaden mee", "Bezoek een wijkmarkt in de buurt"],
-      "en": ["Bring your own cuttings or seeds", "Visit a neighborhood market"],
-      "es": ["Lleva tus propios esquejes o semillas", "Visita el mercado de tu barrio"],
-      "de": ["Eigene Stecklinge mitbringen", "Markt besuchen"],
-      "tr": ["Kendi çelik veya tohumlarınızı getirin", "Mahalle pazarını ziyaret edin"],
-      "fr": ["Apportez vos boutures", "Rendez-vous au marché"],
-      "it": ["Porta le tue talee", "Visita il mercato"],
-      "pt": ["Traga as suas estacas", "Visite a feira do bairro"],
-      "pt-BR": ["Leve suas mudas ou sementes", "Visite a feira do bairro"]
+      "nl": ["Neem eigen stekjes of zaden mee","Zoek een ruilbeurs bij een volkstuinvereniging of buurttuin, of ruil via plantenruil.eu"],
+      "en": ["Bring your own cuttings or seeds","Find a swap at an allotment association or community garden, or trade via plantenruil.eu"],
+      "es": ["Lleva tus propios esquejes o semillas","Busca un intercambio en una asociación de huertos o jardín vecinal, o usa plantenruil.eu"],
+      "de": ["Eigene Stecklinge oder Samen mitbringen","Tauschbörse bei einem Kleingartenverein oder Nachbarschaftsgarten suchen, oder plantenruil.eu nutzen"],
+      "tr": ["Kendi çelik veya tohumlarınızı getirin","Bostan derneği ya da mahalle bahçesindeki takas etkinliğini bulun veya plantenruil.eu'yu kullanın"],
+      "fr": ["Apportez vos boutures ou graines","Cherchez un troc dans une association de jardins familiaux ou un jardin de quartier, ou utilisez plantenruil.eu"],
+      "it": ["Porta le tue talee o i tuoi semi","Cerca uno scambio in un'associazione di orti o un giardino di quartiere, oppure usa plantenruil.eu"],
+      "pt": ["Traga as suas estacas ou sementes","Procure uma troca numa associação de hortas ou jardim de bairro, ou use plantenruil.eu"],
+      "pt-BR": ["Leve suas mudas ou sementes","Procure uma troca em uma associação de hortas ou horta comunitária, ou use plantenruil.eu"]
     }
   },
   {
@@ -1185,37 +1185,37 @@
       "pt-BR": "Escolinha/Pré-escola grátis (com U-pas ou em Overvecht)"
     },
     "shortDescription": {
-      "nl": "Peuteropvang (2,5 tot 4 jaar) is tot 16 uur per week helemaal gratis voor gezinnen met een U-pas of woonachtig in wijken zoals Overvecht.",
-      "en": "Toddler care (2.5 to 4 years) up to 16 hours per week completely free for U-pas holders or residents in Overvecht.",
-      "es": "Educación infantil (2,5 a 4 años) hasta 16 horas/semana gratis para familias con U-pas o residentes en barrios prioritarios como Overvecht.",
-      "de": "Vorschulbetreuung (2,5 bis 4 Jahre) bis zu 16h/Woche kostenlos mit U-Pas oder in Overvecht.",
-      "tr": "2.5 - 4 yaş arası çocuklar için haftada 16 saate kadar ücretsiz okul öncesi eğitimi.",
-      "fr": "Accueil des 2,5-4 ans gratuit jusqu'à 16h/semaine avec U-pas ou à Overvecht.",
-      "it": "Scuola per l'infanzia (2.5-4 anni) gratis fino a 16 ore/settimana con U-pas o a Overvecht.",
-      "pt": "Creche (2,5 a 4 anos) gratuita até 16h/semana com U-pas ou em Overvecht.",
-      "pt-BR": "Escolinha pré-escolar (2,5 a 4 anos) grátis até 16h por semana com U-pas ou em Overvecht."
+      "nl": "Peuteropvang (2,5 tot 4 jaar) is gratis met een U-pas of als je kind in Overvecht naar de voorschool gaat. Zonder U-pas betaal je een deel naar inkomen.",
+      "en": "Toddler care (2.5 to 4 years) is free with a U-pas or if your child attends a voorschool in Overvecht. Without a U-pas you pay a share based on income.",
+      "es": "La educación infantil (2,5 a 4 años) es gratis con U-pas o si tu hijo va a la voorschool en Overvecht. Sin U-pas pagas una parte según tus ingresos.",
+      "de": "Vorschulbetreuung (2,5 bis 4 Jahre) ist mit U-Pas kostenlos oder wenn Ihr Kind in Overvecht die Vorschule besucht. Ohne U-Pas zahlen Sie einkommensabhängig.",
+      "tr": "2,5-4 yaş okul öncesi, U-pas ile veya çocuğunuz Overvecht'teki voorschool'a gidiyorsa ücretsizdir. U-pas yoksa gelire göre bir kısmını ödersiniz.",
+      "fr": "L'accueil des 2,5-4 ans est gratuit avec le U-pas ou si l'enfant fréquente une voorschool à Overvecht. Sans U-pas, vous payez une part selon vos revenus.",
+      "it": "La scuola dell'infanzia (2,5-4 anni) è gratuita con la U-pas o se il bambino frequenta la voorschool a Overvecht. Senza U-pas paghi una quota in base al reddito.",
+      "pt": "A pré-escola (2,5 a 4 anos) é gratuita com U-pas ou se a criança frequentar a voorschool em Overvecht. Sem U-pas paga uma parte conforme o rendimento.",
+      "pt-BR": "A pré-escola (2,5 a 4 anos) é grátis com U-pas ou se a criança frequentar a voorschool em Overvecht. Sem U-pas você paga uma parte conforme a renda."
     },
     "eligibility": {
-      "nl": ["Kind is 2,5 tot 4 jaar oud", "In het bezit van U-pas of woonachtig in Overvecht"],
-      "en": ["Child aged 2.5 to 4 years", "Holding U-pas or living in Overvecht"],
-      "es": ["Niño de 2,5 a 4 años", "Tener U-pas o residir en el barrio Overvecht"],
-      "de": ["Kind 2,5-4 Jahre", "U-Pas oder Wohnsitz Overvecht"],
-      "tr": ["Çocuk 2.5 - 4 yaş arası", "U-pas sahibi olmak veya Overvecht'te yaşamak"],
-      "fr": ["Enfant de 2,5 à 4 ans", "Titulaire U-pas ou résidant à Overvecht"],
-      "it": ["Bambino da 2.5 a 4 anni", "Possesso U-pas o residenza a Overvecht"],
-      "pt": ["Criança com 2,5 a 4 anos", "Com U-pas ou residente em Overvecht"],
-      "pt-BR": ["Criança de 2,5 a 4 anos", "Ter U-pas ou morar em Overvecht"]
+      "nl": ["Kind is 2,5 tot 4 jaar oud","U-pas, voorschool in Overvecht, of status als vluchteling of ontheemde"],
+      "en": ["Child aged 2.5 to 4 years","U-pas, a voorschool in Overvecht, or refugee or displaced status"],
+      "es": ["Niño de 2,5 a 4 años","U-pas, voorschool en Overvecht, o condición de refugiado o desplazado"],
+      "de": ["Kind zwischen 2,5 und 4 Jahren","U-Pas, Vorschule in Overvecht oder Flüchtlings- bzw. Vertriebenenstatus"],
+      "tr": ["Çocuk 2,5 - 4 yaş arası","U-pas, Overvecht'te voorschool veya mülteci ya da yerinden edilmiş statüsü"],
+      "fr": ["Enfant de 2,5 à 4 ans","U-pas, voorschool à Overvecht, ou statut de réfugié ou de déplacé"],
+      "it": ["Bambino da 2,5 a 4 anni","U-pas, voorschool a Overvecht, o status di rifugiato o sfollato"],
+      "pt": ["Criança com 2,5 a 4 anos","U-pas, voorschool em Overvecht, ou estatuto de refugiado ou deslocado"],
+      "pt-BR": ["Criança de 2,5 a 4 anos","U-pas, voorschool em Overvecht, ou condição de refugiado ou deslocado"]
     },
     "howToApply": {
-      "nl": ["Meld je kind rechtstreeks aan bij een voorschool in de buurt"],
-      "en": ["Enroll directly at a local neighborhood voorschool"],
-      "es": ["Matricula a tu hijo directamente en la voorschool del barrio"],
-      "de": ["Direkt in der Vorschule in der Nähe anmelden"],
-      "tr": ["Çocuğunuzu doğrudan mahalledeki okul öncesine kaydettirin"],
-      "fr": ["Inscrire directement l'enfant auprès de la voorschool de quartier"],
-      "it": ["Iscrivi direttamente il bambino alla scuola di quartiere"],
-      "pt": ["Inscreva a criança diretamente na pré-escola local"],
-      "pt-BR": ["Matricule a criança direto na pré-escola do bairro"]
+      "nl": ["Neem contact op met de toeleiding via vetoeleiding@utrecht.nl of 14 030","Of meld je kind rechtstreeks aan bij Basker, gro-up of Kind&co ludens"],
+      "en": ["Contact the coordinators via vetoeleiding@utrecht.nl or 14 030","Or register directly with Basker, gro-up or Kind&co ludens"],
+      "es": ["Contacta con los coordinadores en vetoeleiding@utrecht.nl o el 14 030","O matricula a tu hijo directamente en Basker, gro-up o Kind&co ludens"],
+      "de": ["Kontakt zur Zuweisung über vetoeleiding@utrecht.nl oder 14 030","Oder direkt bei Basker, gro-up oder Kind&co ludens anmelden"],
+      "tr": ["vetoeleiding@utrecht.nl veya 14 030 üzerinden yönlendirme birimiyle görüşün","Ya da doğrudan Basker, gro-up veya Kind&co ludens'e kaydolun"],
+      "fr": ["Contacter l'orientation via vetoeleiding@utrecht.nl ou le 14 030","Ou inscrire l'enfant directement chez Basker, gro-up ou Kind&co ludens"],
+      "it": ["Contatta il servizio di orientamento a vetoeleiding@utrecht.nl o 14 030","Oppure iscrivi il bambino direttamente a Basker, gro-up o Kind&co ludens"],
+      "pt": ["Contacte a orientação em vetoeleiding@utrecht.nl ou 14 030","Ou inscreva a criança diretamente na Basker, gro-up ou Kind&co ludens"],
+      "pt-BR": ["Fale com a orientação pelo vetoeleiding@utrecht.nl ou 14 030","Ou matricule a criança direto na Basker, gro-up ou Kind&co ludens"]
     }
   },
   {
@@ -1243,26 +1243,26 @@
       "pt-BR": "Bereken je recht (Calculadora oficial de benefícios)"
     },
     "shortDescription": {
-      "nl": "Officiële online tool van de gemeente Utrecht om binnen 10 minuten te zien voor welke vergoedingen en toeslagen je precies in aanmerking komt.",
-      "en": "Official online tool by Utrecht municipality to calculate all social benefits and allowances you are eligible for within 10 minutes.",
-      "es": "Herramienta oficial online del ayuntamiento para calcular en 10 minutos a qué prestaciones y ayudas tienes derecho.",
-      "de": "Offizielles Rechentool der Gemeinde Utrecht zur Ermittlung aller Ansprüche.",
-      "tr": "Hangi hak ve yardımlardan yararlanabileceğinizi 10 dakikada gösteren resmi araç.",
-      "fr": "Outil officiel pour calculer tous vos droits aux prestations municipales.",
-      "it": "Strumento ufficiale per scoprire in 10 minuti tutti i sussidi a cui hai diritto.",
-      "pt": "Ferramenta oficial para calcular todos os seus direitos a subsídios em 10 minutos.",
-      "pt-BR": "Calculadora oficial da prefeitura para descobrir todos os seus direitos em 10 minutos."
+      "nl": "Anonieme rekentool van Nibud en Stimulansz waarmee je in ongeveer 10 minuten ziet op welke toeslagen en gemeentelijke regelingen je recht hebt.",
+      "en": "Anonymous calculator by Nibud and Stimulansz showing in about 10 minutes which allowances and municipal schemes you are entitled to.",
+      "es": "Calculadora anónima de Nibud y Stimulansz que muestra en unos 10 minutos a qué prestaciones y ayudas municipales tienes derecho.",
+      "de": "Anonymes Rechentool von Nibud und Stimulansz: in etwa 10 Minuten sehen Sie, welche Zuschüsse und kommunalen Leistungen Ihnen zustehen.",
+      "tr": "Nibud ve Stimulansz'ın anonim hesaplama aracı: yaklaşık 10 dakikada hangi ödenek ve belediye desteklerine hakkınız olduğunu gösterir.",
+      "fr": "Outil de calcul anonyme de Nibud et Stimulansz : en 10 minutes environ, voyez à quelles aides et dispositifs communaux vous avez droit.",
+      "it": "Calcolatore anonimo di Nibud e Stimulansz: in circa 10 minuti scopri a quali sussidi e agevolazioni comunali hai diritto.",
+      "pt": "Calculadora anónima do Nibud e da Stimulansz que mostra em cerca de 10 minutos a que apoios e regimes municipais tem direito.",
+      "pt-BR": "Calculadora anônima do Nibud e da Stimulansz que mostra em cerca de 10 minutos a quais auxílios e programas municipais você tem direito."
     },
     "eligibility": {
-      "nl": ["Beschikbaar voor alle inwoners van Utrecht"],
-      "en": ["Available for all Utrecht residents"],
-      "es": ["Disponible para todos los residentes de Utrecht"],
-      "de": ["Für alle Einwohner zugänglich"],
-      "tr": ["Tüm Utrecht sakinleri için geçerli"],
-      "fr": ["Disponible pour tous les habitants"],
-      "it": ["Disponibile per tutti i residenti"],
-      "pt": ["Disponível para todos os moradores"],
-      "pt-BR": ["Disponível para todos os moradores"]
+      "nl": ["Beschikbaar voor alle inwoners van Utrecht","Je blijft anoniem: er wordt niet naar naam of adres gevraagd"],
+      "en": ["Available to all Utrecht residents","You stay anonymous: no name or address is asked"],
+      "es": ["Disponible para todos los residentes de Utrecht","Es anónimo: no piden nombre ni dirección"],
+      "de": ["Für alle Einwohner von Utrecht zugänglich","Sie bleiben anonym: Name und Adresse werden nicht abgefragt"],
+      "tr": ["Tüm Utrecht sakinleri için geçerli","Anonim kalırsınız: ad veya adres sorulmaz"],
+      "fr": ["Disponible pour tous les habitants d'Utrecht","Vous restez anonyme : ni nom ni adresse ne sont demandés"],
+      "it": ["Disponibile per tutti i residenti di Utrecht","Resti anonimo: non vengono chiesti nome o indirizzo"],
+      "pt": ["Disponível para todos os moradores de Utrecht","Mantém-se anónimo: não pedem nome nem morada"],
+      "pt-BR": ["Disponível para todos os moradores de Utrecht","Você fica anônimo: não pedem nome nem endereço"]
     },
     "howToApply": {
       "nl": ["Vul de vragenlijst anoniem in op berekenjerecht.nl/utrecht"],
@@ -1323,15 +1323,15 @@
       "pt-BR": ["Qualquer morador com preocupações financeiras"]
     },
     "howToApply": {
-      "nl": ["Loop binnen bij het Buurtteam in jouw wijk of bel gratis 030 - 286 00 00"],
-      "en": ["Walk into your neighborhood Buurtteam office or call 030 - 286 00 00"],
-      "es": ["Acude al centro Buurtteam de tu wijk o llama gratis al 030 - 286 00 00"],
-      "de": ["Beim Buurtteam im Stadtteil vorbeigehen oder anrufen"],
-      "tr": ["Mahallenizdeki Buurtteam merkezine gidin veya 030 - 286 00 00'ı arayın"],
-      "fr": ["Rendez-vous au Buurtteam de quartier ou appelez"],
-      "it": ["Passa al Buurtteam del tuo quartiere o chiama"],
-      "pt": ["Visite o Buurtteam do seu bairro ou ligue"],
-      "pt-BR": ["Vá até o Buurtteam do seu bairro ou ligue para 030 - 286 00 00"]
+      "nl": ["Loop binnen bij het Buurtteam in jouw wijk tijdens de inlooptijden","Of bel de gemeente op 14 030 voor schulddienstverlening"],
+      "en": ["Walk into your neighbourhood Buurtteam during drop-in hours","Or call the municipality on 14 030 for debt services"],
+      "es": ["Acude al Buurtteam de tu barrio en su horario de puertas abiertas","O llama al ayuntamiento al 14 030 para el servicio de deudas"],
+      "de": ["Während der offenen Sprechzeiten beim Buurtteam im Stadtteil vorbeigehen","Oder die Gemeinde unter 14 030 für Schuldnerberatung anrufen"],
+      "tr": ["Mahallenizdeki Buurtteam'e açık görüşme saatlerinde uğrayın","Veya borç hizmetleri için belediyeyi 14 030'dan arayın"],
+      "fr": ["Passer au Buurtteam de votre quartier pendant les permanences","Ou appeler la commune au 14 030 pour le service de dettes"],
+      "it": ["Passa al Buurtteam del tuo quartiere negli orari di accesso libero","Oppure chiama il comune al 14 030 per il servizio debiti"],
+      "pt": ["Visite o Buurtteam do seu bairro nos horários de atendimento livre","Ou ligue para o município no 14 030 para o serviço de dívidas"],
+      "pt-BR": ["Vá ao Buurtteam do seu bairro nos horários de atendimento livre","Ou ligue para a prefeitura no 14 030 para o serviço de dívidas"]
     }
   },
   {
@@ -1339,7 +1339,7 @@
     "category": "dinero",
     "type": "servicio",
     "wijk": "all",
-    "verificationStatus": "verificado",
+    "verificationStatus": "por-verificar",
     "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://www.ondernemercentraal.nl/",
@@ -1348,37 +1348,37 @@
       "all": ["ondernemer centraal", "zzp", "zzp'er", "ondernemer", "zelfstandige", "coaching"]
     },
     "title": {
-      "nl": "Ondernemer Centraal (Gratis advies voor zzp'ers)",
-      "en": "Ondernemer Centraal (Free consulting for freelancers)",
-      "es": "Ondernemer Centraal (Consultoría gratuita para autónomos y zzp'ers)",
-      "de": "Ondernemer Centraal (Kostenlose Beratung für Selbstständige)",
-      "tr": "Ondernemer Centraal (Serbest çalışanlar için ücretsiz danışmanlık)",
-      "fr": "Ondernemer Centraal (Conseil gratuit aux indépendants)",
-      "it": "Ondernemer Centraal (Consulenza gratuita per autonomi)",
-      "pt": "Ondernemer Centraal (Consultoria gratuita para trabalhadores independentes)",
-      "pt-BR": "Ondernemer Centraal (Consultoria gratuita para autônomos e MEI/zzp)"
+      "nl": "Ondernemer Centraal (Toekomstgesprek voor ondernemers)",
+      "en": "Ondernemer Centraal (Advisory conversation for entrepreneurs)",
+      "es": "Ondernemer Centraal (Sesión de asesoramiento para autónomos)",
+      "de": "Ondernemer Centraal (Beratungsgespräch für Selbstständige)",
+      "tr": "Ondernemer Centraal (Girişimciler için danışma görüşmesi)",
+      "fr": "Ondernemer Centraal (Entretien-conseil pour indépendants)",
+      "it": "Ondernemer Centraal (Colloquio di orientamento per autonomi)",
+      "pt": "Ondernemer Centraal (Sessão de aconselhamento para independentes)",
+      "pt-BR": "Ondernemer Centraal (Conversa de orientação para autônomos)"
     },
     "shortDescription": {
-      "nl": "Gratis coaching, zakelijk advies, bijscholing en financiële begeleiding voor ondernemers en zzp'ers gevestigd in Utrecht.",
-      "en": "Free business coaching, retraining, and financial orientation for self-employed professionals (ZZP) in Utrecht.",
-      "es": "Asesoramiento empresarial, formación y orientación financiera totalmente gratis para autónomos y zzp'ers de Utrecht.",
-      "de": "Kostenloses Coaching und Finanzberatung für zzp'er in Utrecht.",
-      "tr": "Utrecht'teki serbest çalışanlar için ücretsiz iş koçluğu ve finansal danışmanlık.",
-      "fr": "Coaching d'entreprise et accompagnement financier gratuit pour indépendants.",
-      "it": "Coaching aziendale e orientamento finanziario gratuito per liberi professionisti.",
-      "pt": "Consultoria de negócios e orientação financeira gratuita para zzp'ers.",
-      "pt-BR": "Coaching de negócios e consultoria financeira gratuita para autônomos."
+      "nl": "Een 'Toekomstgesprek' met een ervaren adviseur over de uitdagingen van je bedrijf, met doorverwijzing naar partnerorganisaties. Kosten niet op de site vermeld.",
+      "en": "A 'Toekomstgesprek' with an experienced adviser about your business challenges, with referral to partner organisations. The site does not state the cost.",
+      "es": "Una 'Toekomstgesprek' con un asesor experto sobre los retos de tu negocio, con derivación a organizaciones asociadas. La web no indica el coste.",
+      "de": "Ein 'Toekomstgesprek' mit einem erfahrenen Berater über Ihre Herausforderungen, mit Weiterverweisung an Partnerorganisationen. Kosten stehen nicht auf der Seite.",
+      "tr": "Deneyimli bir danışmanla işletmenizin zorlukları üzerine 'Toekomstgesprek' ve partner kuruluşlara yönlendirme. Ücret bilgisi sitede yok.",
+      "fr": "Un 'Toekomstgesprek' avec un conseiller expérimenté sur les défis de votre entreprise, avec orientation vers des partenaires. Le coût n'est pas indiqué.",
+      "it": "Un 'Toekomstgesprek' con un consulente esperto sulle sfide della tua impresa, con rinvio a organizzazioni partner. Il costo non è indicato sul sito.",
+      "pt": "Uma 'Toekomstgesprek' com um consultor experiente sobre os desafios do seu negócio, com encaminhamento para parceiros. O site não indica o custo.",
+      "pt-BR": "Uma 'Toekomstgesprek' com um consultor experiente sobre os desafios do seu negócio, com encaminhamento para parceiros. O site não informa o custo."
     },
     "eligibility": {
-      "nl": ["Ondernemer of zzp'er ingeschreven in Utrecht"],
-      "en": ["Entrepreneur or freelancer registered in Utrecht"],
-      "es": ["Autónomo o zzp'er registrado en el municipio de Utrecht"],
-      "de": ["Selbstständiger mit Sitz in Utrecht"],
-      "tr": ["Utrecht'te kayıtlı serbest çalışan olmak"],
-      "fr": ["Indépendant enregistré à Utrecht"],
-      "it": ["Lavoratore autonomo registrato a Utrecht"],
-      "pt": ["Trabalhador independente registado em Utrecht"],
-      "pt-BR": ["Autônomo ou empreendedor registrado em Utrecht"]
+      "nl": ["Ondernemer of zzp'er in Utrecht, Houten, IJsselstein, Lopik, Nieuwegein of Stichtse Vecht"],
+      "en": ["Entrepreneur or freelancer in Utrecht, Houten, IJsselstein, Lopik, Nieuwegein or Stichtse Vecht"],
+      "es": ["Autónomo o empresario en Utrecht, Houten, IJsselstein, Lopik, Nieuwegein o Stichtse Vecht"],
+      "de": ["Unternehmer oder Selbstständiger in Utrecht, Houten, IJsselstein, Lopik, Nieuwegein oder Stichtse Vecht"],
+      "tr": ["Utrecht, Houten, IJsselstein, Lopik, Nieuwegein veya Stichtse Vecht'te girişimci ya da serbest çalışan"],
+      "fr": ["Entrepreneur ou indépendant à Utrecht, Houten, IJsselstein, Lopik, Nieuwegein ou Stichtse Vecht"],
+      "it": ["Imprenditore o autonomo a Utrecht, Houten, IJsselstein, Lopik, Nieuwegein o Stichtse Vecht"],
+      "pt": ["Empresário ou independente em Utrecht, Houten, IJsselstein, Lopik, Nieuwegein ou Stichtse Vecht"],
+      "pt-BR": ["Empreendedor ou autônomo em Utrecht, Houten, IJsselstein, Lopik, Nieuwegein ou Stichtse Vecht"]
     },
     "howToApply": {
       "nl": ["Meld je aan voor een gratis adviesgesprek op ondernemercentraal.nl"],
@@ -1428,32 +1428,32 @@
       "pt-BR": "Fornecimento de notebooks, bicicletas e material escolar para estudantes de baixa renda."
     },
     "eligibility": {
-      "nl": ["Kinderen van 4 tot 18 jaar", "Gezinsinkomen op of rond het sociaal minimum"],
-      "en": ["Children aged 4 to 18 years", "Household income at or near social minimum"],
-      "es": ["Hijos de 4 a 18 años", "Ingresos familiares al nivel del mínimo social"],
-      "de": ["Kinder 4-18 Jahre", "Mindesteinkommen der Familie"],
-      "tr": ["4-18 yaş arası çocuklar", "Asgari geçim seviyesindeki aileler"],
-      "fr": ["Enfants de 4 à 18 ans", "Revenus du foyer au minimum"],
-      "it": ["Bambini 4-18 anni", "Reddito al minimo sociale"],
-      "pt": ["Crianças dos 4 aos 18 anos", "Rendimento no mínimo social"],
-      "pt-BR": ["Crianças de 4 a 18 anos", "Renda familiar no limite do salário mínimo"]
+      "nl": ["Kinderen van 0 tot en met 17 jaar","Gezin met een krappe beurs in Utrecht"],
+      "en": ["Children aged 0 to 17","Family on a tight budget in Utrecht"],
+      "es": ["Niños de 0 a 17 años","Familia con pocos recursos en Utrecht"],
+      "de": ["Kinder von 0 bis 17 Jahren","Familie mit knappem Budget in Utrecht"],
+      "tr": ["0-17 yaş arası çocuklar","Utrecht'te bütçesi kısıtlı aile"],
+      "fr": ["Enfants de 0 à 17 ans","Famille aux moyens limités à Utrecht"],
+      "it": ["Bambini da 0 a 17 anni","Famiglia con poche risorse a Utrecht"],
+      "pt": ["Crianças dos 0 aos 17 anos","Família com poucos recursos em Utrecht"],
+      "pt-BR": ["Crianças de 0 a 17 anos","Família com poucos recursos em Utrecht"]
     },
     "howToApply": {
-      "nl": ["Dien een aanvraag in via leergeldutrecht.nl"],
-      "en": ["Submit request via leergeldutrecht.nl"],
-      "es": ["Presenta la solicitud en leergeldutrecht.nl"],
-      "de": ["Antrag auf leergeldutrecht.nl stellen"],
-      "tr": ["leergeldutrecht.nl sitesinden başvurun"],
-      "fr": ["Déposer la demande sur le site"],
-      "it": ["Invia la richiesta su leergeldutrecht.nl"],
-      "pt": ["Faça o pedido em leergeldutrecht.nl"],
-      "pt-BR": ["Faça a solicitação no leergeldutrecht.nl"]
+      "nl": ["Dien een aanvraag in via leergeldutrecht.nl","Of bel 030 - 73 70 332, mail of app tijdens kantooruren"],
+      "en": ["Submit a request via leergeldutrecht.nl","Or call 030 - 73 70 332, email or WhatsApp during office hours"],
+      "es": ["Presenta la solicitud en leergeldutrecht.nl","O llama al 030 - 73 70 332, escribe o usa WhatsApp en horario de oficina"],
+      "de": ["Antrag über leergeldutrecht.nl stellen","Oder 030 - 73 70 332 anrufen, mailen oder WhatsApp während der Bürozeiten"],
+      "tr": ["leergeldutrecht.nl üzerinden başvurun","Veya mesai saatlerinde 030 - 73 70 332'yi arayın, e-posta ya da WhatsApp yazın"],
+      "fr": ["Déposer la demande sur leergeldutrecht.nl","Ou appeler le 030 - 73 70 332, écrire ou envoyer un WhatsApp aux heures de bureau"],
+      "it": ["Invia la richiesta su leergeldutrecht.nl","Oppure chiama 030 - 73 70 332, scrivi o manda un WhatsApp negli orari d'ufficio"],
+      "pt": ["Faça o pedido em leergeldutrecht.nl","Ou ligue 030 - 73 70 332, envie email ou WhatsApp em horário de expediente"],
+      "pt-BR": ["Faça a solicitação no leergeldutrecht.nl","Ou ligue 030 - 73 70 332, mande email ou WhatsApp no horário comercial"]
     }
   },
   {
     "id": 26,
     "category": "energia",
-    "type": "servicio",
+    "type": "subsidio",
     "wijk": "all",
     "verificationStatus": "verificado",
     "lastReviewed": "2026-07-27",
@@ -1475,26 +1475,26 @@
       "pt-BR": "Consultoria de energia em casa + acompanhamento"
     },
     "shortDescription": {
-      "nl": "Onafhankelijke energieadviseur komt thuis langs om te kijken hoe je woning slim geïsoleerd en verduurzaamd kan worden.",
-      "en": "Independent energy coach visits your home to assess insulation options and create a personalized greening plan.",
-      "es": "Un asesor energético independiente visita tu casa para analizar posibilidades de aislamiento y ahorro energético.",
-      "de": "Kostenloser Besuch eines Energieberaters zur Analyse von Einsparpotenzialen.",
-      "tr": "Evinizde ısı yalıtımı ve tasarruf imkanlarını inceleyen bağımsız enerji uzmanı ziyareti.",
-      "fr": "Visite d'un conseiller indépendant pour établir un bilan d'isolation à domicile.",
-      "it": "Un consulente indipendente visita la tua casa per analizzare l'efficienza energetica.",
-      "pt": "Visita de um especialista para avaliar a eficiência energética da sua casa.",
-      "pt-BR": "Visita de um consultor em sua casa para avaliar isolamento e economia de energia."
+      "nl": "Subsidie van maximaal € 970 voor een energieadviseur aan huis: € 300 advies, € 220 meerjarenplan en tot 75% van de trajectbegeleiding (max € 450).",
+      "en": "Subsidy of up to € 970 towards a home energy adviser: € 300 for the advice, € 220 for a multi-year plan and up to 75% of guidance costs (max € 450).",
+      "es": "Subvención de hasta 970 € para un asesor energético a domicilio: 300 € por el informe, 220 € por el plan plurianual y hasta el 75% del acompañamiento (máx. 450 €).",
+      "de": "Zuschuss bis € 970 für einen Energieberater zu Hause: € 300 Beratung, € 220 Mehrjahresplan und bis zu 75% der Begleitung (max. € 450).",
+      "tr": "Evde enerji danışmanı için en fazla € 970 hibe: € 300 danışmanlık, € 220 çok yıllı plan ve süreç rehberliğinin %75'ine kadar (en fazla € 450).",
+      "fr": "Subvention jusqu'à 970 € pour un conseiller en énergie à domicile : 300 € pour le conseil, 220 € pour le plan pluriannuel et jusqu'à 75% de l'accompagnement (max 450 €).",
+      "it": "Contributo fino a 970 € per un consulente energetico a domicilio: 300 € per la consulenza, 220 € per il piano pluriennale e fino al 75% del supporto (max 450 €).",
+      "pt": "Subsídio até 970 € para um consultor de energia ao domicílio: 300 € pelo aconselhamento, 220 € pelo plano plurianual e até 75% do acompanhamento (máx. 450 €).",
+      "pt-BR": "Auxílio de até € 970 para um consultor de energia em casa: € 300 pela consultoria, € 220 pelo plano plurianual e até 75% do acompanhamento (máx. € 450)."
     },
     "eligibility": {
-      "nl": ["Woningeigenaren en huurders in de gemeente Utrecht"],
-      "en": ["Homeowners and tenants in Utrecht municipality"],
-      "es": ["Propietarios y inquilinos en el municipio de Utrecht"],
-      "de": ["Eigentümer und Mieter in Utrecht"],
-      "tr": ["Utrecht'teki ev sahipleri ve kiracılar"],
-      "fr": ["Propriétaires et locataires à Utrecht"],
-      "it": ["Proprietari e inquilini a Utrecht"],
-      "pt": ["Proprietários e inquilinos em Utrecht"],
-      "pt-BR": ["Proprietários e inquilinos em Utrecht"]
+      "nl": ["Eigenaar-bewoner van een grondgebonden woning in Utrecht (huurders komen niet in aanmerking)","Adviseur is door de gemeente geselecteerd en je voert een maatregel uit het advies uit"],
+      "en": ["Owner-occupier of a ground-level home in Utrecht (tenants are not eligible)","The adviser is one selected by the municipality and you carry out a measure from the advice"],
+      "es": ["Propietario residente de vivienda unifamiliar en Utrecht (los inquilinos no pueden)","El asesor debe estar seleccionado por la gemeente y debes ejecutar una medida del informe"],
+      "de": ["Eigentümer-Bewohner eines Reihen- oder Einfamilienhauses in Utrecht (Mieter ausgeschlossen)","Der Berater ist von der Gemeinde ausgewählt und Sie setzen eine Maßnahme um"],
+      "tr": ["Utrecht'te müstakil/sıra evin sahibi ve oturanı olmak (kiracılar hariç)","Danışman belediye tarafından seçilmiş olmalı ve rapordaki bir önlemi uygulamalısınız"],
+      "fr": ["Propriétaire occupant d'une maison individuelle à Utrecht (les locataires ne sont pas éligibles)","Le conseiller doit être choisi par la ville et vous réalisez une mesure du rapport"],
+      "it": ["Proprietario residente di una casa a terra a Utrecht (gli inquilini non rientrano)","Il consulente deve essere selezionato dal comune e devi realizzare una misura del rapporto"],
+      "pt": ["Proprietário residente de moradia em Utrecht (os inquilinos não são elegíveis)","O consultor tem de ser selecionado pelo município e deve executar uma medida do parecer"],
+      "pt-BR": ["Proprietário morador de casa térrea em Utrecht (inquilinos não podem)","O consultor precisa ser selecionado pela prefeitura e você executa uma medida do parecer"]
     },
     "howToApply": {
       "nl": ["Vraag het adviesgesprek aan via de gemeentelijke energiepagina"],
@@ -1506,64 +1506,6 @@
       "it": ["Prenota il sopralluogo sul sito comunale"],
       "pt": ["Agende a visita no site do município"],
       "pt-BR": ["Agende a visita no site da prefeitura"]
-    }
-  },
-  {
-    "id": 27,
-    "category": "energia",
-    "type": "préstamo",
-    "wijk": "all",
-    "verificationStatus": "verificado",
-    "lastReviewed": "2026-07-27",
-    "expiresSoon": false,
-    "officialUrl": "https://loket.digitaal.utrecht.nl/nl/producten/duurzaamheidslening",
-    "profiles": ["huiseienaar"],
-    "searchAliases": {
-      "all": ["duurzaamheidslening", "lening", "zonnepanelen", "warmtepomp", "isolatie", "hr++", "svn"]
-    },
-    "title": {
-      "nl": "Duurzaamheidslening (Voordelige lening verduurzamen)",
-      "en": "Sustainability Loan (Low-interest loan for green improvements)",
-      "es": "Duurzaamheidslening (Préstamo blando para eficiencia energética)",
-      "de": "Nachhaltigkeitsdarlehen (Zinsgünstiger Kredit)",
-      "tr": "Sürdürülebilirlik Kredisi (Düşük faizli ev yenileme kredisi)",
-      "fr": "Prêt pour la transition écologique (Taux réduit)",
-      "it": "Prestito di sostenibilità (Tasso agevolato per isolamento)",
-      "pt": "Empréstimo para sustentabilidade (Taxa reduzida)",
-      "pt-BR": "Empréstimo sustentável (Juros baixos para reformas ecológicas)"
-    },
-    "shortDescription": {
-      "nl": "Lening tegen zeer lage rente voor de aanschaf van zonnepanelen, warmtepompen, isolatie of HR++ glas.",
-      "en": "Low-interest municipal loan for purchasing solar panels, heat pumps, insulation or HR++ double glazing.",
-      "es": "Préstamo con tipo de interés muy reducido para financiar placas solares, bombas de calor o ventanas aislando.",
-      "de": "Zinsgünstiger Kredit für Solaranlagen, Wärmepumpen und Dämmung.",
-      "tr": "Güneş panelleri, ısı pompası ve yalıtım için çok düşük faizli belediye kredisi.",
-      "fr": "Prêt à taux très bas pour panneaux solaires, pompe à chaleur et isolation.",
-      "it": "Prestito a tasso agevolato per pannelli solari, pompe di calore e isolamento.",
-      "pt": "Empréstimo a juros reduzidos para painéis solares e isolamento.",
-      "pt-BR": "Empréstimo com juros bem baixos para instalar painéis solares e isolamento térmico."
-    },
-    "eligibility": {
-      "nl": ["Eigenaar-bewoner van een woning in Utrecht"],
-      "en": ["Owner-occupier of a house in Utrecht"],
-      "es": ["Propietario residente de la vivienda en Utrecht"],
-      "de": ["Eigentümer und Bewohner der Immobilie in Utrecht"],
-      "tr": ["Utrecht'te yaşadığı evin sahibi olmak"],
-      "fr": ["Propriétaire occupant de son logement à Utrecht"],
-      "it": ["Proprietario residente della casa a Utrecht"],
-      "pt": ["Proprietário residente em Utrecht"],
-      "pt-BR": ["Proprietário morador do imóvel em Utrecht"]
-    },
-    "howToApply": {
-      "nl": ["Vraag een toewijzingsbrief aan bij de gemeente en leen via SVn"],
-      "en": ["Request eligibility letter from city council and borrow via SVn"],
-      "es": ["Solicita la carta de aprobación municipal y formaliza el préstamo en SVn"],
-      "de": ["Bestätigung der Gemeinde anfordern und über SVn leihen"],
-      "tr": ["Belediyeden onay mektubu alıp SVn üzerinden kredi çekin"],
-      "fr": ["Obtenir la lettre d'accord de la mairie puis contacter SVn"],
-      "it": ["Richiedi la lettera al comune e attiva il finanziamento SVn"],
-      "pt": ["Solicite a autorização da prefeitura e formalize na SVn"],
-      "pt-BR": ["Peça a carta de aprovação na prefeitura e contrate pelo SVn"]
     }
   },
   {
@@ -1591,26 +1533,26 @@
       "pt-BR": "Auxílio para reforma coletiva (até € 150 por imóvel em grupo)"
     },
     "shortDescription": {
-      "nl": "Extra subsidie wanneer je samen met minimaal 4 buren tegelijk isolatiemaatregelen of verduurzaming laat uitvoeren.",
-      "en": "Extra subsidy when taking energy insulation measures together with at least 4 neighbors in your street.",
-      "es": "Subvención adicional al realizar obras de aislamiento o ahorro energético de forma conjunta con al menos 4 vecinos.",
-      "de": "Zusatzförderung, wenn mindestens 4 Nachbarn gemeinsam isolieren.",
-      "tr": "En az 4 komşuyla birlikte yalıtım yaptırdığınızda ev başına ekstra hibe.",
-      "fr": "Prime supplémentaire en isolant avec au moins 4 voisins de la rue.",
-      "it": "Bonus extra se effettui lavori di isolamento insieme ad almeno 4 vicini.",
-      "pt": "Bónus extra ao fazer obras de isolamento com pelo menos 4 vizinhos.",
-      "pt-BR": "Bônus extra ao fazer obras de isolamento junto com pelo menos 4 vizinhos."
+      "nl": "Subsidie van € 150 per woning (maximaal € 4.000 per groep) als minimaal 5 woningen samen kleine energiemaatregelen nemen of advies inkopen.",
+      "en": "Subsidy of € 150 per home (max € 4,000 per group) when at least 5 homes together take small energy measures or buy in advice.",
+      "es": "Subvención de 150 € por vivienda (máx. 4.000 € por grupo) si al menos 5 viviendas hacen juntas pequeñas medidas de ahorro o contratan asesoramiento.",
+      "de": "Zuschuss von € 150 pro Wohnung (max. € 4.000 pro Gruppe), wenn mindestens 5 Wohnungen gemeinsam kleine Energiemaßnahmen umsetzen oder Beratung einkaufen.",
+      "tr": "En az 5 konut birlikte küçük enerji önlemleri alır veya danışmanlık satın alırsa konut başına € 150 (grup başına en fazla € 4.000) hibe.",
+      "fr": "Subvention de 150 € par logement (max 4 000 € par groupe) si au moins 5 logements réalisent ensemble de petites mesures ou achètent du conseil.",
+      "it": "Contributo di 150 € per abitazione (max 4.000 € per gruppo) se almeno 5 abitazioni realizzano insieme piccoli interventi o acquistano consulenza.",
+      "pt": "Subsídio de 150 € por habitação (máx. 4.000 € por grupo) se pelo menos 5 habitações fizerem juntas pequenas medidas ou contratarem aconselhamento.",
+      "pt-BR": "Auxílio de € 150 por imóvel (máx. € 4.000 por grupo) se pelo menos 5 imóveis fizerem juntos pequenas medidas ou contratarem consultoria."
     },
     "eligibility": {
-      "nl": ["Minimaal 4 woningen in hetzelfde stratenblok of wijk"],
-      "en": ["Group of at least 4 homes in the same street block"],
-      "es": ["Grupo de al menos 4 viviendas en la misma manzana o calle"],
-      "de": ["Mindestens 4 Häuser in der gleichen Straße"],
-      "tr": ["Aynı sokakta en az 4 ev"],
-      "fr": ["Au moins 4 logements dans la même rue"],
-      "it": ["Almeno 4 case nello stesso isolato"],
-      "pt": ["Pelo menos 4 habitações no mesmo quarteirão"],
-      "pt-BR": ["Pelo menos 4 casas na mesma rua ou quarteirão"]
+      "nl": ["Groep van minimaal 5 woningen","Woningeigenaren én huurders mogen meedoen; een VvE vraagt aan bij de RVO"],
+      "en": ["Group of at least 5 homes","Both owners and tenants may take part; a VvE applies through the RVO instead"],
+      "es": ["Grupo de al menos 5 viviendas","Pueden participar propietarios e inquilinos; una comunidad VvE lo solicita a la RVO"],
+      "de": ["Gruppe von mindestens 5 Wohnungen","Eigentümer und Mieter dürfen mitmachen; eine VvE beantragt bei der RVO"],
+      "tr": ["En az 5 konuttan oluşan grup","Hem ev sahipleri hem kiracılar katılabilir; VvE ise RVO'ya başvurur"],
+      "fr": ["Groupe d'au moins 5 logements","Propriétaires et locataires peuvent participer ; une copropriété passe par le RVO"],
+      "it": ["Gruppo di almeno 5 abitazioni","Possono partecipare proprietari e inquilini; un condominio si rivolge al RVO"],
+      "pt": ["Grupo de pelo menos 5 habitações","Proprietários e inquilinos podem participar; um condomínio pede à RVO"],
+      "pt-BR": ["Grupo de pelo menos 5 imóveis","Proprietários e inquilinos podem participar; um condomínio solicita à RVO"]
     },
     "howToApply": {
       "nl": ["Dien als straatcollectief de gezamenlijke aanvraag in op utrecht.nl"],
@@ -1638,26 +1580,26 @@
       "all": ["vve", "vereniging van eigenaars", "isolatie", "appartement", "elinkwijk", "julianapark"]
     },
     "title": {
-      "nl": "Subsidies isolatie VvE (Extra in Elinkwijk, Julianapark)",
-      "en": "VvE Insulation Subsidies (Extra top-up in Elinkwijk, Julianapark)",
-      "es": "Subsidios aislamiento VvE (extra en Elinkwijk, Julianapark, Watervogelbuurt)",
-      "de": "Zuschüsse für Wohnungseigentümergemeinschaften (VvE)",
-      "tr": "Apartman Yönetimleri (VvE) Yalıtım Hibeleri",
-      "fr": "Subventions d'isolation pour copropriétés (VvE)",
-      "it": "Sussidi isolamento per condomini (VvE)",
-      "pt": "Subsídios de isolamento para condomínios (VvE)",
-      "pt-BR": "Auxílios de isolamento para condomínios (VvE)"
+      "nl": "Subsidie isolatie grote VvE (8 appartementen of meer)",
+      "en": "VvE insulation subsidy (associations of 8 apartments or more)",
+      "es": "Subsidio de aislamiento para VvE grandes (8 pisos o más)",
+      "de": "Zuschuss zur Dämmung großer VvE (ab 8 Wohnungen)",
+      "tr": "Büyük VvE yalıtım hibesi (8 daire ve üzeri)",
+      "fr": "Subvention d'isolation pour grandes copropriétés (8 appartements ou plus)",
+      "it": "Sussidio isolamento per grandi condomini (8 appartamenti o più)",
+      "pt": "Subsídio de isolamento para condomínios grandes (8 apartamentos ou mais)",
+      "pt-BR": "Auxílio de isolamento para condomínios grandes (8 apartamentos ou mais)"
     },
     "shortDescription": {
-      "nl": "Speciale vergoedingen voor Verenigingen van Eigenaars (VvE) om appartementencomplexen te isoleren. Extra toeslag in geselecteerde buurten.",
-      "en": "Special funding for Homeowners Associations (VvE) to insulate apartment buildings. Bonus available in specific historic focus areas.",
-      "es": "Ayudas especiales para comunidades de propietarios (VvE) orientadas a aislar bloques. Extra disponible en zonas como Elinkwijk y Julianapark.",
-      "de": "Förderung für Eigentümergemeinschaften zur Fassaden- und Dachdämmung.",
-      "tr": "Apartman binalarının yalıtımı için VvE yönetimine özel hibe ve bonuslar.",
-      "fr": "Aides financières pour les copropriétés isolant leurs immeubles.",
-      "it": "Finanziamenti dedicati ai condomini per l'isolamento termico dell'edificio.",
-      "pt": "Subsídios especiais para condomínios isolarem os edifícios.",
-      "pt-BR": "Verbas especiais para condomínios isolarem prédios residenciais."
+      "nl": "Subsidie en begeleiding voor Verenigingen van Eigenaars vanaf 8 appartementen om het complex te isoleren. Extra ondersteuning in Overvecht, Noordwest, Zuid en Zuidwest.",
+      "en": "Subsidy and guidance for homeowners associations of 8 apartments or more to insulate the building. Extra support in Overvecht, Noordwest, Zuid and Zuidwest.",
+      "es": "Subvención y acompañamiento para comunidades de propietarios de 8 pisos o más para aislar el bloque. Apoyo extra en Overvecht, Noordwest, Zuid y Zuidwest.",
+      "de": "Zuschuss und Begleitung für Eigentümergemeinschaften ab 8 Wohnungen zur Dämmung. Zusätzliche Unterstützung in Overvecht, Noordwest, Zuid und Zuidwest.",
+      "tr": "8 daire ve üzeri apartman yönetimlerine yalıtım için hibe ve rehberlik. Overvecht, Noordwest, Zuid ve Zuidwest'te ek destek.",
+      "fr": "Subvention et accompagnement pour les copropriétés de 8 appartements ou plus. Soutien renforcé à Overvecht, Noordwest, Zuid et Zuidwest.",
+      "it": "Contributo e accompagnamento per condomini da 8 appartamenti in su. Supporto extra a Overvecht, Noordwest, Zuid e Zuidwest.",
+      "pt": "Subsídio e acompanhamento para condomínios de 8 apartamentos ou mais. Apoio reforçado em Overvecht, Noordwest, Zuid e Zuidwest.",
+      "pt-BR": "Auxílio e acompanhamento para condomínios de 8 apartamentos ou mais. Apoio extra em Overvecht, Noordwest, Zuid e Zuidwest."
     },
     "eligibility": {
       "nl": ["Actieve VvE in Utrecht met goedgekeurd verduurzamingsbesluit"],
@@ -1671,15 +1613,15 @@
       "pt-BR": ["Condomínio ativo com assembleia e decisão aprovada"]
     },
     "howToApply": {
-      "nl": ["Vraag advies aan bij de VvE-helpdesk Utrecht en dien aanvraag in"],
-      "en": ["Get free advice at Utrecht VvE helpdesk and submit application"],
-      "es": ["Pide asesoramiento en la ventanilla VvE de Utrecht y solicita"],
-      "de": ["Beratung beim VvE-Helpdesk anfordern und beantragen"],
-      "tr": ["VvE danışma masasından bilgi alıp başvuruyu yapın"],
-      "fr": ["Consulter le guichet VvE puis déposer le dossier"],
-      "it": ["Chiedi consulenza allo sportello VvE e invia la domanda"],
-      "pt": ["Consulte a assessoria VvE e submeta o processo"],
-      "pt-BR": ["Consulte a assessoria para VvE da prefeitura e envie o processo"]
+      "nl": ["Neem contact op met het VvE-loket via 14 030","Vraag energieadvies aan en dien daarna de subsidieaanvraag in"],
+      "en": ["Contact the VvE desk on 14 030","Request energy advice and then submit the subsidy application"],
+      "es": ["Contacta con la ventanilla VvE en el 14 030","Pide el asesoramiento energético y después presenta la solicitud"],
+      "de": ["VvE-Schalter unter 14 030 kontaktieren","Energieberatung anfordern und danach den Zuschuss beantragen"],
+      "tr": ["VvE masasıyla 14 030 üzerinden iletişime geçin","Enerji danışmanlığı isteyin ve ardından hibe başvurusunu yapın"],
+      "fr": ["Contacter le guichet VvE au 14 030","Demander un conseil énergie puis déposer la demande de subvention"],
+      "it": ["Contatta lo sportello VvE al 14 030","Richiedi la consulenza energetica e poi invia la domanda di contributo"],
+      "pt": ["Contacte o balcão VvE pelo 14 030","Peça o aconselhamento energético e depois submeta o pedido de subsídio"],
+      "pt-BR": ["Fale com o balcão VvE pelo 14 030","Peça a consultoria de energia e depois envie o pedido de auxílio"]
     }
   },
   {
@@ -1707,37 +1649,37 @@
       "pt-BR": "Empréstimo para restauração de imóveis tombados/históricos"
     },
     "shortDescription": {
-      "nl": "Laagdrempelige lening tegen lage rente voor eigenaren van gemeentelijke of rijksmonumenten voor onderhoud en restauratie.",
-      "en": "Low-interest loan for owners of municipal or national heritage sites in Utrecht for maintenance and restoration work.",
-      "es": "Préstamo de bajo interés para propietarios de inmuebles catalogados como monumento histórico para obras de conservación.",
-      "de": "Zinsgünstiger Kredit für Eigentümer von Denkmälern in Utrecht.",
-      "tr": "Tarihi ve tescilli bina sahipleri için düşük faizli restorasyon kredisi.",
-      "fr": "Prêt avantageux pour la restauration et l'entretien de monuments classés.",
-      "it": "Finanziamento agevolato per la manutenzione di immobili vincolati.",
-      "pt": "Empréstimo a taxa reduzida para restauro de imóveis classificados.",
-      "pt-BR": "Financiamento com juros baixos para restauração de imóveis históricos."
+      "nl": "Lening uit het Utrechts Restauratiefonds tegen 5% onder marktrente (minimaal 1,5%): tot € 300.000 voor restauratie en € 30.000 voor energie of toegankelijkheid.",
+      "en": "Loan from the Utrechts Restauratiefonds at 5% below market rate (minimum 1.5%): up to € 300,000 for restoration and € 30,000 for energy or accessibility.",
+      "es": "Préstamo del Utrechts Restauratiefonds a un 5% por debajo del mercado (mínimo 1,5%): hasta 300.000 € para restauración y 30.000 € para energía o accesibilidad.",
+      "de": "Darlehen aus dem Utrechts Restauratiefonds zu 5% unter Marktzins (mindestens 1,5%): bis € 300.000 für Restaurierung und € 30.000 für Energie oder Barrierefreiheit.",
+      "tr": "Utrechts Restauratiefonds kredisi, piyasa faizinin %5 altında (en az %1,5): restorasyon için € 300.000, enerji veya erişilebilirlik için € 30.000'e kadar.",
+      "fr": "Prêt du Utrechts Restauratiefonds à 5% sous le taux du marché (minimum 1,5%) : jusqu'à 300 000 € pour la restauration et 30 000 € pour l'énergie ou l'accessibilité.",
+      "it": "Prestito dal Utrechts Restauratiefonds al 5% sotto il tasso di mercato (minimo 1,5%): fino a 300.000 € per il restauro e 30.000 € per energia o accessibilità.",
+      "pt": "Empréstimo do Utrechts Restauratiefonds a 5% abaixo da taxa de mercado (mínimo 1,5%): até 300.000 € para restauro e 30.000 € para energia ou acessibilidade.",
+      "pt-BR": "Empréstimo do Utrechts Restauratiefonds a 5% abaixo da taxa de mercado (mínimo 1,5%): até € 300.000 para restauração e € 30.000 para energia ou acessibilidade."
     },
     "eligibility": {
-      "nl": ["Pand staat geregistreerd als gemeentelijk monument of rijksmonument"],
-      "en": ["Building is a registered municipal or national historic monument"],
-      "es": ["El edificio está catalogado como monumento municipal o nacional"],
-      "de": ["Gebäude ist als Denkmal eingetragen"],
-      "tr": ["Binanın tescilli anıt/tarihi eser statüsünde olması"],
-      "fr": ["Bâtiment classé monument historique"],
-      "it": ["Immobile iscritto nel registro dei monumenti"],
-      "pt": ["Imóvel classificado como monumento"],
-      "pt-BR": ["Imóvel registrado como patrimônio histórico"]
+      "nl": ["Pand is een gemeentelijk monument (rijksmonumenten alleen voor toegankelijkheid)","Restauratiekosten zijn minimaal € 10.000 en het werk is nog niet begonnen"],
+      "en": ["Building is a municipal monument (national monuments only for accessibility)","Restoration costs are at least € 10,000 and work has not yet started"],
+      "es": ["El inmueble es monumento municipal (los nacionales solo para accesibilidad)","El coste de restauración es de al menos 10.000 € y la obra no ha empezado"],
+      "de": ["Gebäude ist ein städtisches Denkmal (Reichsdenkmäler nur für Barrierefreiheit)","Restaurierungskosten mindestens € 10.000 und die Arbeiten haben noch nicht begonnen"],
+      "tr": ["Bina belediye anıtı olmalı (devlet anıtları yalnızca erişilebilirlik için)","Restorasyon maliyeti en az € 10.000 ve işe henüz başlanmamış olmalı"],
+      "fr": ["Le bâtiment est un monument communal (les monuments nationaux uniquement pour l'accessibilité)","Le coût de restauration atteint au moins 10 000 € et les travaux n'ont pas commencé"],
+      "it": ["L'immobile è un monumento comunale (quelli nazionali solo per l'accessibilità)","I costi di restauro sono almeno 10.000 € e i lavori non sono iniziati"],
+      "pt": ["O imóvel é monumento municipal (os nacionais apenas para acessibilidade)","Os custos de restauro são de pelo menos 10.000 € e a obra ainda não começou"],
+      "pt-BR": ["O imóvel é monumento municipal (os nacionais apenas para acessibilidade)","Os custos de restauração são de pelo menos € 10.000 e a obra ainda não começou"]
     },
     "howToApply": {
-      "nl": ["Neem vooraf contact op met MonumentenZorg Utrecht"],
-      "en": ["Contact Heritage Office Utrecht prior to starting works"],
-      "es": ["Contacta con el departamento de Monumentos antes de iniciar las obras"],
-      "de": ["Vorab mit der Denkmalpflege Kontakt aufnehmen"],
-      "tr": ["İşe başlamadan önce Tarihi Eserler Birimi ile iletişime geçin"],
-      "fr": ["Contacter la conservation des monuments avant les travaux"],
-      "it": ["Contatta l'Ufficio Beni Culturali prima di iniziare"],
-      "pt": ["Contacte a direção de património antes das obras"],
-      "pt-BR": ["Fale com o setor de patrimônio histórico antes de iniciar a obra"]
+      "nl": ["Neem eerst contact op met Erfgoed via 14 030 of monumenten@utrecht.nl","Dien daarna de aanvraag in; de behandeling duurt ongeveer 13 weken"],
+      "en": ["First contact the Heritage department on 14 030 or monumenten@utrecht.nl","Then submit the application; processing takes about 13 weeks"],
+      "es": ["Contacta primero con Patrimonio en el 14 030 o monumenten@utrecht.nl","Después presenta la solicitud; la tramitación dura unas 13 semanas"],
+      "de": ["Zuerst die Denkmalpflege unter 14 030 oder monumenten@utrecht.nl kontaktieren","Danach den Antrag stellen; die Bearbeitung dauert etwa 13 Wochen"],
+      "tr": ["Önce 14 030 veya monumenten@utrecht.nl üzerinden Kültür Mirası birimiyle görüşün","Ardından başvuruyu yapın; işlem yaklaşık 13 hafta sürer"],
+      "fr": ["Contacter d'abord le service Patrimoine au 14 030 ou monumenten@utrecht.nl","Déposer ensuite la demande ; le traitement prend environ 13 semaines"],
+      "it": ["Contatta prima il servizio Patrimonio al 14 030 o monumenten@utrecht.nl","Poi invia la domanda; l'istruttoria dura circa 13 settimane"],
+      "pt": ["Contacte primeiro o Património pelo 14 030 ou monumenten@utrecht.nl","Depois submeta o pedido; a análise demora cerca de 13 semanas"],
+      "pt-BR": ["Fale primeiro com o Patrimônio pelo 14 030 ou monumenten@utrecht.nl","Depois envie o pedido; a análise leva cerca de 13 semanas"]
     }
   },
   {
