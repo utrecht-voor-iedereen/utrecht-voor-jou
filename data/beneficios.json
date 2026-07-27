@@ -104,15 +104,15 @@
       "pt-BR": ["Moradores de Utrecht que deixam a rua mais verde com vizinhos"]
     },
     "howToApply": {
-      "nl": ["Maak een eenvoudig plan met minimaal 2-3 buren", "Diend een aanvraag in bij het Initiatievenfonds van jouw wijk", "Ontvang de bonnen of materialen in natura"],
-      "en": ["Create a simple plan with at least 2-3 neighbors", "Submit application to your district's Initiatievenfonds", "Receive vouchers or physical plant materials"],
-      "es": ["Crea un plan sencillo con al menos 2-3 vecinos", "Presenta la solicitud al Initiatievenfonds de tu wijk", "Recibe los vales o materiales en especie"],
-      "de": ["Einfachen Plan mit 2-3 Nachbarn erstellen", "Antrag beim Initiatievenfonds einreichen", "Gutscheine oder Material erhalten"],
-      "tr": ["En az 2-3 komşuyla basit bir plan yapın", "Mahallenizin Initiatievenfonds birimine başvurun", "Kupon veya malzemeleri teslim alın"],
-      "fr": ["Faire un plan simple avec 2-3 voisins", "Déposer la demande auprès de l'Initiatievenfonds", "Recevoir les bons ou végétaux"],
-      "it": ["Crea un progetto semplice con 2-3 vicini", "Presenta domanda a Initiatievenfonds", "Ricevi i voucher o le piante"],
-      "pt": ["Crie um plano simples com 2-3 vizinhos", "Submeta o pedido ao Initiatievenfonds do bairro", "Receba cupões ou plantas"],
-      "pt-BR": ["Crie um plano simples com 2-3 vizinhos", "Submeta o pedido ao Initiatievenfonds do bairro", "Receba os cupons ou mudas"]
+      "nl": ["Maak samen met je buren een eenvoudig plan","Dien een aanvraag in bij het Initiatievenfonds van jouw wijk","Ontvang de bonnen of materialen in natura"],
+      "en": ["Create a simple plan together with your neighbors","Submit application to your district's Initiatievenfonds","Receive vouchers or physical plant materials"],
+      "es": ["Crea un plan sencillo junto con tus vecinos","Presenta la solicitud al Initiatievenfonds de tu wijk","Recibe los vales o materiales en especie"],
+      "de": ["Einfachen Plan gemeinsam mit Nachbarn erstellen","Antrag beim Initiatievenfonds einreichen","Gutscheine oder Material erhalten"],
+      "tr": ["Komşularınızla birlikte basit bir plan yapın","Mahallenizin Initiatievenfonds birimine başvurun","Kupon veya malzemeleri teslim alın"],
+      "fr": ["Faire un plan simple avec vos voisins","Déposer la demande auprès de l'Initiatievenfonds","Recevoir les bons ou végétaux"],
+      "it": ["Crea un progetto semplice insieme ai vicini","Presenta domanda a Initiatievenfonds","Ricevi i voucher o le piante"],
+      "pt": ["Crie um plano simples com os seus vizinhos","Submeta o pedido ao Initiatievenfonds do bairro","Receba cupões ou plantas"],
+      "pt-BR": ["Crie um plano simples com seus vizinhos","Submeta o pedido ao Initiatievenfonds do bairro","Receba os cupons ou mudas"]
     }
   },
   {
@@ -140,26 +140,26 @@
       "pt-BR": "Jardim de fachada gratuito"
     },
     "shortDescription": {
-      "nl": "Verwijder een rij tegels voor je voordeur. De gemeente haalt de stoeptegels weg, brengt tuinaarde en helpt met de eerste beplanting.",
-      "en": "Remove a strip of pavement tiles in front of your house. Municipality removes tiles, provides soil, and supports initial planting.",
-      "es": "Quita una fila de baldosas delante de tu fachada. La gemeente retira las aceras, aporta tierra fértil y ayuda con la primera plantación.",
-      "de": "Pflastersteine vor der Haustür entfernen. Gemeinde holt Steine ab, bringt Erde und hilft beim Bepflanzen.",
-      "tr": "Evinizin önündeki kaldırım karolarını kaldırın. Belediye karoları alır, toprak getirir ve ekime yardım eder.",
-      "fr": "Retirez une rangée de pavés devant votre porte. La mairie enlève les dalles, apporte de la terre et aide aux plantations.",
-      "it": "Rimuovi una striscia di piastrelle davanti a casa. Il comune ritira i mattoni, porta il terriccio e aiuta a piantare.",
-      "pt": "Remova uma fileira de calçada em frente à porta. O município recolhe os paralelepípedos e fornece terra.",
-      "pt-BR": "Remova uma fileira de calçada na frente de casa. A prefeitura retira as pedras, fornece terra e ajuda no plantio."
+      "nl": "Verwijder een rij tegels voor je voordeur. Tijdens de Geveltuinburendag levert de gemeente materiaal en planten; buiten die dagen graaf en beplant je zelf en leen je gereedschap.",
+      "en": "Remove a strip of pavement tiles in front of your house. On a Geveltuinburendag the municipality supplies materials and plants; outside those days you dig and plant yourself and can borrow tools.",
+      "es": "Quita una fila de baldosas delante de tu fachada. En el Geveltuinburendag la gemeente pone material y plantas; fuera de esos días lo haces tú y puedes tomar prestadas las herramientas.",
+      "de": "Pflastersteine vor der Haustür entfernen. Am Geveltuinburendag stellt die Gemeinde Material und Pflanzen; sonst gräbt und bepflanzt man selbst und kann Werkzeug leihen.",
+      "tr": "Evinizin önündeki bir sıra karoyu kaldırın. Geveltuinburendag günlerinde belediye malzeme ve bitki verir; diğer zamanlarda kazıp dikimi siz yapar, alet ödünç alabilirsiniz.",
+      "fr": "Retirez une rangée de dalles devant votre porte. Lors du Geveltuinburendag la ville fournit matériel et plantes ; en dehors, vous creusez et plantez vous-même et pouvez emprunter des outils.",
+      "it": "Rimuovi una striscia di piastrelle davanti a casa. Durante il Geveltuinburendag il comune fornisce materiali e piante; negli altri giorni scavi e pianti tu e puoi farti prestare gli attrezzi.",
+      "pt": "Remova uma fileira de calçada em frente à porta. No Geveltuinburendag o município fornece material e plantas; fora desses dias faz o trabalho e pode requisitar ferramentas emprestadas.",
+      "pt-BR": "Remova uma fileira de calçada na frente de casa. No Geveltuinburendag a prefeitura fornece material e mudas; fora dessas datas você mesmo cava e planta, e pode pegar ferramentas emprestadas."
     },
     "eligibility": {
-      "nl": ["Stoep moet minimaal 1,50 meter breed blijven na aanleg geveltuin"],
-      "en": ["Pavement must retain at least 1.50 meters free width"],
-      "es": ["La acera debe mantener al menos 1,50 metros libres de paso"],
-      "de": ["Gehweg muss mindestens 1,50 m breit bleiben"],
-      "tr": ["Kaldırımın en az 1,50 metre genişlikte kalması gerekir"],
-      "fr": ["Le trottoir doit garder au moins 1,50 m de largeur libre"],
-      "it": ["Il marciapiede deve mantenere almeno 1,50 metri di larghezza libera"],
-      "pt": ["A calçada deve manter pelo menos 1,50 m de passagem livre"],
-      "pt-BR": ["A calçada precisa manter no mínimo 1,50 m de passagem livre"]
+      "nl": ["Stoep houdt minimaal 1,20 meter loopruimte over","Geveltuin is 30 tot 45 centimeter diep en blijft eigendom van de gemeente"],
+      "en": ["Pavement must retain at least 1.20 metres of walking space","Facade garden is 30 to 45 cm deep and remains municipal property"],
+      "es": ["La acera debe mantener al menos 1,20 metros de paso libre","El jardín mide de 30 a 45 cm de profundidad y sigue siendo propiedad municipal"],
+      "de": ["Gehweg muss mindestens 1,20 m Laufbreite behalten","Fassadengarten ist 30 bis 45 cm tief und bleibt Eigentum der Gemeinde"],
+      "tr": ["Kaldırımda en az 1,20 metre yürüme alanı kalmalı","Cephe bahçesi 30-45 cm derinliğinde olmalı ve belediyenin mülkü kalır"],
+      "fr": ["Le trottoir doit garder au moins 1,20 m de passage","Le jardin fait 30 à 45 cm de profondeur et reste propriété de la ville"],
+      "it": ["Il marciapiede deve mantenere almeno 1,20 metri di passaggio","Il giardino è profondo 30-45 cm e resta di proprietà del comune"],
+      "pt": ["A calçada deve manter pelo menos 1,20 m de passagem","O jardim tem 30 a 45 cm de profundidade e continua a ser do município"],
+      "pt-BR": ["A calçada precisa manter no mínimo 1,20 m de passagem","O jardim tem de 30 a 45 cm de profundidade e continua sendo da prefeitura"]
     },
     "howToApply": {
       "nl": ["Meld je geveltuin aan via utrecht.nl/geveltuin", "Of doe mee tijdens de jaarlijkse Geveltuinburendag met de buurt"],
@@ -198,26 +198,26 @@
       "pt-BR": "Tegeltaxi (Recolhimento gratuito de pisos)"
     },
     "shortDescription": {
-      "nl": "Vervang je tuin- of stoeptegels door groen en laat de oude tegels en zand helemaal gratis ophalen door de gemeente Utrecht.",
-      "en": "Replace your garden tiles with green plants and have old tiles and excess sand collected completely free by Utrecht city council.",
-      "es": "Sustituye baldosas de tu jardín por plantas y la gemeente recogerá gratis las baldosas retiradas y el exceso de arena.",
+      "nl": "Vervang je tuin- of stoeptegels door groen en laat de oude tegels helemaal gratis ophalen door de gemeente Utrecht.",
+      "en": "Replace your garden or pavement tiles with greenery and have the old tiles collected completely free by Utrecht city council.",
+      "es": "Sustituye las baldosas de tu jardín o acera por vegetación y la gemeente recogerá gratis las baldosas retiradas.",
       "de": "Tauschen Sie Gartensteine gegen Pflanzen und lassen Sie alte Platten kostenlos von der Gemeinde abholen.",
-      "tr": "Bahçe karolarınızı bitkilerle değiştirin; belediye eski karolarınızı ve fazla kumu ücretsiz toplasın.",
-      "fr": "Remplacez vos dalles par des plantes et faites enlever gratuitement vos vieux pavés par la ville.",
-      "it": "Sostituisci le piastrelle con piante e il comune ritirerà gratuitamente piastrelle e sabbia in eccesso.",
-      "pt": "Substitua as placas do jardim por plantas e o município recolherá gratuitamente as pedras velhas.",
-      "pt-BR": "Substitua os pisos do quintal por plantas e a prefeitura recolhe tudo de graça."
+      "tr": "Bahçe veya kaldırım karolarınızı yeşille değiştirin; belediye eski karoları ücretsiz toplasın.",
+      "fr": "Remplacez vos dalles par du végétal et faites enlever gratuitement vos vieilles dalles par la ville.",
+      "it": "Sostituisci le piastrelle con piante e il comune ritirerà gratuitamente le vecchie piastrelle.",
+      "pt": "Substitua as placas do jardim ou passeio por vegetação e o município recolhe gratuitamente as pedras velhas.",
+      "pt-BR": "Substitua os pisos do quintal ou da calçada por plantas e a prefeitura recolhe as pedras velhas de graça."
     },
     "eligibility": {
-      "nl": ["Tegels zijn vervangen door levend groen", "Aangemeld binnen de actieperiode NK Tegelwippen"],
-      "en": ["Tiles replaced by living green plants", "Registered during NK Tegelwippen campaign period"],
-      "es": ["Las baldosas han sido cambiadas por vegetación viva", "Inscripción previa en las fechas habilitadas"],
-      "de": ["Platten wurden durch Pflanzen ersetzt", "Anmeldung im Aktionszeitraum"],
-      "tr": ["Karoların canlı bitkilerle değiştirilmiş olması", "Kampanya döneminde kayıt yaptırılması"],
-      "fr": ["Les dalles ont été remplacées par du végétal", "Inscription pendant la campagne"],
-      "it": ["Piastrelle sostituite da piante vive", "Registrazione durante la campagna"],
-      "pt": ["Placas substituídas por vegetação viva", "Inscrição no período da campanha"],
-      "pt-BR": ["Pisos trocados por plantas vivas", "Inscrição durante o período da campanha"]
+      "nl": ["Tegels zijn vervangen door gras, planten of ander levend groen","Minimaal 1 m² en maximaal 100 m² tegels; geen zand, grond of puin"],
+      "en": ["Tiles replaced by grass, plants or other living greenery","Minimum 1 m² and maximum 100 m² of tiles; no sand, soil or rubble"],
+      "es": ["Las baldosas se han cambiado por césped, plantas u otra vegetación viva","Mínimo 1 m² y máximo 100 m² de baldosas; no recogen arena, tierra ni escombros"],
+      "de": ["Platten wurden durch Rasen, Pflanzen oder anderes lebendes Grün ersetzt","Mindestens 1 m² und höchstens 100 m² Platten; kein Sand, Erde oder Bauschutt"],
+      "tr": ["Karolar çim, bitki veya başka canlı yeşille değiştirilmiş olmalı","En az 1 m², en fazla 100 m² karo; kum, toprak veya moloz alınmaz"],
+      "fr": ["Les dalles ont été remplacées par du gazon, des plantes ou un autre végétal vivant","Minimum 1 m² et maximum 100 m² de dalles ; ni sable, ni terre, ni gravats"],
+      "it": ["Le piastrelle sono state sostituite da prato, piante o altro verde vivo","Minimo 1 m² e massimo 100 m² di piastrelle; niente sabbia, terra o macerie"],
+      "pt": ["As placas foram substituídas por relva, plantas ou outro verde vivo","Mínimo 1 m² e máximo 100 m² de placas; não recolhem areia, terra nem entulho"],
+      "pt-BR": ["Os pisos foram trocados por grama, plantas ou outro verde vivo","Mínimo de 1 m² e máximo de 100 m² de piso; não recolhem areia, terra nem entulho"]
     },
     "howToApply": {
       "nl": ["Wip je tegels uit de tuin", "Meld de tegels en ophaaladres aan op utrecht.nl/tegeltaxi", "Zet de tegels op het afgesproken tijdstip netjes aan de straat"],
@@ -256,37 +256,37 @@
       "pt-BR": "Regentonactie (Desconto em barris de chuva)"
     },
     "shortDescription": {
-      "nl": "Ontvang tot 30-50% korting of waardebonnen op de aanschaf van een regenton om regenwater in je tuin op te vangen.",
-      "en": "Receive up to 30-50% discount vouchers for buying a rain barrel to collect rainwater in your garden or balcony.",
-      "es": "Consigue vales de descuento de hasta el 30-50% para la compra de un barril de recogida de agua de lluvia.",
-      "de": "Gutscheine für bis zu 30-50% Rabatt beim Kauf einer Regentonne erhalten.",
-      "tr": "Bahçenizde yağmur suyu toplamak için varil alımında %30-50 indirim kuponu alın.",
-      "fr": "Obtenez jusqu'à 30-50% de réduction sur l'achat d'un récupérateur d'eau de pluie.",
-      "it": "Ottieni fino al 30-50% di sconto per l'acquisto di un barile raccogli pioggia.",
-      "pt": "Receba cupões de 30-50% de desconto na compra de um barril de água da chuva.",
-      "pt-BR": "Receba cupons de 30 a 50% de desconto na compra de um barril de água da chuva."
+      "nl": "Krijg € 40 korting op een regenton tot 200 liter en € 60 op een grotere, om regenwater in je tuin op te vangen.",
+      "en": "Get € 40 off a rain barrel up to 200 litres and € 60 off a larger one, to collect rainwater in your garden.",
+      "es": "Consigue 40 € de descuento en un barril de hasta 200 litros y 60 € en uno mayor, para recoger agua de lluvia.",
+      "de": "Erhalten Sie € 40 Rabatt auf eine Regentonne bis 200 Liter und € 60 auf eine größere.",
+      "tr": "200 litreye kadar yağmur varilinde 40 €, daha büyüğünde 60 € indirim alın.",
+      "fr": "Obtenez 40 € de réduction sur un récupérateur d'eau jusqu'à 200 litres et 60 € sur un plus grand.",
+      "it": "Ottieni 40 € di sconto su un barile fino a 200 litri e 60 € su uno più grande.",
+      "pt": "Receba 40 € de desconto num barril até 200 litros e 60 € num maior, para recolher água da chuva.",
+      "pt-BR": "Ganhe € 40 de desconto em um barril de até 200 litros e € 60 em um maior, para captar água da chuva."
     },
     "eligibility": {
-      "nl": ["Inwoner van de gemeente Utrecht met een tuin of balkon met regenpijp"],
-      "en": ["Resident of Utrecht with garden or balcony connected to a drainpipe"],
-      "es": ["Residente en Utrecht con jardín o terraza con bajante de agua"],
-      "de": ["Einwohner von Utrecht mit Garten/Balkon und Regenrohr"],
-      "tr": ["Yağmur borusuna erişimi olan bahçeli/balkonlu Utrecht sakini"],
-      "fr": ["Résident d'Utrecht avec jardin ou balcon relié à une descente d'eau"],
-      "it": ["Residente a Utrecht con giardino o balcone provvisto di pluviale"],
-      "pt": ["Residente em Utrecht com jardim ou varanda ligado a um tubo de queda"],
-      "pt-BR": ["Morador de Utrecht com quintal ou sacada conectada a uma calha"]
+      "nl": ["Inwoner van de gemeente Utrecht","Je besteedt minimaal € 50; de actie loopt van april tot en met oktober"],
+      "en": ["Resident of the municipality of Utrecht","You spend at least € 50; the campaign runs from April through October"],
+      "es": ["Residente en el municipio de Utrecht","Gastas al menos 50 €; la campaña va de abril a octubre"],
+      "de": ["Einwohner der Gemeinde Utrecht","Mindestens € 50 Einkauf; die Aktion läuft von April bis Oktober"],
+      "tr": ["Utrecht belediyesi sakini olmak","En az 50 € harcamak; kampanya nisan-ekim arası geçerli"],
+      "fr": ["Résident de la commune d'Utrecht","Achat d'au moins 50 € ; l'opération court d'avril à octobre"],
+      "it": ["Residente nel comune di Utrecht","Spesa minima di 50 €; l'iniziativa va da aprile a ottobre"],
+      "pt": ["Residente no município de Utrecht","Gasta pelo menos 50 €; a campanha decorre de abril a outubro"],
+      "pt-BR": ["Morador do município de Utrecht","Gasta pelo menos € 50; a campanha vai de abril a outubro"]
     },
     "howToApply": {
-      "nl": ["Download de kortingsvoucher via de gemeentelijke actiepagina", "Lever de voucher in bij deelnemende bouwmarkten in Utrecht"],
-      "en": ["Download discount voucher on municipal campaign page", "Redeem voucher at participating hardware stores in Utrecht"],
-      "es": ["Descarga el cupón de descuento en la web municipal", "Canjéalo en las ferreterías y centros de jardinería participantes"],
-      "de": ["Gutschein auf der Website herunterladen", "Bei teilnehmenden Baumärkten einlösen"],
-      "tr": ["İndirim kuponunu belediye sayfasından indirin", "Katılımcı yapı marketlerinde kuponu kullanın"],
-      "fr": ["Télécharger le coupon sur le site de la ville", "Utiliser le coupon dans les magasins partenaires"],
-      "it": ["Scarica il coupon dal sito del comune", "Riscatta il voucher nei centri bricolage aderenti"],
-      "pt": ["Descarregue o cupão na página do município", "Utilize o cupão nas lojas participantes"],
-      "pt-BR": ["Baixe o cupom na página da prefeitura", "Troque o cupom nas lojas participantes em Utrecht"]
+      "nl": ["Koop een regenton bij een deelnemende bouwmarkt of tuincentrum in Utrecht","De korting wordt direct bij aanschaf verrekend"],
+      "en": ["Buy a rain barrel at a participating hardware store or garden centre in Utrecht","The discount is applied directly at purchase"],
+      "es": ["Compra el barril en una ferretería o centro de jardinería participante de Utrecht","El descuento se aplica directamente en la compra"],
+      "de": ["Regentonne bei einem teilnehmenden Baumarkt oder Gartencenter in Utrecht kaufen","Der Rabatt wird direkt beim Kauf abgezogen"],
+      "tr": ["Utrecht'te katılımcı bir yapı marketi veya bahçe merkezinden varil satın alın","İndirim satın alma sırasında doğrudan uygulanır"],
+      "fr": ["Achetez le récupérateur dans un magasin de bricolage ou une jardinerie partenaire d'Utrecht","La réduction est appliquée directement à l'achat"],
+      "it": ["Acquista il barile in un negozio di bricolage o garden center aderente a Utrecht","Lo sconto è applicato direttamente all'acquisto"],
+      "pt": ["Compre o barril numa loja de bricolage ou centro de jardinagem aderente em Utrecht","O desconto é aplicado diretamente na compra"],
+      "pt-BR": ["Compre o barril em uma loja de material de construção ou garden center participante em Utrecht","O desconto é aplicado direto na compra"]
     }
   },
   {
@@ -297,7 +297,7 @@
     "verificationStatus": "verificado",
     "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.utrecht.nl/wonen-en-leven/duurzame-stad/groen-en-water/klimaatklaar-uw-omgeving-groener-maken-en-slim-water-opvangen",
+    "officialUrl": "https://kiemutrecht.nl/",
     "profiles": ["iedereen"],
     "searchAliases": {
       "all": ["kiem", "subsidie", "bewonersinitiatief", "buurtproject", "groen"]
@@ -325,26 +325,26 @@
       "pt-BR": "Receba até € 5.000 para lançar um projeto ecológico no seu bairro."
     },
     "eligibility": {
-      "nl": ["Initiatiefnemers (minimaal 2 bewoners)", "Project is openbaar toegankelijk en versterkt de buurt"],
-      "en": ["Group of at least 2 residents", "Project is publicly accessible and benefits the neighborhood"],
-      "es": ["Mínimo 2 vecinos promotores", "Proyecto de libre acceso que mejore el entorno del barrio"],
-      "de": ["Mindestens 2 Bewohner", "Projekt ist öffentlich zugänglich"],
-      "tr": ["En az 2 mahalle sakini bir araya gelmeli", "Proje halka açık olmalı"],
-      "fr": ["Groupe d'au moins 2 habitants", "Projet accessible à tous"],
-      "it": ["Almeno 2 residenti", "Progetto aperto al pubblico e benefico per il quartiere"],
-      "pt": ["Mínimo de 2 moradores", "Projeto acessível ao público"],
-      "pt-BR": ["Pelo menos 2 moradores", "Projeto aberto ao público"]
+      "nl": ["Stichting, vereniging of groep bewoners","Project is openbaar toegankelijk en versterkt de buurt"],
+      "en": ["Foundation, association or group of residents","Project is publicly accessible and benefits the neighborhood"],
+      "es": ["Fundación, asociación o grupo de vecinos","Proyecto de libre acceso que mejore el entorno del barrio"],
+      "de": ["Stiftung, Verein oder Gruppe von Bewohnern","Projekt ist öffentlich zugänglich"],
+      "tr": ["Vakıf, dernek veya mahalle sakinlerinden oluşan grup","Proje halka açık olmalı"],
+      "fr": ["Fondation, association ou groupe d'habitants","Projet accessible à tous"],
+      "it": ["Fondazione, associazione o gruppo di residenti","Progetto aperto al pubblico e benefico per il quartiere"],
+      "pt": ["Fundação, associação ou grupo de moradores","Projeto acessível ao público"],
+      "pt-BR": ["Fundação, associação ou grupo de moradores","Projeto aberto ao público"]
     },
     "howToApply": {
-      "nl": ["Schrijf een kort projectplan met begroting", "Dien de KIEM-aanvraag digitaal in via het subsidieportaal Utrecht"],
-      "en": ["Write a brief project plan and budget", "Submit application online via Utrecht subsidy portal"],
-      "es": ["Redacta un plan sencillo con presupuesto", "Presenta la solicitud KIEM en el portal de subvenciones de Utrecht"],
-      "de": ["Kurzen Projektplan mit Budget erstellen", "Online im Portal der Gemeinde einreichen"],
-      "tr": ["Kısa bir proje planı ve bütçe hazırlayın", "Utrecht hibe portalı üzerinden başvuruyu yapın"],
-      "fr": ["Rédiger un plan de projet avec budget", "Déposer la demande sur le portail de la ville"],
-      "it": ["Redigi un breve piano con budget", "Invia domanda online sul portale del comune"],
-      "pt": ["Escreva um plano simples com orçamento", "Submeta o pedido no portal de subsídios"],
-      "pt-BR": ["Elabore um plano simples com orçamento", "Envie o pedido pelo portal da prefeitura"]
+      "nl": ["Schrijf een kort projectplan met begroting","Dien de KIEM-aanvraag in via kiemutrecht.nl"],
+      "en": ["Write a brief project plan and budget","Submit the KIEM application via kiemutrecht.nl"],
+      "es": ["Redacta un plan sencillo con presupuesto","Presenta la solicitud KIEM en kiemutrecht.nl"],
+      "de": ["Kurzen Projektplan mit Budget erstellen","KIEM-Antrag über kiemutrecht.nl einreichen"],
+      "tr": ["Kısa bir proje planı ve bütçe hazırlayın","KIEM başvurusunu kiemutrecht.nl üzerinden yapın"],
+      "fr": ["Rédiger un plan de projet avec budget","Déposer la demande KIEM sur kiemutrecht.nl"],
+      "it": ["Redigi un breve piano con budget","Invia la domanda KIEM su kiemutrecht.nl"],
+      "pt": ["Escreva um plano simples com orçamento","Submeta o pedido KIEM em kiemutrecht.nl"],
+      "pt-BR": ["Elabore um plano simples com orçamento","Envie o pedido KIEM pelo kiemutrecht.nl"]
     }
   },
   {
@@ -499,26 +499,26 @@
       "pt-BR": "Auxílio por metro quadrado para instalar telhado verde na sua casa ou garagem."
     },
     "eligibility": {
-      "nl": ["Dakoppervlakte van minimaal 10 m²", "Dak ligt in de gemeente Utrecht"],
-      "en": ["Minimum roof area of 10 m²", "Building located in Utrecht"],
-      "es": ["Superficie mínima de cubierta de 10 m²", "Ubicado en el municipio de Utrecht"],
-      "de": ["Mindestfläche 10 m²", "In Utrecht gelegen"],
-      "tr": ["En az 10 m² çatı alanı", "Utrecht sınırları içinde olmak"],
-      "fr": ["Surface minimale de 10 m²", "Bâtiment situé à Utrecht"],
-      "it": ["Superficie minima di 10 m²", "Edificio a Utrecht"],
-      "pt": ["Área mínima de 10 m²", "Localizado em Utrecht"],
-      "pt-BR": ["Área mínima de 10 m²", "Localizado em Utrecht"]
+      "nl": ["Minimaal 6 m² beplanting op het dak","Dak ligt in de gemeente Utrecht; met U-pas is het bedrag per m² dubbel"],
+      "en": ["At least 6 m² of planting on the roof","Roof located in Utrecht; U-pas holders receive double the amount per m²"],
+      "es": ["Al menos 6 m² de vegetación en la cubierta","Ubicado en Utrecht; con U-pas el importe por m² se duplica"],
+      "de": ["Mindestens 6 m² Bepflanzung auf dem Dach","In Utrecht gelegen; mit U-Pas verdoppelt sich der Betrag pro m²"],
+      "tr": ["Çatıda en az 6 m² bitkilendirme","Utrecht sınırları içinde olmak; U-pas ile m² başına tutar iki katı"],
+      "fr": ["Au moins 6 m² de plantation sur le toit","Bâtiment situé à Utrecht ; avec le U-pas le montant au m² est doublé"],
+      "it": ["Almeno 6 m² di piantumazione sul tetto","Edificio a Utrecht; con la U-pas l'importo al m² raddoppia"],
+      "pt": ["Pelo menos 6 m² de plantação no telhado","Localizado em Utrecht; com U-pas o valor por m² duplica"],
+      "pt-BR": ["Pelo menos 6 m² de plantio no telhado","Localizado em Utrecht; com U-pas o valor por m² dobra"]
     },
     "howToApply": {
-      "nl": ["Controleer de geschiktheid van de dakconstructie", "Vraag subsidie aan vóór of direct na de uitvoering"],
-      "en": ["Check structural weight capacity of roof", "Apply for subsidy before or right after installation"],
-      "es": ["Comprueba la resistencia de la estructura del tejado", "Solicita la subvención antes o justo después de la obra"],
-      "de": ["Tragfähigkeit prüfen", "Subvention vor/nach Bau beantragen"],
-      "tr": ["Çatı taşıma kapasitesini kontrol edin", "Başvuruyu yapın"],
-      "fr": ["Vérifier la capacité de portée du toit", "Déposer la demande"],
-      "it": ["Verifica la portata del tetto", "Richiedi il contributo"],
-      "pt": ["Verifique a estrutura do telhado", "Faça o pedido"],
-      "pt-BR": ["Verifique a estrutura do telhado", "Envie a solicitação"]
+      "nl": ["Controleer de geschiktheid van de dakconstructie","Vraag subsidie aan tot 3 maanden vóór of uiterlijk 3 maanden ná de aanleg"],
+      "en": ["Check structural weight capacity of roof","Apply up to 3 months before or at most 3 months after installation"],
+      "es": ["Comprueba la resistencia de la estructura del tejado","Solicita hasta 3 meses antes o como máximo 3 meses después de la obra"],
+      "de": ["Tragfähigkeit prüfen","Bis 3 Monate vor oder spätestens 3 Monate nach dem Bau beantragen"],
+      "tr": ["Çatı taşıma kapasitesini kontrol edin","Yapımdan en fazla 3 ay önce veya en geç 3 ay sonra başvurun"],
+      "fr": ["Vérifier la capacité de portée du toit","Déposer la demande jusqu'à 3 mois avant ou au plus tard 3 mois après les travaux"],
+      "it": ["Verifica la portata del tetto","Richiedi fino a 3 mesi prima o al massimo 3 mesi dopo la realizzazione"],
+      "pt": ["Verifique a estrutura do telhado","Peça até 3 meses antes ou no máximo 3 meses depois da obra"],
+      "pt-BR": ["Verifique a estrutura do telhado","Solicite até 3 meses antes ou no máximo 3 meses depois da obra"]
     }
   },
   {
@@ -557,15 +557,15 @@
       "pt-BR": "Apoio financeiro para transformar pátios de concreto em áreas verdes de brincar."
     },
     "eligibility": {
-      "nl": ["Basisschool of kinderopvang in Utrecht", "Plan is gemaakt samen met leerlingen/ouders"],
-      "en": ["Primary school or childcare in Utrecht", "Plan co-created with pupils/parents"],
-      "es": ["Colegio de primaria o escuela infantil de Utrecht", "Plan elaborado junto a alumnos y familias"],
-      "de": ["Grundschule/Kita in Utrecht", "Plan gemeinsam mit Eltern/Schülern"],
-      "tr": ["Utrecht'teki ilkokul veya kreşler", "Planın veli/öğrencilerle yapılması"],
-      "fr": ["École primaire ou crèche à Utrecht", "Projet conçu avec les élèves"],
-      "it": ["Scuola primaria o nido a Utrecht", "Piano creato con alunni/genitori"],
-      "pt": ["Escola primária ou infantário em Utrecht", "Plano com alunos/pais"],
-      "pt-BR": ["Escola primária ou creche em Utrecht", "Plano feito com alunos/pais"]
+      "nl": ["(Speciale) basisschool of school voor speciaal onderwijs in Utrecht","Aanvraag vóór de aanleg van het schoolplein, met verplicht adviesgesprek"],
+      "en": ["(Special) primary school or school for special education in Utrecht","Apply before the schoolyard is built, with a mandatory advisory meeting"],
+      "es": ["Colegio de primaria o de educación especial en Utrecht","Solicitar antes de la obra del patio, con reunión de asesoramiento obligatoria"],
+      "de": ["Grundschule oder Förderschule in Utrecht","Antrag vor dem Bau des Schulhofs, mit verpflichtendem Beratungsgespräch"],
+      "tr": ["Utrecht'teki ilkokul veya özel eğitim okulu","Başvuru bahçe yapımından önce ve zorunlu danışma görüşmesiyle"],
+      "fr": ["École primaire ou école d'enseignement spécialisé à Utrecht","Demande avant les travaux de la cour, avec entretien-conseil obligatoire"],
+      "it": ["Scuola primaria o scuola per l'istruzione speciale a Utrecht","Domanda prima della realizzazione del cortile, con colloquio consultivo obbligatorio"],
+      "pt": ["Escola primária ou de ensino especial em Utrecht","Pedido antes da obra do recreio, com reunião de aconselhamento obrigatória"],
+      "pt-BR": ["Escola primária ou de educação especial em Utrecht","Pedido antes da obra do pátio, com reunião de orientação obrigatória"]
     },
     "howToApply": {
       "nl": ["Dien het inrichtingsplan in via het gemeentelijk loket", "Ontvang subsidie voor aanleg en beplanting"],
