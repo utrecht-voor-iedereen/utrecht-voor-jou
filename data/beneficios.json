@@ -604,15 +604,15 @@
       "pt-BR": "BuurtNatuur030 (Rede de apoio ecológico)"
     },
     "shortDescription": {
-      "nl": "Hulp, advies, gereedschap en gratis coaching voor buurtbewoners die natuur en biodiversiteit in Utrecht willen versterken.",
-      "en": "Support, advice, tools and coaching for residents aiming to boost local biodiversity and green spaces in Utrecht.",
-      "es": "Asesoramiento, herramientas y acompañamiento gratuito para vecinos que quieran promover la biodiversidad urbana.",
-      "de": "Beratung und Ausrüstung für Anwohner, die die Biodiversität in Utrecht fördern wollen.",
-      "tr": "Utrecht'te biyoçeşitliliği artırmak isteyen mahalleliler için ücretsiz danışmanlık ve araç desteği.",
-      "fr": "Conseils, outils et coaching gratuits pour enrichir la biodiversité locale.",
-      "it": "Supporto, consigli e attrezzi gratuiti per promuovere la biodiversità locale.",
-      "pt": "Conselhos, ferramentas e acompanhamento para promover a biodiversidade em Utrecht.",
-      "pt-BR": "Orientação, ferramentas e suporte gratuito para promover a biodiversidade em Utrecht."
+      "nl": "Kennis- en netwerkplatform voor groene buurtinitiatieven, met tuincoaches en een kennisbank. Ontwikkeld met Utrecht Natuurlijk en Milieucentrum Utrecht.",
+      "en": "Knowledge and network platform for green neighborhood initiatives, with garden coaches and a knowledge base. Run with Utrecht Natuurlijk and Milieucentrum Utrecht.",
+      "es": "Plataforma de conocimiento y contactos para iniciativas verdes de barrio, con asesores de jardín y una base de conocimiento.",
+      "de": "Wissens- und Netzwerkplattform für grüne Nachbarschaftsinitiativen, mit Gartencoaches und einer Wissensdatenbank.",
+      "tr": "Yeşil mahalle girişimleri için bilgi ve ağ platformu; bahçe koçları ve bilgi bankası sunar.",
+      "fr": "Plateforme de savoir et de mise en réseau pour les initiatives vertes de quartier, avec des coachs jardin et une base de connaissances.",
+      "it": "Piattaforma di conoscenza e rete per iniziative verdi di quartiere, con garden coach e una banca dati.",
+      "pt": "Plataforma de conhecimento e contactos para iniciativas verdes de bairro, com coaches de jardim e uma base de conhecimento.",
+      "pt-BR": "Plataforma de conhecimento e rede para iniciativas verdes de bairro, com coaches de jardim e uma base de conhecimento."
     },
     "eligibility": {
       "nl": ["Iedere inwoner van Utrecht met een groen idee"],
@@ -626,15 +626,15 @@
       "pt-BR": ["Qualquer morador com uma ideia verde"]
     },
     "howToApply": {
-      "nl": ["Neem contact op via buurtnatuur030.nl", "Krijg advies op maat of leen gereedschap"],
-      "en": ["Get in touch via buurtnatuur030.nl", "Receive tailored advice or borrow tools"],
-      "es": ["Contacta a través de buurtnatuur030.nl", "Recibe ayuda personalizada o toma prestadas herramientas"],
-      "de": ["Über buurtnatuur030.nl kontaktieren", "Beratung oder Werkzeug leihen"],
-      "tr": ["buurtnatuur030.nl üzerinden iletişime geçin", "Danışmanlık alın veya ekipman ödünç alın"],
-      "fr": ["Contacter via buurtnatuur030.nl", "Recevoir des conseils ou emprunter du matériel"],
-      "it": ["Contatta tramite buurtnatuur030.nl", "Ricevi consulenza o prendi in prestito attrezzi"],
-      "pt": ["Contacte via buurtnatuur030.nl", "Receba apoio ou peça ferramentas emprestadas"],
-      "pt-BR": ["Entre em contato pelo buurtnatuur030.nl", "Receba orientação ou pegue ferramentas emprestadas"]
+      "nl": ["Neem contact op via buurtnatuur030.nl","Sluit je aan bij de online community of vraag een tuincoach"],
+      "en": ["Get in touch via buurtnatuur030.nl","Join the online community or request a garden coach"],
+      "es": ["Contacta a través de buurtnatuur030.nl","Únete a la comunidad online o pide un asesor de jardín"],
+      "de": ["Über buurtnatuur030.nl kontaktieren","Der Online-Community beitreten oder einen Gartencoach anfragen"],
+      "tr": ["buurtnatuur030.nl üzerinden iletişime geçin","Çevrimiçi topluluğa katılın veya bahçe koçu isteyin"],
+      "fr": ["Contacter via buurtnatuur030.nl","Rejoindre la communauté en ligne ou demander un coach jardin"],
+      "it": ["Contatta tramite buurtnatuur030.nl","Unisciti alla community online o chiedi un garden coach"],
+      "pt": ["Contacte via buurtnatuur030.nl","Junte-se à comunidade online ou peça um coach de jardim"],
+      "pt-BR": ["Entre em contato pelo buurtnatuur030.nl","Participe da comunidade online ou peça um coach de jardim"]
     }
   },
   {
@@ -662,15 +662,15 @@
       "pt-BR": "Feira de troca de plantas e mudas"
     },
     "shortDescription": {
-      "nl": "Ruil kosteloos planten, zaden en stekjes met buurtgenoten tijdens gemeentelijke en wijkgebonden groenmarkten.",
-      "en": "Exchange plants, seeds, and cuttings for free with neighbors during community green markets.",
-      "es": "Intercambia gratis plantas, semillas y esquejes con tus vecinos en los mercados verdes de los barrios.",
-      "de": "Kostenlos Pflanzen und Samen mit Nachbarn auf den Stadtteilmärkten tauschen.",
-      "tr": "Mahalle pazarlarında komşularınızla ücretsiz bitki, tohum ve çelik takası yapın.",
-      "fr": "Échangez gratuitement plantes et graines lors des marchés écologiques de quartier.",
-      "it": "Scambia gratuitamente piante e semi con i vicini durante i mercati di quartiere.",
-      "pt": "Troque gratuitamente plantas e sementes com vizinhos em feiras do bairro.",
-      "pt-BR": "Troque plantas e sementes de graça com vizinhos nas feiras dos bairros."
+      "nl": "Buurtbewoners en wijkinitiatieven ruilen planten, zaden en stekjes. Dit wordt niet door de gemeente georganiseerd; kijk in je eigen wijk wat er is.",
+      "en": "Residents and neighborhood initiatives swap plants, seeds and cuttings. Not organised by the municipality, so check what runs in your own district.",
+      "es": "Vecinos e iniciativas de barrio intercambian plantas, semillas y esquejes. No lo organiza la gemeente: mira qué hay en tu propio barrio.",
+      "de": "Anwohner und Nachbarschaftsinitiativen tauschen Pflanzen, Samen und Stecklinge. Nicht von der Gemeinde organisiert; schauen Sie in Ihrem Viertel.",
+      "tr": "Mahalle sakinleri ve girişimleri bitki, tohum ve çelik takas eder. Belediye düzenlemez; kendi mahallenizde ne olduğuna bakın.",
+      "fr": "Habitants et initiatives de quartier échangent plantes, graines et boutures. Ce n'est pas organisé par la ville : renseignez-vous dans votre quartier.",
+      "it": "Residenti e iniziative di quartiere si scambiano piante, semi e talee. Non è organizzato dal comune: informati nel tuo quartiere.",
+      "pt": "Moradores e iniciativas de bairro trocam plantas, sementes e estacas. Não é organizado pelo município: veja o que existe no seu bairro.",
+      "pt-BR": "Moradores e iniciativas de bairro trocam plantas, sementes e mudas. Não é organizado pela prefeitura: veja o que existe no seu bairro."
     },
     "eligibility": {
       "nl": ["Open voor alle inwoners van Utrecht"],
@@ -720,26 +720,26 @@
       "pt-BR": "U-pas (Cartão gratuito com saldo para esporte, cultura e transporte)"
     },
     "shortDescription": {
-      "nl": "Gratis voordeelpas voor inwoners met een laag inkomen. Bevat een jaarlijks tegoed voor sport, abonnementen, uitjes en bus/tram.",
-      "en": "Free benefit card for low-income residents. Provides an annual budget for sports, memberships, outings, and public transport.",
-      "es": "Tarjeta gratuita para personas con ingresos reducidos. Incluye saldo anual para deportes, talleres, museos y transporte público.",
-      "de": "Kostenlose Vorteilskarte für Einkommensschwache mit jährlichem Guthaben für Sport, Freizeit und Nahverkehr.",
-      "tr": "Düşük gelirli sakinler için ücretsiz kart. Spor, kültür ve toplu taşıma için yıllık bütçe sağlar.",
-      "fr": "Carte gratuite pour foyers à revenus modestes. Crédit annuel pour le sport, la culture et les transports.",
-      "it": "Tessera gratuita per redditi bassi con credito annuale per sport, cultura e trasporti pubblici.",
-      "pt": "Cartão gratuito para residentes com baixos rendimentos com saldo anual para desporto, cultura e transportes.",
-      "pt-BR": "Cartão gratuito para baixa renda com saldo anual para esportes, cultura e ônibus/tram."
+      "nl": "Gratis voordeelpas voor inwoners met een laag inkomen. Jaarlijks tegoed voor sport, cultuur en uitjes, plus 70% korting op bus en tram in de daluren.",
+      "en": "Free benefit card for low-income residents. Annual budget for sports, culture and outings, plus 70% off bus and tram during off-peak hours.",
+      "es": "Tarjeta gratuita para personas con ingresos bajos. Saldo anual para deporte, cultura y salidas, más un 70% de descuento en bus y tranvía en horas valle.",
+      "de": "Kostenlose Vorteilskarte bei geringem Einkommen. Jährliches Guthaben für Sport und Kultur, plus 70% Rabatt auf Bus und Tram außerhalb der Stoßzeiten.",
+      "tr": "Düşük gelirliler için ücretsiz kart. Spor, kültür ve geziler için yıllık bütçe, ayrıca yoğun olmayan saatlerde otobüs ve tramvayda %70 indirim.",
+      "fr": "Carte gratuite pour revenus modestes. Crédit annuel pour le sport, la culture et les sorties, plus 70% de réduction sur bus et tram en heures creuses.",
+      "it": "Tessera gratuita per redditi bassi. Credito annuale per sport, cultura e gite, più il 70% di sconto su bus e tram nelle ore di morbida.",
+      "pt": "Cartão gratuito para rendimentos baixos. Saldo anual para desporto, cultura e passeios, mais 70% de desconto em autocarro e elétrico fora das horas de ponta.",
+      "pt-BR": "Cartão gratuito para baixa renda. Saldo anual para esporte, cultura e passeios, mais 70% de desconto em ônibus e VLT fora do horário de pico."
     },
     "eligibility": {
-      "nl": ["Woonachtig in Utrecht", "Netto-inkomen niet hoger dan 125% van de bijstandsnorm"],
-      "en": ["Living in Utrecht", "Net income up to 125% of social minimum"],
-      "es": ["Residir en Utrecht", "Ingresos netos hasta el 125% del salario mínimo social"],
-      "de": ["Wohnsitz in Utrecht", "Einkommen max. 125% des Existenzminimums"],
-      "tr": ["Utrecht'te yaşamak", "Net gelirin sosyal asgari sınırın %125'inden az olması"],
-      "fr": ["Résider à Utrecht", "Revenus nets max. 125% du minimum social"],
-      "it": ["Residenza a Utrecht", "Reddito netto entro il 125% del minimo sociale"],
-      "pt": ["Residir em Utrecht", "Rendimento líquido até 125% do mínimo social"],
-      "pt-BR": ["Morar em Utrecht", "Renda líquida de até 125% do mínimo social"]
+      "nl": ["Woonachtig in Utrecht, De Bilt, Houten, IJsselstein of Stichtse Vecht","Gezamenlijk bruto jaarinkomen tot 125% van het sociaal minimum"],
+      "en": ["Living in Utrecht, De Bilt, Houten, IJsselstein or Stichtse Vecht","Combined gross annual income up to 125% of the social minimum"],
+      "es": ["Residir en Utrecht, De Bilt, Houten, IJsselstein o Stichtse Vecht","Ingresos brutos anuales conjuntos de hasta el 125% del mínimo social"],
+      "de": ["Wohnsitz in Utrecht, De Bilt, Houten, IJsselstein oder Stichtse Vecht","Gemeinsames Bruttojahreseinkommen bis 125% des sozialen Existenzminimums"],
+      "tr": ["Utrecht, De Bilt, Houten, IJsselstein veya Stichtse Vecht'te yaşamak","Toplam brüt yıllık gelirin sosyal asgari sınırın %125'ine kadar olması"],
+      "fr": ["Résider à Utrecht, De Bilt, Houten, IJsselstein ou Stichtse Vecht","Revenu annuel brut du foyer jusqu'à 125% du minimum social"],
+      "it": ["Residenza a Utrecht, De Bilt, Houten, IJsselstein o Stichtse Vecht","Reddito annuo lordo complessivo fino al 125% del minimo sociale"],
+      "pt": ["Residir em Utrecht, De Bilt, Houten, IJsselstein ou Stichtse Vecht","Rendimento anual bruto conjunto até 125% do mínimo social"],
+      "pt-BR": ["Morar em Utrecht, De Bilt, Houten, IJsselstein ou Stichtse Vecht","Renda anual bruta conjunta de até 125% do mínimo social"]
     },
     "howToApply": {
       "nl": ["Vraag de U-pas online aan via u-pas.nl", "Stuur bewijs van inkomen en identiteit mee", "Ontvang de fysieke pas per post"],
@@ -760,56 +760,56 @@
     "wijk": "all",
     "verificationStatus": "verificado",
     "lastReviewed": "2026-07-27",
-    "expiresSoon": true,
+    "expiresSoon": false,
     "expiryDate": "2026-06-30",
     "officialUrl": "https://www.utrecht.nl/werk-en-inkomen/geld-en-hulp-bij-rondkomen/vergoeding-voor-producten-die-nodig-zijn-in-uw-huis",
     "profiles": ["lage-inkomens", "gezin", "senior"],
     "searchAliases": {
-      "all": ["witgoed", "witgoedregeling", "koelkast", "wasmachine", "apparaat", "a-label", "u-pas"]
+      "all": ["witgoed","witgoedregeling","koelkast","wasmachine","kookplaat","vergoeding","bijzondere bijstand","apparaat"]
     },
     "title": {
-      "nl": "Witgoedregeling (Gratis zuinige koelkast of wasmachine)",
-      "en": "Witgoedregeling (Free energy-efficient fridge or washing machine)",
-      "es": "Witgoedregeling (Frigorífico o lavadora eficiente gratis para pashouders)",
-      "de": "Witgoedregeling (Kostenloser neuer Kühlschrank/Waschmaschine)",
-      "tr": "Witgoedregeling (Ücretsiz tasarruflu buzdolabı veya çamaşır makinesi)",
-      "fr": "Witgoedregeling (Réfrigérateur ou lave-linge écologique gratuit)",
-      "it": "Witgoedregeling (Frigorifero o lavatrice gratis per possessori U-pas)",
-      "pt": "Witgoedregeling (Frigorífico ou máquina de lavar grátis)",
-      "pt-BR": "Witgoedregeling (Geladeira ou máquina de lavar grátis para U-pas)"
+      "nl": "Vergoeding voor wasmachine, koelkast of kookplaat",
+      "en": "Vergoeding witgoed (Compensation for a washing machine, fridge or cooktop)",
+      "es": "Vergoeding witgoed (Ayuda para lavadora, nevera o placa de cocina)",
+      "de": "Vergoeding witgoed (Zuschuss für Waschmaschine, Kühlschrank oder Kochfeld)",
+      "tr": "Vergoeding witgoed (Çamaşır makinesi, buzdolabı veya ocak için ödenek)",
+      "fr": "Vergoeding witgoed (Aide pour lave-linge, réfrigérateur ou plaque de cuisson)",
+      "it": "Vergoeding witgoed (Contributo per lavatrice, frigorifero o piano cottura)",
+      "pt": "Vergoeding witgoed (Apoio para máquina de lavar, frigorífico ou placa)",
+      "pt-BR": "Vergoeding witgoed (Auxílio para máquina de lavar, geladeira ou cooktop)"
     },
     "shortDescription": {
-      "nl": "Houders van een U-pas kunnen een oud energieverslindend apparaat kosteloos omruilen voor een nieuw A-label apparaat. Let op: mogelijke deadline nabij!",
-      "en": "U-pas holders can exchange an old energy-guzzling appliance for a brand-new energy-efficient device for free. Check upcoming deadlines!",
-      "es": "Los titulares de U-pas pueden cambiar un electrodoméstico antiguo por uno nuevo de bajo consumo (A-label) totalmente gratis. ¡Verificar prórroga!",
-      "de": "Inhaber einer U-Pas können ein altes Gerät kostenlos gegen ein neues A-Label Gerät tauschen.",
-      "tr": "U-pas sahipleri eski cihazlarını ücretsiz olarak A-sınıfı tasarruflu yeni cihazla değiştirebilir.",
-      "fr": "Les titulaires U-pas peuvent échanger un vieil appareil contre un neuf économe en énergie.",
-      "it": "Chi possiede la U-pas può sostituire un vecchio elettrodomestico con uno nuovo ad alta efficienza.",
-      "pt": "Titulares do U-pas podem trocar um eletrodoméstico antigo por um novo de baixo consumo.",
-      "pt-BR": "Quem tem U-pas pode trocar uma geladeira ou lavadora velha por uma nova e econômica de graça."
+      "nl": "Vergoeding van € 400 voor een wasmachine, € 250 voor een koelkast en € 300 voor een kookplaat. Je krijgt het als gift, lening of een combinatie daarvan.",
+      "en": "Compensation of € 400 for a washing machine, € 250 for a fridge and € 300 for a cooktop. Paid as a gift, a loan, or a combination of both.",
+      "es": "Ayuda de 400 € para una lavadora, 250 € para una nevera y 300 € para una placa. Se concede como donación, préstamo o una combinación.",
+      "de": "Zuschuss von € 400 für eine Waschmaschine, € 250 für einen Kühlschrank und € 300 für ein Kochfeld. Als Geschenk, Darlehen oder Kombination.",
+      "tr": "Çamaşır makinesi için 400 €, buzdolabı için 250 €, ocak için 300 € ödenek. Hibe, kredi veya ikisinin birleşimi olarak verilir.",
+      "fr": "Aide de 400 € pour un lave-linge, 250 € pour un réfrigérateur et 300 € pour une plaque. Versée en don, en prêt ou en combinaison des deux.",
+      "it": "Contributo di 400 € per la lavatrice, 250 € per il frigorifero e 300 € per il piano cottura. Erogato come dono, prestito o combinazione.",
+      "pt": "Apoio de 400 € para máquina de lavar, 250 € para frigorífico e 300 € para placa. Concedido como doação, empréstimo ou combinação.",
+      "pt-BR": "Auxílio de € 400 para máquina de lavar, € 250 para geladeira e € 300 para cooktop. Concedido como doação, empréstimo ou combinação."
     },
     "eligibility": {
-      "nl": ["In het bezit van een geldige U-pas", "Huidige apparaat is ouder dan 7-10 jaar"],
-      "en": ["Holder of a valid U-pas card", "Current appliance is older than 7-10 years"],
-      "es": ["Tener tarjeta U-pas activa", "El electrodoméstico actual tiene más de 7-10 años"],
-      "de": ["Gültige U-Pas vorhanden", "Altgerät älter als 7-10 Jahre"],
-      "tr": ["Geçerli bir U-pas sahibi olmak", "Mevcut cihazın 7-10 yıldan eski olması"],
-      "fr": ["Avoir une carte U-pas valide", "Appareil actuel âgé de plus de 7-10 ans"],
-      "it": ["Possedere la U-pas valida", "Elettrodomestico attuale con più di 7-10 anni"],
-      "pt": ["Ter cartão U-pas válido", "Aparelho atual tem mais de 7-10 anos"],
-      "pt-BR": ["Ter o cartão U-pas ativo", "Aparelho atual ter mais de 7 anos"]
+      "nl": ["Je vermogen is lager dan de maximale bijstandsnorm in jouw situatie","Je kunt deze vergoeding 1 keer per 10 jaar aanvragen"],
+      "en": ["Your assets are below the maximum benefit level for your situation","You can claim this compensation once every 10 years"],
+      "es": ["Tu patrimonio está por debajo del máximo de la prestación social en tu caso","Puedes pedir esta ayuda una vez cada 10 años"],
+      "de": ["Ihr Vermögen liegt unter der maximalen Sozialhilfegrenze Ihrer Situation","Der Zuschuss ist einmal alle 10 Jahre möglich"],
+      "tr": ["Varlığınızın durumunuza göre azami sosyal yardım sınırının altında olması","Bu ödeneği 10 yılda bir kez talep edebilirsiniz"],
+      "fr": ["Votre patrimoine est inférieur au plafond d'aide sociale applicable","Cette aide est possible une fois tous les 10 ans"],
+      "it": ["Il tuo patrimonio è sotto la soglia massima dell'assistenza nella tua situazione","Puoi richiedere il contributo una volta ogni 10 anni"],
+      "pt": ["O seu património está abaixo do limite máximo do apoio social no seu caso","Pode pedir este apoio uma vez em cada 10 anos"],
+      "pt-BR": ["Seu patrimônio está abaixo do limite máximo do auxílio na sua situação","Você pode pedir este auxílio uma vez a cada 10 anos"]
     },
     "howToApply": {
-      "nl": ["Vraag een voucher aan via de U-pas balie", "Kies een apparaat uit de geselecteerde catalogus", "De oude wordt gratis opgehaald bij bezorging"],
-      "en": ["Request voucher via U-pas portal", "Select appliance from designated shop catalog", "Old item removed free upon delivery"],
-      "es": ["Solicita el vale en el portal U-pas", "Elige el aparato en el catálogo oficial", "Retiran el viejo gratis al entregar el nuevo"],
-      "de": ["Gutschein beantragen", "Gerät im Katalog wählen", "Altgerät wird bei Lieferung mitgenommen"],
-      "tr": ["U-pas portalından kupon isteyin", "Katalogdan yeni cihazı seçin", "Teslimatta eskisi ücretsiz alınır"],
-      "fr": ["Demander le bon sur le portail U-pas", "Choisir l'appareil", "L'ancien est repris gratuitement"],
-      "it": ["Richiedi il buono su U-pas", "Scegli dal catalogo", "Il vecchio viene ritirato gratis"],
-      "pt": ["Solicite o vale no portal U-pas", "Escolha o aparelho", "O antigo é recolhido grátis"],
-      "pt-BR": ["Peça o cupom no portal U-pas", "Escolha o aparelho no catálogo", "O velho é retirado de graça na entrega"]
+      "nl": ["Vraag de vergoeding aan vóórdat je het apparaat koopt","Stuur een omschrijving van het defect en bewijs van je vermogen (bankafschriften) mee"],
+      "en": ["Apply before you buy the appliance","Include a description of the fault and proof of your assets (bank statements)"],
+      "es": ["Solicítalo antes de comprar el electrodoméstico","Adjunta una descripción de la avería y justificantes de tu patrimonio (extractos bancarios)"],
+      "de": ["Vor dem Kauf des Geräts beantragen","Beschreibung des Defekts und Vermögensnachweis (Kontoauszüge) beifügen"],
+      "tr": ["Cihazı satın almadan önce başvurun","Arızanın açıklamasını ve varlık belgenizi (banka dökümleri) ekleyin"],
+      "fr": ["Faire la demande avant d'acheter l'appareil","Joindre une description de la panne et des justificatifs de patrimoine (relevés bancaires)"],
+      "it": ["Richiedilo prima di acquistare l'elettrodomestico","Allega la descrizione del guasto e la prova del patrimonio (estratti conto)"],
+      "pt": ["Peça antes de comprar o eletrodoméstico","Junte a descrição da avaria e comprovativos do património (extratos bancários)"],
+      "pt-BR": ["Peça antes de comprar o aparelho","Envie a descrição do defeito e comprovantes do seu patrimônio (extratos bancários)"]
     }
   },
   {
@@ -837,26 +837,26 @@
       "pt-BR": "Isenção de impostos municipais e da água (BghU)"
     },
     "shortDescription": {
-      "nl": "Heb je een bijstandsinkomen of minimumloon? Vraag volledige kwijtschelding aan voor de afvalstoffenheffing en waterschapsbelasting.",
-      "en": "Living on minimum income? Apply for full exemption from waste collection levy and water board taxes via BghU.",
-      "es": "Si tienes ingresos mínimos o prestación, puedes solicitar la exención del 100% de la tasa de basuras e impuestos del waterschap.",
-      "de": "Vollständiger Erlass der Müll- und Wassergebühren bei geringem Einkommen.",
-      "tr": "Düşük gelirliyseniz çöp ve su vergilerinden %100 muafiyet talep edebilirsiniz.",
-      "fr": "Exonération totale de la taxe d'enlèvement des ordures et de l'eau pour les bas revenus.",
-      "it": "Esenzione totale dalla tassa sui rifiuti e sull'acqua per redditi minimi.",
-      "pt": "Isenção total da taxa de lixo e da água para rendimentos baixos.",
-      "pt-BR": "Isenção total da taxa de lixo e impostos de água para quem ganha salário mínimo ou auxílio."
+      "nl": "Vraag kwijtschelding aan voor afvalstoffenheffing, rioolheffing, waterschapsbelasting, hondenbelasting en OZB als je een laag inkomen en weinig vermogen hebt.",
+      "en": "Apply for a waiver of waste, sewerage, water board, dog and property taxes if you have a low income and few assets.",
+      "es": "Solicita la exención de las tasas de basuras, alcantarillado, agua, perros e IBI si tienes ingresos bajos y poco patrimonio.",
+      "de": "Erlass von Müll-, Abwasser-, Wasserverbands-, Hunde- und Grundsteuer bei geringem Einkommen und wenig Vermögen.",
+      "tr": "Düşük gelir ve az varlığınız varsa çöp, kanalizasyon, su kurulu, köpek ve emlak vergilerinden muafiyet isteyin.",
+      "fr": "Demandez l'exonération des taxes déchets, égouts, eau, chiens et foncière si vous avez de faibles revenus et peu de patrimoine.",
+      "it": "Chiedi l'esenzione da tasse rifiuti, fognature, consorzio idrico, cani e immobili se hai basso reddito e pochi beni.",
+      "pt": "Peça isenção das taxas de lixo, saneamento, água, cães e imóveis se tiver rendimentos baixos e pouco património.",
+      "pt-BR": "Peça isenção das taxas de lixo, esgoto, água, cães e imposto sobre imóvel se tiver renda baixa e pouco patrimônio."
     },
     "eligibility": {
-      "nl": ["Laag inkomen en nauwelijks vermogen of spaargeld"],
-      "en": ["Low income and limited financial savings"],
-      "es": ["Ingresos al nivel mínimo y escaso capital o ahorros"],
-      "de": ["Geringes Einkommen und Ersparnisse"],
-      "tr": ["Düşük gelir ve kısıtlı birikim"],
-      "fr": ["Faibles revenus et peu d'épargne"],
-      "it": ["Basso reddito e risparmi limitati"],
-      "pt": ["Rendimentos baixos e pouca poupança"],
-      "pt-BR": ["Renda baixa e pouca poupança"]
+      "nl": ["Laag inkomen en weinig vermogen","Vermogen onder € 3.698 (alleenstaand), € 4.492 (alleenstaande ouder) of € 4.903 (gehuwd/samenwonend)"],
+      "en": ["Low income and few assets","Assets below € 3,698 (single), € 4,492 (single parent) or € 4,903 (couple)"],
+      "es": ["Ingresos bajos y poco patrimonio","Patrimonio inferior a 3.698 € (soltero), 4.492 € (familia monoparental) o 4.903 € (pareja)"],
+      "de": ["Geringes Einkommen und wenig Vermögen","Vermögen unter € 3.698 (allein), € 4.492 (alleinerziehend) oder € 4.903 (verheiratet)"],
+      "tr": ["Düşük gelir ve az varlık","Varlık: bekâr € 3.698, tek ebeveyn € 4.492, evli/birlikte € 4.903 altında"],
+      "fr": ["Faibles revenus et peu de patrimoine","Patrimoine inférieur à 3 698 € (seul), 4 492 € (parent isolé) ou 4 903 € (couple)"],
+      "it": ["Basso reddito e pochi beni","Patrimonio sotto 3.698 € (single), 4.492 € (genitore solo) o 4.903 € (coniugi)"],
+      "pt": ["Rendimentos baixos e pouco património","Património abaixo de 3.698 € (sozinho), 4.492 € (monoparental) ou 4.903 € (casal)"],
+      "pt-BR": ["Renda baixa e pouco patrimônio","Patrimônio abaixo de € 3.698 (solteiro), € 4.492 (monoparental) ou € 4.903 (casal)"]
     },
     "howToApply": {
       "nl": ["Log in op Mijn BghU met DigiD", "Dien het kwijtscheldingsverzoek in", "Automatische toetsing via belastingdienst"],
@@ -953,26 +953,26 @@
       "pt-BR": "Abono anual para baixa renda prolongada"
     },
     "shortDescription": {
-      "nl": "Een jaarlijkse geldbedrag voor mensen die al 3 jaar of langer een laag inkomen hebben en geen zicht op inkomensverbetering.",
-      "en": "An annual cash grant for residents living on low income for 3 years or longer with no prospect of income rise.",
-      "es": "Un pago en efectivo anual para personas que llevan 3 años o más con ingresos bajos sin perspectivas de aumento.",
-      "de": "Jährliche Auszahlung für Personen mit mindestens 3 Jahren geringem Einkommen.",
-      "tr": "En az 3 yıldır düşük gelirle yaşayanlar için yıllık nakit desteği.",
-      "fr": "Versant annuel pour personnes à faible revenu depuis 3 ans ou plus.",
-      "it": "Contributo annuo per chi ha un reddito basso da almeno 3 anni.",
-      "pt": "Pagamento anual para quem tem rendimentos baixos há 3 anos ou mais.",
-      "pt-BR": "Abono anual em dinheiro para quem tem renda baixa há 3 anos ou mais."
+      "nl": "Een jaarlijks bedrag (€ 125 tot € 800, afhankelijk van je gezin) voor wie al 12 maanden een laag inkomen heeft en geen zicht op verbetering.",
+      "en": "An annual payment (€ 125 to € 800 depending on your household) for people on a low income for 12 months with no prospect of improvement.",
+      "es": "Un pago anual (de 125 € a 800 € según tu unidad familiar) para quien lleva 12 meses con ingresos bajos y sin perspectiva de mejora.",
+      "de": "Eine jährliche Zahlung (€ 125 bis € 800 je nach Haushalt) für Personen mit 12 Monaten geringem Einkommen ohne Aussicht auf Besserung.",
+      "tr": "12 aydır düşük gelirli olan ve iyileşme beklentisi olmayanlara yıllık ödeme (haneye göre 125 € ila 800 €).",
+      "fr": "Un versement annuel (de 125 € à 800 € selon le foyer) pour les personnes à faibles revenus depuis 12 mois sans perspective d'amélioration.",
+      "it": "Un pagamento annuo (da 125 € a 800 € secondo il nucleo) per chi ha un reddito basso da 12 mesi senza prospettive di miglioramento.",
+      "pt": "Um pagamento anual (de 125 € a 800 € consoante o agregado) para quem tem rendimentos baixos há 12 meses sem perspetiva de melhoria.",
+      "pt-BR": "Um pagamento anual (de € 125 a € 800 conforme a família) para quem está com renda baixa há 12 meses e sem perspectiva de melhora."
     },
     "eligibility": {
-      "nl": ["36 maanden lang een inkomen op bijstandsniveau", "Geen zicht op inkomensstijging"],
-      "en": ["36 consecutive months of minimum income", "No prospect of higher earnings"],
-      "es": ["36 meses continuos percibiendo ingresos mínimos", "Sin perspectiva de mejora laboral"],
-      "de": ["36 Monate Einkommen auf Mindestniveau", "Keine Aussicht auf Besserung"],
-      "tr": ["Kesintisiz 36 ay düşük gelir", "Gelir artışı beklentisi olmaması"],
-      "fr": ["36 mois de revenus au minimum", "Pas de perspective de hausse"],
-      "it": ["36 mesi di reddito minimo", "Nessuna prospettiva di aumento"],
-      "pt": ["36 meses de rendimentos mínimos", "Sem perspetivas de subida"],
-      "pt-BR": ["36 meses com renda mínima", "Sem perspectiva de aumento de renda"]
+      "nl": ["12 maanden een laag inkomen en geen zicht op inkomensstijging","21 jaar of ouder en jonger dan de AOW-leeftijd; 1 keer per 12 maanden"],
+      "en": ["12 months of low income with no prospect of a rise","Aged 21 or over and below state pension age; once every 12 months"],
+      "es": ["12 meses con ingresos bajos y sin perspectiva de aumento","21 años o más y por debajo de la edad de jubilación; una vez cada 12 meses"],
+      "de": ["12 Monate geringes Einkommen ohne Aussicht auf Steigerung","21 Jahre oder älter und unter dem Rentenalter; einmal alle 12 Monate"],
+      "tr": ["12 ay düşük gelir ve artış beklentisinin olmaması","21 yaş üstü ve emeklilik yaşının altında; 12 ayda bir kez"],
+      "fr": ["12 mois de faibles revenus sans perspective de hausse","21 ans ou plus et sous l'âge de la retraite ; une fois tous les 12 mois"],
+      "it": ["12 mesi di reddito basso senza prospettive di aumento","21 anni o più e sotto l'età pensionabile; una volta ogni 12 mesi"],
+      "pt": ["12 meses de rendimentos baixos e sem perspetiva de subida","21 anos ou mais e abaixo da idade da reforma; uma vez em cada 12 meses"],
+      "pt-BR": ["12 meses de renda baixa e sem perspectiva de aumento","21 anos ou mais e abaixo da idade de aposentadoria; uma vez a cada 12 meses"]
     },
     "howToApply": {
       "nl": ["Dien de aanvraag in via de gemeentelijke website met DigiD"],
@@ -994,7 +994,7 @@
     "verificationStatus": "verificado",
     "lastReviewed": "2026-07-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.u-pas.nl/",
+    "officialUrl": "https://www.u-pas.nl/gezinstegoed",
     "profiles": ["gezin", "lage-inkomens"],
     "searchAliases": {
       "all": ["gezinstegoed", "kindtegoed", "u-pas", "mijn u-pas", "tegoed", "samenvoegen"]
@@ -1022,15 +1022,15 @@
       "pt-BR": "Os pais podem somar o saldo U-pas dos filhos para atividades da família."
     },
     "eligibility": {
-      "nl": ["Meerdere kinderen binnen het gezin met actieve U-pas"],
-      "en": ["Multiple children in family with valid U-pas"],
-      "es": ["Varios hijos en el núcleo familiar con tarjeta U-pas activa"],
-      "de": ["Mehrere Kinder mit U-Pas im Haushalt"],
-      "tr": ["Ailede birden fazla U-pas sahibi çocuk olması"],
-      "fr": ["Plusieurs enfants titulaires du U-pas"],
-      "it": ["Più figli con U-pas attiva nel nucleo"],
-      "pt": ["Vários filhos com cartão U-pas ativo"],
-      "pt-BR": ["Várias crianças com o cartão U-pas ativo no mesmo teto"]
+      "nl": ["Meerdere kinderen (0-17 jaar) in het gezin met een actieve U-pas","Het tegoed van volwassenen (18+) blijft strikt persoonlijk"],
+      "en": ["Several children (0-17) in the family with an active U-pas","Adult credit (18+) stays strictly personal and cannot be pooled"],
+      "es": ["Varios hijos (0-17 años) en la familia con U-pas activa","El saldo de los adultos (18+) es estrictamente personal y no se puede juntar"],
+      "de": ["Mehrere Kinder (0-17) im Haushalt mit aktiver U-Pas","Guthaben Erwachsener (18+) bleibt streng persönlich"],
+      "tr": ["Ailede aktif U-pas sahibi birden fazla çocuk (0-17 yaş)","Yetişkin (18+) bütçesi tamamen kişiseldir, birleştirilemez"],
+      "fr": ["Plusieurs enfants (0-17 ans) du foyer titulaires du U-pas","Le crédit des adultes (18+) reste strictement personnel"],
+      "it": ["Più figli (0-17 anni) nel nucleo con U-pas attiva","Il credito degli adulti (18+) resta strettamente personale"],
+      "pt": ["Vários filhos (0-17 anos) com U-pas ativo no agregado","O saldo dos adultos (18+) é estritamente pessoal"],
+      "pt-BR": ["Várias crianças (0-17 anos) com U-pas ativo na família","O saldo dos adultos (18+) é estritamente pessoal"]
     },
     "howToApply": {
       "nl": ["Beheer de wensen via 'Mijn U-pas' omgeving online"],
@@ -1091,15 +1091,15 @@
       "pt-BR": ["Crianças de até 18 anos com U-pas em Utrecht"]
     },
     "howToApply": {
-      "nl": ["Verzilver de vergoedingen direct bij aangesloten winkels en sportverenigingen"],
-      "en": ["Redeem directly at affiliated stores, swim schools, and sports clubs"],
-      "es": ["Canjea el importe directamente en tiendas adheridas y clubes deportivos"],
-      "de": ["Direkt bei Partnergeschäften und Vereinen einlösen"],
-      "tr": ["Anlaşmalı mağaza ve spor kulüplerinde doğrudan kullanın"],
-      "fr": ["Utiliser directement auprès des magasins et clubs partenaires"],
-      "it": ["Riscatta direttamente nei negozi e club convenzionati"],
-      "pt": ["Utilize diretamente nas lojas e clubes parceiros"],
-      "pt-BR": ["Use diretamente nas lojas e clubes parceiros"]
+      "nl": ["Vraag extra tegoed aan via een maatschappelijke organisatie of het Buurtteam","Fiets en computer kunnen alleen voor kinderen uit de gemeente Utrecht"],
+      "en": ["Request extra credit through a social organisation or your Buurtteam","Bicycles and computers are only available for children in the municipality of Utrecht"],
+      "es": ["Pide el saldo extra a través de una organización social o de tu Buurtteam","La bici y el ordenador solo están disponibles para niños del municipio de Utrecht"],
+      "de": ["Zusatzguthaben über eine soziale Organisation oder das Buurtteam beantragen","Fahrrad und Computer nur für Kinder aus der Gemeinde Utrecht"],
+      "tr": ["Ekstra bütçeyi bir sosyal kuruluş veya Buurtteam üzerinden talep edin","Bisiklet ve bilgisayar yalnızca Utrecht belediyesindeki çocuklar için"],
+      "fr": ["Demander le crédit supplémentaire via une organisation sociale ou le Buurtteam","Vélo et ordinateur uniquement pour les enfants de la commune d'Utrecht"],
+      "it": ["Richiedi il credito extra tramite un'organizzazione sociale o il Buurtteam","Bici e computer solo per i bambini del comune di Utrecht"],
+      "pt": ["Peça o saldo extra através de uma organização social ou do Buurtteam","Bicicleta e computador apenas para crianças do município de Utrecht"],
+      "pt-BR": ["Peça o saldo extra por meio de uma organização social ou do Buurtteam","Bicicleta e computador apenas para crianças do município de Utrecht"]
     }
   },
   {
@@ -1127,15 +1127,15 @@
       "pt-BR": "Ajuda para esportes infantis (Jeugdfonds)"
     },
     "shortDescription": {
-      "nl": "Vergoeding van de contributie van de sportclub en kleding/attributen voor kinderen uit gescheiden of lagedrukgezinnen.",
-      "en": "Full payment of sports club membership fees and sports gear/attire for children from low-income households.",
-      "es": "Pago íntegro de la cuota del club deportivo y la ropa/equipamiento para niños de familias con pocos recursos.",
-      "de": "Übernahme von Vereinsbeiträgen und Sportkleidung für Kinder aus einkommensschwachen Familien.",
-      "tr": "Düşük gelirli ailelerin çocukları için spor kulübü aidatı ve kıyafet desteği.",
-      "fr": "Prise en charge des cotisations de club de sport et équipements pour enfants.",
-      "it": "Pagamento delle quote associative e abbigliamento sportivo per ragazzi.",
-      "pt": "Pagamento de mensalidades do clube desportivo e equipamento para crianças.",
-      "pt-BR": "Pagamento da mensalidade da escolinha de esportes e vestuário para crianças."
+      "nl": "Vergoeding van de contributie van de sportclub of cultuurles en van kleding of attributen, voor kinderen uit gezinnen met weinig geld.",
+      "en": "Covers sports club or arts class fees plus clothing or equipment, for children from families with little money.",
+      "es": "Paga la cuota del club deportivo o de las clases artísticas, más la ropa o el material, para niños de familias con pocos recursos.",
+      "de": "Übernahme von Vereins- oder Kursbeiträgen sowie Kleidung und Ausrüstung für Kinder aus einkommensschwachen Familien.",
+      "tr": "Az gelirli ailelerin çocukları için spor kulübü veya kültür dersi aidatı ile kıyafet ve malzeme desteği.",
+      "fr": "Prise en charge de la cotisation du club de sport ou du cours artistique, ainsi que des vêtements ou du matériel, pour les enfants de familles modestes.",
+      "it": "Copre la quota del club sportivo o del corso artistico e l'abbigliamento o l'attrezzatura, per bambini di famiglie con pochi mezzi.",
+      "pt": "Paga a mensalidade do clube desportivo ou da aula de cultura e ainda o vestuário ou equipamento, para crianças de famílias com poucos recursos.",
+      "pt-BR": "Paga a mensalidade do clube de esporte ou da aula de cultura e ainda a roupa ou o equipamento, para crianças de famílias com pouca renda."
     },
     "eligibility": {
       "nl": ["Gezinnen met een laag inkomen", "Kind is tussen 0 en 18 jaar oud"],
