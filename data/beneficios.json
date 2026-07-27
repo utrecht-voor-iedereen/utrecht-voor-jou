@@ -720,15 +720,15 @@
       "pt-BR": "U-pas (Cartão gratuito com saldo para esporte, cultura e transporte)"
     },
     "shortDescription": {
-      "nl": "Gratis voordeelpas voor inwoners met een laag inkomen. Jaarlijks tegoed voor sport, cultuur en uitjes, plus 70% korting op bus en tram in de daluren.",
-      "en": "Free benefit card for low-income residents. Annual budget for sports, culture and outings, plus 70% off bus and tram during off-peak hours.",
-      "es": "Tarjeta gratuita para personas con ingresos bajos. Saldo anual para deporte, cultura y salidas, más un 70% de descuento en bus y tranvía en horas valle.",
-      "de": "Kostenlose Vorteilskarte bei geringem Einkommen. Jährliches Guthaben für Sport und Kultur, plus 70% Rabatt auf Bus und Tram außerhalb der Stoßzeiten.",
-      "tr": "Düşük gelirliler için ücretsiz kart. Spor, kültür ve geziler için yıllık bütçe, ayrıca yoğun olmayan saatlerde otobüs ve tramvayda %70 indirim.",
-      "fr": "Carte gratuite pour revenus modestes. Crédit annuel pour le sport, la culture et les sorties, plus 70% de réduction sur bus et tram en heures creuses.",
-      "it": "Tessera gratuita per redditi bassi. Credito annuale per sport, cultura e gite, più il 70% di sconto su bus e tram nelle ore di morbida.",
-      "pt": "Cartão gratuito para rendimentos baixos. Saldo anual para desporto, cultura e passeios, mais 70% de desconto em autocarro e elétrico fora das horas de ponta.",
-      "pt-BR": "Cartão gratuito para baixa renda. Saldo anual para esporte, cultura e passeios, mais 70% de desconto em ônibus e VLT fora do horário de pico."
+      "nl": "Gratis voordeelpas voor inwoners met een laag inkomen. Jaarlijks tegoed voor sport, cultuur, uitjes en mobiliteit, te besteden bij aangesloten partners.",
+      "en": "Free benefit card for low-income residents. Annual budget for sports, culture, outings and mobility, spent at affiliated partners.",
+      "es": "Tarjeta gratuita para personas con ingresos bajos. Saldo anual para deporte, cultura, salidas y movilidad, para gastar en establecimientos adheridos.",
+      "de": "Kostenlose Vorteilskarte bei geringem Einkommen. Jährliches Guthaben für Sport, Kultur, Ausflüge und Mobilität bei Partnerbetrieben.",
+      "tr": "Düşük gelirliler için ücretsiz kart. Spor, kültür, gezi ve ulaşım için yıllık bütçe; anlaşmalı yerlerde harcanır.",
+      "fr": "Carte gratuite pour revenus modestes. Crédit annuel pour le sport, la culture, les sorties et la mobilité, à dépenser chez les partenaires.",
+      "it": "Tessera gratuita per redditi bassi. Credito annuale per sport, cultura, gite e mobilità, da spendere presso i partner convenzionati.",
+      "pt": "Cartão gratuito para rendimentos baixos. Saldo anual para desporto, cultura, passeios e mobilidade, para gastar em parceiros aderentes.",
+      "pt-BR": "Cartão gratuito para baixa renda. Saldo anual para esporte, cultura, passeios e mobilidade, para gastar em parceiros conveniados."
     },
     "eligibility": {
       "nl": ["Woonachtig in Utrecht, De Bilt, Houten, IJsselstein of Stichtse Vecht","Gezamenlijk bruto jaarinkomen tot 125% van het sociaal minimum"],
@@ -1696,48 +1696,48 @@
       "all": ["energiebox", "tochtstrips", "ledlampen", "radiatorfolie", "bibliotheek", "besparen"]
     },
     "title": {
-      "nl": "Energiebox gratis in de bibliotheek",
-      "en": "Free Energybox kit in the library",
-      "es": "Energiebox gratis en biblioteca (Caja de ahorro energético gratuita)",
-      "de": "Kostenlose Energiebox in der Bibliothek",
-      "tr": "Kütüphanede Ücretsiz Enerji Kutusu (Energiebox)",
-      "fr": "Boîte à énergie gratuite en bibliothèque",
-      "it": "Energiebox gratuita in biblioteca",
-      "pt": "Caixa de poupança de energia grátis na biblioteca",
-      "pt-BR": "Caixa de economia de energia grátis na biblioteca"
+      "nl": "Energiebox gratis (energiecoach komt langs)",
+      "en": "Free Energiebox (an energy coach visits you)",
+      "es": "Energiebox gratis (un asesor energético va a tu casa)",
+      "de": "Kostenlose Energiebox (ein Energiecoach kommt vorbei)",
+      "tr": "Ücretsiz Energiebox (enerji koçu evinize gelir)",
+      "fr": "Energiebox gratuite (un coach énergie se déplace chez vous)",
+      "it": "Energiebox gratuita (un energy coach viene da te)",
+      "pt": "Energiebox grátis (um coach de energia visita-o)",
+      "pt-BR": "Energiebox grátis (um coach de energia vai até você)"
     },
     "shortDescription": {
-      "nl": "Haal een gratis doos op met tochtstrips, ledlampen, radiatorfolie en een bespaaradviesgesprek via de bibliotheek of energiecoach.",
-      "en": "Pick up a free box containing draft excluders, LED bulbs, radiator foil, plus energy advice at the library.",
-      "es": "Consigue una caja gratuita con burletes, bombillas LED, láminas para radiador y consejos de ahorro en la biblioteca.",
-      "de": "Kostenlose Box mit LED-Lampen, Dichtungsbändern und Energiespartipps abholen.",
-      "tr": "Kütüphaneden LED ampul, conta ve yalıtım folyosu içeren ücretsiz enerji kutusu alın.",
-      "fr": "Retirer une boîte gratuite avec ampoules LED, bas de porte et réflecteur radiateur.",
-      "it": "Ritira una scatola gratuita con lampadine LED, guarnizioni e consigli di risparmio.",
-      "pt": "Levante uma caixa grátis com lâmpadas LED, vedantes e dicas de poupança.",
-      "pt-BR": "Pegue uma caixa grátis com lâmpadas LED, veda-frestas e placas refletoras para radiador."
+      "nl": "Een energiecoach komt bij je thuis met gratis tochtstrips, ledlampen en radiatorfolie, plus een persoonlijk bespaaradvies. Levert zo'n € 175 per jaar op.",
+      "en": "An energy coach visits your home with free draught strips, LED bulbs and radiator foil, plus personal saving advice. Worth around € 175 a year.",
+      "es": "Un asesor energético va a tu casa con burletes, bombillas LED y láminas para radiador gratis, más consejos personalizados. Ahorro de unos 175 € al año.",
+      "de": "Ein Energiecoach kommt zu Ihnen mit kostenlosen Dichtungsbändern, LED-Lampen und Radiatorfolie plus persönlicher Beratung. Rund € 175 Ersparnis pro Jahr.",
+      "tr": "Enerji koçu evinize ücretsiz conta, LED ampul ve radyatör folyosuyla gelir ve kişisel tasarruf önerisi verir. Yılda yaklaşık € 175 kazandırır.",
+      "fr": "Un coach énergie vient chez vous avec bas de porte, ampoules LED et réflecteurs gratuits, plus des conseils personnalisés. Environ 175 € d'économie par an.",
+      "it": "Un energy coach viene a casa tua con guarnizioni, lampadine LED e pellicole per radiatori gratis, più consigli personalizzati. Circa 175 € di risparmio l'anno.",
+      "pt": "Um coach de energia vai a sua casa com vedantes, lâmpadas LED e películas para radiador grátis, mais aconselhamento personalizado. Cerca de 175 € por ano.",
+      "pt-BR": "Um coach de energia vai até sua casa com veda-frestas, lâmpadas LED e placas para radiador de graça, mais orientação personalizada. Cerca de € 175 por ano."
     },
     "eligibility": {
-      "nl": ["Inwoners van Utrecht (met name huurders en lage inkomens)"],
-      "en": ["Utrecht residents (especially tenants and low income)"],
-      "es": ["Habitantes de Utrecht (especialmente inquilinos y rentas medias/bajas)"],
-      "de": ["Einwohner von Utrecht (besonders Mieter)"],
-      "tr": ["Utrecht sakinleri (özellikle kiracılar)"],
-      "fr": ["Habitants d'Utrecht (notamment locataires)"],
-      "it": ["Residenti di Utrecht (in particolare inquilini)"],
-      "pt": ["Moradores de Utrecht (especialmente inquilinos)"],
-      "pt-BR": ["Moradores de Utrecht (especialmente inquilinos)"]
+      "nl": ["Huurders (met of zonder U-pas) of woningeigenaren mét U-pas","Je hebt de afgelopen twee jaar geen Energiebox ontvangen"],
+      "en": ["Tenants (with or without a U-pas) or homeowners who hold a U-pas","You have not received an Energiebox in the past two years"],
+      "es": ["Inquilinos (con o sin U-pas) o propietarios que tengan U-pas","No haber recibido una Energiebox en los últimos dos años"],
+      "de": ["Mieter (mit oder ohne U-Pas) oder Eigentümer mit U-Pas","In den letzten zwei Jahren keine Energiebox erhalten"],
+      "tr": ["Kiracılar (U-pas'lı veya U-pas'sız) ya da U-pas sahibi ev sahipleri","Son iki yılda Energiebox almamış olmak"],
+      "fr": ["Locataires (avec ou sans U-pas) ou propriétaires titulaires du U-pas","Ne pas avoir reçu d'Energiebox au cours des deux dernières années"],
+      "it": ["Inquilini (con o senza U-pas) o proprietari in possesso di U-pas","Non aver ricevuto un'Energiebox negli ultimi due anni"],
+      "pt": ["Inquilinos (com ou sem U-pas) ou proprietários com U-pas","Não ter recebido uma Energiebox nos últimos dois anos"],
+      "pt-BR": ["Inquilinos (com ou sem U-pas) ou proprietários que tenham U-pas","Não ter recebido uma Energiebox nos últimos dois anos"]
     },
     "howToApply": {
-      "nl": ["Meld je aan op energiebox.org of vraag het bij Bibliotheek Neude"],
-      "en": ["Register on energiebox.org or ask at Bibliotheek Neude"],
-      "es": ["Inscríbete en energiebox.org o infórmate en la Bibliotheek Neude"],
-      "de": ["Auf energiebox.org anmelden oder in der Bibliothek nachfragen"],
-      "tr": ["energiebox.org üzerinden kaydolun veya kütüphaneye sorun"],
-      "fr": ["S'inscrire sur energiebox.org ou demander en bibliothèque"],
-      "it": ["Registrati su energiebox.org o chiedi in biblioteca"],
-      "pt": ["Registe-se em energiebox.org ou pergunte na biblioteca"],
-      "pt-BR": ["Cadastre-se no energiebox.org ou pergunte na biblioteca"]
+      "nl": ["Meld je aan op utrecht.energiebox.org/register of bel 030 - 302 15 71","Plan een afspraak; de energiecoach komt bij je thuis langs"],
+      "en": ["Register at utrecht.energiebox.org/register or call 030 - 302 15 71","Book an appointment; the energy coach comes to your home"],
+      "es": ["Inscríbete en utrecht.energiebox.org/register o llama al 030 - 302 15 71","Concierta la cita; el asesor va a tu domicilio"],
+      "de": ["Auf utrecht.energiebox.org/register anmelden oder 030 - 302 15 71 anrufen","Termin vereinbaren; der Energiecoach kommt zu Ihnen nach Hause"],
+      "tr": ["utrecht.energiebox.org/register adresinden kaydolun veya 030 - 302 15 71'i arayın","Randevu alın; enerji koçu evinize gelir"],
+      "fr": ["S'inscrire sur utrecht.energiebox.org/register ou appeler le 030 - 302 15 71","Fixer un rendez-vous ; le coach énergie se déplace chez vous"],
+      "it": ["Iscriviti su utrecht.energiebox.org/register o chiama 030 - 302 15 71","Fissa un appuntamento; l'energy coach viene a casa tua"],
+      "pt": ["Inscreva-se em utrecht.energiebox.org/register ou ligue 030 - 302 15 71","Marque a visita; o coach de energia vai a sua casa"],
+      "pt-BR": ["Cadastre-se no utrecht.energiebox.org/register ou ligue 030 - 302 15 71","Agende a visita; o coach de energia vai até você"]
     }
   },
   {
@@ -1787,15 +1787,15 @@
       "pt-BR": ["Para quem tem renda baixa ou média"]
     },
     "howToApply": {
-      "nl": ["Loop zonder afspraak binnen tijdens het inloopspreekuur of bel 0800-8020"],
-      "en": ["Walk in without appointment during opening hours or call 0800-8020"],
-      "es": ["Acude sin cita previa en su horario de atención o llama gratis al 0800-8020"],
-      "de": ["Ohne Termin während der Sprechzeiten vorbeikommen"],
-      "tr": ["Randevusuz çalışma saatlerinde gidin veya 0800-8020'yi arayın"],
-      "fr": ["Présentez-vous sans rendez-vous ou appelez le 0800-8020"],
-      "it": ["Vieni senza appuntamento negli orari d'ufficio o chiama 0800-8020"],
-      "pt": ["Vá sem marcação no horário de atendimento ou ligue 0800-8020"],
-      "pt-BR": ["Vá sem agendamento no horário de atendimento ou ligue grátis para 0800-8020"]
+      "nl": ["Loop zonder afspraak binnen op dinsdag, donderdag en vrijdag van 09.00 tot 11.00 uur","Of bel gratis 0800-8020; een jurist belt je terug"],
+      "en": ["Walk in without an appointment on Tuesday, Thursday and Friday from 09:00 to 11:00","Or call 0800-8020 free of charge; a lawyer calls you back"],
+      "es": ["Acude sin cita los martes, jueves y viernes de 09:00 a 11:00","O llama gratis al 0800-8020; un jurista te devuelve la llamada"],
+      "de": ["Ohne Termin dienstags, donnerstags und freitags von 09:00 bis 11:00 Uhr vorbeikommen","Oder kostenlos 0800-8020 anrufen; ein Jurist ruft zurück"],
+      "tr": ["Salı, perşembe ve cuma 09.00-11.00 arası randevusuz gidin","Veya ücretsiz 0800-8020'yi arayın; bir hukukçu sizi geri arar"],
+      "fr": ["Se présenter sans rendez-vous mardi, jeudi et vendredi de 09h00 à 11h00","Ou appeler gratuitement le 0800-8020 ; un juriste vous rappelle"],
+      "it": ["Vieni senza appuntamento martedì, giovedì e venerdì dalle 09:00 alle 11:00","Oppure chiama gratis 0800-8020; un giurista ti richiama"],
+      "pt": ["Vá sem marcação terça, quinta e sexta das 09:00 às 11:00","Ou ligue grátis 0800-8020; um jurista liga de volta"],
+      "pt-BR": ["Vá sem agendamento terça, quinta e sexta das 09:00 às 11:00","Ou ligue grátis para 0800-8020; um advogado retorna a ligação"]
     }
   },
   {
@@ -1939,26 +1939,26 @@
       "pt-BR": "Biblioteca pública grátis para menores de 18 anos + Wi-Fi e jornais"
     },
     "shortDescription": {
-      "nl": "Gratis lidmaatschap voor jeugd t/m 17 jaar. Gratis toegang tot studeerplekken, high-speed wifi en duizenden kranten voor iedereen.",
-      "en": "Free library membership for youth under 18. Free access to quiet study spaces, Wi-Fi, and international newspapers for all visitors.",
-      "es": "Carné de biblioteca gratis para menores de 18 años. Acceso libre a salas de estudio, wifi de alta velocidad y prensa digital para todos.",
-      "de": "Kostenlose Mitgliedschaft für Jugendliche unter 18. Freies WLAN und Lernplätze.",
-      "tr": "18 yaş altına ücretsiz kütüphane üyeliği. Herkes için çalışma alanları, hızlı Wi-Fi ve gazete erişimi.",
-      "fr": "Abonnement gratuit pour les moins de 18 ans. Espaces d'étude et Wi-Fi gratuits pour tous.",
-      "it": "Iscrizione gratuita per minori di 18 anni. Postazioni studio e Wi-Fi gratis per tutti.",
-      "pt": "Inscrição gratuita para menores de 18 anos. Locais de estudo e Wi-Fi grátis.",
-      "pt-BR": "Carteirinha de biblioteca grátis para menores de 18 anos. Mesas de estudo e Wi-Fi grátis para todos."
+      "nl": "Gratis jeugdabonnement tot en met 17 jaar: onbeperkt lenen en lezen. In de vestigingen zijn ook wifi, werkplekken en kranten beschikbaar.",
+      "en": "Free youth membership up to and including age 17: unlimited borrowing and reading. Branches also offer Wi-Fi, work spaces and newspapers.",
+      "es": "Carné juvenil gratis hasta los 17 años inclusive: préstamos y lectura sin límite. Las sedes ofrecen además wifi, puestos de trabajo y prensa.",
+      "de": "Kostenloses Jugendabo bis einschließlich 17 Jahre: unbegrenzt leihen und lesen. In den Filialen gibt es außerdem WLAN, Arbeitsplätze und Zeitungen.",
+      "tr": "17 yaş dahil ücretsiz gençlik üyeliği: sınırsız ödünç alma ve okuma. Şubelerde ayrıca Wi-Fi, çalışma alanları ve gazeteler var.",
+      "fr": "Abonnement jeunesse gratuit jusqu'à 17 ans inclus : emprunts et lecture illimités. Les sites proposent aussi Wi-Fi, espaces de travail et journaux.",
+      "it": "Abbonamento giovani gratuito fino ai 17 anni compresi: prestiti e letture illimitati. Nelle sedi ci sono anche Wi-Fi, postazioni e giornali.",
+      "pt": "Assinatura juvenil gratuita até aos 17 anos inclusive: empréstimos e leitura sem limite. As sedes têm também Wi-Fi, postos de trabalho e jornais.",
+      "pt-BR": "Carteirinha juvenil grátis até os 17 anos inclusive: empréstimos e leitura sem limite. As unidades têm também Wi-Fi, mesas de trabalho e jornais."
     },
     "eligibility": {
-      "nl": ["Lidmaatschap gratis tot 18 jaar; studeerplekken en wifi gratis voor iedereen"],
-      "en": ["Membership free up to 17; study desks and Wi-Fi free for everyone"],
-      "es": ["Suscripción gratis hasta los 17 años; estudio y wifi gratis para todo el público"],
-      "de": ["Mitgliedschaft frei bis 17 Jahre; Lernplätze frei für alle"],
-      "tr": ["17 yaş dahil ücretsiz üyelik; çalışma masaları herkese açık"],
-      "fr": ["Abonnement gratuit jusqu'à 17 ans; espaces libres pour tous"],
-      "it": ["Iscrizione gratuita fino a 17 anni; postazioni libere per tutti"],
-      "pt": ["Adesão grátis até aos 17 anos; salas de estudo abertas a todos"],
-      "pt-BR": ["Matrícula grátis até os 17 anos; Wi-Fi e mesas abertas a todos"]
+      "nl": ["Gratis lidmaatschap tot en met 17 jaar","Vanaf 18 jaar gelden betaalde abonnementen (Compleet, Flex of Digitaal)"],
+      "en": ["Free membership up to and including age 17","From 18 there are paid subscriptions (Compleet, Flex or Digitaal)"],
+      "es": ["Carné gratis hasta los 17 años inclusive","A partir de los 18 hay cuotas de pago (Compleet, Flex o Digitaal)"],
+      "de": ["Kostenlose Mitgliedschaft bis einschließlich 17 Jahre","Ab 18 gelten kostenpflichtige Abos (Compleet, Flex oder Digitaal)"],
+      "tr": ["17 yaş dahil ücretsiz üyelik","18 yaşından itibaren ücretli abonelikler geçerli (Compleet, Flex veya Digitaal)"],
+      "fr": ["Abonnement gratuit jusqu'à 17 ans inclus","À partir de 18 ans, abonnements payants (Compleet, Flex ou Digitaal)"],
+      "it": ["Iscrizione gratuita fino ai 17 anni compresi","Dai 18 anni valgono gli abbonamenti a pagamento (Compleet, Flex o Digitaal)"],
+      "pt": ["Inscrição gratuita até aos 17 anos inclusive","A partir dos 18 há assinaturas pagas (Compleet, Flex ou Digitaal)"],
+      "pt-BR": ["Inscrição gratuita até os 17 anos inclusive","A partir dos 18 há assinaturas pagas (Compleet, Flex ou Digitaal)"]
     },
     "howToApply": {
       "nl": ["Schrijf je gratis in bij de balie van Bibliotheek Neude of online"],
@@ -1997,15 +1997,15 @@
       "pt-BR": "Descontos U-pas para cinema, museus e teatros"
     },
     "shortDescription": {
-      "nl": "Grote kortingen of gratis toegang bij Pathé, Hoogt, Stadsschouwburg, TivoliVredenburg en lokale zwembaden met je U-pas.",
-      "en": "Deep discounts or free entry at Pathé, Hoogt cinema, Stadsschouwburg, TivoliVredenburg, and public pools with U-pas.",
-      "es": "Descuentos de hasta el 50-100% en cines, museos, teatros como TivoliVredenburg y piscinas municipales con tu U-pas.",
-      "de": "Hohe Rabatte im Kino, Theater und in Museen mit der U-Pas.",
-      "tr": "U-pas ile sinema, tiyatro ve yüzme havuzlarında büyük indirimler.",
-      "fr": "Fortes réductions dans les cinémas, théâtres et piscines avec U-pas.",
-      "it": "Grandi sconti in cinema, teatri e piscine con la U-pas.",
-      "pt": "Grandes descontos em cinema, teatros e piscinas com o U-pas.",
-      "pt-BR": "Descontos incríveis em cinemas, teatros, shows e piscinas com a U-pas."
+      "nl": "Betaal met je U-pastegoed en krijg korting bij zwembaden, bioscopen, musea, attracties, sportclubs en eettafels in de regio.",
+      "en": "Pay with your U-pas credit and get discounts at swimming pools, cinemas, museums, attractions, sports clubs and community meals in the region.",
+      "es": "Paga con tu saldo U-pas y consigue descuentos en piscinas, cines, museos, atracciones, clubes deportivos y comedores comunitarios de la región.",
+      "de": "Mit dem U-Pas-Guthaben bezahlen und Rabatte in Schwimmbädern, Kinos, Museen, Attraktionen, Sportvereinen und Gemeinschaftstischen erhalten.",
+      "tr": "U-pas bütçenizle ödeyin; yüzme havuzu, sinema, müze, etkinlik, spor kulübü ve ortak yemek yerlerinde indirim kazanın.",
+      "fr": "Payez avec votre crédit U-pas et obtenez des réductions dans les piscines, cinémas, musées, attractions, clubs sportifs et tables communes.",
+      "it": "Paga con il credito U-pas e ottieni sconti in piscine, cinema, musei, attrazioni, club sportivi e tavole comuni della regione.",
+      "pt": "Pague com o saldo do U-pas e tenha descontos em piscinas, cinemas, museus, atrações, clubes desportivos e mesas comunitárias.",
+      "pt-BR": "Pague com o saldo da U-pas e tenha descontos em piscinas, cinemas, museus, atrações, clubes de esporte e refeições comunitárias."
     },
     "eligibility": {
       "nl": ["In het bezit van een actieve U-pas"],
@@ -2055,15 +2055,15 @@
       "pt-BR": "Speel-o-theek (Brinquedoteca pública para emprestar brinquedos)"
     },
     "shortDescription": {
-      "nl": "Leen hoogwaardig en educatief speelgoed, gezelschapsspellen en buitenspeelgoed voor een klein symbolisch bedrag of gratis met U-pas.",
-      "en": "Borrow educational toys, board games, and outdoor play equipment for a symbolic fee or for free with U-pas.",
-      "es": "Toma prestados juguetes educativos, juegos de mesa y juguetes de exterior por una cuota simbólica o gratis con U-pas.",
-      "de": "Lernspielzeug und Spiele für Kinder günstig oder mit U-Pas gratis leihen.",
-      "tr": "U-pas ile ücretsiz veya çok düşük ücretle eğitici oyuncaklar ve oyunlar ödünç alın.",
-      "fr": "Empruntez des jeux et jouets éducatifs gratuitement avec le U-pas.",
-      "it": "Prendi in prestito giochi educativi e da tavolo gratuitamente con la U-pas.",
-      "pt": "Empreste brinquedos educativos e jogos gratuitamente com o U-pas.",
-      "pt-BR": "Pegue brinquedos educativos e jogos de tabuleiro emprestados de graça com a U-pas."
+      "nl": "Leen educatief speelgoed, gezelschapsspellen en buitenspeelgoed bij een speel-o-theek in de wijk. Tarieven en voorwaarden verschillen per locatie.",
+      "en": "Borrow educational toys, board games and outdoor play equipment at a neighbourhood toy library. Fees and conditions differ per location.",
+      "es": "Toma prestados juguetes educativos, juegos de mesa y juguetes de exterior en una ludoteca del barrio. Las tarifas y condiciones varían según el local.",
+      "de": "Lernspielzeug, Gesellschaftsspiele und Außenspielzeug in einer Spielothek im Viertel ausleihen. Gebühren und Bedingungen unterscheiden sich je Standort.",
+      "tr": "Mahalledeki oyuncak kütüphanesinden eğitici oyuncak, kutu oyunu ve dış mekân oyuncağı ödünç alın. Ücret ve koşullar yere göre değişir.",
+      "fr": "Empruntez jeux éducatifs, jeux de société et jouets d'extérieur dans une ludothèque de quartier. Tarifs et conditions varient selon le lieu.",
+      "it": "Prendi in prestito giochi educativi, da tavolo e da esterno in una ludoteca di quartiere. Tariffe e condizioni variano per sede.",
+      "pt": "Requisite brinquedos educativos, jogos de tabuleiro e de exterior numa ludoteca do bairro. As tarifas e condições variam por local.",
+      "pt-BR": "Pegue emprestado brinquedos educativos, jogos de tabuleiro e brinquedos de área externa numa brinquedoteca do bairro. Taxas e condições variam por local."
     },
     "eligibility": {
       "nl": ["Gezinnen met jonge kinderen in Utrecht"],
@@ -2102,26 +2102,26 @@
       "all": ["museum", "musea", "spoorwegmuseum", "centraal museum", "nijntje", "miffy", "u-pas"]
     },
     "title": {
-      "nl": "Gratis museumdagen met U-pas",
-      "en": "Free Museum Days with U-pas",
-      "es": "Días de museo gratis con U-pas (Spoorwegmuseum, Centraal Museum)",
-      "de": "Kostenlose Museumstage mit U-Pas",
-      "tr": "U-pas ile Ücretsiz Müze Günleri",
-      "fr": "Journées musées gratuits avec U-pas",
-      "it": "Giornate al museo gratis con U-pas",
-      "pt": "Dias de museus grátis com U-pas",
-      "pt-BR": "Dias de museu grátis com U-pas"
+      "nl": "Musea en attracties met U-pas",
+      "en": "Museums and attractions with a U-pas",
+      "es": "Museos y atracciones con U-pas",
+      "de": "Museen und Attraktionen mit der U-Pas",
+      "tr": "U-pas ile müzeler ve etkinlikler",
+      "fr": "Musées et attractions avec le U-pas",
+      "it": "Musei e attrazioni con la U-pas",
+      "pt": "Museus e atrações com o U-pas",
+      "pt-BR": "Museus e atrações com a U-pas"
     },
     "shortDescription": {
-      "nl": "Gratis toegang of speciale actiedagen voor topmusea in Utrecht zoals Spoorwegmuseum, Centraal Museum en Nijntje Museum.",
-      "en": "Free entry or special promo days for top Utrecht museums including Spoorwegmuseum, Centraal Museum, and Miffy Museum.",
-      "es": "Acceso gratuito o días de puertas abiertas en los principales museos de Utrecht (Spoorwegmuseum, Centraal Museum, Museo Miffy).",
-      "de": "Freier Eintritt im Eisenbahnmuseum, Centraal Museum und Miffy-Museum mit U-Pas.",
-      "tr": "U-pas ile Demiryolu Müzesi, Centraal Müze ve Miffy Müzesi'ne ücretsiz giriş.",
-      "fr": "Entrée gratuite dans les principaux musées d'Utrecht avec U-pas.",
-      "it": "Ingresso gratuito nei principali musei di Utrecht per titolari U-pas.",
-      "pt": "Entrada gratuita nos principais museus de Utrecht com o U-pas.",
-      "pt-BR": "Entrada grátis no Museu Ferroviário, Centraal Museum e Museu da Miffy com U-pas."
+      "nl": "Musea en attracties staan in het U-pas aanbod: je betaalt met je tegoed en krijgt korting. Welke musea meedoen wisselt, kijk het actuele aanbod na.",
+      "en": "Museums and attractions are part of the U-pas offer: you pay with your credit and get a discount. Which museums take part varies, so check the current list.",
+      "es": "Museos y atracciones forman parte de la oferta U-pas: pagas con tu saldo y obtienes descuento. Los museos participantes cambian; consulta la oferta actual.",
+      "de": "Museen und Attraktionen gehören zum U-Pas-Angebot: Sie zahlen mit Ihrem Guthaben und erhalten Rabatt. Welche Museen mitmachen, wechselt.",
+      "tr": "Müzeler ve etkinlikler U-pas kapsamındadır: bütçenizle ödeyip indirim alırsınız. Hangi müzelerin katıldığı değişir, güncel listeye bakın.",
+      "fr": "Musées et attractions font partie de l'offre U-pas : vous payez avec votre crédit et bénéficiez d'une réduction. La liste des musées varie.",
+      "it": "Musei e attrazioni fanno parte dell'offerta U-pas: paghi con il credito e ottieni uno sconto. I musei aderenti cambiano, controlla l'offerta attuale.",
+      "pt": "Museus e atrações fazem parte da oferta U-pas: paga com o saldo e tem desconto. Os museus aderentes mudam, confirme a oferta atual.",
+      "pt-BR": "Museus e atrações fazem parte da oferta U-pas: você paga com o saldo e tem desconto. Os museus participantes mudam, confira a oferta atual."
     },
     "eligibility": {
       "nl": ["U-pashouders"],
@@ -2135,15 +2135,15 @@
       "pt-BR": ["Titulares da carteira U-pas"]
     },
     "howToApply": {
-      "nl": ["Toon de U-pas bij de kassa van het museum"],
-      "en": ["Show your physical U-pas at museum entrance"],
-      "es": ["Presenta tu U-pas física en la taquilla del museo"],
-      "de": ["U-Pas an der Museumskasse zeigen"],
-      "tr": ["Müze gişesinde U-pas kartınızı gösterin"],
-      "fr": ["Présenter la carte à l'entrée du musée"],
-      "it": ["Mostra la tessera alla biglietteria"],
-      "pt": ["Apresente o cartão na entrada"],
-      "pt-BR": ["Mostre a carteira U-pas na bilheteria"]
+      "nl": ["Bekijk het actuele aanbod op u-pas.nl/aanbod","Toon je U-pas bij de kassa van het museum"],
+      "en": ["Check the current offer at u-pas.nl/aanbod","Show your U-pas at the museum ticket desk"],
+      "es": ["Consulta la oferta actual en u-pas.nl/aanbod","Muestra tu U-pas en la taquilla del museo"],
+      "de": ["Aktuelles Angebot auf u-pas.nl/aanbod ansehen","U-Pas an der Museumskasse zeigen"],
+      "tr": ["Güncel teklifleri u-pas.nl/aanbod adresinde görün","Müze gişesinde U-pas kartınızı gösterin"],
+      "fr": ["Consulter l'offre actuelle sur u-pas.nl/aanbod","Présenter le U-pas à la caisse du musée"],
+      "it": ["Controlla l'offerta attuale su u-pas.nl/aanbod","Mostra la U-pas alla biglietteria del museo"],
+      "pt": ["Consulte a oferta atual em u-pas.nl/aanbod","Apresente o U-pas na bilheteira do museu"],
+      "pt-BR": ["Confira a oferta atual em u-pas.nl/aanbod","Mostre a U-pas na bilheteria do museu"]
     }
   },
   {
@@ -2160,37 +2160,37 @@
       "all": ["ov", "ov-chipkaart", "u-ov", "syntus", "bus", "tram", "reizen", "u-pas", "saldo"]
     },
     "title": {
-      "nl": "Saldo OV op U-pas (Gratis reizen met bus & tram)",
-      "en": "Public Transport Credit on U-pas (Free bus & tram travel)",
-      "es": "Saldo OV en U-pas (Viajes gratis en bus y tranvía)",
-      "de": "ÖPNV-Guthaben auf U-Pas (Bus & Tram)",
-      "tr": "U-pas Toplu Taşıma Bütçesi (Ücretsiz otobüs ve tramvay)",
-      "fr": "Crédit transports U-pas (Bus & tram gratuits)",
-      "it": "Credito trasporti su U-pas (Bus e tram gratis)",
-      "pt": "Saldo de transportes no U-pas (Autocarro e elétrico)",
-      "pt-BR": "Saldo de transporte público na U-pas (Ônibus e VLT grátis)"
+      "nl": "Mobiliteit-tegoed U-pas (tot € 105 per jaar)",
+      "en": "U-pas mobility credit (up to € 105 a year)",
+      "es": "Saldo de movilidad U-pas (hasta 105 € al año)",
+      "de": "U-Pas Mobilitätsguthaben (bis € 105 pro Jahr)",
+      "tr": "U-pas ulaşım bütçesi (yılda € 105'e kadar)",
+      "fr": "Crédit mobilité U-pas (jusqu'à 105 € par an)",
+      "it": "Credito mobilità U-pas (fino a 105 € l'anno)",
+      "pt": "Saldo de mobilidade U-pas (até 105 € por ano)",
+      "pt-BR": "Saldo de mobilidade da U-pas (até € 105 por ano)"
     },
     "shortDescription": {
-      "nl": "Laad gratis reis-saldo of dalurenabonnementen voor Syntus/U-OV bus en tram op je persoonlijke OV-chipkaart via de U-pas.",
-      "en": "Load free travel credits or off-peak subscriptions for U-OV buses and trams onto your personal OV-chipkaart.",
-      "es": "Carga saldo gratuito o abonos de horas valle para autobuses U-OV y tranvías de Utrecht en tu tarjeta OV-chipkaart.",
-      "de": "Kostenloses Fahrguthaben für Bus und Tram auf die OV-Chipkaart laden.",
-      "tr": "U-OV otobüs ve tramvayları için kişisel kartınıza ücretsiz seyahat bakiyesi yükleyin.",
-      "fr": "Charger du crédit de transport gratuit sur votre OV-chipkaart.",
-      "it": "Carica credito di viaggio gratuito per autobus e tram U-OV sulla tua tessera.",
-      "pt": "Carregue saldo de viagem gratuito para autocarros e elétricos.",
-      "pt-BR": "Carregue saldo de viagem grátis para ônibus e bonde/VLT no seu cartão."
+      "nl": "Volwassen U-pashouders kunnen per pasjaar maximaal € 105 van hun tegoed besteden aan mobiliteit: saldo op de OV-chipkaart of een deel van een parkeervergunning.",
+      "en": "Adult U-pas holders can spend up to € 105 of their credit per pass year on mobility: balance on the OV-chipkaart or part of a parking permit.",
+      "es": "Los titulares adultos de U-pas pueden destinar hasta 105 € de su saldo al año a movilidad: recarga de la OV-chipkaart o parte de un permiso de aparcamiento.",
+      "de": "Erwachsene U-Pas-Inhaber können pro Passjahr bis zu € 105 ihres Guthabens für Mobilität nutzen: Guthaben auf der OV-Chipkaart oder Teil einer Parkgenehmigung.",
+      "tr": "Yetişkin U-pas sahipleri kart yılı başına bütçelerinden en fazla € 105'i ulaşıma harcayabilir: OV-chipkaart bakiyesi veya park izninin bir kısmı.",
+      "fr": "Les titulaires adultes du U-pas peuvent consacrer jusqu'à 105 € de leur crédit par an à la mobilité : solde sur l'OV-chipkaart ou partie d'un permis de stationnement.",
+      "it": "I titolari adulti della U-pas possono destinare fino a 105 € del credito all'anno alla mobilità: ricarica dell'OV-chipkaart o parte di un permesso di sosta.",
+      "pt": "Os titulares adultos do U-pas podem usar até 105 € do saldo por ano em mobilidade: carregamento do OV-chipkaart ou parte de um passe de estacionamento.",
+      "pt-BR": "Titulares adultos da U-pas podem usar até € 105 do saldo por ano em mobilidade: recarga do OV-chipkaart ou parte de uma permissão de estacionamento."
     },
     "eligibility": {
-      "nl": ["U-pashouders van 66+ jaar of met een goedgekeurde indicatie"],
-      "en": ["U-pas cardholders aged 66+ or with an approved indication"],
-      "es": ["Titulares de U-pas mayores de 66 años o con perfil autorizado"],
-      "de": ["U-Pas Inhaber ab 66 Jahren"],
-      "tr": ["66 yaş üzeri veya onaylı U-pas sahipleri"],
-      "fr": ["Titulaires du U-pas de 66 ans et plus"],
-      "it": ["Possessori U-pas sopra i 66 anni"],
-      "pt": ["Titulares do U-pas com 66+ anos"],
-      "pt-BR": ["Titulares da U-pas com 66 anos ou mais"]
+      "nl": ["Volwassen U-pashouders (18+) die vóór 1 juli van het pasjaar 18 worden","Opladen kan alleen met de fysieke U-pas, niet met de app"],
+      "en": ["Adult U-pas holders (18+) who turn 18 before 1 July of the pass year","Loading works only with the physical U-pas, not the app"],
+      "es": ["Titulares adultos de U-pas (18+) que cumplan 18 antes del 1 de julio del año de la tarjeta","La recarga solo funciona con la U-pas física, no con la app"],
+      "de": ["Erwachsene U-Pas-Inhaber (18+), die vor dem 1. Juli des Passjahres 18 werden","Aufladen nur mit der physischen U-Pas, nicht per App"],
+      "tr": ["Kart yılının 1 Temmuz'undan önce 18 olan yetişkin U-pas sahipleri","Yükleme yalnızca fiziksel U-pas ile yapılır, uygulamayla değil"],
+      "fr": ["Titulaires adultes du U-pas (18+) ayant 18 ans avant le 1er juillet de l'année de la carte","Le rechargement ne fonctionne qu'avec la carte physique, pas via l'appli"],
+      "it": ["Titolari adulti U-pas (18+) che compiono 18 anni prima del 1° luglio dell'anno della tessera","La ricarica funziona solo con la U-pas fisica, non con l'app"],
+      "pt": ["Titulares adultos do U-pas (18+) que façam 18 anos antes de 1 de julho do ano do cartão","O carregamento só funciona com o U-pas físico, não pela app"],
+      "pt-BR": ["Titulares adultos da U-pas (18+) que completem 18 anos antes de 1º de julho do ano do cartão","A recarga só funciona com a U-pas física, não pelo app"]
     },
     "howToApply": {
       "nl": ["Koppel je OV-chipkaart in Mijn U-pas en haal de bestelling op bij een ophaalautomaat"],
@@ -2229,15 +2229,15 @@
       "pt-BR": "Estacionamento coberto de bicicletas grátis nas primeiras 24 horas"
     },
     "shortDescription": {
-      "nl": "Parkeer je fiets veilig, droog en bewaakt de eerste 24 uur helemaal gratis in alle gemeentelijke stallingen (o.a. Stationsplein).",
-      "en": "Park your bike safely, dry and guarded for the first 24 hours completely free in all municipal bicycle garages.",
-      "es": "Aparca tu bicicleta de forma segura, cubierta y vigilada las primeras 24 horas gratis en todos los aparcamientos municipales.",
-      "de": "Erste 24 Stunden kostenfrei in allen bewachten Fahrradparkhäusern parken.",
-      "tr": "Tüm belediye bisiklet parklarında ilk 24 saat bisikletinizi ücretsiz ve güvenle park edin.",
-      "fr": "Stationnement vélo sécurisé et couvert gratuit pendant les 24 premières heures.",
-      "it": "Parcheggia la bici al sicuro e al coperto gratis per le prime 24 ore.",
-      "pt": "Estacione a bicicleta em segurança e gratuitamente nas primeiras 24 horas.",
-      "pt-BR": "Estacione sua bicicleta com segurança e de graça nas primeiras 24 horas."
+      "nl": "De eerste 24 uur stallen is gratis in de openbare fietsenstallingen. Daarna betaal je € 0,75 per dag in de binnenstad en € 1,35 in het stationsgebied.",
+      "en": "The first 24 hours are free in public bicycle garages. After that you pay € 0.75 a day in the city centre and € 1.35 in the station area.",
+      "es": "Las primeras 24 horas son gratis en los aparcabicis públicos. Después pagas 0,75 € al día en el centro y 1,35 € en la zona de la estación.",
+      "de": "Die ersten 24 Stunden sind in den öffentlichen Fahrradparkhäusern kostenlos. Danach zahlen Sie € 0,75 pro Tag in der Innenstadt und € 1,35 am Bahnhof.",
+      "tr": "Halka açık bisiklet garajlarında ilk 24 saat ücretsizdir. Sonrasında şehir merkezinde günlük € 0,75, gar bölgesinde € 1,35 ödersiniz.",
+      "fr": "Les 24 premières heures sont gratuites dans les parkings vélos publics. Ensuite, 0,75 € par jour en centre-ville et 1,35 € dans la zone de la gare.",
+      "it": "Le prime 24 ore sono gratuite nei parcheggi bici pubblici. Dopo si pagano 0,75 € al giorno in centro e 1,35 € nella zona della stazione.",
+      "pt": "As primeiras 24 horas são grátis nos estacionamentos públicos de bicicletas. Depois paga 0,75 € por dia no centro e 1,35 € na zona da estação.",
+      "pt-BR": "As primeiras 24 horas são grátis nos bicicletários públicos. Depois você paga € 0,75 por dia no centro e € 1,35 na região da estação."
     },
     "eligibility": {
       "nl": ["Iedereen die op de fiets in Utrecht reist"],
@@ -2251,15 +2251,15 @@
       "pt-BR": ["Qualquer ciclista em Utrecht"]
     },
     "howToApply": {
-      "nl": ["Check in met je OV-chipkaart of stallingpas bij de ingang van de stalling"],
-      "en": ["Check in with your OV-chipkaart or parking tag at garage entrance"],
-      "es": ["Escanea tu OV-chipkaart o pase de parking al entrar en la fietsenstalling"],
-      "de": ["Mit OV-Chipkaart am Eingang einchecken"],
-      "tr": ["Girişte kartınızı okutun"],
-      "fr": ["Badger avec votre carte à l'entrée"],
-      "it": ["Fai il check-in all'ingresso con la tessera"],
-      "pt": ["Passe o cartão na entrada"],
-      "pt-BR": ["Passe seu cartão na catraca de entrada"]
+      "nl": ["Zoek een stalling via veiligstallen.nl/utrecht of de app P-route fiets","Stal je fiets; de eerste 24 uur worden niet in rekening gebracht"],
+      "en": ["Find a garage via veiligstallen.nl/utrecht or the P-route fiets app","Park your bike; the first 24 hours are not charged"],
+      "es": ["Busca un aparcabicis en veiligstallen.nl/utrecht o en la app P-route fiets","Aparca la bici; las primeras 24 horas no se cobran"],
+      "de": ["Ein Parkhaus über veiligstallen.nl/utrecht oder die App P-route fiets suchen","Fahrrad abstellen; die ersten 24 Stunden werden nicht berechnet"],
+      "tr": ["veiligstallen.nl/utrecht veya P-route fiets uygulamasından garaj bulun","Bisikletinizi bırakın; ilk 24 saat ücretlendirilmez"],
+      "fr": ["Trouver un parking via veiligstallen.nl/utrecht ou l'appli P-route fiets","Garer le vélo ; les 24 premières heures ne sont pas facturées"],
+      "it": ["Trova un parcheggio su veiligstallen.nl/utrecht o con l'app P-route fiets","Parcheggia la bici; le prime 24 ore non vengono addebitate"],
+      "pt": ["Procure um estacionamento em veiligstallen.nl/utrecht ou na app P-route fiets","Estacione a bicicleta; as primeiras 24 horas não são cobradas"],
+      "pt-BR": ["Ache um bicicletário em veiligstallen.nl/utrecht ou no app P-route fiets","Estacione a bike; as primeiras 24 horas não são cobradas"]
     }
   },
   {
