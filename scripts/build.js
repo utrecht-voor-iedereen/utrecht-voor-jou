@@ -88,7 +88,7 @@ function renderHtmlShell({ title, description, content, langCode, currentSubpath
 <html lang="${langCode}">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.5">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${title} | ${dict.site_title}</title>
   <meta name="description" content="${description}">
   

@@ -1015,6 +1015,84 @@ h3 { font-size: clamp(1.2rem, 2vw, 1.6rem); font-weight: 700; }
 }
 
 /* ==========================================================================
+   MOBILE HEADER & TOUCH TARGETS
+   The header laid its logo, three nav links and the language select out on one
+   row with no breakpoint, which came to 736px and forced the whole page to
+   scroll sideways on a 390px screen. Below 768px the nav wraps onto its own
+   row and the select takes the full width.
+   ========================================================================== */
+@media (max-width: 768px) {
+  .header-container {
+    flex-wrap: wrap;
+    padding: 0.8rem 1rem;
+  }
+
+  .site-nav {
+    width: 100%;
+  }
+
+  .nav-menu {
+    flex-wrap: wrap;
+    gap: 0.4rem 0.8rem;
+    width: 100%;
+    padding: 0;
+  }
+
+  .lang-selector-wrapper,
+  .nav-menu > li:last-child {
+    width: 100%;
+  }
+
+  .lang-select {
+    width: 100%;
+  }
+
+  .brand-subtitle {
+    font-size: 0.7rem;
+  }
+}
+
+/* A finger needs about 44px however wide the screen is, so these are not
+   scoped to a breakpoint. */
+.nav-link,
+.btn-detail,
+.wist-je-dat-btn,
+.kofi-btn,
+.lang-select,
+.footer-links-list a {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.footer-links-list a {
+  /* The link sat at 22px; padding gives the row height without moving the text. */
+  padding: 0.4rem 0;
+}
+
+/* Card titles and the back link are single-line text links, so padding rather
+   than a flex box keeps them wrapping normally when the title is long. */
+/* Card titles wrap when long, so padding suits them better than a flex box. */
+.card-title a {
+  display: inline-block;
+  padding-block: 0.7rem;
+}
+
+/* The back link is always one short line, so a min-height is exact. */
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+}
+
+.lang-select {
+  /* A select cannot use inline-flex without losing its native control. */
+  display: block;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+
+/* ==========================================================================
    ACCESSIBILITY & PREFERS-REDUCED-MOTION
    ========================================================================== */
 @media (prefers-reduced-motion: reduce) {
