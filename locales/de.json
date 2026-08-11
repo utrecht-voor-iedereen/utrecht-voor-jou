@@ -49,5 +49,14 @@
   "footer_rights": "Veröffentlicht unter EUPL-1.2 Open Source Lizenz.",
   "steps_to_apply": "Wie beantragen?",
   "eligibility_title": "Wer kann das beantragen?",
-  "footer_kofi": "☕ Unterstütze dieses Projekt auf Ko-fi"
+  "footer_kofi": "☕ Unterstütze dieses Projekt auf Ko-fi",
+  "feedback_title": "Stimmt hier etwas nicht?",
+  "feedback_intro": "Diese Seite wird von Freiwilligen gepflegt. Hat sich ein Betrag, eine Bedingung oder ein Link geändert? Melden Sie es: Es dauert eine Minute und hilft dem nächsten Besucher.",
+  "feedback_btn": "Fehler in dieser Regelung melden",
+  "print_nav": "Diese Regelungen als Handzettel drucken",
+  "print_index_title": "Handzettel zum Ausdrucken",
+  "print_index_intro": "Ein A4-Blatt pro Kategorie, mit einem QR-Code je Regelung. Gedacht für Quartiersteams, Bibliotheken, Sprachcafés und die Tafel: drucken, mitgeben, fertig. Der Code öffnet die Seite in der Sprache des Blattes.",
+  "print_sheet_intro": "Scannen Sie den Code oder tippen Sie den Link ab, um alle Bedingungen zu lesen.",
+  "print_button": "Dieses Blatt drucken",
+  "print_generated": "Zusammengestellt am"
 }

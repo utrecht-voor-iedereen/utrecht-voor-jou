@@ -49,5 +49,14 @@
   "footer_rights": "Publicado bajo Licencia Open Source EUPL-1.2.",
   "steps_to_apply": "¿Cómo se solicita?",
   "eligibility_title": "¿Quién puede solicitarlo?",
-  "footer_kofi": "☕ Apoya este proyecto en Ko-fi"
+  "footer_kofi": "☕ Apoya este proyecto en Ko-fi",
+  "feedback_title": "¿Hay algo que no cuadra?",
+  "feedback_intro": "Esta página la mantienen voluntarios. ¿Ha cambiado un importe, un requisito o un enlace? Avísanos: cuesta un minuto y ayuda a quien venga después.",
+  "feedback_btn": "Informar de un error en esta ayuda",
+  "print_nav": "Imprimir estas ayudas como folleto",
+  "print_index_title": "Folletos para imprimir",
+  "print_index_intro": "Un A4 por categoría, con un código QR por ayuda. Pensado para el equipo de barrio, la biblioteca, el café de idiomas o el banco de alimentos: imprimir, entregar y listo. El código abre la ficha en el idioma de la hoja.",
+  "print_sheet_intro": "Escanea el código o copia el enlace para leer todos los requisitos.",
+  "print_button": "Imprimir esta hoja",
+  "print_generated": "Recopilado el"
 }

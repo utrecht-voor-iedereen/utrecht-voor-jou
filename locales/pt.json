@@ -49,5 +49,14 @@
   "footer_rights": "Publicado sob Licença Open Source EUPL-1.2.",
   "steps_to_apply": "Como solicitar?",
   "eligibility_title": "Quem pode pedir?",
-  "footer_kofi": "☕ Apoia este projeto no Ko-fi"
+  "footer_kofi": "☕ Apoia este projeto no Ko-fi",
+  "feedback_title": "Há algo que não bate certo?",
+  "feedback_intro": "Esta página é mantida por voluntários. Mudou um valor, um requisito ou uma ligação? Avise-nos: demora um minuto e ajuda quem vier a seguir.",
+  "feedback_btn": "Comunicar um erro nesta medida",
+  "print_nav": "Imprimir estas medidas como folheto",
+  "print_index_title": "Folhetos para imprimir",
+  "print_index_intro": "Uma folha A4 por categoria, com um código QR por medida. Pensado para as equipas de bairro, bibliotecas, cafés de línguas e o banco alimentar: imprimir, entregar, feito. O código abre a página no idioma da folha.",
+  "print_sheet_intro": "Leia o código ou copie a ligação para ver todas as condições.",
+  "print_button": "Imprimir esta folha",
+  "print_generated": "Compilado a"
 }

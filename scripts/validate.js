@@ -28,6 +28,34 @@ REQUIRED_LANGS.forEach(lang => {
   }
 });
 
+// 1b. Every locale must carry every key of the Dutch reference. A missing key
+// does not crash the build, it renders the literal string "undefined" on the
+// page in that language, which nobody notices until a reader reports it.
+const nlPath = path.join(LOCALES_DIR, 'nl.json');
+if (fs.existsSync(nlPath)) {
+  try {
+    const reference = JSON.parse(fs.readFileSync(nlPath, 'utf8'));
+    const referenceKeys = Object.keys(reference);
+
+    REQUIRED_LANGS.filter(lang => lang !== 'nl').forEach(lang => {
+      const locPath = path.join(LOCALES_DIR, `${lang}.json`);
+      if (!fs.existsSync(locPath)) return;
+      let locale;
+      try {
+        locale = JSON.parse(fs.readFileSync(locPath, 'utf8'));
+      } catch (e) {
+        return; // already reported above
+      }
+      const missing = referenceKeys.filter(key => !(key in locale));
+      const extra = Object.keys(locale).filter(key => !referenceKeys.includes(key));
+      if (missing.length) errors.push(`locales/${lang}.json is missing keys: ${missing.join(', ')}`);
+      if (extra.length) errors.push(`locales/${lang}.json has keys absent from nl.json: ${extra.join(', ')}`);
+    });
+  } catch (e) {
+    // nl.json itself is unparseable; already reported above
+  }
+}
+
 // 2. Verify data/beneficios.json
 if (!fs.existsSync(DATA_FILE)) {
   errors.push(`Dataset file missing: data/beneficios.json`);

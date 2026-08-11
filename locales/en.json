@@ -49,5 +49,14 @@
   "footer_rights": "Published under EUPL-1.2 Open Source License.",
   "steps_to_apply": "How to apply?",
   "eligibility_title": "Who can request this?",
-  "footer_kofi": "☕ Support this project on Ko-fi"
+  "footer_kofi": "☕ Support this project on Ko-fi",
+  "feedback_title": "Something not right?",
+  "feedback_intro": "This page is maintained by volunteers. Has an amount, a condition or a link changed? Let us know: it takes a minute and helps the next visitor.",
+  "feedback_btn": "Report an error in this scheme",
+  "print_nav": "Print these schemes as a hand-out",
+  "print_index_title": "Printable hand-outs",
+  "print_index_intro": "One A4 sheet per category, with a QR code for every scheme. Made for neighbourhood teams, libraries, language cafés and food banks: print it, hand it over, done. The code opens the scheme page in the language of the sheet.",
+  "print_sheet_intro": "Scan the code or type the link to read all the conditions.",
+  "print_button": "Print this sheet",
+  "print_generated": "Compiled on"
 }

@@ -49,5 +49,14 @@
   "footer_rights": "Publié sous licence Open Source EUPL-1.2.",
   "steps_to_apply": "Comment faire la demande?",
   "eligibility_title": "Qui peut bénéficier?",
-  "footer_kofi": "☕ Soutenez ce projet sur Ko-fi"
+  "footer_kofi": "☕ Soutenez ce projet sur Ko-fi",
+  "feedback_title": "Quelque chose ne va pas ?",
+  "feedback_intro": "Cette page est tenue à jour par des bénévoles. Un montant, une condition ou un lien a changé ? Signalez-le : cela prend une minute et aide le visiteur suivant.",
+  "feedback_btn": "Signaler une erreur dans ce dispositif",
+  "print_nav": "Imprimer ces dispositifs en fiche",
+  "print_index_title": "Fiches à imprimer",
+  "print_index_intro": "Une page A4 par catégorie, avec un QR code par dispositif. Pensé pour les équipes de quartier, les bibliothèques, les cafés linguistiques et les banques alimentaires : imprimer, remettre, terminé. Le code ouvre la fiche dans la langue de la feuille.",
+  "print_sheet_intro": "Scannez le code ou recopiez le lien pour lire toutes les conditions.",
+  "print_button": "Imprimer cette fiche",
+  "print_generated": "Compilé le"
 }

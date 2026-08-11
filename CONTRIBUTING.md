@@ -4,6 +4,19 @@ First off, thank you for considering contributing to **Utrecht Voor Jou**! This 
 
 ---
 
+## Spotted something wrong? You don't need Git
+
+Every benefit page has a **"Report an error in this scheme"** link at the bottom. It opens a
+correction issue with the entry ID and the page you were reading already filled in — you only
+describe what changed, ideally with a link to the official source. No fork, no JSON, no pull
+request. Reports in Dutch, English, Spanish or any other language of the site are all fine.
+
+That report is the most valuable contribution this project gets: the catalog was compiled from
+public sources and a reader at the counter is usually the first to notice that an amount or a
+condition has changed.
+
+---
+
 ## How to Add a New Benefit (Stap voor Stap)
 
 Adding a new benefit, grant, or free service offered by Gemeente Utrecht is as simple as editing a single JSON file!

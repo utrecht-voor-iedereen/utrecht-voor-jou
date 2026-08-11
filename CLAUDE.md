@@ -48,6 +48,48 @@ documentaba 8 participantes mínimos donde la fuente oficial dice 5.
   es un bug; conservar el término neerlandés oficial en el título es
   intencionado y está explicado en `CONTRIBUTING.md`.
 
+## Analítica
+
+`site.config.json` guarda el código de GoatCounter (`utrecht-voor-jou`) y el build
+inyecta el snippet solo si hay código; sin él, cero peticiones externas. El script
+se añade desde JS tras comprobar Do Not Track y Global Privacy Control, así que
+buscarlo con `grep '<script.*goatcounter'` en `dist/` no lo encuentra: está en el
+`data-goatcounter` que pone `renderAnalytics()`. El service worker ignora las
+peticiones cross-origin, por lo que la analítica nunca se cachea.
+
+## Locales y feedback
+
+`npm run validate` ahora exige **paridad de claves** entre `nl.json` y los otros
+ocho idiomas: una clave que falte no rompe el build, imprime literalmente
+`undefined` en la página de ese idioma. Al añadir una cadena, añádela a los 9.
+
+El botón de cada ficha construye una URL a `issues/new` con `template`, `title`,
+`item_id` y `page_url` prellenados. Los nombres de esos parámetros son los `id`
+de los campos de `.github/ISSUE_TEMPLATE/correccion.yml`: si renombras un campo
+ahí, el prellenado deja de funcionar en silencio (GitHub ignora los parámetros
+que no reconoce).
+
+## QR y hojas imprimibles
+
+`scripts/lib/qr.js` es un encoder QR escrito a mano (modo byte, nivel M,
+versiones 1-10) porque `devDependencies` está vacío a propósito. Verificado
+módulo a módulo contra la librería `qrcode` de Python: 17 payloads × 8 máscaras,
+136 matrices idénticas. `scripts/lib/qr.test.js` congela ese resultado en
+hashes; si tocas el encoder y el test falla, **no lo actualices sin volver a
+comparar contra una implementación de referencia** — un QR mal generado no falla,
+simplemente no escanea.
+
+Detalle que no es obvio: la elección de máscara **no** coincide con la de
+python-qrcode, y es correcto. Esa librería puntúa las máscaras con el área de
+formato en blanco; aquí se puntúa el símbolo real, como la spec y la referencia
+de nayuki. Por eso el test compara con máscara forzada.
+
+Las hojas (`/<lang>/print/<categoria>/`) llevan `noindex` y se generan con
+`catalogData: []`: sin eso cada hoja arrastra los ~300 KB del catálogo embebido
+que necesita el buscador del home. El tamaño impreso del QR está fijado en
+centímetros en el `@media print` (2,6 cm ≈ 0,58 mm por módulo); a los 78 px de
+pantalla el código impreso queda al límite de lo escaneable.
+
 ## Desarrollo local
 
 - El **service worker cachea los assets**. Tras abrir la web una vez en local,

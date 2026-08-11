@@ -49,5 +49,14 @@
   "footer_rights": "Gepubliceerd onder EUPL-1.2 Open Source Licentie.",
   "steps_to_apply": "Hoe vraag je dit aan?",
   "eligibility_title": "Voor wie is dit?",
-  "footer_kofi": "☕ Steun dit project op Ko-fi"
+  "footer_kofi": "☕ Steun dit project op Ko-fi",
+  "feedback_title": "Klopt er iets niet?",
+  "feedback_intro": "Deze pagina wordt bijgehouden door vrijwilligers. Is een bedrag, een voorwaarde of een link veranderd? Meld het even: het kost een minuut en helpt de volgende bezoeker.",
+  "feedback_btn": "Meld een fout in deze regeling",
+  "print_nav": "Print deze regelingen als hand-out",
+  "print_index_title": "Hand-outs om uit te printen",
+  "print_index_intro": "Eén A4 per categorie, met een QR-code per regeling. Bedoeld voor het buurtteam, de bibliotheek, het taalcafé of de Voedselbank: printen, meegeven, klaar. De code opent de regelingpagina in de taal van dit blad.",
+  "print_sheet_intro": "Scan de code of typ de link over om alle voorwaarden te lezen.",
+  "print_button": "Print dit blad",
+  "print_generated": "Samengesteld op"
 }

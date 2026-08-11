@@ -49,5 +49,14 @@
   "footer_rights": "EUPL-1.2 Açık Kaynak Lisansı ile yayınlanmıştır.",
   "steps_to_apply": "Nasıl başvurulur?",
   "eligibility_title": "Kimler başvurabilir?",
-  "footer_kofi": "☕ Bu projeyi Ko-fi üzerinden destekle"
+  "footer_kofi": "☕ Bu projeyi Ko-fi üzerinden destekle",
+  "feedback_title": "Bir şey yanlış mı?",
+  "feedback_intro": "Bu sayfa gönüllüler tarafından güncel tutuluyor. Bir tutar, bir koşul veya bir bağlantı değişti mi? Bize bildirin: bir dakika sürer ve sonraki ziyaretçiye yardımcı olur.",
+  "feedback_btn": "Bu düzenlemedeki hatayı bildir",
+  "print_nav": "Bu düzenlemeleri broşür olarak yazdır",
+  "print_index_title": "Yazdırılabilir broşürler",
+  "print_index_intro": "Her kategori için bir A4 sayfa, her düzenleme için bir QR kod. Mahalle ekipleri, kütüphaneler, dil kafeleri ve gıda bankaları için: yazdır, ver, bitti. Kod, sayfayı bu broşürün dilinde açar.",
+  "print_sheet_intro": "Tüm koşulları okumak için kodu tarayın veya bağlantıyı yazın.",
+  "print_button": "Bu sayfayı yazdır",
+  "print_generated": "Derlenme tarihi"
 }

@@ -49,5 +49,14 @@
   "footer_rights": "Publicado sob Licença Open Source EUPL-1.2.",
   "steps_to_apply": "Como solicitar?",
   "eligibility_title": "Quem pode pedir?",
-  "footer_kofi": "☕ Apoie este projeto no Ko-fi"
+  "footer_kofi": "☕ Apoie este projeto no Ko-fi",
+  "feedback_title": "Tem algo errado aqui?",
+  "feedback_intro": "Esta página é mantida por voluntários. Mudou um valor, um requisito ou um link? Avise a gente: leva um minuto e ajuda quem vier depois.",
+  "feedback_btn": "Relatar um erro neste benefício",
+  "print_nav": "Imprimir estes benefícios como folheto",
+  "print_index_title": "Folhetos para imprimir",
+  "print_index_intro": "Uma folha A4 por categoria, com um QR code por benefício. Feito para as equipes de bairro, bibliotecas, cafés de idiomas e o banco de alimentos: imprimir, entregar, pronto. O código abre a página no idioma da folha.",
+  "print_sheet_intro": "Escaneie o código ou copie o link para ler todas as condições.",
+  "print_button": "Imprimir esta folha",
+  "print_generated": "Compilado em"
 }

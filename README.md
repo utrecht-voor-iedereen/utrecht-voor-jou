@@ -48,6 +48,25 @@ Elke taalversie is direct toegankelijk via de onderstaande links:
   - Vloeiende CSS-animaties (fiets in footer, checkmark animatie, stagger entrance).
 - **SEO & Toegankelijkheid**: Volledig statisch gegenereerd (SSG) voor 100% SEO indexatie, `sitemap.xml`, OpenGraph tags, `hreflang` cross-references en AA toegankelijkheidscontrast.
 - **Geen Backend / Database**: Gehost uitsluitend via **GitHub Pages**.
+- **Hand-outs om uit te printen**: `/<taal>/print/` geeft één A4 per categorie, met een QR-code per regeling die de pagina in de taal van het blad opent. Bedoeld voor het buurtteam, de bibliotheek, het taalcafé en de Voedselbank — de plekken waar deze informatie in de praktijk doorverteld wordt. De QR-codes worden bij de build gegenereerd door een eigen encoder (`scripts/lib/qr.js`), zonder dependency en zonder externe beeldservice.
+- **Meld een fout zonder GitHub-kennis**: elke regelingpagina heeft onderaan een knop die een correctie-issue opent met het ID van de regeling en de pagina-URL al ingevuld. De lezer aan de balie merkt een gewijzigd bedrag als eerste; die hoeft daarvoor geen pull request te leren maken.
+- **Bezoekcijfers zonder cookies**: alleen geaggregeerde paginatellingen via GoatCounter, zodat zichtbaar is of de regelingen ook echt gevonden worden. Geen cookie, geen profiel, geen toestemmingsbanner; wie Do Not Track of Global Privacy Control aan heeft staan wordt niet geteld.
+
+---
+
+## 📊 Bezoekcijfers (Analytics)
+
+De site telt alleen hoe vaak een pagina geopend wordt, met [GoatCounter](https://www.goatcounter.com/) (open source, EU-hosting, geen cookies). Dat is nodig om te weten welke regelingen mensen zoeken en welke taalversies gebruikt worden — anders is elke keuze over de inhoud giswerk.
+
+De teller staat in `site.config.json`:
+
+```json
+{ "analytics": { "provider": "goatcounter", "code": "utrecht-voor-jou" } }
+```
+
+- Een lege `code` (of een ontbrekende `site.config.json`) genereert **geen** script: een fork of een lokale build doet dan nul externe verzoeken.
+- `GOATCOUNTER_CODE=<jouw-code> npm run build` overschrijft de config, handig voor een fork met een eigen teller.
+- `count.js` telt localhost en private IP-ranges sowieso niet, dus een lokale build vervuilt de cijfers niet.
 
 ---
 
