@@ -1920,9 +1920,9 @@
     "type": "gratis",
     "wijk": "all",
     "verificationStatus": "verificado",
-    "lastReviewed": "2026-07-27",
+    "lastReviewed": "2026-08-11",
     "expiresSoon": false,
-    "officialUrl": "https://www.bibliotheekutrecht.nl/lid-worden.html",
+    "officialUrl": "https://www.bibliotheekutrecht.nl/jeugd.html",
     "profiles": ["iedereen", "student", "gezin"],
     "searchAliases": {
       "all": ["bibliotheek", "bieb", "neude", "wifi", "kranten", "studeerplek", "lidmaatschap"]
@@ -2906,6 +2906,1060 @@
       "pt-BR": [
         "Peça o Energiebespaarlening no warmtefonds.nl",
         "Mora em grupo habitacional, cooperativa ou condomínio? Veja energiefondsutrecht.nl, ou svn.nl para um condomínio pequeno de até 7 apartamentos"
+      ]
+    }
+  },
+  {
+    "id": 52,
+    "category": "vida",
+    "type": "servicio",
+    "wijk": "all",
+    "verificationStatus": "verificado",
+    "lastReviewed": "2026-08-11",
+    "expiresSoon": false,
+    "officialUrl": "https://www.utrecht.nl/zorg-en-onderwijs/hulp-en-ondersteuning-wmo/hulp-bij/hulp-bij-huishouden",
+    "profiles": [
+      "iedereen",
+      "senior",
+      "lage-inkomens"
+    ],
+    "searchAliases": {
+      "all": [
+        "Wmo",
+        "hulp bij het huishouden",
+        "huishoudelijke hulp",
+        "schoonmaakhulp",
+        "thuiszorg",
+        "buurtteam",
+        "14 030"
+      ]
+    },
+    "title": {
+      "nl": "Hulp bij het huishouden (Wmo)",
+      "en": "Help with housekeeping (Wmo)",
+      "es": "Ayuda con las tareas del hogar (Wmo)",
+      "de": "Hilfe im Haushalt (Wmo)",
+      "tr": "Ev işlerinde yardım (Wmo)",
+      "fr": "Aide-ménagère (Wmo)",
+      "it": "Aiuto domestico (Wmo)",
+      "pt": "Ajuda nas tarefas domésticas (Wmo)",
+      "pt-BR": "Ajuda com as tarefas domésticas (Wmo)"
+    },
+    "shortDescription": {
+      "nl": "Kun je door ziekte, ouderdom of een beperking je huis niet schoonhouden? De gemeente kan huishoudelijke hulp regelen. Er geldt een eigen bijdrage en er is momenteel een wachtlijst.",
+      "en": "Unable to keep your home clean because of illness, age or a disability? The municipality can arrange a household helper. A personal contribution applies and there is currently a waiting list.",
+      "es": "¿No puedes mantener limpia tu casa por enfermedad, edad o discapacidad? El ayuntamiento puede asignar ayuda doméstica. Hay copago y actualmente lista de espera.",
+      "de": "Können Sie Ihre Wohnung wegen Krankheit, Alter oder Behinderung nicht sauber halten? Die Gemeinde kann eine Haushaltshilfe organisieren. Es gilt ein Eigenanteil, und es gibt derzeit eine Warteliste.",
+      "tr": "Hastalık, yaş veya engel nedeniyle evinizi temiz tutamıyor musunuz? Belediye ev yardımı ayarlayabilir. Katkı payı vardır ve şu anda bekleme listesi bulunuyor.",
+      "fr": "Vous ne pouvez plus entretenir votre logement pour cause de maladie, d’âge ou de handicap ? La commune peut organiser une aide-ménagère. Une participation est demandée et il y a actuellement une liste d’attente.",
+      "it": "Non riesci a tenere pulita la casa per malattia, età o disabilità? Il comune può organizzare un aiuto domestico. È prevista una compartecipazione e al momento c’è una lista d’attesa.",
+      "pt": "Não consegue manter a casa limpa por doença, idade ou deficiência? O município pode arranjar ajuda doméstica. Há comparticipação e neste momento existe lista de espera.",
+      "pt-BR": "Não consegue manter a casa limpa por doença, idade ou deficiência? A prefeitura pode providenciar ajuda doméstica. Há contribuição própria e no momento existe fila de espera."
+    },
+    "eligibility": {
+      "nl": [
+        "Je kunt het huishouden niet zelf doen door ziekte, een beperking of andere omstandigheden",
+        "Er is niet genoeg hulp beschikbaar uit je eigen omgeving",
+        "Je woont en staat ingeschreven in de gemeente Utrecht",
+        "Je betaalt een vaste eigen bijdrage"
+      ],
+      "en": [
+        "You cannot do the housekeeping yourself because of illness, a disability or other circumstances",
+        "There is not enough help available from the people around you",
+        "You live and are registered in the municipality of Utrecht",
+        "You pay a fixed personal contribution"
+      ],
+      "es": [
+        "No puedes hacer las tareas del hogar por enfermedad, discapacidad u otras circunstancias",
+        "No hay suficiente ayuda disponible en tu entorno",
+        "Vives y estás empadronado en el municipio de Utrecht",
+        "Pagas un copago fijo"
+      ],
+      "de": [
+        "Sie können den Haushalt wegen Krankheit, Behinderung oder anderer Umstände nicht selbst führen",
+        "Aus Ihrem Umfeld steht nicht genug Hilfe zur Verfügung",
+        "Sie wohnen und sind in der Gemeinde Utrecht gemeldet",
+        "Sie zahlen einen festen Eigenanteil"
+      ],
+      "tr": [
+        "Hastalık, engel veya başka nedenlerle ev işlerini kendiniz yapamıyorsunuz",
+        "Çevrenizden yeterli yardım alamıyorsunuz",
+        "Utrecht belediyesinde oturuyor ve kayıtlısınız",
+        "Sabit bir katkı payı ödersiniz"
+      ],
+      "fr": [
+        "Vous ne pouvez pas faire le ménage vous-même pour cause de maladie, de handicap ou d’autres circonstances",
+        "Votre entourage ne peut pas fournir assez d’aide",
+        "Vous habitez et êtes inscrit dans la commune d’Utrecht",
+        "Vous payez une participation forfaitaire"
+      ],
+      "it": [
+        "Non puoi occuparti della casa per malattia, disabilità o altre circostanze",
+        "Le persone attorno a te non possono aiutarti abbastanza",
+        "Risiedi e sei registrato nel comune di Utrecht",
+        "Paghi una compartecipazione fissa"
+      ],
+      "pt": [
+        "Não consegue fazer as tarefas domésticas por doença, deficiência ou outras circunstâncias",
+        "Não há ajuda suficiente à sua volta",
+        "Vive e está registado no município de Utrecht",
+        "Paga uma comparticipação fixa"
+      ],
+      "pt-BR": [
+        "Você não consegue cuidar da casa por doença, deficiência ou outras circunstâncias",
+        "Não há ajuda suficiente entre as pessoas próximas",
+        "Você mora e está registrado no município de Utrecht",
+        "Você paga uma contribuição fixa"
+      ]
+    },
+    "howToApply": {
+      "nl": [
+        "Vul het hulpvraagformulier in op utrecht.nl, of bel 14 030",
+        "De gemeente belt je binnen 5 werkdagen voor een gesprek of huisbezoek",
+        "Het buurtteam bekijkt samen met jou of hulp van de gemeente nodig is",
+        "Heb je het dringend nodig? Bel 14 030 en zeg dat het spoed is"
+      ],
+      "en": [
+        "Fill in the help request form on utrecht.nl, or call 14 030",
+        "The municipality calls you within 5 working days for a conversation or home visit",
+        "The neighbourhood team looks with you at whether municipal help is needed",
+        "Urgent? Call 14 030 and say that it is urgent"
+      ],
+      "es": [
+        "Rellena el formulario de solicitud de ayuda en utrecht.nl, o llama al 14 030",
+        "El ayuntamiento te llama en 5 días laborables para una entrevista o visita a domicilio",
+        "El buurtteam valora contigo si hace falta ayuda municipal",
+        "¿Es urgente? Llama al 14 030 e indícalo"
+      ],
+      "de": [
+        "Füllen Sie das Hilfeanfrageformular auf utrecht.nl aus oder rufen Sie 14 030 an",
+        "Die Gemeinde ruft Sie innerhalb von 5 Werktagen für ein Gespräch oder einen Hausbesuch an",
+        "Das Buurtteam prüft mit Ihnen, ob Hilfe der Gemeinde nötig ist",
+        "Dringend? Rufen Sie 14 030 an und sagen Sie, dass es eilt"
+      ],
+      "tr": [
+        "utrecht.nl üzerinden yardım talep formunu doldurun veya 14 030’u arayın",
+        "Belediye 5 iş günü içinde görüşme veya ev ziyareti için sizi arar",
+        "Buurtteam sizinle birlikte belediye yardımına ihtiyaç olup olmadığına bakar",
+        "Acil mi? 14 030’u arayın ve acil olduğunu söyleyin"
+      ],
+      "fr": [
+        "Remplissez le formulaire de demande d’aide sur utrecht.nl, ou appelez le 14 030",
+        "La commune vous appelle sous 5 jours ouvrés pour un entretien ou une visite à domicile",
+        "L’équipe de quartier examine avec vous si une aide communale est nécessaire",
+        "C’est urgent ? Appelez le 14 030 et signalez-le"
+      ],
+      "it": [
+        "Compila il modulo di richiesta di aiuto su utrecht.nl, oppure chiama il 14 030",
+        "Il comune ti chiama entro 5 giorni lavorativi per un colloquio o una visita a casa",
+        "La squadra di quartiere valuta con te se serve l’aiuto del comune",
+        "È urgente? Chiama il 14 030 e dillo"
+      ],
+      "pt": [
+        "Preencha o formulário de pedido de ajuda em utrecht.nl, ou ligue 14 030",
+        "O município liga-lhe em 5 dias úteis para uma conversa ou visita domiciliária",
+        "A equipa de bairro avalia consigo se é necessária ajuda municipal",
+        "É urgente? Ligue 14 030 e diga-o"
+      ],
+      "pt-BR": [
+        "Preencha o formulário de pedido de ajuda em utrecht.nl, ou ligue 14 030",
+        "A prefeitura liga em até 5 dias úteis para uma conversa ou visita em casa",
+        "A equipe de bairro avalia com você se a ajuda municipal é necessária",
+        "É urgente? Ligue 14 030 e avise"
+      ]
+    }
+  },
+  {
+    "id": 53,
+    "category": "vida",
+    "type": "servicio",
+    "wijk": "all",
+    "verificationStatus": "verificado",
+    "lastReviewed": "2026-08-11",
+    "expiresSoon": false,
+    "officialUrl": "https://www.utrecht.nl/zorg-en-onderwijs/hulp-en-ondersteuning-wmo/hulp-bij/zelfstandig-wonen",
+    "profiles": [
+      "iedereen",
+      "senior",
+      "huurder",
+      "huiseienaar"
+    ],
+    "searchAliases": {
+      "all": [
+        "Wmo",
+        "woningaanpassing",
+        "traplift",
+        "drempel",
+        "douche",
+        "zelfstandig wonen",
+        "pgb",
+        "hulpmiddel"
+      ]
+    },
+    "title": {
+      "nl": "Woningaanpassing en hulpmiddelen thuis (Wmo)",
+      "en": "Home adaptations and aids at home (Wmo)",
+      "es": "Adaptación de la vivienda y ayudas técnicas (Wmo)",
+      "de": "Wohnungsanpassung und Hilfsmittel zu Hause (Wmo)",
+      "tr": "Konut uyarlaması ve evde yardımcı araçlar (Wmo)",
+      "fr": "Adaptation du logement et aides techniques (Wmo)",
+      "it": "Adattamento dell’abitazione e ausili in casa (Wmo)",
+      "pt": "Adaptação da habitação e ajudas técnicas (Wmo)",
+      "pt-BR": "Adaptação da casa e equipamentos de apoio (Wmo)"
+    },
+    "shortDescription": {
+      "nl": "Bewegen door je huis of douchen gaat moeilijk? De gemeente kan een traplift plaatsen, drempels weghalen of deuren verbreden. Soms is verhuizen naar een geschiktere woning de oplossing.",
+      "en": "Struggling to move around your home or to shower? The municipality can install a stairlift, remove thresholds or widen doors. Sometimes moving to a more suitable home is the answer.",
+      "es": "¿Te cuesta moverte por casa o ducharte? El ayuntamiento puede instalar un salvaescaleras, quitar umbrales o ensanchar puertas. A veces la solución es mudarse a una vivienda más adecuada.",
+      "de": "Bewegen in der Wohnung oder Duschen fällt schwer? Die Gemeinde kann einen Treppenlift einbauen, Schwellen entfernen oder Türen verbreitern. Manchmal ist ein Umzug in eine passendere Wohnung die Lösung.",
+      "tr": "Evde hareket etmek veya duş almak zor mu? Belediye merdiven asansörü takabilir, eşikleri kaldırabilir veya kapıları genişletebilir. Bazen daha uygun bir konuta taşınmak çözümdür.",
+      "fr": "Vous vous déplacez difficilement chez vous ou vous avez du mal à vous doucher ? La commune peut poser un monte-escalier, supprimer des seuils ou élargir des portes. Parfois, déménager vers un logement plus adapté est la solution.",
+      "it": "Fatichi a muoverti in casa o a fare la doccia? Il comune può installare un montascale, togliere le soglie o allargare le porte. A volte la soluzione è trasferirsi in un’abitazione più adatta.",
+      "pt": "Custa-lhe mover-se em casa ou tomar banho? O município pode instalar um elevador de escadas, retirar soleiras ou alargar portas. Às vezes mudar para uma casa mais adequada é a solução.",
+      "pt-BR": "Tem dificuldade para se mover em casa ou tomar banho? A prefeitura pode instalar plataforma de escada, remover soleiras ou alargar portas. Às vezes mudar para uma casa mais adequada é a solução."
+    },
+    "eligibility": {
+      "nl": [
+        "Je beweegt je moeilijk door je woning of hebt moeite met douchen door een beperking",
+        "Je woont en staat ingeschreven in de gemeente Utrecht",
+        "Je betaalt een eigen bijdrage voor een hulpmiddel of aanpassing",
+        "Je kunt ook een persoonsgebonden budget (pgb) vragen en de hulp zelf inkopen"
+      ],
+      "en": [
+        "You move through your home with difficulty, or struggle to shower, because of a disability",
+        "You live and are registered in the municipality of Utrecht",
+        "You pay a personal contribution for an aid or adaptation",
+        "You can also ask for a personal budget (pgb) and buy the help yourself"
+      ],
+      "es": [
+        "Te mueves con dificultad por la vivienda o te cuesta ducharte por una discapacidad",
+        "Vives y estás empadronado en el municipio de Utrecht",
+        "Pagas un copago por la ayuda técnica o la reforma",
+        "También puedes pedir un presupuesto personal (pgb) y contratar tú la ayuda"
+      ],
+      "de": [
+        "Sie bewegen sich wegen einer Behinderung schwer durch die Wohnung oder haben Mühe beim Duschen",
+        "Sie wohnen und sind in der Gemeinde Utrecht gemeldet",
+        "Sie zahlen einen Eigenanteil für Hilfsmittel oder Anpassung",
+        "Sie können auch ein persönliches Budget (pgb) beantragen und die Hilfe selbst einkaufen"
+      ],
+      "tr": [
+        "Bir engel nedeniyle evde zor hareket ediyor veya duş almakta zorlanıyorsunuz",
+        "Utrecht belediyesinde oturuyor ve kayıtlısınız",
+        "Yardımcı araç veya uyarlama için katkı payı ödersiniz",
+        "Kişisel bütçe (pgb) isteyip yardımı kendiniz de satın alabilirsiniz"
+      ],
+      "fr": [
+        "Vous vous déplacez difficilement dans votre logement ou vous avez du mal à vous doucher en raison d’un handicap",
+        "Vous habitez et êtes inscrit dans la commune d’Utrecht",
+        "Vous payez une participation pour l’aide technique ou l’aménagement",
+        "Vous pouvez aussi demander un budget personnalisé (pgb) et acheter l’aide vous-même"
+      ],
+      "it": [
+        "Ti muovi con difficoltà in casa o fai fatica a lavarti a causa di una disabilità",
+        "Risiedi e sei registrato nel comune di Utrecht",
+        "Paghi una compartecipazione per l’ausilio o l’adattamento",
+        "Puoi anche chiedere un budget personale (pgb) e acquistare l’aiuto da solo"
+      ],
+      "pt": [
+        "Move-se com dificuldade em casa ou tem dificuldade em tomar banho devido a uma deficiência",
+        "Vive e está registado no município de Utrecht",
+        "Paga uma comparticipação pela ajuda técnica ou pela obra",
+        "Também pode pedir um orçamento pessoal (pgb) e contratar a ajuda por si"
+      ],
+      "pt-BR": [
+        "Você se move com dificuldade em casa ou tem dificuldade para tomar banho por causa de uma deficiência",
+        "Você mora e está registrado no município de Utrecht",
+        "Você paga uma contribuição pelo equipamento ou pela adaptação",
+        "Também pode pedir um orçamento pessoal (pgb) e contratar a ajuda por conta própria"
+      ]
+    },
+    "howToApply": {
+      "nl": [
+        "Vul het hulpvraagformulier in op utrecht.nl, of bel 14 030",
+        "De gemeente belt binnen 5 werkdagen en plant een gesprek of huisbezoek",
+        "Samen bekijk je welke aanpassing, welk hulpmiddel of welke verhuizing past"
+      ],
+      "en": [
+        "Fill in the help request form on utrecht.nl, or call 14 030",
+        "The municipality calls within 5 working days and plans a conversation or home visit",
+        "Together you look at which adaptation, aid or move fits"
+      ],
+      "es": [
+        "Rellena el formulario de solicitud de ayuda en utrecht.nl, o llama al 14 030",
+        "El ayuntamiento llama en 5 días laborables y concierta entrevista o visita",
+        "Juntos valoráis qué reforma, ayuda técnica o mudanza encaja"
+      ],
+      "de": [
+        "Füllen Sie das Hilfeanfrageformular auf utrecht.nl aus oder rufen Sie 14 030 an",
+        "Die Gemeinde ruft innerhalb von 5 Werktagen an und vereinbart Gespräch oder Hausbesuch",
+        "Gemeinsam prüfen Sie, welche Anpassung, welches Hilfsmittel oder welcher Umzug passt"
+      ],
+      "tr": [
+        "utrecht.nl üzerinden yardım talep formunu doldurun veya 14 030’u arayın",
+        "Belediye 5 iş günü içinde arar ve görüşme ya da ev ziyareti planlar",
+        "Hangi uyarlamanın, aracın veya taşınmanın uygun olduğuna birlikte bakarsınız"
+      ],
+      "fr": [
+        "Remplissez le formulaire de demande d’aide sur utrecht.nl, ou appelez le 14 030",
+        "La commune appelle sous 5 jours ouvrés et fixe un entretien ou une visite",
+        "Ensemble, vous regardez quel aménagement, quelle aide ou quel déménagement convient"
+      ],
+      "it": [
+        "Compila il modulo di richiesta di aiuto su utrecht.nl, oppure chiama il 14 030",
+        "Il comune chiama entro 5 giorni lavorativi e fissa un colloquio o una visita",
+        "Insieme valutate quale adattamento, ausilio o trasloco è adatto"
+      ],
+      "pt": [
+        "Preencha o formulário de pedido de ajuda em utrecht.nl, ou ligue 14 030",
+        "O município liga em 5 dias úteis e marca uma conversa ou visita",
+        "Em conjunto vêem que obra, ajuda técnica ou mudança faz sentido"
+      ],
+      "pt-BR": [
+        "Preencha o formulário de pedido de ajuda em utrecht.nl, ou ligue 14 030",
+        "A prefeitura liga em até 5 dias úteis e agenda conversa ou visita",
+        "Juntos vocês avaliam qual adaptação, equipamento ou mudança faz sentido"
+      ]
+    }
+  },
+  {
+    "id": 54,
+    "category": "movilidad",
+    "type": "servicio",
+    "wijk": "all",
+    "verificationStatus": "verificado",
+    "lastReviewed": "2026-08-11",
+    "expiresSoon": false,
+    "officialUrl": "https://www.utrecht.nl/zorg-en-onderwijs/hulp-en-ondersteuning-wmo/hulp-bij/vervoer",
+    "profiles": [
+      "iedereen",
+      "senior"
+    ],
+    "searchAliases": {
+      "all": [
+        "Regiotaxi",
+        "Valys",
+        "OV-begeleiderskaart",
+        "AutoMaatje",
+        "Buurt Mobiel",
+        "Zonnebloemauto",
+        "vervoer",
+        "Wmo"
+      ]
+    },
+    "title": {
+      "nl": "Hulp bij vervoer: Regiotaxi, AutoMaatje en Valys",
+      "en": "Help with transport: Regiotaxi, AutoMaatje and Valys",
+      "es": "Ayuda con el transporte: Regiotaxi, AutoMaatje y Valys",
+      "de": "Hilfe bei der Beförderung: Regiotaxi, AutoMaatje und Valys",
+      "tr": "Ulaşım yardımı: Regiotaxi, AutoMaatje ve Valys",
+      "fr": "Aide au transport : Regiotaxi, AutoMaatje et Valys",
+      "it": "Aiuto per gli spostamenti: Regiotaxi, AutoMaatje e Valys",
+      "pt": "Ajuda no transporte: Regiotaxi, AutoMaatje e Valys",
+      "pt-BR": "Ajuda no transporte: Regiotaxi, AutoMaatje e Valys"
+    },
+    "shortDescription": {
+      "nl": "Lukt reizen met het openbaar vervoer niet? Met Regiotaxi reis je van deur tot deur, Valys dekt ritten buiten de regio, en vrijwilligers rijden je via ANWB AutoMaatje (€ 0,35 per kilometer) of Buurt Mobiel.",
+      "en": "Public transport not an option? Regiotaxi takes you door to door, Valys covers trips outside the region, and volunteers drive you through ANWB AutoMaatje (€0.35 per kilometre) or Buurt Mobiel.",
+      "es": "¿No puedes viajar en transporte público? Regiotaxi te lleva puerta a puerta, Valys cubre viajes fuera de la región y voluntarios te llevan con ANWB AutoMaatje (0,35 € por kilómetro) o Buurt Mobiel.",
+      "de": "Fahren mit dem ÖPNV klappt nicht? Mit Regiotaxi fahren Sie von Tür zu Tür, Valys deckt Fahrten außerhalb der Region ab, und Freiwillige fahren Sie über ANWB AutoMaatje (0,35 € pro Kilometer) oder Buurt Mobiel.",
+      "tr": "Toplu taşıma ile seyahat edemiyor musunuz? Regiotaxi kapıdan kapıya götürür, Valys bölge dışı yolculukları kapsar, gönüllüler ANWB AutoMaatje (kilometre başına 0,35 €) veya Buurt Mobiel ile sizi taşır.",
+      "fr": "Les transports en commun ne sont pas possibles ? Regiotaxi vous emmène de porte à porte, Valys couvre les trajets hors de la région, et des bénévoles vous conduisent via ANWB AutoMaatje (0,35 € le kilomètre) ou Buurt Mobiel.",
+      "it": "Non riesci a viaggiare con i mezzi pubblici? Regiotaxi ti porta porta a porta, Valys copre i viaggi fuori regione e i volontari ti accompagnano con ANWB AutoMaatje (0,35 € al chilometro) o Buurt Mobiel.",
+      "pt": "Não consegue viajar de transporte público? O Regiotaxi leva-o porta a porta, o Valys cobre viagens fora da região e voluntários levam-no através do ANWB AutoMaatje (0,35 € por quilómetro) ou do Buurt Mobiel.",
+      "pt-BR": "Não consegue viajar de transporte público? O Regiotaxi leva você de porta em porta, o Valys cobre viagens fora da região e voluntários dirigem para você pelo ANWB AutoMaatje (€ 0,35 por quilômetro) ou pelo Buurt Mobiel."
+    },
+    "eligibility": {
+      "nl": [
+        "Je kunt door een beperking niet (goed) met het openbaar vervoer reizen",
+        "Regiotaxi loopt via de Wmo: de gemeente beoordeelt je aanvraag",
+        "Buurt Mobiel rijdt in Overvecht, Noordoost, Zuilen en Ondiep",
+        "ANWB AutoMaatje vraag je minimaal 2 werkdagen van tevoren aan"
+      ],
+      "en": [
+        "A disability makes travelling by public transport hard or impossible",
+        "Regiotaxi runs through the Wmo: the municipality assesses your request",
+        "Buurt Mobiel drives in Overvecht, Noordoost, Zuilen and Ondiep",
+        "Book ANWB AutoMaatje at least 2 working days in advance"
+      ],
+      "es": [
+        "Una discapacidad te impide viajar (bien) en transporte público",
+        "Regiotaxi va por la Wmo: el ayuntamiento valora tu solicitud",
+        "Buurt Mobiel circula por Overvecht, Noordoost, Zuilen y Ondiep",
+        "ANWB AutoMaatje se pide con al menos 2 días laborables de antelación"
+      ],
+      "de": [
+        "Wegen einer Behinderung können Sie nicht (gut) mit dem ÖPNV fahren",
+        "Regiotaxi läuft über die Wmo: die Gemeinde prüft Ihren Antrag",
+        "Buurt Mobiel fährt in Overvecht, Noordoost, Zuilen und Ondiep",
+        "ANWB AutoMaatje mindestens 2 Werktage im Voraus bestellen"
+      ],
+      "tr": [
+        "Bir engel nedeniyle toplu taşıma ile (iyi) seyahat edemiyorsunuz",
+        "Regiotaxi Wmo üzerinden yürür: başvurunuzu belediye değerlendirir",
+        "Buurt Mobiel Overvecht, Noordoost, Zuilen ve Ondiep’te hizmet verir",
+        "ANWB AutoMaatje’yi en az 2 iş günü önceden isteyin"
+      ],
+      "fr": [
+        "Un handicap vous empêche de voyager (correctement) en transport en commun",
+        "Regiotaxi passe par la Wmo : la commune évalue votre demande",
+        "Buurt Mobiel circule à Overvecht, Noordoost, Zuilen et Ondiep",
+        "Réservez ANWB AutoMaatje au moins 2 jours ouvrés à l’avance"
+      ],
+      "it": [
+        "A causa di una disabilità non riesci a viaggiare (bene) con i mezzi pubblici",
+        "Regiotaxi passa dalla Wmo: il comune valuta la richiesta",
+        "Buurt Mobiel circola a Overvecht, Noordoost, Zuilen e Ondiep",
+        "Prenota ANWB AutoMaatje con almeno 2 giorni lavorativi di anticipo"
+      ],
+      "pt": [
+        "Uma deficiência impede-o de viajar (bem) em transporte público",
+        "O Regiotaxi passa pela Wmo: o município avalia o pedido",
+        "O Buurt Mobiel circula em Overvecht, Noordoost, Zuilen e Ondiep",
+        "Peça o ANWB AutoMaatje com pelo menos 2 dias úteis de antecedência"
+      ],
+      "pt-BR": [
+        "Uma deficiência impede você de viajar (bem) de transporte público",
+        "O Regiotaxi passa pela Wmo: a prefeitura avalia o pedido",
+        "O Buurt Mobiel circula em Overvecht, Noordoost, Zuilen e Ondiep",
+        "Peça o ANWB AutoMaatje com pelo menos 2 dias úteis de antecedência"
+      ]
+    },
+    "howToApply": {
+      "nl": [
+        "Vul het hulpvraagformulier in op utrecht.nl voor Regiotaxi of ander Wmo-vervoer",
+        "De gemeente belt je binnen 5 werkdagen",
+        "De OV-begeleiderskaart vraag je aan bij Argonaut, Valys bij Valys zelf",
+        "Voor AutoMaatje of Buurt Mobiel bel je de organisatie rechtstreeks"
+      ],
+      "en": [
+        "Fill in the help request form on utrecht.nl for Regiotaxi or other Wmo transport",
+        "The municipality calls you within 5 working days",
+        "Request the OV companion card at Argonaut, and Valys at Valys itself",
+        "For AutoMaatje or Buurt Mobiel, call the organisation directly"
+      ],
+      "es": [
+        "Rellena el formulario de solicitud en utrecht.nl para Regiotaxi u otro transporte Wmo",
+        "El ayuntamiento te llama en 5 días laborables",
+        "La tarjeta de acompañante (OV-begeleiderskaart) se pide en Argonaut; Valys, en Valys",
+        "Para AutoMaatje o Buurt Mobiel llama directamente a la organización"
+      ],
+      "de": [
+        "Füllen Sie für Regiotaxi oder anderen Wmo-Transport das Hilfeanfrageformular auf utrecht.nl aus",
+        "Die Gemeinde ruft Sie innerhalb von 5 Werktagen an",
+        "Die OV-Begleiterkarte beantragen Sie bei Argonaut, Valys direkt bei Valys",
+        "Für AutoMaatje oder Buurt Mobiel rufen Sie die Organisation direkt an"
+      ],
+      "tr": [
+        "Regiotaxi veya diğer Wmo ulaşımı için utrecht.nl’deki yardım talep formunu doldurun",
+        "Belediye 5 iş günü içinde sizi arar",
+        "OV refakatçi kartını Argonaut’tan, Valys’i doğrudan Valys’ten isteyin",
+        "AutoMaatje veya Buurt Mobiel için kuruluşu doğrudan arayın"
+      ],
+      "fr": [
+        "Remplissez le formulaire de demande sur utrecht.nl pour le Regiotaxi ou un autre transport Wmo",
+        "La commune vous appelle sous 5 jours ouvrés",
+        "La carte d’accompagnateur se demande chez Argonaut, Valys directement chez Valys",
+        "Pour AutoMaatje ou Buurt Mobiel, appelez directement l’organisation"
+      ],
+      "it": [
+        "Compila il modulo di richiesta su utrecht.nl per Regiotaxi o altro trasporto Wmo",
+        "Il comune ti chiama entro 5 giorni lavorativi",
+        "La tessera per l’accompagnatore si chiede ad Argonaut, Valys direttamente a Valys",
+        "Per AutoMaatje o Buurt Mobiel chiama direttamente l’organizzazione"
+      ],
+      "pt": [
+        "Preencha o formulário de pedido em utrecht.nl para o Regiotaxi ou outro transporte Wmo",
+        "O município liga-lhe em 5 dias úteis",
+        "O cartão de acompanhante pede-se na Argonaut e o Valys no próprio Valys",
+        "Para o AutoMaatje ou o Buurt Mobiel ligue diretamente à organização"
+      ],
+      "pt-BR": [
+        "Preencha o formulário de pedido em utrecht.nl para o Regiotaxi ou outro transporte Wmo",
+        "A prefeitura liga em até 5 dias úteis",
+        "O cartão de acompanhante é pedido na Argonaut e o Valys no próprio Valys",
+        "Para o AutoMaatje ou o Buurt Mobiel ligue direto para a organização"
+      ]
+    }
+  },
+  {
+    "id": 55,
+    "category": "movilidad",
+    "type": "servicio",
+    "wijk": "all",
+    "verificationStatus": "verificado",
+    "lastReviewed": "2026-08-11",
+    "expiresSoon": false,
+    "officialUrl": "https://www.utrecht.nl/zorg-en-onderwijs/hulp-en-ondersteuning-wmo/hulp-bij/rolstoel-scootmobiel",
+    "profiles": [
+      "iedereen",
+      "senior"
+    ],
+    "searchAliases": {
+      "all": [
+        "rolstoel",
+        "scootmobiel",
+        "Wmo",
+        "hulpmiddel",
+        "thuiszorgwinkel",
+        "eigen bijdrage"
+      ]
+    },
+    "title": {
+      "nl": "Rolstoel of scootmobiel via de gemeente (Wmo)",
+      "en": "Wheelchair or mobility scooter through the municipality (Wmo)",
+      "es": "Silla de ruedas o scooter eléctrico del ayuntamiento (Wmo)",
+      "de": "Rollstuhl oder Elektromobil über die Gemeinde (Wmo)",
+      "tr": "Belediye üzerinden tekerlekli sandalye veya akülü scooter (Wmo)",
+      "fr": "Fauteuil roulant ou scooter électrique via la commune (Wmo)",
+      "it": "Sedia a rotelle o scooter elettrico tramite il comune (Wmo)",
+      "pt": "Cadeira de rodas ou scooter elétrica através do município (Wmo)",
+      "pt-BR": "Cadeira de rodas ou scooter elétrica pela prefeitura (Wmo)"
+    },
+    "shortDescription": {
+      "nl": "Heb je langer dan 6 maanden een rolstoel of scootmobiel nodig, dan kan de gemeente er 1 verstrekken. Voor een rolstoel betaal je geen eigen bijdrage, voor een scootmobiel wel. Korter nodig? Leen of huur er 1 bij een thuiszorgwinkel.",
+      "en": "Need a wheelchair or mobility scooter for longer than 6 months? The municipality may provide one. A wheelchair carries no personal contribution, a mobility scooter does. Need it for less time? Borrow or rent one from a care shop.",
+      "es": "¿Necesitas silla de ruedas o scooter más de 6 meses? El ayuntamiento puede facilitártela. La silla no tiene copago; el scooter sí. ¿Menos tiempo? Préstala o alquílala en una tienda de material sanitario.",
+      "de": "Brauchen Sie länger als 6 Monate einen Rollstuhl oder ein Elektromobil, kann die Gemeinde eines stellen. Für den Rollstuhl zahlen Sie keinen Eigenanteil, für das Elektromobil schon. Kürzer nötig? Leihen oder mieten Sie eines im Sanitätshaus.",
+      "tr": "Tekerlekli sandalye veya akülü scooter’a 6 aydan uzun süre ihtiyacınız varsa belediye verebilir. Tekerlekli sandalye için katkı payı yok, scooter için var. Daha kısa süre mi? Bakım mağazasından ödünç alın veya kiralayın.",
+      "fr": "Besoin d’un fauteuil roulant ou d’un scooter plus de 6 mois ? La commune peut en fournir un. Pas de participation pour le fauteuil, mais oui pour le scooter. Moins longtemps ? Empruntez ou louez-en un en magasin de matériel médical.",
+      "it": "Ti serve una sedia a rotelle o uno scooter per più di 6 mesi? Il comune può fornirlo. Per la sedia non paghi compartecipazione, per lo scooter sì. Per meno tempo? Prendilo in prestito o a noleggio in un negozio sanitario.",
+      "pt": "Precisa de cadeira de rodas ou scooter por mais de 6 meses? O município pode fornecer. A cadeira não tem comparticipação, a scooter tem. Menos tempo? Peça emprestado ou alugue numa loja de material de apoio.",
+      "pt-BR": "Precisa de cadeira de rodas ou scooter por mais de 6 meses? A prefeitura pode fornecer. A cadeira não tem contribuição, a scooter tem. Menos tempo? Pegue emprestado ou alugue numa loja de material de apoio."
+    },
+    "eligibility": {
+      "nl": [
+        "Je hebt het hulpmiddel langer dan 6 maanden nodig",
+        "Je woont en staat ingeschreven in de gemeente Utrecht",
+        "Voor een rolstoel betaal je geen eigen bijdrage, voor een scootmobiel wel",
+        "Kinderen onder de 18 betalen geen eigen bijdrage"
+      ],
+      "en": [
+        "You need the aid for longer than 6 months",
+        "You live and are registered in the municipality of Utrecht",
+        "No personal contribution for a wheelchair, but there is one for a mobility scooter",
+        "Children under 18 pay no personal contribution"
+      ],
+      "es": [
+        "Necesitas la ayuda técnica más de 6 meses",
+        "Vives y estás empadronado en el municipio de Utrecht",
+        "La silla de ruedas no tiene copago; el scooter sí",
+        "Los menores de 18 años no pagan copago"
+      ],
+      "de": [
+        "Sie brauchen das Hilfsmittel länger als 6 Monate",
+        "Sie wohnen und sind in der Gemeinde Utrecht gemeldet",
+        "Für einen Rollstuhl zahlen Sie keinen Eigenanteil, für ein Elektromobil schon",
+        "Kinder unter 18 zahlen keinen Eigenanteil"
+      ],
+      "tr": [
+        "Yardımcı araca 6 aydan uzun süre ihtiyacınız var",
+        "Utrecht belediyesinde oturuyor ve kayıtlısınız",
+        "Tekerlekli sandalye için katkı payı yok, akülü scooter için var",
+        "18 yaş altı çocuklar katkı payı ödemez"
+      ],
+      "fr": [
+        "Vous avez besoin de l’aide technique plus de 6 mois",
+        "Vous habitez et êtes inscrit dans la commune d’Utrecht",
+        "Pas de participation pour un fauteuil roulant, mais oui pour un scooter",
+        "Les moins de 18 ans ne paient pas de participation"
+      ],
+      "it": [
+        "Ti serve l’ausilio per più di 6 mesi",
+        "Risiedi e sei registrato nel comune di Utrecht",
+        "Per la sedia a rotelle non paghi compartecipazione, per lo scooter sì",
+        "I minori di 18 anni non pagano compartecipazione"
+      ],
+      "pt": [
+        "Precisa da ajuda técnica por mais de 6 meses",
+        "Vive e está registado no município de Utrecht",
+        "A cadeira de rodas não tem comparticipação, a scooter tem",
+        "Menores de 18 anos não pagam comparticipação"
+      ],
+      "pt-BR": [
+        "Você precisa do equipamento por mais de 6 meses",
+        "Você mora e está registrado no município de Utrecht",
+        "A cadeira de rodas não tem contribuição, a scooter tem",
+        "Menores de 18 anos não pagam contribuição"
+      ]
+    },
+    "howToApply": {
+      "nl": [
+        "Vul het hulpvraagformulier in op utrecht.nl, of bel 14 030",
+        "De gemeente belt je binnen 5 werkdagen voor een gesprek of huisbezoek",
+        "Voor korter dan 6 maanden: leen of huur bij een thuiszorgwinkel"
+      ],
+      "en": [
+        "Fill in the help request form on utrecht.nl, or call 14 030",
+        "The municipality calls you within 5 working days for a conversation or home visit",
+        "For less than 6 months: borrow or rent from a care shop"
+      ],
+      "es": [
+        "Rellena el formulario de solicitud en utrecht.nl, o llama al 14 030",
+        "El ayuntamiento te llama en 5 días laborables para una entrevista o visita",
+        "Para menos de 6 meses: préstamo o alquiler en una tienda de material sanitario"
+      ],
+      "de": [
+        "Füllen Sie das Hilfeanfrageformular auf utrecht.nl aus oder rufen Sie 14 030 an",
+        "Die Gemeinde ruft Sie innerhalb von 5 Werktagen für Gespräch oder Hausbesuch an",
+        "Für weniger als 6 Monate: im Sanitätshaus leihen oder mieten"
+      ],
+      "tr": [
+        "utrecht.nl üzerinden yardım talep formunu doldurun veya 14 030’u arayın",
+        "Belediye 5 iş günü içinde görüşme veya ev ziyareti için arar",
+        "6 aydan kısa süre için: bakım mağazasından ödünç alın veya kiralayın"
+      ],
+      "fr": [
+        "Remplissez le formulaire de demande d’aide sur utrecht.nl, ou appelez le 14 030",
+        "La commune vous appelle sous 5 jours ouvrés pour un entretien ou une visite",
+        "Pour moins de 6 mois : emprunt ou location en magasin de matériel médical"
+      ],
+      "it": [
+        "Compila il modulo di richiesta di aiuto su utrecht.nl, oppure chiama il 14 030",
+        "Il comune ti chiama entro 5 giorni lavorativi per un colloquio o una visita",
+        "Per meno di 6 mesi: prestito o noleggio in un negozio sanitario"
+      ],
+      "pt": [
+        "Preencha o formulário de pedido de ajuda em utrecht.nl, ou ligue 14 030",
+        "O município liga-lhe em 5 dias úteis para uma conversa ou visita",
+        "Para menos de 6 meses: empréstimo ou aluguer numa loja de material de apoio"
+      ],
+      "pt-BR": [
+        "Preencha o formulário de pedido de ajuda em utrecht.nl, ou ligue 14 030",
+        "A prefeitura liga em até 5 dias úteis para conversa ou visita",
+        "Para menos de 6 meses: empréstimo ou aluguel numa loja de material de apoio"
+      ]
+    }
+  },
+  {
+    "id": 56,
+    "category": "movilidad",
+    "type": "subsidio",
+    "wijk": "all",
+    "verificationStatus": "verificado",
+    "lastReviewed": "2026-08-11",
+    "expiresSoon": false,
+    "officialUrl": "https://loket.digitaal.utrecht.nl/nl/products/parkeerkorting-mantelzorg-of-thuiszorg-aanvragen",
+    "profiles": [
+      "iedereen",
+      "senior"
+    ],
+    "searchAliases": {
+      "all": [
+        "parkeerkorting",
+        "mantelzorg",
+        "thuiszorg",
+        "parkeren",
+        "DigiD",
+        "Wmo-beschikking"
+      ]
+    },
+    "title": {
+      "nl": "Parkeerkorting voor je mantelzorger of thuiszorg",
+      "en": "Parking discount for your informal carer or home care",
+      "es": "Descuento de aparcamiento para tu cuidador o la ayuda a domicilio",
+      "de": "Parkrabatt für Ihre pflegende Angehörige oder Pflegedienst",
+      "tr": "Bakıcınız veya evde bakım için park indirimi",
+      "fr": "Réduction de stationnement pour votre aidant ou l’aide à domicile",
+      "it": "Sconto sul parcheggio per chi ti assiste o per l’assistenza domiciliare",
+      "pt": "Desconto de estacionamento para o seu cuidador ou apoio domiciliário",
+      "pt-BR": "Desconto de estacionamento para seu cuidador ou atendimento domiciliar"
+    },
+    "shortDescription": {
+      "nl": "Woon je in een gebied met betaald parkeren en komt er een mantelzorger of thuiszorgmedewerker langs? Dan krijgt die 75% korting op het parkeertarief, met 100 uur korting per 3 maanden. Aanvragen is gratis.",
+      "en": "Live in a paid parking zone and does an informal carer or home care worker visit you? They get 75% off the parking rate, with 100 discounted hours every 3 months. Applying is free.",
+      "es": "¿Vives en zona de aparcamiento de pago y te visita un cuidador o la ayuda a domicilio? Tienen un 75% de descuento en la tarifa, con 100 horas cada 3 meses. Solicitarlo es gratis.",
+      "de": "Wohnen Sie in einer Zone mit Parkgebühren und kommt eine pflegende Person oder ein Pflegedienst zu Ihnen? Dann gibt es 75% Rabatt auf den Parktarif, mit 100 Stunden pro 3 Monate. Der Antrag ist kostenlos.",
+      "tr": "Ücretli park bölgesinde oturuyor ve size bir bakıcı ya da evde bakım çalışanı geliyorsa, park ücretinde %75 indirim alır; her 3 ayda 100 saat. Başvuru ücretsizdir.",
+      "fr": "Vous habitez en zone de stationnement payant et un aidant ou une aide à domicile vient chez vous ? Il ou elle bénéficie de 75% de réduction, avec 100 heures par trimestre. La demande est gratuite.",
+      "it": "Abiti in una zona a parcheggio a pagamento e ricevi la visita di chi ti assiste o dell’assistenza domiciliare? Ottiene il 75% di sconto sulla tariffa, con 100 ore ogni 3 mesi. La richiesta è gratuita.",
+      "pt": "Vive numa zona de estacionamento pago e recebe a visita de um cuidador ou do apoio domiciliário? Tem 75% de desconto na tarifa, com 100 horas por trimestre. O pedido é gratuito.",
+      "pt-BR": "Mora em zona de estacionamento pago e recebe a visita de um cuidador ou do atendimento domiciliar? Ele tem 75% de desconto na tarifa, com 100 horas a cada 3 meses. O pedido é gratuito."
+    },
+    "eligibility": {
+      "nl": [
+        "Je woont in een gebied met betaald parkeren en staat ingeschreven op dat adres",
+        "Je hebt geen parkeervergunning voor terminale zorg",
+        "Alleen bewoners kunnen aanvragen, bedrijven niet",
+        "Je hebt 1 bewijsstuk nodig: een Wmo-beschikking, een Wlz-indicatie of een brief van een geregistreerde zorginstelling"
+      ],
+      "en": [
+        "You live in a paid parking zone and are registered at that address",
+        "You do not hold a parking permit for terminal care",
+        "Only residents can apply, not companies",
+        "You need one piece of proof: a Wmo decision, a Wlz indication or a letter from a registered care organisation"
+      ],
+      "es": [
+        "Vives en zona de aparcamiento de pago y estás empadronado en esa dirección",
+        "No tienes permiso de aparcamiento por cuidados paliativos",
+        "Solo pueden solicitarlo residentes, no empresas",
+        "Necesitas 1 justificante: resolución Wmo, indicación Wlz o carta de una entidad de cuidados registrada"
+      ],
+      "de": [
+        "Sie wohnen in einer Zone mit Parkgebühren und sind unter dieser Adresse gemeldet",
+        "Sie haben keine Parkgenehmigung für Palliativpflege",
+        "Nur Bewohner können beantragen, keine Unternehmen",
+        "Sie brauchen 1 Nachweis: Wmo-Bescheid, Wlz-Indikation oder Brief einer registrierten Pflegeeinrichtung"
+      ],
+      "tr": [
+        "Ücretli park bölgesinde oturuyor ve bu adreste kayıtlısınız",
+        "Terminal bakım için park izniniz yok",
+        "Yalnızca sakinler başvurabilir, şirketler başvuramaz",
+        "1 belge gerekir: Wmo kararı, Wlz endikasyonu veya kayıtlı bir bakım kuruluşundan mektup"
+      ],
+      "fr": [
+        "Vous habitez en zone de stationnement payant et êtes inscrit à cette adresse",
+        "Vous n’avez pas de permis de stationnement pour soins palliatifs",
+        "Seuls les habitants peuvent demander, pas les entreprises",
+        "Il faut 1 justificatif : décision Wmo, indication Wlz ou lettre d’un organisme de soins enregistré"
+      ],
+      "it": [
+        "Abiti in una zona a parcheggio a pagamento e sei registrato a quell’indirizzo",
+        "Non hai un permesso di parcheggio per cure terminali",
+        "Possono richiederlo solo i residenti, non le aziende",
+        "Serve 1 documento: decisione Wmo, indicazione Wlz o lettera di un ente di cura registrato"
+      ],
+      "pt": [
+        "Vive numa zona de estacionamento pago e está registado nessa morada",
+        "Não tem licença de estacionamento para cuidados paliativos",
+        "Só residentes podem pedir, empresas não",
+        "Precisa de 1 comprovativo: decisão Wmo, indicação Wlz ou carta de uma instituição de cuidados registada"
+      ],
+      "pt-BR": [
+        "Você mora em zona de estacionamento pago e está registrado nesse endereço",
+        "Você não tem permissão de estacionamento para cuidados paliativos",
+        "Apenas moradores podem pedir, empresas não",
+        "É preciso 1 comprovante: decisão Wmo, indicação Wlz ou carta de uma instituição de cuidados registrada"
+      ]
+    },
+    "howToApply": {
+      "nl": [
+        "Vraag de korting online aan met DigiD via loket.digitaal.utrecht.nl",
+        "Voeg je bewijsstuk toe (Wmo-beschikking, Wlz-indicatie of brief van de zorginstelling)",
+        "Na goedkeuring krijg je een e-mail: maak een account aan op Mijn Parkeeractie om de korting te gebruiken"
+      ],
+      "en": [
+        "Apply online with DigiD via loket.digitaal.utrecht.nl",
+        "Attach your proof (Wmo decision, Wlz indication or letter from the care organisation)",
+        "After approval you get an email: create an account on Mijn Parkeeractie to use the discount"
+      ],
+      "es": [
+        "Solicítalo en línea con DigiD en loket.digitaal.utrecht.nl",
+        "Adjunta el justificante (resolución Wmo, indicación Wlz o carta de la entidad de cuidados)",
+        "Tras la aprobación recibes un correo: crea una cuenta en Mijn Parkeeractie para usar el descuento"
+      ],
+      "de": [
+        "Beantragen Sie den Rabatt online mit DigiD über loket.digitaal.utrecht.nl",
+        "Fügen Sie Ihren Nachweis bei (Wmo-Bescheid, Wlz-Indikation oder Brief der Pflegeeinrichtung)",
+        "Nach der Genehmigung erhalten Sie eine E-Mail: Konto auf Mijn Parkeeractie anlegen, um den Rabatt zu nutzen"
+      ],
+      "tr": [
+        "İndirimi loket.digitaal.utrecht.nl üzerinden DigiD ile çevrimiçi isteyin",
+        "Belgenizi ekleyin (Wmo kararı, Wlz endikasyonu veya bakım kuruluşundan mektup)",
+        "Onaydan sonra e-posta alırsınız: indirimi kullanmak için Mijn Parkeeractie’de hesap açın"
+      ],
+      "fr": [
+        "Demandez la réduction en ligne avec DigiD via loket.digitaal.utrecht.nl",
+        "Joignez votre justificatif (décision Wmo, indication Wlz ou lettre de l’organisme de soins)",
+        "Après acceptation, vous recevez un e-mail : créez un compte sur Mijn Parkeeractie pour utiliser la réduction"
+      ],
+      "it": [
+        "Richiedi lo sconto online con DigiD su loket.digitaal.utrecht.nl",
+        "Allega il documento (decisione Wmo, indicazione Wlz o lettera dell’ente di cura)",
+        "Dopo l’approvazione ricevi un’e-mail: crea un account su Mijn Parkeeractie per usare lo sconto"
+      ],
+      "pt": [
+        "Peça o desconto online com DigiD em loket.digitaal.utrecht.nl",
+        "Anexe o comprovativo (decisão Wmo, indicação Wlz ou carta da instituição de cuidados)",
+        "Após aprovação recebe um e-mail: crie conta em Mijn Parkeeractie para usar o desconto"
+      ],
+      "pt-BR": [
+        "Peça o desconto online com DigiD em loket.digitaal.utrecht.nl",
+        "Anexe o comprovante (decisão Wmo, indicação Wlz ou carta da instituição de cuidados)",
+        "Após a aprovação você recebe um e-mail: crie conta no Mijn Parkeeractie para usar o desconto"
+      ]
+    }
+  },
+  {
+    "id": 57,
+    "category": "comunidad",
+    "type": "servicio",
+    "wijk": "all",
+    "verificationStatus": "verificado",
+    "lastReviewed": "2026-08-11",
+    "expiresSoon": false,
+    "officialUrl": "https://www.utrecht.nl/zorg-en-onderwijs/hulp-en-ondersteuning-wmo/mantelzorg-en-zorgvrijwilligers",
+    "profiles": [
+      "iedereen",
+      "gezin",
+      "senior"
+    ],
+    "searchAliases": {
+      "all": [
+        "mantelzorg",
+        "mantelzorger",
+        "respijtzorg",
+        "zorgvrijwilliger",
+        "buurtteam",
+        "mantelzorgutrecht"
+      ]
+    },
+    "title": {
+      "nl": "Steun voor mantelzorgers",
+      "en": "Support for informal carers",
+      "es": "Apoyo a personas cuidadoras",
+      "de": "Unterstützung für pflegende Angehörige",
+      "tr": "Bakım verenler için destek",
+      "fr": "Soutien aux aidants proches",
+      "it": "Sostegno per chi assiste un familiare",
+      "pt": "Apoio a cuidadores informais",
+      "pt-BR": "Apoio a cuidadores familiares"
+    },
+    "shortDescription": {
+      "nl": "Zorg je voor een familielid, vriend of buur? Dan ben je mantelzorger. Via het buurtteam en mantelzorgutrecht.nl vind je respijtzorg (iemand neemt de zorg even over), advies en contact met andere mantelzorgers.",
+      "en": "Do you care for a relative, friend or neighbour? Then you are an informal carer. Through the neighbourhood team and mantelzorgutrecht.nl you can find respite care (someone takes over for a while), advice and contact with other carers.",
+      "es": "¿Cuidas de un familiar, amigo o vecino? Eres persona cuidadora. A través del buurtteam y de mantelzorgutrecht.nl encuentras respiro (alguien te releva un tiempo), asesoramiento y contacto con otras personas cuidadoras.",
+      "de": "Pflegen Sie eine verwandte Person, eine Freundin oder eine Nachbarin? Dann sind Sie pflegende Angehörige. Über das Buurtteam und mantelzorgutrecht.nl finden Sie Entlastungspflege, Beratung und Kontakt zu anderen Pflegenden.",
+      "tr": "Bir akrabanıza, arkadaşınıza veya komşunuza mı bakıyorsunuz? O zaman bakım verensiniz. Buurtteam ve mantelzorgutrecht.nl üzerinden geçici bakım desteği, danışmanlık ve diğer bakım verenlerle iletişim bulabilirsiniz.",
+      "fr": "Vous vous occupez d’un proche, d’un ami ou d’un voisin ? Vous êtes aidant. Via l’équipe de quartier et mantelzorgutrecht.nl, vous trouvez du répit (quelqu’un prend le relais), des conseils et du contact avec d’autres aidants.",
+      "it": "Ti prendi cura di un familiare, di un amico o di un vicino? Allora sei un caregiver. Tramite la squadra di quartiere e mantelzorgutrecht.nl trovi sollievo (qualcuno ti sostituisce per un po’), consigli e contatto con altri caregiver.",
+      "pt": "Cuida de um familiar, amigo ou vizinho? Então é cuidador informal. Através da equipa de bairro e de mantelzorgutrecht.nl encontra descanso do cuidador, aconselhamento e contacto com outros cuidadores.",
+      "pt-BR": "Você cuida de um familiar, amigo ou vizinho? Então é cuidador. Pela equipe de bairro e por mantelzorgutrecht.nl você encontra descanso do cuidador, orientação e contato com outros cuidadores."
+    },
+    "eligibility": {
+      "nl": [
+        "Je bent mantelzorger als je zorgt voor een naaste: een familielid, vriend of buur",
+        "Je hoeft geen indicatie of beschikking te hebben",
+        "Mantelzorgers kunnen ook parkeerkorting krijgen bij betaald parkeren"
+      ],
+      "en": [
+        "You are an informal carer if you care for someone close: a relative, friend or neighbour",
+        "You do not need an indication or formal decision",
+        "Informal carers can also get a parking discount in paid parking zones"
+      ],
+      "es": [
+        "Eres persona cuidadora si cuidas de alguien cercano: familiar, amigo o vecino",
+        "No necesitas ninguna resolución ni indicación previa",
+        "Las personas cuidadoras también pueden obtener descuento de aparcamiento en zona de pago"
+      ],
+      "de": [
+        "Sie sind pflegende Angehörige, wenn Sie eine nahestehende Person pflegen: Familie, Freundin oder Nachbarin",
+        "Sie brauchen keine Indikation oder Bescheid",
+        "Pflegende Angehörige können auch Parkrabatt in Zonen mit Parkgebühren erhalten"
+      ],
+      "tr": [
+        "Yakınınıza — bir akraba, arkadaş veya komşuya — bakıyorsanız bakım verensiniz",
+        "Herhangi bir endikasyon veya karar belgesine gerek yok",
+        "Bakım verenler ücretli park bölgelerinde park indirimi de alabilir"
+      ],
+      "fr": [
+        "Vous êtes aidant si vous vous occupez d’un proche : famille, ami ou voisin",
+        "Aucune indication ni décision préalable n’est nécessaire",
+        "Les aidants peuvent aussi obtenir une réduction de stationnement en zone payante"
+      ],
+      "it": [
+        "Sei caregiver se assisti una persona vicina: un familiare, un amico o un vicino",
+        "Non serve alcuna indicazione o decisione formale",
+        "I caregiver possono ottenere anche lo sconto sul parcheggio nelle zone a pagamento"
+      ],
+      "pt": [
+        "É cuidador informal se cuida de alguém próximo: familiar, amigo ou vizinho",
+        "Não precisa de qualquer indicação ou decisão formal",
+        "Os cuidadores também podem obter desconto de estacionamento em zona paga"
+      ],
+      "pt-BR": [
+        "Você é cuidador se cuida de alguém próximo: familiar, amigo ou vizinho",
+        "Não é preciso indicação nem decisão formal",
+        "Cuidadores também podem obter desconto de estacionamento em zona paga"
+      ]
+    },
+    "howToApply": {
+      "nl": [
+        "Praat erover met je huisarts of met het buurtteam via buurtteamsutrecht.nl",
+        "Kijk op mantelzorgutrecht.nl voor praktische antwoorden over respijtzorg, wonen, werk en geld",
+        "Bel de gemeente op 14 030 als je niet weet waar je moet beginnen"
+      ],
+      "en": [
+        "Talk about it with your GP or with the neighbourhood team via buurtteamsutrecht.nl",
+        "See mantelzorgutrecht.nl for practical answers on respite care, housing, work and money",
+        "Call the municipality on 14 030 if you do not know where to start"
+      ],
+      "es": [
+        "Háblalo con tu médico de cabecera o con el buurtteam en buurtteamsutrecht.nl",
+        "Consulta mantelzorgutrecht.nl para respuestas prácticas sobre respiro, vivienda, trabajo y dinero",
+        "Llama al ayuntamiento al 14 030 si no sabes por dónde empezar"
+      ],
+      "de": [
+        "Sprechen Sie mit Ihrer Hausärztin oder dem Buurtteam über buurtteamsutrecht.nl",
+        "Auf mantelzorgutrecht.nl finden Sie praktische Antworten zu Entlastung, Wohnen, Arbeit und Geld",
+        "Rufen Sie 14 030 an, wenn Sie nicht wissen, wo Sie anfangen sollen"
+      ],
+      "tr": [
+        "Aile hekiminizle veya buurtteamsutrecht.nl üzerinden buurtteam ile konuşun",
+        "Geçici bakım, konut, iş ve para konularında pratik yanıtlar için mantelzorgutrecht.nl’ye bakın",
+        "Nereden başlayacağınızı bilmiyorsanız belediyeyi 14 030’dan arayın"
+      ],
+      "fr": [
+        "Parlez-en à votre médecin traitant ou à l’équipe de quartier via buurtteamsutrecht.nl",
+        "Consultez mantelzorgutrecht.nl pour des réponses pratiques sur le répit, le logement, le travail et l’argent",
+        "Appelez la commune au 14 030 si vous ne savez pas par où commencer"
+      ],
+      "it": [
+        "Parlane con il tuo medico di base o con la squadra di quartiere su buurtteamsutrecht.nl",
+        "Guarda mantelzorgutrecht.nl per risposte pratiche su sollievo, casa, lavoro e soldi",
+        "Chiama il comune al 14 030 se non sai da dove cominciare"
+      ],
+      "pt": [
+        "Fale com o seu médico de família ou com a equipa de bairro em buurtteamsutrecht.nl",
+        "Veja mantelzorgutrecht.nl para respostas práticas sobre descanso, habitação, trabalho e dinheiro",
+        "Ligue ao município para 14 030 se não souber por onde começar"
+      ],
+      "pt-BR": [
+        "Converse com seu médico de família ou com a equipe de bairro em buurtteamsutrecht.nl",
+        "Veja mantelzorgutrecht.nl para respostas práticas sobre descanso, moradia, trabalho e dinheiro",
+        "Ligue para a prefeitura no 14 030 se não souber por onde começar"
+      ]
+    }
+  },
+  {
+    "id": 58,
+    "category": "vida",
+    "type": "servicio",
+    "wijk": "all",
+    "verificationStatus": "verificado",
+    "lastReviewed": "2026-08-11",
+    "expiresSoon": false,
+    "officialUrl": "https://www.utrecht.nl/zorg-en-onderwijs/hulp-en-ondersteuning-wmo/hulp-bij/maaltijden-thuis-of-samen-eten",
+    "profiles": [
+      "iedereen",
+      "senior",
+      "lage-inkomens"
+    ],
+    "searchAliases": {
+      "all": [
+        "maaltijden",
+        "eettafel",
+        "samen eten",
+        "Thuisgekookt",
+        "maaltijdservice",
+        "ugids",
+        "U-pas"
+      ]
+    },
+    "title": {
+      "nl": "Maaltijden thuis of samen eten in de buurt",
+      "en": "Meals at home or eating together in the neighbourhood",
+      "es": "Comidas a domicilio o comer en compañía en el barrio",
+      "de": "Mahlzeiten zu Hause oder gemeinsam essen im Viertel",
+      "tr": "Evde yemek veya mahallede birlikte yemek",
+      "fr": "Repas à domicile ou repas partagés dans le quartier",
+      "it": "Pasti a casa o mangiare insieme nel quartiere",
+      "pt": "Refeições em casa ou comer em conjunto no bairro",
+      "pt-BR": "Refeições em casa ou comer junto no bairro"
+    },
+    "shortDescription": {
+      "nl": "Zelf koken lukt niet meer, of je eet liever niet alleen? In de buurt zijn eettafels waar je samen eet, en via Thuisgekookt kookt een buurtgenoot voor je. Met een U-pas krijg je korting bij deelnemende plekken.",
+      "en": "Cooking has become too much, or you would rather not eat alone? Neighbourhood dining tables let you eat together, and through Thuisgekookt a neighbour cooks for you. A U-pas gets you a discount at participating places.",
+      "es": "¿Ya no puedes cocinar o prefieres no comer solo? En el barrio hay mesas comunitarias donde se come en compañía, y con Thuisgekookt un vecino cocina para ti. Con la U-pas hay descuento en los sitios participantes.",
+      "de": "Selbst kochen geht nicht mehr, oder Sie essen ungern allein? Im Viertel gibt es Esstische, an denen gemeinsam gegessen wird, und über Thuisgekookt kocht jemand aus der Nachbarschaft für Sie. Mit der U-pas gibt es Rabatt bei teilnehmenden Orten.",
+      "tr": "Artık kendiniz yemek yapamıyor ya da yalnız yemek istemiyor musunuz? Mahallede birlikte yenen sofralar var ve Thuisgekookt ile bir komşunuz sizin için pişiriyor. U-pas ile katılan yerlerde indirim alırsınız.",
+      "fr": "Cuisiner est devenu difficile, ou vous préférez ne pas manger seul ? Des tables de quartier permettent de manger ensemble, et via Thuisgekookt un voisin cuisine pour vous. Avec la U-pas, vous avez une réduction dans les lieux participants.",
+      "it": "Cucinare è diventato difficile, o preferisci non mangiare da solo? Nel quartiere ci sono tavolate per mangiare insieme e con Thuisgekookt un vicino cucina per te. Con la U-pas hai uno sconto nei posti aderenti.",
+      "pt": "Já não consegue cozinhar ou prefere não comer sozinho? No bairro há mesas comunitárias para comer em conjunto e, através do Thuisgekookt, um vizinho cozinha para si. Com o U-pas tem desconto nos locais aderentes.",
+      "pt-BR": "Não consegue mais cozinhar ou prefere não comer sozinho? No bairro há mesas comunitárias e, pelo Thuisgekookt, um vizinho cozinha para você. Com o U-pas há desconto nos locais participantes."
+    },
+    "eligibility": {
+      "nl": [
+        "Bedoeld voor iedereen die niet meer zelf kan koken door ziekte, ouderdom of een beperking",
+        "Er is geen indicatie of aanvraag bij de gemeente nodig",
+        "Met een U-pas krijg je korting bij deelnemende eettafels en bezorgdiensten"
+      ],
+      "en": [
+        "Meant for anyone who can no longer cook because of illness, age or a disability",
+        "No indication or municipal application is needed",
+        "With a U-pas you get a discount at participating dining tables and delivery services"
+      ],
+      "es": [
+        "Pensado para quien ya no puede cocinar por enfermedad, edad o discapacidad",
+        "No hace falta ninguna resolución ni solicitud al ayuntamiento",
+        "Con la U-pas hay descuento en mesas comunitarias y servicios de reparto adheridos"
+      ],
+      "de": [
+        "Gedacht für alle, die wegen Krankheit, Alter oder Behinderung nicht mehr selbst kochen können",
+        "Es ist keine Indikation oder Antragstellung bei der Gemeinde nötig",
+        "Mit der U-pas gibt es Rabatt bei teilnehmenden Esstischen und Lieferdiensten"
+      ],
+      "tr": [
+        "Hastalık, yaş veya engel nedeniyle artık yemek yapamayan herkes için",
+        "Belediyeye başvuru veya endikasyon gerekmez",
+        "U-pas ile katılan sofralarda ve teslimat hizmetlerinde indirim alırsınız"
+      ],
+      "fr": [
+        "Destiné à toute personne qui ne peut plus cuisiner pour cause de maladie, d’âge ou de handicap",
+        "Aucune indication ni demande auprès de la commune n’est nécessaire",
+        "Avec la U-pas, réduction dans les tables et services de livraison participants"
+      ],
+      "it": [
+        "Pensato per chi non riesce più a cucinare per malattia, età o disabilità",
+        "Non serve alcuna indicazione né domanda al comune",
+        "Con la U-pas hai uno sconto nelle tavolate e nei servizi di consegna aderenti"
+      ],
+      "pt": [
+        "Destinado a quem já não consegue cozinhar por doença, idade ou deficiência",
+        "Não é necessária qualquer indicação ou pedido ao município",
+        "Com o U-pas há desconto nas mesas comunitárias e serviços de entrega aderentes"
+      ],
+      "pt-BR": [
+        "Para quem não consegue mais cozinhar por doença, idade ou deficiência",
+        "Não é preciso indicação nem pedido à prefeitura",
+        "Com o U-pas há desconto nas mesas comunitárias e serviços de entrega participantes"
+      ]
+    },
+    "howToApply": {
+      "nl": [
+        "Zoek een eettafel bij jou in de buurt op ugids.nl",
+        "Vind een thuiskok via thuisgekookt.nl, of zoek online op \"maaltijden aan huis\"",
+        "Het buurtteam helpt je maaltijden te regelen als je er zelf niet uitkomt"
+      ],
+      "en": [
+        "Find a dining table near you on ugids.nl",
+        "Find a home cook through thuisgekookt.nl, or search online for \"maaltijden aan huis\"",
+        "The neighbourhood team helps you arrange meals if you cannot work it out yourself"
+      ],
+      "es": [
+        "Busca una mesa comunitaria cerca de ti en ugids.nl",
+        "Encuentra a alguien que cocine en thuisgekookt.nl, o busca en internet \"maaltijden aan huis\"",
+        "El buurtteam te ayuda a organizar las comidas si no sabes cómo"
+      ],
+      "de": [
+        "Suchen Sie einen Esstisch in Ihrer Nähe auf ugids.nl",
+        "Finden Sie eine Hobbyköchin über thuisgekookt.nl, oder suchen Sie online nach \"maaltijden aan huis\"",
+        "Das Buurtteam hilft Ihnen, Mahlzeiten zu organisieren, wenn Sie nicht weiterkommen"
+      ],
+      "tr": [
+        "Yakınınızdaki sofrayı ugids.nl üzerinden bulun",
+        "thuisgekookt.nl üzerinden ev aşçısı bulun veya internette \"maaltijden aan huis\" arayın",
+        "Kendiniz halledemiyorsanız buurtteam yemek ayarlamanıza yardım eder"
+      ],
+      "fr": [
+        "Cherchez une table de quartier près de chez vous sur ugids.nl",
+        "Trouvez un cuisinier via thuisgekookt.nl, ou cherchez en ligne « maaltijden aan huis »",
+        "L’équipe de quartier vous aide à organiser les repas si vous n’y arrivez pas"
+      ],
+      "it": [
+        "Cerca una tavolata vicino a te su ugids.nl",
+        "Trova un cuoco a domicilio su thuisgekookt.nl, o cerca online \"maaltijden aan huis\"",
+        "La squadra di quartiere ti aiuta a organizzare i pasti se non ci riesci da solo"
+      ],
+      "pt": [
+        "Procure uma mesa comunitária perto de si em ugids.nl",
+        "Encontre um cozinheiro em thuisgekookt.nl, ou pesquise online \"maaltijden aan huis\"",
+        "A equipa de bairro ajuda a organizar as refeições se não conseguir sozinho"
+      ],
+      "pt-BR": [
+        "Procure uma mesa comunitária perto de você em ugids.nl",
+        "Encontre um cozinheiro em thuisgekookt.nl, ou pesquise online \"maaltijden aan huis\"",
+        "A equipe de bairro ajuda a organizar as refeições se você não conseguir sozinho"
       ]
     }
   }
