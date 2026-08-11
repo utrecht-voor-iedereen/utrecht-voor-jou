@@ -22,14 +22,47 @@ document.addEventListener('DOMContentLoaded', () => {
   const catalog = window.BENEFICIOS_DATA || [];
   const currentLang = document.documentElement.lang || 'nl';
 
+  const sortSelect = document.getElementById('sort-select');
+
+  // The site is served from a subpath on GitHub Pages, so links built in the
+  // browser have to start from BASE_PATH; an absolute "/nl/..." lands on a 404.
+  const basePath = window.BASE_PATH || '/';
+
   // Query string key -> control. Selects fall back to 'all', the search box to ''.
   const URL_STATE = [
     { key: 'q', el: searchInput, empty: '' },
     { key: 'cat', el: catSelect, empty: 'all' },
     { key: 'type', el: typeSelect, empty: 'all' },
     { key: 'wijk', el: wijkSelect, empty: 'all' },
-    { key: 'profile', el: profileSelect, empty: 'all' }
+    { key: 'profile', el: profileSelect, empty: 'all' },
+    { key: 'sort', el: sortSelect, empty: 'default' }
   ];
+
+  // The server-rendered order is the editorial one, so it has to be recoverable
+  // after sorting by amount. Reordering the DOM nodes keeps the cards
+  // pre-rendered instead of rebuilding them, which matters on a slow phone.
+  const defaultOrder = cardsContainer
+    ? Array.from(cardsContainer.querySelectorAll('.benefit-card'))
+    : [];
+
+  function sortCatalog() {
+    if (!cardsContainer || !defaultOrder.length) return;
+    const mode = sortSelect ? sortSelect.value : 'default';
+
+    const ordered = mode === 'amount'
+      // Cards without a known amount keep their relative order at the bottom:
+      // "no amount recorded" is not the same as "worth nothing".
+      ? defaultOrder.slice().sort((a, b) => {
+        const valueOf = card => {
+          const raw = card.dataset.amountMax;
+          return raw ? Number(raw) : -1;
+        };
+        return valueOf(b) - valueOf(a);
+      })
+      : defaultOrder;
+
+    ordered.forEach(card => cardsContainer.appendChild(card));
+  }
 
   function applyStateFromUrl() {
     const params = new URLSearchParams(window.location.search);
@@ -134,9 +167,10 @@ document.addEventListener('DOMContentLoaded', () => {
       writeStateToUrl(false);
     });
   }
-  [catSelect, typeSelect, wijkSelect, profileSelect].forEach(select => {
+  [catSelect, typeSelect, wijkSelect, profileSelect, sortSelect].forEach(select => {
     if (!select) return;
     select.addEventListener('change', () => {
+      sortCatalog();
       filterCatalog();
       writeStateToUrl(true);
     });
@@ -145,10 +179,12 @@ document.addEventListener('DOMContentLoaded', () => {
   // Restore the view a shared link points at, and keep back/forward in sync.
   window.addEventListener('popstate', () => {
     applyStateFromUrl();
+    sortCatalog();
     filterCatalog();
   });
 
   applyStateFromUrl();
+  sortCatalog();
   filterCatalog();
 
   // Wist je dat...? Rotator
@@ -160,7 +196,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const title = item.title[currentLang] || item.title['nl'] || item.title['en'];
     const desc = item.shortDescription[currentLang] || item.shortDescription['nl'] || item.shortDescription['en'];
-    const url = `/${currentLang}/beneficio/${item.id}/`;
+    const url = `${basePath}${currentLang}/beneficio/${item.id}/`;
 
     wistJeDatText.innerHTML = `<strong>${title}:</strong> ${desc}`;
     if (wistJeDatLink) {

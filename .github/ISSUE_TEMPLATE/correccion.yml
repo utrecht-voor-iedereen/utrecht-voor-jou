@@ -3,6 +3,11 @@ description: Report an outdated link, changed eligibility rule, or typo in an ex
 title: "[Correctie]: "
 labels: ["correctie", "needs-review"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Bedankt! Je hoeft geen GitHub te kennen om te helpen: beschrijf gewoon wat je zag.
+        Kwam je hier via de knop op een regelingpagina, dan zijn de eerste velden al ingevuld.
   - type: input
     id: item_id
     attributes:
@@ -10,6 +15,14 @@ body:
       placeholder: bijv. "ID #14 - Witgoedregeling"
     validations:
       required: true
+  - type: input
+    id: page_url
+    attributes:
+      label: Pagina waar je dit zag
+      description: Automatisch ingevuld vanaf de site. Laat leeg als je het niet weet.
+      placeholder: https://utrecht-voor-iedereen.github.io/utrecht-voor-jou/nl/beneficio/14/
+    validations:
+      required: false
   - type: textarea
     id: details
     attributes:
@@ -17,3 +30,11 @@ body:
       placeholder: Beschrijf de verouderde link of gewijzigde voorwaarden.
     validations:
       required: true
+  - type: input
+    id: source
+    attributes:
+      label: Officiële bron (link), als je die hebt
+      description: Een link naar utrecht.nl, loket.digitaal.utrecht.nl of de organisatie zelf. Hiermee kunnen we het meteen verwerken in plaats van het eerst na te zoeken.
+      placeholder: https://www.utrecht.nl/...
+    validations:
+      required: false

@@ -20,5 +20,8 @@ jobs:
       - name: Validate JSON Schema & Locales
         run: node scripts/validate.js
 
+      - name: Test QR Encoder
+        run: node scripts/lib/qr.test.js
+
       - name: Test Static Site Compilation
         run: node scripts/build.js

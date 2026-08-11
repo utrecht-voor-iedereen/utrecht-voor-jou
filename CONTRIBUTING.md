@@ -4,6 +4,19 @@ First off, thank you for considering contributing to **Utrecht Voor Jou**! This 
 
 ---
 
+## Spotted something wrong? You don't need Git
+
+Every benefit page has a **"Report an error in this scheme"** link at the bottom. It opens a
+correction issue with the entry ID and the page you were reading already filled in — you only
+describe what changed, ideally with a link to the official source. No fork, no JSON, no pull
+request. Reports in Dutch, English, Spanish or any other language of the site are all fine.
+
+That report is the most valuable contribution this project gets: the catalog was compiled from
+public sources and a reader at the counter is usually the first to notice that an amount or a
+condition has changed.
+
+---
+
 ## How to Add a New Benefit (Stap voor Stap)
 
 Adding a new benefit, grant, or free service offered by Gemeente Utrecht is as simple as editing a single JSON file!
@@ -97,6 +110,30 @@ a benefit still exists or whether the conditions are right. Before submitting:
 If you cannot confirm a detail from the official source, set
 `"verificationStatus": "por-verificar"` and say so in the pull request. An
 honestly unverified entry is far better than a confidently wrong one.
+
+### Optional fields: `amount`, `documentsNeeded`, `budgetStatus`
+
+These three are optional, and leaving them out is always safe. Filling one in
+wrongly is not, because the site sorts, adds up and reasons on them.
+
+```json
+"amount": { "min": 125, "max": 800, "currency": "EUR", "period": "year" },
+"documentsNeeded": ["digid", "upas"],
+"budgetStatus": "op"
+```
+
+- **`amount` is money the resident receives or borrows.** An estimated saving
+  (the Energiebox "saves about €175 a year") and an income limit (the
+  Kwijtschelding thresholds) are not amounts of the scheme; recording them
+  would make the "sort by highest amount" list lie. `min` is only needed when
+  the amount is a range. `period` is `once`, `year` or `month`.
+- **`documentsNeeded`** takes slugs, not sentences, so the list stays
+  translated in all nine languages: `digid`, `upas`, `bsn`, `inkomensbewijs`,
+  `huurcontract`, `zorgbewijs`. Their wording lives in the `doc_*` locale keys.
+  Only list a document the official page actually asks for.
+- **`budgetStatus`** is `open`, `op` (the pot is empty for now) or `gesloten`.
+  A grant that runs in rounds can be closed for months while its page stays
+  online, and only this field can say so.
 
 ### Step 3: Validate & Test Locally
 Run the validation and build script to ensure your JSON formatting and required fields are valid:

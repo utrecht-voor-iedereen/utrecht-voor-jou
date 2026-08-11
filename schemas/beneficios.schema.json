@@ -91,6 +91,31 @@
           ]
         }
       },
+      "amount": {
+        "description": "What the resident can actually receive or borrow, in a form the site can sort and filter on. Only for schemes whose own verified text states it: an estimated saving or an income limit is not an amount of the scheme.",
+        "type": "object",
+        "required": ["max", "currency", "period"],
+        "properties": {
+          "min": { "type": "number", "minimum": 0 },
+          "max": { "type": "number", "minimum": 0 },
+          "currency": { "type": "string", "enum": ["EUR"] },
+          "period": { "type": "string", "enum": ["once", "year", "month"] }
+        },
+        "additionalProperties": false
+      },
+      "documentsNeeded": {
+        "description": "Slugs of what someone must have in hand to apply, translated through the doc_* locale keys. Knowing this beforehand is what stops a wasted trip to the counter.",
+        "type": "array",
+        "items": {
+          "type": "string",
+          "enum": ["digid", "upas", "bsn", "inkomensbewijs", "huurcontract", "zorgbewijs"]
+        }
+      },
+      "budgetStatus": {
+        "description": "Whether the scheme's pot is still open. A grant that runs in rounds can be closed for months while its page stays online.",
+        "type": "string",
+        "enum": ["open", "op", "gesloten"]
+      },
       "searchAliases": {
         "description": "Extra terms the live search matches on. 'all' holds language-independent words (the Dutch programme name, the organisation, the acronym someone was given at the counter); a language key holds everyday words in that language that the title and description do not already contain.",
         "type": "object",

@@ -28,6 +28,34 @@ REQUIRED_LANGS.forEach(lang => {
   }
 });
 
+// 1b. Every locale must carry every key of the Dutch reference. A missing key
+// does not crash the build, it renders the literal string "undefined" on the
+// page in that language, which nobody notices until a reader reports it.
+const nlPath = path.join(LOCALES_DIR, 'nl.json');
+if (fs.existsSync(nlPath)) {
+  try {
+    const reference = JSON.parse(fs.readFileSync(nlPath, 'utf8'));
+    const referenceKeys = Object.keys(reference);
+
+    REQUIRED_LANGS.filter(lang => lang !== 'nl').forEach(lang => {
+      const locPath = path.join(LOCALES_DIR, `${lang}.json`);
+      if (!fs.existsSync(locPath)) return;
+      let locale;
+      try {
+        locale = JSON.parse(fs.readFileSync(locPath, 'utf8'));
+      } catch (e) {
+        return; // already reported above
+      }
+      const missing = referenceKeys.filter(key => !(key in locale));
+      const extra = Object.keys(locale).filter(key => !referenceKeys.includes(key));
+      if (missing.length) errors.push(`locales/${lang}.json is missing keys: ${missing.join(', ')}`);
+      if (extra.length) errors.push(`locales/${lang}.json has keys absent from nl.json: ${extra.join(', ')}`);
+    });
+  } catch (e) {
+    // nl.json itself is unparseable; already reported above
+  }
+}
+
 // 2. Verify data/beneficios.json
 if (!fs.existsSync(DATA_FILE)) {
   errors.push(`Dataset file missing: data/beneficios.json`);
@@ -75,6 +103,39 @@ if (!fs.existsSync(DATA_FILE)) {
               }
             });
           }
+        }
+
+        // amount, documentsNeeded, budgetStatus and deadline are optional, but
+        // a malformed one is worse than a missing one: the catalog would sort
+        // or filter on a number that means nothing.
+        if (item.amount !== undefined) {
+          const a = item.amount;
+          if (typeof a !== 'object' || Array.isArray(a)) {
+            errors.push(`${itemRef}: 'amount' must be an object`);
+          } else {
+            if (typeof a.max !== 'number' || a.max < 0) errors.push(`${itemRef}: amount.max must be a number of 0 or more`);
+            if (a.min !== undefined && (typeof a.min !== 'number' || a.min < 0)) errors.push(`${itemRef}: amount.min must be a number of 0 or more`);
+            if (typeof a.min === 'number' && typeof a.max === 'number' && a.min > a.max) errors.push(`${itemRef}: amount.min is larger than amount.max`);
+            if (a.currency !== 'EUR') errors.push(`${itemRef}: amount.currency must be 'EUR'`);
+            if (!['once', 'year', 'month'].includes(a.period)) errors.push(`${itemRef}: amount.period must be once, year or month`);
+            const known = ['min', 'max', 'currency', 'period'];
+            Object.keys(a).filter(k => !known.includes(k)).forEach(k => errors.push(`${itemRef}: unknown key 'amount.${k}'`));
+          }
+        }
+
+        if (item.documentsNeeded !== undefined) {
+          const validDocuments = ['digid', 'upas', 'bsn', 'inkomensbewijs', 'huurcontract', 'zorgbewijs'];
+          if (!Array.isArray(item.documentsNeeded)) {
+            errors.push(`${itemRef}: 'documentsNeeded' must be an array`);
+          } else {
+            item.documentsNeeded
+              .filter(doc => !validDocuments.includes(doc))
+              .forEach(doc => errors.push(`${itemRef}: unknown document '${doc}'`));
+          }
+        }
+
+        if (item.budgetStatus !== undefined && !['open', 'op', 'gesloten'].includes(item.budgetStatus)) {
+          errors.push(`${itemRef}: Invalid budgetStatus '${item.budgetStatus}'`);
         }
 
         if (!item.title || !item.title.nl) errors.push(`${itemRef}: Missing title.nl`);
