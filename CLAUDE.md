@@ -69,6 +69,26 @@ de los campos de `.github/ISSUE_TEMPLATE/correccion.yml`: si renombras un campo
 ahí, el prellenado deja de funcionar en silencio (GitHub ignora los parámetros
 que no reconoce).
 
+## Campos estructurados (`amount`, `documentsNeeded`, `budgetStatus`)
+
+`amount` es **dinero que la persona recibe o toma prestado**. Un ahorro estimado
+(Energiebox, «zo'n € 175 per jaar») o un límite de ingresos (Kwijtschelding) no
+lo son: meterlos hace que «ordenar por importe» mienta. Solo se rellena si el
+texto ya verificado de la propia ficha lo dice.
+
+El total del checker **excluye los préstamos** (`type: "préstamo"`). Sin ese
+filtro, la Restauratielening de € 300.000 domina la suma y el titular pasa de
+«esto podrías pedir» a una cifra falsa.
+
+Gotcha de i18n: el tipo es `préstamo` con acento pero la clave del locale es
+`type_prestamo` sin él. `dict['type_' + item.type]` falla en silencio e imprime
+`PRÉSTAMO` en las 9 lenguas; usa `typeLabel()` en el build y el mismo
+`replace('é','e')` en `checker.js`.
+
+Los enlaces construidos en el navegador (checker y rotador «Wist je dat...?»)
+deben salir de `window.BASE_PATH`. Una ruta absoluta `/nl/beneficio/1/` funciona
+en local y da 404 en GitHub Pages, que sirve el sitio bajo `/utrecht-voor-jou/`.
+
 ## QR y hojas imprimibles
 
 `scripts/lib/qr.js` es un encoder QR escrito a mano (modo byte, nivel M,

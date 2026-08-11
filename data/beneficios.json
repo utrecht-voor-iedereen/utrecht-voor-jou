@@ -298,6 +298,7 @@
     "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://kiemutrecht.nl/",
+    "amount": { "max": 5000, "currency": "EUR", "period": "once" },
     "profiles": ["iedereen"],
     "searchAliases": {
       "all": ["kiem", "subsidie", "bewonersinitiatief", "buurtproject", "groen"]
@@ -356,6 +357,7 @@
     "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://www.hdsr.nl/zelf-regelen/initiatiefnemers-onderhoudsplichtigen/subsidieregeling-blauwe/",
+    "amount": { "max": 5000, "currency": "EUR", "period": "once" },
     "profiles": ["iedereen"],
     "searchAliases": {
       "all": ["hdsr", "waterschap", "hoogheemraadschap", "stichtse rijnlanden", "regenwater", "ontstenen"]
@@ -763,6 +765,7 @@
     "expiresSoon": false,
     "expiryDate": "2026-06-30",
     "officialUrl": "https://www.utrecht.nl/werk-en-inkomen/geld-en-hulp-bij-rondkomen/vergoeding-voor-producten-die-nodig-zijn-in-uw-huis",
+    "amount": { "min": 250, "max": 400, "currency": "EUR", "period": "once" },
     "profiles": ["lage-inkomens", "gezin", "senior"],
     "searchAliases": {
       "all": ["witgoed","witgoedregeling","koelkast","wasmachine","kookplaat","vergoeding","bijzondere bijstand","apparaat"]
@@ -821,6 +824,7 @@
     "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://bghu.nl/alles-over/kwijtschelding",
+    "documentsNeeded": ["digid"],
     "profiles": ["lage-inkomens", "senior", "student"],
     "searchAliases": {
       "all": ["kwijtschelding", "bghu", "belasting", "belastingen", "afvalstoffenheffing", "waterschapsbelasting"]
@@ -879,6 +883,7 @@
     "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://loket.digitaal.utrecht.nl/nl/producten/bijzondere-bijstand-aanvragen",
+    "documentsNeeded": ["digid"],
     "profiles": ["lage-inkomens", "gezin", "senior"],
     "searchAliases": {
       "all": ["bijzondere bijstand", "bijstand", "advocaat", "verhuizing", "bewindvoering", "noodkosten"]
@@ -937,6 +942,8 @@
     "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://loket.digitaal.utrecht.nl/nl/producten/individuele-inkomenstoeslag-aanvragen",
+    "amount": { "min": 125, "max": 800, "currency": "EUR", "period": "year" },
+    "documentsNeeded": ["digid"],
     "profiles": ["lage-inkomens", "senior"],
     "searchAliases": {
       "all": ["individuele inkomenstoeslag", "inkomenstoeslag", "toeslag", "bijstand", "laag inkomen"]
@@ -995,6 +1002,7 @@
     "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://www.u-pas.nl/gezinstegoed",
+    "documentsNeeded": ["upas"],
     "profiles": ["gezin", "lage-inkomens"],
     "searchAliases": {
       "all": ["gezinstegoed", "kindtegoed", "u-pas", "mijn u-pas", "tegoed", "samenvoegen"]
@@ -1053,6 +1061,7 @@
     "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://www.u-pas.nl/extra-kindtegoed",
+    "documentsNeeded": ["upas"],
     "profiles": ["gezin", "lage-inkomens"],
     "searchAliases": {
       "all": ["kindtegoed", "zwemles", "zwemdiploma", "schoolkamp", "schoolfiets", "fiets", "schoolreis"]
@@ -1169,6 +1178,7 @@
     "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://www.utrecht.nl/zorg-en-onderwijs/kinderopvang/voorschool",
+    "documentsNeeded": ["upas"],
     "profiles": ["gezin", "lage-inkomens"],
     "searchAliases": {
       "all": ["voorschool", "peuteropvang", "peuterspeelzaal", "kinderopvang", "overvecht", "peuter"]
@@ -1459,6 +1469,7 @@
     "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://loket.digitaal.utrecht.nl/nl/producten/energieadvies-aan-huis-en-trajectbegeleiding-subsidie-aanvragen",
+    "amount": { "max": 970, "currency": "EUR", "period": "once" },
     "profiles": ["huiseienaar", "huurder"],
     "searchAliases": {
       "all": ["energieadvies", "energiecoach", "isolatie", "verduurzamen", "adviesgesprek"]
@@ -1517,6 +1528,7 @@
     "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://loket.digitaal.utrecht.nl/nl/producten/samen-woning-duurzamer-maken-subsidie-aanvragen",
+    "amount": { "max": 150, "currency": "EUR", "period": "once" },
     "profiles": ["huiseienaar", "huurder"],
     "searchAliases": {
       "all": ["samen verduurzamen", "isolatie", "buren", "collectief", "straatactie"]
@@ -1633,6 +1645,7 @@
     "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://loket.digitaal.utrecht.nl/nl/producten/monument-opknappen-lening-aanvragen",
+    "amount": { "max": 300000, "currency": "EUR", "period": "once" },
     "profiles": ["huiseienaar"],
     "searchAliases": {
       "all": ["monument", "rijksmonument", "restauratielening", "monumentenzorg", "erfgoed", "restauratie"]
@@ -1981,6 +1994,7 @@
     "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://www.u-pas.nl/aanbod",
+    "documentsNeeded": ["upas"],
     "profiles": ["lage-inkomens", "gezin", "senior", "student"],
     "searchAliases": {
       "all": ["u-pas","aanbod","bioscoop","film","museum","musea","attractie","zwembad","theater","cultuur","korting"]
@@ -2097,6 +2111,8 @@
     "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://www.u-pas.nl/mobiliteit-tegoed",
+    "amount": { "max": 105, "currency": "EUR", "period": "year" },
+    "documentsNeeded": ["upas"],
     "profiles": ["lage-inkomens", "senior"],
     "searchAliases": {
       "all": ["ov", "ov-chipkaart", "u-ov", "syntus", "bus", "tram", "reizen", "u-pas", "saldo"]
@@ -2793,6 +2809,7 @@
     "lastReviewed": "2026-07-27",
     "expiresSoon": false,
     "officialUrl": "https://www.warmtefonds.nl/",
+    "amount": { "max": 29000, "currency": "EUR", "period": "once" },
     "profiles": [
       "huiseienaar",
       "lage-inkomens"
@@ -3540,6 +3557,7 @@
     "lastReviewed": "2026-08-11",
     "expiresSoon": false,
     "officialUrl": "https://loket.digitaal.utrecht.nl/nl/products/parkeerkorting-mantelzorg-of-thuiszorg-aanvragen",
+    "documentsNeeded": ["digid","zorgbewijs"],
     "profiles": [
       "iedereen",
       "senior"

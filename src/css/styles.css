@@ -922,6 +922,94 @@ h3 { font-size: clamp(1.2rem, 2vw, 1.6rem); font-weight: 700; }
 }
 
 /* ==========================================================================
+   AMOUNTS, REQUIRED DOCUMENTS AND BUDGET STATUS
+   ========================================================================== */
+.amount-chip {
+  display: inline-block;
+  align-self: flex-start;
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: 0.95rem;
+  color: var(--color-utrecht-red);
+  background-color: #FFF0F0;
+  border: 2px solid var(--color-utrecht-red);
+  padding: 0.2rem 0.6rem;
+  margin-bottom: 0.6rem;
+}
+
+.amount-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 1rem 1.2rem;
+  margin-bottom: 2rem;
+  background-color: var(--color-bg-light);
+  border-left: 6px solid var(--color-utrecht-red);
+}
+
+.amount-block-label {
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-gray-meta);
+}
+
+.amount-block-value {
+  font-family: var(--font-heading);
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+
+.amount-block-note {
+  font-size: 0.85rem;
+  color: var(--color-gray-meta);
+}
+
+.documents-list {
+  padding-left: 1.5rem;
+  line-height: 1.8;
+}
+
+.budget-banner {
+  padding: 1rem 1.2rem;
+  background-color: #FFF3CD;
+  color: #856404;
+  border-left: 6px solid var(--color-utrecht-red);
+}
+
+.checker-total {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 1.2rem 1.4rem;
+  margin-bottom: 1rem;
+  background-color: var(--color-white);
+  border: 3px solid var(--color-black);
+  box-shadow: 6px 6px 0px var(--color-utrecht-red);
+}
+
+.checker-total-label {
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-gray-meta);
+}
+
+.checker-total-value {
+  font-family: var(--font-heading);
+  font-size: 2.2rem;
+  line-height: 1.1;
+  color: var(--color-utrecht-red);
+}
+
+.checker-total-note {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--color-text-body);
+}
+
+/* ==========================================================================
    PRINTABLE HAND-OUTS — one A4 per category, laid out for paper first. On
    screen it is a plain preview; the @media print block below strips the site
    chrome and locks the sheet to A4.

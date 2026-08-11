@@ -89,6 +89,34 @@ function renderFeedbackUrl(item, langCode) {
   return `${REPO_URL}/issues/new?${query}`;
 }
 
+// "tot € 5.000 eenmalig" or "€ 125 - € 800 per jaar". The amount lives in the
+// data as numbers so the catalog can sort on it; this is the only place that
+// turns it into words, and it uses the reader's own number formatting.
+function formatAmount(amount, dict, langCode) {
+  if (!amount) return '';
+  const money = value =>
+    new Intl.NumberFormat(langCode, {
+      style: 'currency',
+      currency: amount.currency,
+      maximumFractionDigits: 0
+    }).format(value);
+
+  const period = dict[`amount_period_${amount.period}`] || '';
+  const range = typeof amount.min === 'number' && amount.min !== amount.max
+    ? `${money(amount.min)} – ${money(amount.max)}`
+    : `${dict.amount_upto} ${money(amount.max)}`;
+
+  return `${range} ${period}`.trim();
+}
+
+// The type 'préstamo' carries an accent that its locale key does not, so a
+// naive dict['type_' + item.type] lookup misses and the card falls back to
+// printing the raw Spanish value on every language version.
+function typeLabel(item, dict) {
+  const key = 'type_' + item.type.replace('é', 'e');
+  return dict[key] || item.type;
+}
+
 function isStale(lastReviewed) {
   if (!lastReviewed) return false;
   const reviewed = new Date(lastReviewed);
@@ -168,6 +196,9 @@ function renderHtmlShell({ title, description, content, langCode, currentSubpath
   <script>
     window.BENEFICIOS_DATA = ${JSON.stringify(catalogData)};
     window.BASE_PATH = "${basePath}";
+    // The checker builds cards in the browser; without the dictionary it would
+    // have to fall back to Dutch labels on all nine language versions.
+    window.I18N = ${JSON.stringify(dict)};
   </script>
 </head>
 <body>
@@ -318,7 +349,7 @@ function renderPrintSheet(catalog, category, dict, langCode, basePath) {
         <div class="print-entry-body">
           <h3 class="print-entry-title">${title}</h3>
           <p class="print-entry-desc">${desc}</p>
-          <p class="print-entry-url">${dict['type_' + item.type] || item.type} · ${item.officialUrl}</p>
+          <p class="print-entry-url">${typeLabel(item, dict)} · ${item.officialUrl}</p>
         </div>
       </li>`;
   }).join('');
@@ -362,13 +393,14 @@ function renderCatalogHome(catalog, dict, langCode, basePath) {
     const desc = item.shortDescription[langCode] || item.shortDescription['nl'] || item.shortDescription['en'];
     const detailUrl = `${basePath}${langCode}/beneficio/${item.id}/`;
 
-    return `<article class="benefit-card" data-id="${item.id}" data-category="${item.category}" data-type="${item.type}">
+    return `<article class="benefit-card" data-id="${item.id}" data-category="${item.category}" data-type="${item.type}" data-amount-max="${item.amount ? item.amount.max : ''}">
       <div class="card-header-bar">
         <span class="category-chip" data-cat="${item.category}">${dict['cat_' + item.category] || item.category}</span>
-        <span class="type-tag">${dict['type_' + item.type] || item.type}</span>
+        <span class="type-tag">${typeLabel(item, dict)}</span>
       </div>
       <div class="card-body">
         <h3 class="card-title"><a href="${detailUrl}">${title}</a></h3>
+        ${item.amount ? `<p class="amount-chip">${formatAmount(item.amount, dict, langCode)}</p>` : ''}
         <p class="card-description">${desc}</p>
         ${item.expiresSoon ? `<div class="expiry-alert-banner">⏰ ${dict.expires_soon_badge} (${item.expiryDate || '30-06-2026'})</div>` : ''}
         ${isStale(item.lastReviewed) ? `<div class="stale-badge">🕗 ${dict.stale_badge}</div>` : ''}
@@ -377,7 +409,7 @@ function renderCatalogHome(catalog, dict, langCode, basePath) {
             <span class="status-dot ${item.verificationStatus}"></span>
             ${item.verificationStatus === 'verificado' ? dict.verified_badge + ' ' + item.lastReviewed : dict.unverified_badge}
           </span>
-          <a href="${detailUrl}" class="btn-detail">Info & Aanvragen</a>
+          <a href="${detailUrl}" class="btn-detail">${dict.card_detail_btn}</a>
         </div>
       </div>
     </article>`;
@@ -438,6 +470,14 @@ function renderCatalogHome(catalog, dict, langCode, basePath) {
             <option value="subsidio">${dict.type_subsidio}</option>
             <option value="préstamo">${dict.type_prestamo}</option>
             <option value="servicio">${dict.type_servicio}</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label class="filter-label" for="sort-select">${dict.sort_label}</label>
+          <select id="sort-select" class="filter-select">
+            <option value="default">${dict.sort_default}</option>
+            <option value="amount">${dict.sort_amount}</option>
           </select>
         </div>
 
@@ -600,7 +640,7 @@ function renderBenefitDetail(item, dict, langCode, basePath) {
       <article class="detail-card-main">
         <div class="detail-header-tags">
           <span class="category-chip" data-cat="${item.category}">${dict['cat_' + item.category] || item.category}</span>
-          <span class="type-tag">${dict['type_' + item.type] || item.type}</span>
+          <span class="type-tag">${typeLabel(item, dict)}</span>
           <span class="verification-status">
             <span class="status-dot ${item.verificationStatus}"></span>
             ${item.verificationStatus === 'verificado' ? dict.verified_badge + ' ' + item.lastReviewed : dict.unverified_badge}
@@ -613,6 +653,21 @@ function renderBenefitDetail(item, dict, langCode, basePath) {
         ${isStale(item.lastReviewed) ? `<div class="stale-badge" style="margin-bottom: 2rem;">🕗 <strong>${dict.stale_badge}</strong></div>` : ''}
 
         ${item.expiresSoon ? `<div class="expiry-alert-banner" style="margin-bottom: 2rem;">⚠️ <strong>${dict.expires_soon_badge}:</strong> ${item.expiryDate || '30-06-2026'}</div>` : ''}
+
+        ${item.budgetStatus && item.budgetStatus !== 'open' ? `<div class="budget-banner" style="margin-bottom: 2rem;">🚧 <strong>${dict['budget_' + item.budgetStatus]}</strong></div>` : ''}
+
+        ${item.amount ? `<div class="amount-block">
+          <span class="amount-block-label">${dict.amount_label}</span>
+          <strong class="amount-block-value">${formatAmount(item.amount, dict, langCode)}</strong>
+          ${item.type === 'préstamo' ? `<span class="amount-block-note">${dict.amount_loan_note}</span>` : ''}
+        </div>` : ''}
+
+        ${item.documentsNeeded && item.documentsNeeded.length ? `<div class="detail-section-block">
+          <h3>${dict.documents_title}</h3>
+          <ul class="documents-list">
+            ${item.documentsNeeded.map(doc => `<li>${dict['doc_' + doc] || doc}</li>`).join('')}
+          </ul>
+        </div>` : ''}
 
         <div class="detail-section-block">
           <h3>${dict.eligibility_title}</h3>
