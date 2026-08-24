@@ -14,6 +14,11 @@ const path = require('path');
 const DATA_FILE = path.join(__dirname, '..', 'data', 'beneficios.json');
 const TIMEOUT_MS = 15000;
 const CONCURRENCY = 4;
+// Some official hosts (bibliotheekutrecht.nl above all) answer an occasional
+// 5xx that is gone seconds later. Retrying those keeps the weekly run from
+// opening an issue about a link that was never actually broken.
+const MAX_ATTEMPTS = 3;
+const RETRY_BASE_MS = 2000;
 const USER_AGENT =
   'Mozilla/5.0 (compatible; UtrechtVoorJouLinkCheck/1.0; +https://github.com/utrecht-voor-iedereen/utrecht-voor-jou)';
 
@@ -48,19 +53,43 @@ async function request(url, method) {
   }
 }
 
-async function checkUrl(url) {
-  try {
-    let res = await request(url, 'HEAD');
-    // Plenty of government servers refuse HEAD outright; confirm with a GET
-    // before calling the link dead.
-    if (res.status >= 400) {
-      res = await request(url, 'GET');
-    }
-    return { ok: res.status < 400, status: String(res.status), finalUrl: res.finalUrl };
-  } catch (err) {
-    const reason = err.name === 'AbortError' ? `timeout after ${TIMEOUT_MS / 1000}s` : err.message;
-    return { ok: false, status: reason, finalUrl: null };
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+async function probe(url) {
+  const res = await request(url, 'HEAD');
+  // Plenty of government servers refuse HEAD outright; confirm with a GET
+  // before calling the link dead.
+  if (res.status >= 400) {
+    return request(url, 'GET');
   }
+  return res;
+}
+
+async function checkUrl(url) {
+  let last = null;
+
+  for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
+    try {
+      const res = await probe(url);
+      if (res.status < 400) {
+        return { ok: true, status: String(res.status), finalUrl: res.finalUrl, attempts: attempt };
+      }
+      last = { ok: false, status: String(res.status), finalUrl: res.finalUrl, attempts: attempt };
+      // 4xx means the page is genuinely gone; only server errors are worth
+      // a second look.
+      if (res.status < 500) return last;
+    } catch (err) {
+      const reason = err.name === 'AbortError' ? `timeout after ${TIMEOUT_MS / 1000}s` : err.message;
+      last = { ok: false, status: reason, finalUrl: null, attempts: attempt };
+    }
+
+    if (attempt < MAX_ATTEMPTS) {
+      console.log(`  ↻ ${last.status}  ${url} — retry ${attempt + 1}/${MAX_ATTEMPTS}`);
+      await sleep(RETRY_BASE_MS * attempt);
+    }
+  }
+
+  return last;
 }
 
 async function runPool(tasks, size) {
@@ -82,12 +111,12 @@ function buildReport(failures) {
     'Each one is linked from the benefit pages listed next to it, so visitors',
     'currently land on a broken page.',
     '',
-    '| Status | Official URL | Affected benefits |',
-    '| --- | --- | --- |'
+    '| Status | Official URL | Affected benefits | Attempts |',
+    '| --- | --- | --- | --- |'
   ];
   failures.forEach(f => {
     const affected = f.items.map(i => `#${i.id} ${i.title.nl}`).join('<br>');
-    lines.push(`| \`${f.status}\` | ${f.url} | ${affected} |`);
+    lines.push(`| \`${f.status}\` | ${f.url} | ${affected} | ${f.attempts} |`);
   });
   lines.push('');
   lines.push('Fix by updating `officialUrl` in `data/beneficios.json`, then bump');
@@ -113,7 +142,9 @@ async function main() {
   results
     .filter(r => r.ok)
     .forEach(r => console.log(`  ✅ ${r.status}  ${r.url}`));
-  failures.forEach(r => console.log(`  ❌ ${r.status}  ${r.url}`));
+  failures.forEach(r =>
+    console.log(`  ❌ ${r.status}  ${r.url}  (${r.attempts} attempt${r.attempts > 1 ? 's' : ''})`)
+  );
 
   if (REPORT_FILE && failures.length > 0) {
     fs.writeFileSync(REPORT_FILE, buildReport(failures));
