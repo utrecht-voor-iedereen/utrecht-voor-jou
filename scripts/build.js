@@ -73,6 +73,18 @@ function renderAnalytics() {
   </script>`;
 }
 
+// The taglines come from locales/*.json, which we control, but they land in an
+// HTML attribute and in element text on the root page. Escaping is cheap and
+// stops a stray quote or ampersand from breaking the only page that has no
+// framework behind it.
+function escapeHtml(value) {
+  return String(value)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
 // A reader at the counter is the first to notice that an amount changed, and
 // asking them to open a pull request loses them. This prefills the correction
 // issue form instead: which entry, and the page they were reading, in their own
@@ -933,22 +945,121 @@ function build() {
     fs.writeFileSync(path.join(DIST_DIR, 'rss', `${code}.xml`), rssXml);
   });
 
-  // 4. Root Redirect index.html (depth: 0 -> relative redirect to ./nl/)
+  // 4. Root index.html: a real, static language picker.
+  //
+  //    This used to be a bare <script> that read localStorage and did
+  //    location.replace('./nl/'). Two problems, both aimed at exactly the people
+  //    this site exists for: without JavaScript the root was a dead end with a
+  //    single Dutch link, and a first-time visitor with JavaScript was sent to
+  //    Dutch regardless of what language they actually read.
+  //
+  //    Now the markup itself is the picker, so it works with no JavaScript, no
+  //    CSS and no fonts. The script on top is only a shortcut: it honours a
+  //    stored choice, and otherwise matches navigator.language against the
+  //    locales we actually build. If neither matches, the visitor stays here and
+  //    chooses — which beats guessing Dutch at them.
+  const rootLangCodes = LANGUAGES.map(l => l.code);
+  const rootLinks = LANGUAGES.map(l => {
+    const tagline = (locales[l.code] && locales[l.code].tagline) || '';
+    return `      <li>
+        <a class="lang" href="./${l.code}/" lang="${l.code}" hreflang="${l.code}">
+          <span class="code">${l.flag}</span>
+          <span class="text"><strong>${l.name}</strong><span class="tagline">${escapeHtml(tagline)}</span></span>
+        </a>
+      </li>`;
+  }).join('\n');
+  const rootHreflangs = LANGUAGES
+    .map(l => `  <link rel="alternate" hreflang="${l.code}" href="./${l.code}/" />`)
+    .join('\n');
+
   const rootRedirectHtml = `<!DOCTYPE html>
-<html>
+<html lang="nl">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Utrecht Voor Jou</title>
+  <meta name="description" content="${escapeHtml(locales.nl.tagline)}">
+  <meta name="theme-color" content="#CC0000">
+  <link rel="manifest" href="./manifest.webmanifest">
+${rootHreflangs}
+  <link rel="alternate" hreflang="x-default" href="./nl/" />
   <script>
-    var preferred = localStorage.getItem('utrecht_lang');
-    var targetLang = (preferred && ['nl','en','es','de','tr','fr','it','pt','pt-BR'].includes(preferred)) ? preferred : 'nl';
-    var loc = window.location;
-    var newPath = loc.pathname.endsWith('/') ? loc.pathname + targetLang + '/' : loc.pathname + '/' + targetLang + '/';
-    window.location.replace(newPath);
+    // Shortcut only. Every path it can take is also reachable by clicking below.
+    (function () {
+      var built = ${JSON.stringify(rootLangCodes)};
+      var target = null;
+      try {
+        var stored = localStorage.getItem('utrecht_lang');
+        if (stored && built.indexOf(stored) !== -1) target = stored;
+      } catch (e) { /* private mode, blocked storage: fall through to the picker */ }
+      if (!target) {
+        var wanted = (navigator.languages && navigator.languages.length)
+          ? navigator.languages
+          : [navigator.language || ''];
+        for (var i = 0; i < wanted.length && !target; i++) {
+          var tag = String(wanted[i]);
+          if (built.indexOf(tag) !== -1) { target = tag; break; }          // pt-BR
+          var base = tag.split('-')[0];
+          if (built.indexOf(base) !== -1) { target = base; }               // pt-PT -> pt
+        }
+      }
+      if (target) {
+        var loc = window.location;
+        var path = loc.pathname.endsWith('/') ? loc.pathname : loc.pathname + '/';
+        loc.replace(path + target + '/');
+      }
+    })();
   </script>
+  <style>
+    :root { color-scheme: light dark; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; padding: 2rem 1rem 3rem;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      color: #111111; background: #F8F9FA; line-height: 1.5;
+    }
+    .wrap { max-width: 44rem; margin: 0 auto; }
+    header { border-bottom: 4px solid #CC0000; padding-bottom: 1rem; margin-bottom: 1.5rem; }
+    h1 { font-size: 1.75rem; margin: 0 0 .25rem; color: #CC0000; }
+    .sub { margin: 0; color: #757575; font-size: .95rem; }
+    ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .5rem; }
+    a.lang {
+      display: flex; align-items: center; gap: 1rem;
+      padding: .9rem 1rem; min-height: 44px;
+      background: #FFFFFF; border: 1px solid #E0E0E0; border-radius: 12px;
+      text-decoration: none; color: inherit;
+    }
+    a.lang:hover, a.lang:focus-visible { border-color: #CC0000; background: #FFF8F8; }
+    a.lang:focus-visible { outline: 3px solid #006DFF; outline-offset: 2px; }
+    .code {
+      flex: 0 0 auto; min-width: 3.25rem; text-align: center;
+      font-size: .8rem; font-weight: 700; letter-spacing: .04em;
+      color: #FFFFFF; background: #CC0000; border-radius: 4px; padding: .3rem .4rem;
+    }
+    .text { display: flex; flex-direction: column; gap: .15rem; }
+    .tagline { font-size: .85rem; color: #757575; }
+    @media (prefers-color-scheme: dark) {
+      body { color: #F1F1F1; background: #121212; }
+      a.lang { background: #1D1D1D; border-color: #333333; }
+      a.lang:hover, a.lang:focus-visible { background: #2A1A1A; }
+      .sub, .tagline { color: #A9A9A9; }
+      h1 { color: #FF6B6B; }
+      .code { background: #FF6B6B; color: #121212; }
+    }
+  </style>
 </head>
 <body>
-  <p>Redirecting to <a href="./nl/">Utrecht Voor Jou</a>...</p>
+  <div class="wrap">
+    <header>
+      <h1>Utrecht Voor Jou</h1>
+      <p class="sub">Kies je taal &middot; Choose your language &middot; Elige tu idioma</p>
+    </header>
+    <nav aria-label="Taal / Language">
+      <ul>
+${rootLinks}
+      </ul>
+    </nav>
+  </div>
 </body>
 </html>`;
   fs.writeFileSync(path.join(DIST_DIR, 'index.html'), rootRedirectHtml);
