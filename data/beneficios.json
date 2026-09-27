@@ -1349,10 +1349,10 @@
     "category": "dinero",
     "type": "servicio",
     "wijk": "all",
-    "verificationStatus": "por-verificar",
-    "lastReviewed": "2026-07-27",
+    "verificationStatus": "verificado",
+    "lastReviewed": "2026-09-27",
     "expiresSoon": false,
-    "officialUrl": "https://www.ondernemercentraal.nl/",
+    "officialUrl": "https://www.utrecht.nl/ondernemercentraal/",
     "profiles": ["ondernemer"],
     "searchAliases": {
       "all": ["ondernemer centraal", "zzp", "zzp'er", "ondernemer", "zelfstandige", "coaching"]
@@ -1391,11 +1391,11 @@
       "pt-BR": ["Empreendedor ou autônomo em Utrecht, Houten, IJsselstein, Lopik, Nieuwegein ou Stichtse Vecht"]
     },
     "howToApply": {
-      "nl": ["Meld je aan voor een gratis adviesgesprek op ondernemercentraal.nl"],
-      "en": ["Sign up for a free consultation on ondernemercentraal.nl"],
-      "es": ["Pide tu cita de consultoría gratuita en ondernemercentraal.nl"],
-      "de": ["Gratis Erstgespräch auf ondernemercentraal.nl buchen"],
-      "tr": ["ondernemercentraal.nl adresinden randevu alın"],
+      "nl": ["Meld je aan voor een gratis adviesgesprek via utrecht.nl/ondernemercentraal"],
+      "en": ["Sign up for a free consultation at utrecht.nl/ondernemercentraal"],
+      "es": ["Pide tu cita de consultoría gratuita en utrecht.nl/ondernemercentraal"],
+      "de": ["Gratis Erstgespräch auf utrecht.nl/ondernemercentraal buchen"],
+      "tr": ["utrecht.nl/ondernemercentraal adresinden randevu alın"],
       "fr": ["S'inscrire pour un entretien gratuit"],
       "it": ["Prenota un colloquio gratuito online"],
       "pt": ["Inscreva-se para uma consulta gratuita"],
