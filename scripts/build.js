@@ -192,6 +192,10 @@ function renderHtmlShell({ title, description, content, langCode, currentSubpath
   <meta property="og:title" content="${title} | ${dict.site_title}">
   <meta property="og:description" content="${description}">
   <meta property="og:type" content="website">
+  <meta property="og:image" content="https://utrecht-voor-iedereen.github.io/utrecht-voor-jou/img/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
   <meta property="og:locale" content="${langCode}">
   
   ${hreflangs}
@@ -824,7 +828,7 @@ function build() {
 
   ensureDir(path.join(DIST_DIR, 'rss'));
 
-  ['css', 'js', 'svg'].forEach(assetDir => {
+  ['css', 'js', 'svg', 'img'].forEach(assetDir => {
     const srcPath = path.join(ROOT_DIR, 'src', assetDir);
     const destPath = path.join(DIST_DIR, assetDir);
     ensureDir(destPath);
