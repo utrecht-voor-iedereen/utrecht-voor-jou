@@ -1,163 +1,94 @@
-# 🏰 Utrecht Voor Jou
+# Utrecht Voor Jou
 
-![Build & Deploy](https://github.com/utrecht-voor-iedereen/utrecht-voor-jou/actions/workflows/deploy.yml/badge.svg)
-![Link Check](https://github.com/utrecht-voor-iedereen/utrecht-voor-jou/actions/workflows/link-check.yml/badge.svg)
-![License EUPL-1.2](https://img.shields.io/badge/license-EUPL--1.2-red.svg)
-![i18n 9 Languages](https://img.shields.io/badge/i18n-9%20languages-blue.svg)
-![GitHub Pages](https://img.shields.io/badge/hosting-GitHub%20Pages-success.svg)
+**A multilingual guide to free benefits, grants and services in Utrecht — the ones almost nobody knows about.**
 
-> **Utrecht Voor Jou** is een 100% open-source, meertalig en onafhankelijk burgerinitiatief dat tientallen gratis regelingen, subsidies, vergoedingen en voorzieningen van de Gemeente Utrecht inzichtelijk maakt.
+[Website](https://utrecht-voor-iedereen.github.io/utrecht-voor-jou/) ·
+[Report an error](https://github.com/utrecht-voor-iedereen/utrecht-voor-jou/issues/new/choose) ·
+[Contributing](CONTRIBUTING.md)
 
-🌐 **Live Website**: [https://utrecht-voor-iedereen.github.io/utrecht-voor-jou/](https://utrecht-voor-iedereen.github.io/utrecht-voor-jou/)
+[![Build & Deploy](https://github.com/utrecht-voor-iedereen/utrecht-voor-jou/actions/workflows/deploy.yml/badge.svg)](https://github.com/utrecht-voor-iedereen/utrecht-voor-jou/actions/workflows/deploy.yml)
+[![Link check](https://github.com/utrecht-voor-iedereen/utrecht-voor-jou/actions/workflows/link-check.yml/badge.svg)](https://github.com/utrecht-voor-iedereen/utrecht-voor-jou/actions/workflows/link-check.yml)
+[![License: EUPL-1.2](https://img.shields.io/badge/license-EUPL--1.2-blue)](LICENSE)
 
----
+> **Independent civic project.** Utrecht Voor Jou is not run by or affiliated with the Gemeente Utrecht. It does not decide on applications or run any scheme. The official information is on [utrecht.nl](https://www.utrecht.nl/) and on each organisation's own website.
 
-## 🌍 Directe Links per Taal / Direct Links by Language (9 Languages)
+**Nederlands —** Utrecht Voor Jou zet gratis regelingen, subsidies en voorzieningen in Utrecht op één plek, in negen talen: van de gemeente en van andere organisaties, zoals de bibliotheek, de U-pas en de Voedselbank. Elke regeling linkt naar de officiële bron. Gratis, zonder cookies en open source.
 
-Elke taalversie is direct toegankelijk via de onderstaande links:
+![Utrecht Voor Jou](src/img/og.png)
 
-| Vlag | Taal (Language) | Code | Directe Link |
-| :---: | :--- | :---: | :--- |
-| 🇳🇱 | **Nederlands** | `nl` | [Bekijk in het Nederlands](https://utrecht-voor-iedereen.github.io/utrecht-voor-jou/nl/) |
-| 🇬🇧 | **English** | `en` | [View in English](https://utrecht-voor-iedereen.github.io/utrecht-voor-jou/en/) |
-| 🇪🇸 | **Español** | `es` | [Ver en Español](https://utrecht-voor-iedereen.github.io/utrecht-voor-jou/es/) |
-| 🇩🇪 | **Deutsch** | `de` | [Auf Deutsch ansehen](https://utrecht-voor-iedereen.github.io/utrecht-voor-jou/de/) |
-| 🇹🇷 | **Türkçe** | `tr` | [Türkçe olarak görüntüle](https://utrecht-voor-iedereen.github.io/utrecht-voor-jou/tr/) |
-| 🇫🇷 | **Français** | `fr` | [Voir en Français](https://utrecht-voor-iedereen.github.io/utrecht-voor-jou/fr/) |
-| 🇮🇹 | **Italiano** | `it` | [Visualizza in Italiano](https://utrecht-voor-iedereen.github.io/utrecht-voor-jou/it/) |
-| 🇵🇹 | **Português** | `pt` | [Ver em Português](https://utrecht-voor-iedereen.github.io/utrecht-voor-jou/pt/) |
-| 🇧🇷 | **Português (Brasil)** | `pt-BR` | [Ver em Português do Brasil](https://utrecht-voor-iedereen.github.io/utrecht-voor-jou/pt-BR/) |
+## What it does
 
----
+- **56 schemes in eight categories** — money and support, green spaces, community, energy and housing, mobility, daily life, legal help, culture — each with who qualifies, how to apply and a link to the official source.
+- **Nine languages:** Dutch, English, Spanish, German, Turkish, French, Italian, Portuguese and Brazilian Portuguese.
+- **"Am I eligible?" checker:** four anonymous questions, answered entirely in the browser. Nothing is sent or stored.
+- **Search by the Dutch term:** each scheme carries its official programme name, organisation and abbreviation, so someone told "Witgoedregeling" or "BghU" at the counter finds it in any language.
+- **Filters you can share:** search and filters live in the URL.
+- **Printable hand-outs:** one A4 sheet per category with a QR code per scheme, for neighbourhood teams, libraries, language cafés and the food bank.
+- **Works offline:** installable, and a page opened once stays readable without a connection.
 
-## 🌟 Kenmerken / Key Features
+## How the information is kept accurate
 
-- **9 Talen vanaf dag 1**: Nederlands (`nl`), Engels (`en`), Spaans (`es`), Duits (`de`), Turks (`tr`), Frans (`fr`), Italiaans (`it`), Portugees (`pt`), Portugees van Brazilië (`pt-BR`).
-- **Interactive "Heb ik recht?" Checker**: 4-vragen wizard tool die 100% client-side werkt in de browser. Geen dataverzameling, geen cookies, geen privacyzorgen.
-- **Geverifieerde Regelingen**: Verdeeld over 8 categorieën (Groen & Natuur, Geld & Subsidies, Energie & Wonen, Recht & Regelzaken, Cultuur & Vrije Tijd, Mobiliteit, Gemeenschap & Circulair, Dagelijks Leven).
-- **Deelbare filters**: de zoekterm en de vier filters staan in de query string. Een gefilterd overzicht (`?type=gratis&wijk=Overvecht`) is dus een link die je kunt doorsturen, en de terugknop maakt één filter ongedaan in plaats van de pagina te verlaten.
-- **Zoeken op de Nederlandse term**: elke regeling heeft `searchAliases` met de officiële programmanaam, de organisatie en de afkorting. Wie aan het loket "Witgoedregeling" of "BghU" hoort, vindt de regeling terug ongeacht de taal waarin de site staat.
-- **Offline & installeerbaar**: een manifest en een service worker maken de site installeerbaar; een eerder geopende pagina blijft leesbaar zonder verbinding. Handig aan de balie of met een beperkte databundel.
-- **Printbaar als hand-out**: een printstylesheet verbergt de interactieve onderdelen en schrijft de officiële URL voluit, zodat elke regelingpagina als papieren blad meegegeven kan worden.
-- **Zichtbare houdbaarheid**: regelingen waarvan `lastReviewed` ouder is dan negen maanden krijgen automatisch een waarschuwingsbadge, vertaald in alle 9 talen.
-- **Wekelijkse linkcontrole**: een GitHub Action bevraagt elke `officialUrl` en opent een issue met de onbereikbare links, zodat een verhuisde gemeentepagina niet stilletjes een doodlopende link wordt.
-- **Maandelijkse reviewronde**: een tweede Action zet elke maand een handvol regelingen in de wachtrij om opnieuw tegen de bron gelezen te worden, met de `por-verificar` regelingen voorop. Een linkcontrole ziet namelijk niet dat een bedrag is veranderd of dat een regeling stilletjes is afgeschaft.
-- **Utrecht Huisstijl & Design**:
-  - Primaire kleur: **Utrecht Rood** (`#CC0000`) en Sint Maarten diagonaalmotief.
-  - Handgemaakte geometrische SVG-illustraties (Domtoren, omafiets, Oudegracht gracht, boomspiegel).
-  - Vloeiende CSS-animaties (fiets in footer, checkmark animatie, stagger entrance).
-- **SEO & Toegankelijkheid**: Volledig statisch gegenereerd (SSG) voor 100% SEO indexatie, `sitemap.xml`, OpenGraph tags, `hreflang` cross-references en AA toegankelijkheidscontrast.
-- **Geen Backend / Database**: Gehost uitsluitend via **GitHub Pages**.
-- **Bedragen als gegeven, niet als tekst**: regelingen met een bekend bedrag dragen dat als `amount` in het JSON. Daardoor staat het bedrag als los label op de kaart, kun je de catalogus sorteren op hoogste bedrag, en telt de checker op wat je samen zou kunnen aanvragen. Leningen tellen niet mee in dat totaal — dat is schuld, geen geld dat je krijgt.
-- **Wat heb je nodig?**: `documentsNeeded` zegt vooraf of je DigiD, een U-pas of een Wmo-beschikking bij de hand moet hebben. Het is zelden het vinden van een regeling dat misloopt, maar het ontbreken van een papier aan de balie.
-- **Hand-outs om uit te printen**: `/<taal>/print/` geeft één A4 per categorie, met een QR-code per regeling die de pagina in de taal van het blad opent. Bedoeld voor het buurtteam, de bibliotheek, het taalcafé en de Voedselbank — de plekken waar deze informatie in de praktijk doorverteld wordt. De QR-codes worden bij de build gegenereerd door een eigen encoder (`scripts/lib/qr.js`), zonder dependency en zonder externe beeldservice.
-- **Meld een fout zonder GitHub-kennis**: elke regelingpagina heeft onderaan een knop die een correctie-issue opent met het ID van de regeling en de pagina-URL al ingevuld. De lezer aan de balie merkt een gewijzigd bedrag als eerste; die hoeft daarvoor geen pull request te leren maken.
-- **Bezoekcijfers zonder cookies**: alleen geaggregeerde paginatellingen via GoatCounter, zodat zichtbaar is of de regelingen ook echt gevonden worden. Geen cookie, geen profiel, geen toestemmingsbanner; wie Do Not Track of Global Privacy Control aan heeft staan wordt niet geteld.
+The catalogue matters only if it is right, so the facts are treated as the risky part of the project:
 
----
+- Every scheme links to its **official source** and carries a status: `verificado` (verified against the source) or `por-verificar` (not yet confirmed).
+- Every scheme has a **last reviewed** date. After nine months the site shows a warning on it.
+- **Weekly link check** (`link-check.yml`): requests every official URL and opens an issue listing the ones that fail.
+- **Monthly review round** (`review-rotation.yml`): opens an issue with the next schemes to re-read against their source, unverified ones first. A link check cannot see that an amount changed.
+- **Report an error:** every scheme page has a button that opens a pre-filled correction issue — no GitHub knowledge needed.
 
-## 📊 Bezoekcijfers (Analytics)
+`npm run validate` checks the *shape* of the data (JSON schema, the same keys in all nine languages). It says nothing about whether a fact is true; that is what the reviews are for.
 
-De site telt alleen hoe vaak een pagina geopend wordt, met [GoatCounter](https://www.goatcounter.com/) (open source, EU-hosting, geen cookies). Dat is nodig om te weten welke regelingen mensen zoeken en welke taalversies gebruikt worden — anders is elke keuze over de inhoud giswerk.
+## Privacy
 
-De teller staat in `site.config.json`:
+No cookies and no tracking. Page views are counted with [GoatCounter](https://www.goatcounter.com/) (open source, no cookies, no stored IP address) so the project knows which schemes people look for. Visitors with Do Not Track or Global Privacy Control are not counted. The numbers are [public](https://utrecht-voor-jou.goatcounter.com/).
 
-```json
-{ "analytics": { "provider": "goatcounter", "code": "utrecht-voor-jou" } }
-```
+A fork or local build makes no external requests: the counter is only added when `site.config.json` has a code, and `GOATCOUNTER_CODE=<code> npm run build` overrides it.
 
-- Een lege `code` (of een ontbrekende `site.config.json`) genereert **geen** script: een fork of een lokale build doet dan nul externe verzoeken.
-- `GOATCOUNTER_CODE=<jouw-code> npm run build` overschrijft de config, handig voor een fork met een eigen teller.
-- `count.js` telt localhost en private IP-ranges sowieso niet, dus een lokale build vervuilt de cijfers niet.
+## Run it locally
 
----
-
-## 🚀 Lokaal Ontwikkelen (Local Development)
-
-Clone de repository en start de lokale preview server:
+Requires Node.js 18 or later (CI uses 18 and 20). The site generator has no dependencies.
 
 ```bash
 git clone https://github.com/utrecht-voor-iedereen/utrecht-voor-jou.git
 cd utrecht-voor-jou
 
-# 1. Valideer de JSON dataset en taalbestanden
-npm run validate
-
-# 2. Genereer de statische HTML site in /dist
-npm run build
-
-# 3. Start de lokale preview server op http://localhost:3000/nl/
-npm run dev
+npm run validate      # check the dataset and the nine locale files
+npm run build         # generate the static site in dist/
+npm run dev           # preview at http://localhost:3000/nl/
 ```
 
-Controleer daarnaast of alle officiële bronnen nog bereikbaar zijn. Dit doet
-netwerkverzoeken naar utrecht.nl en de andere organisaties, dus draai het niet
-in een lus:
+Other scripts:
 
 ```bash
-npm run check-links
+npm test              # validation plus the QR encoder test
+npm run check-links   # request every official URL (real network requests; not in a loop)
+npm run review-due    # list the schemes due for a review against their source
 ```
 
-En kijk welke regelingen aan de beurt zijn om opnieuw tegen de bron gelezen te
-worden:
+> **Service worker.** Once you have opened the site locally, the browser serves assets from its cache. If a change does not show, do a hard reload or enable *Update on reload* under *Application → Service Workers* in DevTools.
 
-```bash
-npm run review-due
-```
-
-> **Let op bij de service worker.** Zodra je de site één keer lokaal hebt geopend,
-> registreert de browser de service worker en serveert hij assets uit de cache.
-> Zie je je wijziging niet terug, gebruik dan een hard reload of vink
-> *Application → Service Workers → Update on reload* aan in de DevTools.
-
----
-
-## 📦 Project Structuur (Structure)
+## Repository layout
 
 ```text
-utrecht-voor-jou/
-├── data/
-│   └── beneficios.json       # Master dataset met alle regelingen
-├── locales/
-│   ├── nl.json               # Nederlands (Default)
-│   ├── en.json               # English
-│   ├── es.json               # Español
-│   ├── de.json, tr.json...   # Overige 6 talen
-├── schemas/
-│   └── beneficios.schema.json # JSON Schema voor validering
-├── src/
-│   ├── css/styles.css        # Design system, printstylesheet, animatie
-│   ├── js/                   # Client-side logica (checker, filters, i18n)
-│   ├── sw.js                 # Service worker (build.js schrijft hem naar dist/)
-│   └── svg/                  # Handgemaakte SVG-illustraties + app-icon
-├── scripts/
-│   ├── build.js              # Node.js SSG generator
-│   ├── validate.js           # PR & Data valideringsscript
-│   ├── check-links.js        # Controleert elke officialUrl
-│   ├── review-due.js         # Kiest de volgende regelingen om te herlezen
-│   └── dev.js                # Lokale HTTP preview server
-└── .github/
-    └── workflows/
-        ├── deploy.yml        # Build + Deploy naar GitHub Pages
-        ├── validate.yml      # PR schema check
-        ├── link-check.yml    # Wekelijkse linkcontrole → GitHub issue
-        └── review-rotation.yml # Maandelijkse reviewronde → GitHub issue
+data/beneficios.json          the catalogue: every scheme in nine languages
+locales/*.json                interface text, one file per language
+schemas/                      JSON schema for the catalogue
+scripts/build.js              static site generator (Node, no dependencies)
+scripts/validate.js           dataset and locale validation
+scripts/check-links.js        checks every official URL
+scripts/review-due.js         picks the next schemes to review
+scripts/lib/qr.js             QR encoder for the printable sheets
+src/css, src/js, src/svg      styles, browser code, illustrations
+src/sw.js                     service worker (versioned per build)
+.github/workflows/            deploy, validate, weekly link check, monthly review
 ```
 
-`dist/` staat in `.gitignore`: de gepubliceerde site wordt door `deploy.yml`
-gebouwd, niet vanuit een lokale build gecommit. `manifest.webmanifest` en
-`sw.js` worden bij elke build gegenereerd; de service worker krijgt het
-build-tijdstip als cachenaam mee, zodat een nieuwe deploy de vorige cache
-opruimt.
+`dist/` is not committed: `deploy.yml` builds and publishes the site on every push to `main`.
 
----
+## Contributing
 
-## 🤝 Help Mee (How to Contribute via PR)
+The most valuable contribution is a correction: if an amount, a condition or a link has changed, use the **Report an error** button on the scheme page or [open an issue](https://github.com/utrecht-voor-iedereen/utrecht-voor-jou/issues/new/choose). To add a scheme or change the code, see [CONTRIBUTING.md](CONTRIBUTING.md). Please follow the [Code of Conduct](CODE_OF_CONDUCT.md).
 
-Lees onze [CONTRIBUTING.md](./CONTRIBUTING.md) om te zien hoe je in 3 eenvoudige stappen een nieuwe regeling kunt toevoegen door `data/beneficios.json` te bewerken en een Pull Request in te dienen.
+## License
 
----
-
-## 📄 Licentie (License)
-
-Gepubliceerd onder de **EUPL-1.2** (European Union Public Licence v1.2).
+Licensed under the [European Union Public Licence 1.2](LICENSE). Scheme descriptions are summaries of public information from the Gemeente Utrecht and the organisations named on each page; the official sources always take precedence.
