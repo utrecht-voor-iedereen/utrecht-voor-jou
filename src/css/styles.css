@@ -14,20 +14,21 @@
   --color-black: #000000;
   --color-text-body: #111111;
   --color-yellow-accent: #FFCC00;
-  --color-blue-interactive: #006DFF;
+  --color-blue-interactive: #0059D6;  /* #006DFF was 4.3:1 on the light background */
   --color-navy-footer: #1C4181;
-  --color-gray-meta: #757575;
+  --color-gray-meta: #666666;  /* #757575 was 4.37:1 on the light background */
   --color-bg-light: #F8F9FA;
   --color-border: #E0E0E0;
 
-  /* Category Specific Accent Colors */
-  --cat-verde: #32AB27;
-  --cat-dinero: #FF6E00;
-  --cat-energia: #009ED4;
+  /* Category Specific Accent Colors — darkened to 4.5:1 against white text
+     (WCAG AA); the originals ran from 1.8:1 to 3.9:1 on the category chips. */
+  --cat-verde: #26851E;
+  --cat-dinero: #C15300;
+  --cat-energia: #007EA9;
   --cat-legal: #762CD1;
-  --cat-cultura: #F02198;
+  --cat-cultura: #D71D88;
   --cat-movilidad: #AD643B;
-  --cat-comunidad: #99D000;
+  --cat-comunidad: #5E8000;
   --cat-vida: #CC0000;
 
   /* Fonts */
@@ -175,7 +176,8 @@ h3 { font-size: clamp(1.2rem, 2vw, 1.6rem); font-weight: 700; }
   font-family: var(--font-body);
   font-weight: 700;
   letter-spacing: 0.05em;
-  color: var(--color-yellow-accent);
+  /* White, not yellow: yellow on the red header measured 3.9:1. */
+  color: var(--color-white);
   text-transform: uppercase;
 }
 
@@ -1567,4 +1569,51 @@ h3 { font-size: clamp(1.2rem, 2vw, 1.6rem); font-weight: 700; }
     padding: 0.3cm;
     page-break-inside: avoid;
   }
+}
+
+/* ==========================================================================
+   UNOFFICIAL NOTICE AND ABOUT PAGE
+   ========================================================================== */
+.unofficial-notice {
+  margin: 0;
+  padding: 0.55rem 1.25rem;
+  background-color: var(--color-bg-light);
+  color: var(--color-text-body);
+  border-bottom: 1px solid var(--color-border);
+  font-size: 0.88rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.unofficial-notice a {
+  color: var(--color-blue-interactive);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.about-text {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.about-text a {
+  color: var(--color-blue-interactive);
+  text-decoration: underline;
+}
+
+.about-disclaimer {
+  background-color: #FFF3CD;
+  color: #664D03;
+  border-left-color: var(--color-utrecht-red);
+  margin-top: 0.5rem;
+}
+
+.about-cta {
+  margin-top: 1.5rem;
+}
+
+@media print {
+  .unofficial-notice { display: none; }
 }

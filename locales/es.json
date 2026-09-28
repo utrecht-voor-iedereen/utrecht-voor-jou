@@ -1,6 +1,6 @@
 {
   "site_title": "Utrecht Voor Jou",
-  "tagline": "El catálogo ciudadano de beneficios, ayudas y cosas gratis del Ayuntamiento de Utrecht que casi nadie conoce.",
+  "tagline": "El catálogo ciudadano de beneficios, ayudas y cosas gratis en Utrecht que casi nadie conoce.",
   "hero_badge": "100% Independiente y Código Abierto",
   "nav_home": "Catálogo",
   "nav_checker": "¿Tengo derecho?",
@@ -79,5 +79,23 @@
   "sort_amount": "Mayor importe primero",
   "checker_total": "En conjunto, hasta",
   "checker_total_note": "Solo se suman las ayudas con importe conocido. Lo que recibas de verdad depende de tu situación.",
-  "card_detail_btn": "Info y solicitar"
+  "card_detail_btn": "Info y solicitar",
+  "hero_label": "Iniciativa ciudadana independiente",
+  "notice_unofficial": "Iniciativa ciudadana independiente: no es una web del Ayuntamiento de Utrecht. Información oficial:",
+  "count_available": "ayudas disponibles",
+  "about_title": "Sobre Utrecht Voor Jou",
+  "about_what_h": "¿Qué es?",
+  "about_what_p": "Utrecht Voor Jou reúne en un solo sitio las ayudas, subvenciones y servicios gratuitos de Utrecht, en nueve idiomas. Son del ayuntamiento y de otras organizaciones, como la biblioteca, la U-pas y el banco de alimentos.",
+  "about_independent_h": "Iniciativa ciudadana independiente",
+  "about_independent_p": "Esta no es una web del Ayuntamiento de Utrecht. No decidimos sobre solicitudes ni gestionamos ninguna ayuda. La información oficial está en utrecht.nl y en las webs de cada organización.",
+  "about_check_h": "Cómo comprobamos la información",
+  "about_check_p1": "Cada ayuda enlaza a su fuente oficial y tiene un estado: verificada o por verificar. Se indica la fecha de la última comprobación; si tiene más de nueve meses, la ayuda muestra un aviso.",
+  "about_check_p2": "Cada semana una prueba automática comprueba que todos los enlaces a las fuentes funcionan. Cada mes se vuelven a leer algunas ayudas en su fuente, empezando por las no verificadas.",
+  "about_disclaimer_h": "Sin asesoramiento jurídico",
+  "about_disclaimer_p": "Los importes y requisitos pueden cambiar. Comprueba siempre la fuente oficial antes de solicitar nada.",
+  "about_privacy_h": "Privacidad y visitas",
+  "about_privacy_p": "Esta web no usa cookies ni sigue a nadie. Solo contamos cuántas veces se abre una página, con GoatCounter: sin perfiles ni direcciones IP guardadas. Si usas Do Not Track o Global Privacy Control, no se te cuenta. Las cifras son públicas:",
+  "about_contribute_h": "¿Has visto un error?",
+  "about_contribute_p": "Al final de cada ayuda hay un botón para informar de un error. También puedes proponer una ayuda que falte o una mejora en GitHub.",
+  "about_contribute_btn": "Ver en GitHub"
 }

@@ -1,6 +1,6 @@
 {
   "site_title": "Utrecht Voor Jou",
-  "tagline": "Katalog für kostenlose Leistungen, Zuschüsse und Hilfen der Gemeinde Utrecht, die kaum jemand kennt.",
+  "tagline": "Katalog für kostenlose Leistungen, Zuschüsse und Hilfen in Utrecht, die kaum jemand kennt.",
   "hero_badge": "100% Unabhängig & Open Source",
   "nav_home": "Katalog",
   "nav_checker": "Habe ich Anspruch?",
@@ -79,5 +79,23 @@
   "sort_amount": "Höchster Betrag zuerst",
   "checker_total": "Zusammen bis zu",
   "checker_total_note": "Nur Regelungen mit bekanntem Betrag werden gezählt. Was Sie tatsächlich bekommen, hängt von Ihrer Situation ab.",
-  "card_detail_btn": "Info & beantragen"
+  "card_detail_btn": "Info & beantragen",
+  "hero_label": "Unabhängige Bürgerinitiative",
+  "notice_unofficial": "Unabhängige Bürgerinitiative – keine Website der Stadt Utrecht. Offizielle Informationen:",
+  "count_available": "Angebote verfügbar",
+  "about_title": "Über Utrecht Voor Jou",
+  "about_what_h": "Was ist das?",
+  "about_what_p": "Utrecht Voor Jou bündelt kostenlose Leistungen, Zuschüsse und Angebote in Utrecht an einem Ort, in neun Sprachen. Sie stammen von der Stadt und von anderen Organisationen wie der Bibliothek, dem U-pas und der Tafel.",
+  "about_independent_h": "Unabhängige Bürgerinitiative",
+  "about_independent_p": "Dies ist keine Website der Stadt Utrecht. Wir entscheiden nicht über Anträge und verwalten keine Leistungen. Die offiziellen Informationen stehen auf utrecht.nl und auf den Websites der Organisationen selbst.",
+  "about_check_h": "Wie wir die Informationen prüfen",
+  "about_check_p1": "Jede Leistung verlinkt auf ihre offizielle Quelle und hat einen Status: geprüft oder noch zu prüfen. Das Datum der letzten Prüfung steht dabei; ist es älter als neun Monate, erscheint ein Hinweis.",
+  "about_check_p2": "Jede Woche prüft ein automatischer Test, ob alle Quelllinks noch funktionieren. Jeden Monat werden einige Leistungen erneut mit der Quelle abgeglichen, die ungeprüften zuerst.",
+  "about_disclaimer_h": "Keine Rechtsberatung",
+  "about_disclaimer_p": "Beträge und Bedingungen können sich ändern. Prüfe immer die offizielle Quelle, bevor du etwas beantragst.",
+  "about_privacy_h": "Datenschutz und Besucherzahlen",
+  "about_privacy_p": "Diese Website setzt keine Cookies und verfolgt niemanden. Wir zählen nur, wie oft eine Seite geöffnet wird, mit GoatCounter: kein Profil, keine gespeicherte IP-Adresse. Wer Do Not Track oder Global Privacy Control nutzt, wird nicht gezählt. Die Zahlen sind öffentlich:",
+  "about_contribute_h": "Einen Fehler gefunden?",
+  "about_contribute_p": "Unter jeder Leistung gibt es eine Schaltfläche, um einen Fehler zu melden. Eine fehlende Leistung oder Verbesserung kannst du auch auf GitHub vorschlagen.",
+  "about_contribute_btn": "Auf GitHub ansehen"
 }

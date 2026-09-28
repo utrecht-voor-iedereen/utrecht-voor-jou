@@ -1,6 +1,6 @@
 {
   "site_title": "Utrecht Voor Jou",
-  "tagline": "Dé gids voor gratis regelingen, subsidies en voorzieningen van de Gemeente Utrecht die niemand kent.",
+  "tagline": "Dé gids voor gratis regelingen, subsidies en voorzieningen in Utrecht die bijna niemand kent.",
   "hero_badge": "100% Onafhankelijk & Open Source",
   "nav_home": "Catalogus",
   "nav_checker": "Heb ik recht?",
@@ -79,5 +79,23 @@
   "sort_amount": "Hoogste bedrag eerst",
   "checker_total": "Samen goed voor maximaal",
   "checker_total_note": "Alleen de regelingen met een bekend bedrag zijn meegeteld. Wat je echt krijgt hangt af van je situatie.",
-  "card_detail_btn": "Info & aanvragen"
+  "card_detail_btn": "Info & aanvragen",
+  "hero_label": "Onafhankelijk burgerinitiatief",
+  "notice_unofficial": "Onafhankelijk burgerinitiatief — geen website van de gemeente Utrecht. Officiële informatie:",
+  "count_available": "regelingen beschikbaar",
+  "about_title": "Over Utrecht Voor Jou",
+  "about_what_h": "Wat is dit?",
+  "about_what_p": "Utrecht Voor Jou brengt gratis regelingen, subsidies en voorzieningen in Utrecht samen op één plek, in negen talen. Het gaat om regelingen van de gemeente en van andere organisaties, zoals de bibliotheek, de U-pas en de Voedselbank.",
+  "about_independent_h": "Onafhankelijk burgerinitiatief",
+  "about_independent_p": "Dit is geen website van de gemeente Utrecht. Wij beslissen niet over aanvragen en beheren geen regelingen. De officiële informatie staat op utrecht.nl en op de websites van de organisaties zelf.",
+  "about_check_h": "Hoe we de informatie controleren",
+  "about_check_p1": "Elke regeling linkt naar haar officiële bron en heeft een status: geverifieerd of nog te verifiëren. De datum van de laatste controle staat erbij; is die ouder dan negen maanden, dan krijgt de regeling een waarschuwing.",
+  "about_check_p2": "Elke week controleert een automatische test of alle bronlinks nog werken. Elke maand worden enkele regelingen opnieuw tegen de bron gelezen, de nog niet geverifieerde eerst.",
+  "about_disclaimer_h": "Geen juridisch advies",
+  "about_disclaimer_p": "Bedragen en voorwaarden kunnen veranderen. Controleer altijd de officiële bron voordat je iets aanvraagt.",
+  "about_privacy_h": "Privacy en bezoekcijfers",
+  "about_privacy_p": "Deze site zet geen cookies en volgt niemand. We tellen alleen hoe vaak een pagina wordt geopend, met GoatCounter: geen profiel, geen opgeslagen IP-adres. Wie Do Not Track of Global Privacy Control gebruikt, wordt niet geteld. De cijfers zijn openbaar:",
+  "about_contribute_h": "Een fout gezien?",
+  "about_contribute_p": "Onderaan elke regeling staat een knop om een fout te melden. Een ontbrekende regeling of een verbetering kun je ook voorstellen op GitHub.",
+  "about_contribute_btn": "Bekijk op GitHub"
 }

@@ -1,6 +1,6 @@
 {
   "site_title": "Utrecht Voor Jou",
-  "tagline": "Il catalogo cittadino di aiuti, sussidi e servizi gratuiti offerti dal Comune di Utrecht che quasi nessuno conosce.",
+  "tagline": "Il catalogo cittadino di aiuti, sussidi e servizi gratuiti a Utrecht che quasi nessuno conosce.",
   "hero_badge": "100% Indipendente & Open Source",
   "nav_home": "Catalogo",
   "nav_checker": "Ho diritto?",
@@ -79,5 +79,23 @@
   "sort_amount": "Importo più alto prima",
   "checker_total": "In tutto, fino a",
   "checker_total_note": "Sono conteggiate solo le misure con importo noto. Quello che riceverai davvero dipende dalla tua situazione.",
-  "card_detail_btn": "Info e domanda"
+  "card_detail_btn": "Info e domanda",
+  "hero_label": "Iniziativa civica indipendente",
+  "notice_unofficial": "Iniziativa civica indipendente: non è un sito del Comune di Utrecht. Informazioni ufficiali:",
+  "count_available": "aiuti disponibili",
+  "about_title": "Informazioni su Utrecht Voor Jou",
+  "about_what_h": "Che cos'è?",
+  "about_what_p": "Utrecht Voor Jou riunisce in un unico posto aiuti, sussidi e servizi gratuiti a Utrecht, in nove lingue. Provengono dal Comune e da altre organizzazioni, come la biblioteca, la U-pas e il banco alimentare.",
+  "about_independent_h": "Iniziativa civica indipendente",
+  "about_independent_p": "Questo non è un sito del Comune di Utrecht. Non decidiamo sulle domande e non gestiamo alcun aiuto. Le informazioni ufficiali sono su utrecht.nl e sui siti delle singole organizzazioni.",
+  "about_check_h": "Come verifichiamo le informazioni",
+  "about_check_p1": "Ogni aiuto rimanda alla sua fonte ufficiale e ha uno stato: verificato o da verificare. È indicata la data dell'ultimo controllo; se ha più di nove mesi, l'aiuto mostra un avviso.",
+  "about_check_p2": "Ogni settimana un test automatico controlla che tutti i link alle fonti funzionino. Ogni mese alcuni aiuti vengono riletti sulla fonte, a partire da quelli non verificati.",
+  "about_disclaimer_h": "Nessuna consulenza legale",
+  "about_disclaimer_p": "Importi e requisiti possono cambiare. Controlla sempre la fonte ufficiale prima di fare domanda.",
+  "about_privacy_h": "Privacy e visite",
+  "about_privacy_p": "Questo sito non usa cookie e non traccia nessuno. Contiamo solo quante volte una pagina viene aperta, con GoatCounter: nessun profilo, nessun indirizzo IP salvato. Chi usa Do Not Track o Global Privacy Control non viene contato. I dati sono pubblici:",
+  "about_contribute_h": "Hai trovato un errore?",
+  "about_contribute_p": "In fondo a ogni aiuto c'è un pulsante per segnalare un errore. Puoi anche proporre un aiuto mancante o un miglioramento su GitHub.",
+  "about_contribute_btn": "Vedi su GitHub"
 }

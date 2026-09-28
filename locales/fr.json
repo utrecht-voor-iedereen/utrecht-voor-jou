@@ -1,6 +1,6 @@
 {
   "site_title": "Utrecht Voor Jou",
-  "tagline": "Le catalogue citoyen des aides, subventions et services gratuits proposés par la ville d'Utrecht que presque personne ne connaît.",
+  "tagline": "Le catalogue citoyen des aides, subventions et services gratuits à Utrecht que presque personne ne connaît.",
   "hero_badge": "100% Indépendant & Open Source",
   "nav_home": "Catalogue",
   "nav_checker": "Ai-je droit?",
@@ -79,5 +79,23 @@
   "sort_amount": "Montant le plus élevé d’abord",
   "checker_total": "Au total, jusqu’à",
   "checker_total_note": "Seuls les dispositifs au montant connu sont comptés. Ce que vous recevez réellement dépend de votre situation.",
-  "card_detail_btn": "Infos et demande"
+  "card_detail_btn": "Infos et demande",
+  "hero_label": "Initiative citoyenne indépendante",
+  "notice_unofficial": "Initiative citoyenne indépendante — ce n'est pas un site de la Ville d'Utrecht. Informations officielles :",
+  "count_available": "aides disponibles",
+  "about_title": "À propos d'Utrecht Voor Jou",
+  "about_what_h": "De quoi s'agit-il ?",
+  "about_what_p": "Utrecht Voor Jou rassemble en un seul endroit les aides, subventions et services gratuits à Utrecht, en neuf langues. Ils proviennent de la ville et d'autres organisations, comme la bibliothèque, l'U-pas et la banque alimentaire.",
+  "about_independent_h": "Initiative citoyenne indépendante",
+  "about_independent_p": "Ce n'est pas un site de la Ville d'Utrecht. Nous ne décidons pas des demandes et ne gérons aucune aide. Les informations officielles sont sur utrecht.nl et sur les sites des organisations elles-mêmes.",
+  "about_check_h": "Comment nous vérifions les informations",
+  "about_check_p1": "Chaque aide renvoie à sa source officielle et porte un statut : vérifiée ou à vérifier. La date du dernier contrôle est indiquée ; au-delà de neuf mois, l'aide affiche un avertissement.",
+  "about_check_p2": "Chaque semaine, un test automatique vérifie que tous les liens vers les sources fonctionnent. Chaque mois, quelques aides sont relues à la source, en commençant par celles non vérifiées.",
+  "about_disclaimer_h": "Pas de conseil juridique",
+  "about_disclaimer_p": "Les montants et conditions peuvent changer. Vérifiez toujours la source officielle avant de faire une demande.",
+  "about_privacy_h": "Vie privée et fréquentation",
+  "about_privacy_p": "Ce site n'utilise pas de cookies et ne suit personne. Nous comptons seulement combien de fois une page est ouverte, avec GoatCounter : ni profil ni adresse IP conservée. Les personnes utilisant Do Not Track ou Global Privacy Control ne sont pas comptées. Les chiffres sont publics :",
+  "about_contribute_h": "Vous avez vu une erreur ?",
+  "about_contribute_p": "Au bas de chaque aide, un bouton permet de signaler une erreur. Vous pouvez aussi proposer une aide manquante ou une amélioration sur GitHub.",
+  "about_contribute_btn": "Voir sur GitHub"
 }
