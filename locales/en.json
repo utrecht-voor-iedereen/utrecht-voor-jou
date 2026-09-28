@@ -1,6 +1,6 @@
 {
   "site_title": "Utrecht Voor Jou",
-  "tagline": "The guide to free benefits, grants, and services from the Municipality of Utrecht that almost nobody knows about.",
+  "tagline": "The guide to free benefits, grants and services in Utrecht that almost nobody knows about.",
   "hero_badge": "100% Independent & Open Source",
   "nav_home": "Catalog",
   "nav_checker": "Do I qualify?",
@@ -79,5 +79,23 @@
   "sort_amount": "Highest amount first",
   "checker_total": "Together worth up to",
   "checker_total_note": "Only schemes with a known amount are counted. What you actually get depends on your situation.",
-  "card_detail_btn": "Details & apply"
+  "card_detail_btn": "Details & apply",
+  "hero_label": "Independent civic project",
+  "notice_unofficial": "Independent civic project — not a City of Utrecht website. Official information:",
+  "count_available": "schemes available",
+  "about_title": "About Utrecht Voor Jou",
+  "about_what_h": "What is this?",
+  "about_what_p": "Utrecht Voor Jou brings free benefits, grants and services in Utrecht together in one place, in nine languages. They come from the municipality and from other organisations, such as the library, the U-pas and the food bank.",
+  "about_independent_h": "Independent civic project",
+  "about_independent_p": "This is not a City of Utrecht website. We do not decide on applications or run any scheme. The official information is on utrecht.nl and on the organisations' own websites.",
+  "about_check_h": "How we check the information",
+  "about_check_p1": "Each scheme links to its official source and has a status: verified or still to be verified. The date of the last check is shown; if it is older than nine months, the scheme gets a warning.",
+  "about_check_p2": "Every week an automated test checks that all source links still work. Every month a few schemes are read again against their source, the unverified ones first.",
+  "about_disclaimer_h": "No legal advice",
+  "about_disclaimer_p": "Amounts and conditions can change. Always check the official source before you apply.",
+  "about_privacy_h": "Privacy and visitor numbers",
+  "about_privacy_p": "This site sets no cookies and tracks no one. We only count how often a page is opened, with GoatCounter: no profile, no stored IP address. Anyone using Do Not Track or Global Privacy Control is not counted. The numbers are public:",
+  "about_contribute_h": "Spotted a mistake?",
+  "about_contribute_p": "At the bottom of every scheme there is a button to report a mistake. You can also suggest a missing scheme or an improvement on GitHub.",
+  "about_contribute_btn": "View on GitHub"
 }

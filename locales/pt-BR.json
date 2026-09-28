@@ -1,6 +1,6 @@
 {
   "site_title": "Utrecht Voor Jou",
-  "tagline": "O catálogo cidadão de benefícios, auxílios e serviços gratuitos oferecidos pela Prefeitura de Utrecht que quase ninguém conhece.",
+  "tagline": "O catálogo cidadão de benefícios, auxílios e serviços gratuitos em Utrecht que quase ninguém conhece.",
   "hero_badge": "100% Independente & Código Aberto",
   "nav_home": "Catálogo",
   "nav_checker": "Tenho direito?",
@@ -79,5 +79,23 @@
   "sort_amount": "Maior valor primeiro",
   "checker_total": "No total, até",
   "checker_total_note": "Só entram os benefícios com valor conhecido. O que você recebe de fato depende da sua situação.",
-  "card_detail_btn": "Info e pedido"
+  "card_detail_btn": "Info e pedido",
+  "hero_label": "Iniciativa cidadã independente",
+  "notice_unofficial": "Iniciativa cidadã independente — não é um site da Prefeitura de Utrecht. Informações oficiais:",
+  "count_available": "benefícios disponíveis",
+  "about_title": "Sobre o Utrecht Voor Jou",
+  "about_what_h": "O que é?",
+  "about_what_p": "O Utrecht Voor Jou reúne em um só lugar os benefícios, auxílios e serviços gratuitos em Utrecht, em nove idiomas. Eles vêm da prefeitura e de outras organizações, como a biblioteca, o U-pas e o banco de alimentos.",
+  "about_independent_h": "Iniciativa cidadã independente",
+  "about_independent_p": "Este não é um site da Prefeitura de Utrecht. Não decidimos sobre pedidos nem administramos benefícios. As informações oficiais estão em utrecht.nl e nos sites das próprias organizações.",
+  "about_check_h": "Como verificamos as informações",
+  "about_check_p1": "Cada benefício leva à sua fonte oficial e tem um status: verificado ou a verificar. A data da última checagem é mostrada; se tiver mais de nove meses, o benefício exibe um aviso.",
+  "about_check_p2": "Toda semana um teste automático confere se todos os links das fontes ainda funcionam. Todo mês alguns benefícios são relidos na fonte, começando pelos não verificados.",
+  "about_disclaimer_h": "Sem orientação jurídica",
+  "about_disclaimer_p": "Valores e condições podem mudar. Confira sempre a fonte oficial antes de pedir o benefício.",
+  "about_privacy_h": "Privacidade e visitas",
+  "about_privacy_p": "Este site não usa cookies nem rastreia ninguém. Só contamos quantas vezes uma página é aberta, com o GoatCounter: sem perfis nem endereços IP armazenados. Quem usa Do Not Track ou Global Privacy Control não é contado. Os números são públicos:",
+  "about_contribute_h": "Viu um erro?",
+  "about_contribute_p": "No fim de cada benefício há um botão para informar um erro. Você também pode sugerir um benefício que falta ou uma melhoria no GitHub.",
+  "about_contribute_btn": "Ver no GitHub"
 }

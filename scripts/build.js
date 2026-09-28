@@ -252,6 +252,13 @@ function renderHtmlShell({ title, description, content, langCode, currentSubpath
     </div>
   </header>
 
+  <!-- The red header and the name can read as a municipal site; this says on
+       every page that it is not one, and where the official information is. -->
+  <p class="unofficial-notice" role="note">
+    ${dict.notice_unofficial}
+    <a href="https://www.utrecht.nl/" target="_blank" rel="noopener">utrecht.nl</a>
+  </p>
+
   <!-- MAIN CONTENT -->
   <main id="main-content" role="main">
     ${content}
@@ -436,7 +443,7 @@ function renderCatalogHome(catalog, dict, langCode, basePath) {
     <section class="hero-section">
       <div class="hero-content">
         <div class="hero-text">
-          <span class="hero-badge">Gemeente Utrecht</span>
+          <span class="hero-badge">${dict.hero_label}</span>
           <h1>Utrecht <span class="accent">Voor Jou</span></h1>
           <p class="hero-subtitle">${dict.tagline}</p>
         </div>
@@ -549,7 +556,7 @@ function renderCatalogHome(catalog, dict, langCode, basePath) {
     <!-- CATALOG GRID -->
     <section class="catalog-section">
       <div class="catalog-stats-bar">
-        <div class="benefit-count-giant"><span id="visible-count">${catalog.length}</span> Regelingen beschikbaar</div>
+        <div class="benefit-count-giant"><span id="visible-count">${catalog.length}</span> ${dict.count_available}</div>
       </div>
 
       <div id="cards-grid" class="cards-grid">
@@ -718,55 +725,30 @@ function renderBenefitDetail(item, dict, langCode, basePath) {
 }
 
 function renderAboutPage(dict, langCode, basePath) {
+  // Every string comes from the locale: this page used to be written in Dutch
+  // only, so eight of the nine language versions showed a Dutch "About" page.
+  const section = (heading, body) => `
+        <div class="detail-section-block">
+          <h3>${heading}</h3>
+          ${body}
+        </div>`;
+  const p = (text) => `<p class="about-text">${text}</p>`;
+
   return `
     <div class="over-container">
       <a href="${basePath}${langCode}/" class="back-link">← ${dict.nav_home}</a>
 
       <article class="detail-card-main">
-        <h1 class="detail-title">Over "Utrecht Voor Jou"</h1>
-        
-        <div class="detail-section-block">
-          <h3>Missie & Burgerinitiatief</h3>
-          <p style="font-size: 1.05rem; line-height: 1.7; margin-bottom: 1rem;">
-            Veel inwoners van Utrecht laten jaarlijks duizenden euro's aan subsidies, vergoedingen en gratis gemeentelijke diensten liggen simpelweg omdat ze het bestaan ervan niet kennen. "Utrecht Voor Jou" is een 100% onafhankelijk, transparant en open-source burgerinitiatief dat al deze regelingen inzichtelijk maakt.
-          </p>
-        </div>
-
-        <div class="detail-section-block">
-          <h3>Methodologie & Verificatie</h3>
-          <p style="font-size: 1.05rem; line-height: 1.7; margin-bottom: 1rem;">
-            Elk voordeel in deze catalogus bevat een link naar de officiële gemeentelijke bron (Utrecht.nl, U-pas.nl, etc.) en een statusstempel. Alle data wordt periodiek gecontroleerd door vrijwilligers uit de gemeenschap.
-          </p>
-        </div>
-
-        <div class="detail-section-block">
-          <h3>Juridische Disclaimer</h3>
-          <div class="footer-disclaimer-box" style="background-color: #FFF3CD; color: #856404; border-left-color: #CC0000; margin-top: 0.5rem;">
-            <p><strong>Let op:</strong> Deze website geeft geen juridisch advies. Raadpleeg voor definitieve aanvragen en voorwaarden altijd de officiële website van de Gemeente Utrecht.</p>
-          </div>
-        </div>
-
-        ${ANALYTICS_CODE ? `<div class="detail-section-block">
-          <h3>Privacy & bezoekcijfers</h3>
-          <p style="font-size: 1.05rem; line-height: 1.7; margin-bottom: 1rem;">
-            Deze site zet geen cookies, vraagt niet om toestemming en volgt niemand. Om te weten of de regelingen ook echt gevonden worden, tellen we alleen het aantal keer dat een pagina geopend wordt met <a href="https://www.goatcounter.com/" target="_blank" rel="noopener">GoatCounter</a>: geen IP-adres dat bewaard wordt, geen profiel, geen doorverkoop. Wie <em>Do Not Track</em> of <em>Global Privacy Control</em> aan heeft staan, wordt helemaal niet geteld.
-          </p>
-          <p style="font-size: 1.05rem; line-height: 1.7;">
-            De cijfers zijn openbaar: <a href="https://${ANALYTICS_CODE}.goatcounter.com/" target="_blank" rel="noopener">${ANALYTICS_CODE}.goatcounter.com</a>.
-          </p>
-        </div>
-
-        ` : ''}<div class="detail-section-block">
-          <h3>Hoe bijdragen (PR via GitHub)?</h3>
-          <p style="font-size: 1.05rem; line-height: 1.7;">
-            Ontbreekt er een regeling of klopt een link niet meer? Iedereen kan een wijziging voorstellen via een Pull Request op GitHub. Bewerk eenvoudig <code>data/beneficios.json</code> of dien een issue in via onze sjablonen.
-          </p>
-          <div style="margin-top: 1.5rem;">
-            <a href="https://github.com/utrecht-voor-iedereen/utrecht-voor-jou" target="_blank" rel="noopener" class="official-btn-large">
-              Bekijk op GitHub (PR indienen) ↗
-            </a>
-          </div>
-        </div>
+        <h1 class="detail-title">${dict.about_title}</h1>
+        ${section(dict.about_what_h, p(dict.about_what_p))}
+        ${section(dict.about_independent_h, p(`${dict.about_independent_p} <a href="https://www.utrecht.nl/" target="_blank" rel="noopener">utrecht.nl</a>`))}
+        ${section(dict.about_check_h, p(dict.about_check_p1) + p(dict.about_check_p2))}
+        ${section(dict.about_disclaimer_h, `<div class="footer-disclaimer-box about-disclaimer"><p>${dict.about_disclaimer_p}</p></div>`)}
+        ${ANALYTICS_CODE ? section(dict.about_privacy_h, p(`${dict.about_privacy_p} <a href="https://${ANALYTICS_CODE}.goatcounter.com/" target="_blank" rel="noopener">${ANALYTICS_CODE}.goatcounter.com</a>`)) : ''}
+        ${section(dict.about_contribute_h, p(dict.about_contribute_p) + `
+          <div class="about-cta">
+            <a href="https://github.com/utrecht-voor-iedereen/utrecht-voor-jou" target="_blank" rel="noopener" class="official-btn-large">${dict.about_contribute_btn} ↗</a>
+          </div>`)}
       </article>
     </div>
   `;
@@ -868,7 +850,7 @@ function build() {
     const overContent = renderAboutPage(dict, code, overBasePath);
     const overHtml = renderHtmlShell({
       title: dict.nav_about,
-      description: 'Over het onafhankelijke burgerinitiatief Utrecht Voor Jou',
+      description: dict.about_what_p,
       content: overContent,
       langCode: code,
       currentSubpath: '/over/',

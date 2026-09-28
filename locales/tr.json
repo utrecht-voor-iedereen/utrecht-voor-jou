@@ -1,6 +1,6 @@
 {
   "site_title": "Utrecht Voor Jou",
-  "tagline": "Utrecht Belediyesi'nin sunduğu ancak pek az kişinin bildiği ücretsiz yardım ve destek rehberi.",
+  "tagline": "Utrecht'te pek az kişinin bildiği ücretsiz yardım ve destek rehberi.",
   "hero_badge": "%100 Bağımsız ve Açık Kaynak",
   "nav_home": "Katalog",
   "nav_checker": "Hakkım var mı?",
@@ -79,5 +79,23 @@
   "sort_amount": "Önce en yüksek tutar",
   "checker_total": "Toplamda en fazla",
   "checker_total_note": "Yalnızca tutarı bilinen düzenlemeler sayılır. Gerçekte alacağınız miktar durumunuza bağlıdır.",
-  "card_detail_btn": "Bilgi ve başvuru"
+  "card_detail_btn": "Bilgi ve başvuru",
+  "hero_label": "Bağımsız yurttaş girişimi",
+  "notice_unofficial": "Bağımsız bir yurttaş girişimi — Utrecht Belediyesi'nin sitesi değildir. Resmi bilgiler:",
+  "count_available": "destek mevcut",
+  "about_title": "Utrecht Voor Jou hakkında",
+  "about_what_h": "Bu nedir?",
+  "about_what_p": "Utrecht Voor Jou, Utrecht'teki ücretsiz yardımları, hibeleri ve hizmetleri dokuz dilde tek bir yerde topluyor. Bunlar belediyeden ve kütüphane, U-pas ve gıda bankası gibi başka kuruluşlardan geliyor.",
+  "about_independent_h": "Bağımsız yurttaş girişimi",
+  "about_independent_p": "Bu, Utrecht Belediyesi'nin sitesi değildir. Başvurular hakkında karar vermiyor ve hiçbir yardımı yönetmiyoruz. Resmi bilgiler utrecht.nl'de ve kuruluşların kendi sitelerinde yer alır.",
+  "about_check_h": "Bilgileri nasıl kontrol ediyoruz",
+  "about_check_p1": "Her yardım resmi kaynağına bağlantı veriyor ve bir durumu var: doğrulanmış veya doğrulanacak. Son kontrol tarihi gösteriliyor; dokuz aydan eskiyse yardımda bir uyarı çıkıyor.",
+  "about_check_p2": "Her hafta otomatik bir test tüm kaynak bağlantılarının çalışıp çalışmadığını kontrol ediyor. Her ay birkaç yardım, önce doğrulanmamış olanlar olmak üzere, kaynağına göre yeniden okunuyor.",
+  "about_disclaimer_h": "Hukuki tavsiye değildir",
+  "about_disclaimer_p": "Tutarlar ve koşullar değişebilir. Başvurmadan önce her zaman resmi kaynağı kontrol edin.",
+  "about_privacy_h": "Gizlilik ve ziyaretçi sayıları",
+  "about_privacy_p": "Bu site çerez kullanmıyor ve kimseyi izlemiyor. GoatCounter ile yalnızca bir sayfanın kaç kez açıldığını sayıyoruz: profil yok, IP adresi saklanmıyor. Do Not Track veya Global Privacy Control kullananlar sayılmıyor. Rakamlar herkese açık:",
+  "about_contribute_h": "Bir hata mı gördünüz?",
+  "about_contribute_p": "Her yardımın altında hata bildirmek için bir düğme var. Eksik bir yardımı veya bir iyileştirmeyi GitHub'da da önerebilirsiniz.",
+  "about_contribute_btn": "GitHub'da görüntüle"
 }
