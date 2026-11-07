@@ -529,7 +529,7 @@
     "type": "subsidio",
     "wijk": "all",
     "verificationStatus": "verificado",
-    "lastReviewed": "2026-07-27",
+    "lastReviewed": "2026-11-07",
     "expiresSoon": false,
     "officialUrl": "https://loket.digitaal.utrecht.nl/nl/producten/groenblauw-schoolplein-subsidie-aanvragen",
     "profiles": ["gezin", "iedereen"],
@@ -548,9 +548,9 @@
       "pt-BR": "Auxílio para pátio escolar verde"
     },
     "shortDescription": {
-      "nl": "Financiële bijdrage voor scholen en ouders om een stenen schoolplein om te bouwen tot een natuurlijk, groen en avontuurlijk speelplein.",
-      "en": "Financial contribution for schools and parent committees to convert paved schoolyards into natural, green play areas.",
-      "es": "Aportación económica para colegios y familias para transformar patios grises de hormigón en espacios verdes y naturales.",
+      "nl": "Financiële bijdrage voor basisscholen en scholen voor speciaal onderwijs om een stenen schoolplein om te bouwen tot een natuurlijk, groen en avontuurlijk speelplein.",
+      "en": "Financial contribution for primary and special-needs schools to convert paved schoolyards into natural, green play areas.",
+      "es": "Aportación económica para escuelas de primaria y de educación especial para transformar patios grises de hormigón en espacios verdes y naturales.",
       "de": "Finanzielle Unterstützung zur Verwandlung von Beton-Schulhöfen in grüne Oasen.",
       "tr": "Beton okul bahçelerini doğayla iç içe yeşil alanlara dönüştürmek için finansal destek.",
       "fr": "Aide financière pour transformer les cours en béton en espaces naturels.",
@@ -2932,9 +2932,9 @@
     "type": "servicio",
     "wijk": "all",
     "verificationStatus": "verificado",
-    "lastReviewed": "2026-08-11",
+    "lastReviewed": "2026-11-07",
     "expiresSoon": false,
-    "officialUrl": "https://www.utrecht.nl/zorg-en-onderwijs/hulp-en-ondersteuning-wmo/hulp-bij/hulp-bij-huishouden",
+    "officialUrl": "https://www.utrecht.nl/zorg-en-onderwijs/hulp-en-ondersteuning-wmo/hulp-bij/huishouden",
     "profiles": [
       "iedereen",
       "senior",
@@ -3033,56 +3033,56 @@
       "nl": [
         "Vul het hulpvraagformulier in op utrecht.nl, of bel 14 030",
         "De gemeente belt je binnen 5 werkdagen voor een gesprek of huisbezoek",
-        "Het buurtteam bekijkt samen met jou of hulp van de gemeente nodig is",
-        "Heb je het dringend nodig? Bel 14 030 en zeg dat het spoed is"
+        "In dat gesprek bekijkt de gemeente of hulp bij het huishouden een oplossing voor je is",
+        "Heb je het dringend nodig? Bel 14 030 en zeg dat het spoed is; je krijgt dan de volgende dag een gesprek"
       ],
       "en": [
         "Fill in the help request form on utrecht.nl, or call 14 030",
         "The municipality calls you within 5 working days for a conversation or home visit",
-        "The neighbourhood team looks with you at whether municipal help is needed",
-        "Urgent? Call 14 030 and say that it is urgent"
+        "In that conversation the municipality assesses whether household help is the right solution",
+        "Urgent? Call 14 030 and say that it is urgent; you then get a conversation the next day"
       ],
       "es": [
         "Rellena el formulario de solicitud de ayuda en utrecht.nl, o llama al 14 030",
         "El ayuntamiento te llama en 5 días laborables para una entrevista o visita a domicilio",
-        "El buurtteam valora contigo si hace falta ayuda municipal",
-        "¿Es urgente? Llama al 14 030 e indícalo"
+        "En esa entrevista la gemeente valora si la ayuda en casa es la solución adecuada",
+        "¿Es urgente? Llama al 14 030 e indícalo; tendrás la entrevista al día siguiente"
       ],
       "de": [
         "Füllen Sie das Hilfeanfrageformular auf utrecht.nl aus oder rufen Sie 14 030 an",
         "Die Gemeinde ruft Sie innerhalb von 5 Werktagen für ein Gespräch oder einen Hausbesuch an",
-        "Das Buurtteam prüft mit Ihnen, ob Hilfe der Gemeinde nötig ist",
-        "Dringend? Rufen Sie 14 030 an und sagen Sie, dass es eilt"
+        "In dem Gespräch prüft die Gemeinde, ob Haushaltshilfe die passende Lösung ist",
+        "Dringend? Rufen Sie 14 030 an und sagen Sie, dass es eilt; das Gespräch findet dann am nächsten Tag statt"
       ],
       "tr": [
         "utrecht.nl üzerinden yardım talep formunu doldurun veya 14 030’u arayın",
         "Belediye 5 iş günü içinde görüşme veya ev ziyareti için sizi arar",
-        "Buurtteam sizinle birlikte belediye yardımına ihtiyaç olup olmadığına bakar",
-        "Acil mi? 14 030’u arayın ve acil olduğunu söyleyin"
+        "Bu görüşmede belediye ev işi yardımının sizin için uygun olup olmadığını değerlendirir",
+        "Acil mi? 14 030’u arayın ve acil olduğunu söyleyin; görüşme ertesi gün yapılır"
       ],
       "fr": [
         "Remplissez le formulaire de demande d’aide sur utrecht.nl, ou appelez le 14 030",
         "La commune vous appelle sous 5 jours ouvrés pour un entretien ou une visite à domicile",
-        "L’équipe de quartier examine avec vous si une aide communale est nécessaire",
-        "C’est urgent ? Appelez le 14 030 et signalez-le"
+        "Lors de cet entretien, la commune évalue si une aide ménagère est la bonne solution",
+        "C’est urgent ? Appelez le 14 030 et signalez-le ; l’entretien a lieu le lendemain"
       ],
       "it": [
         "Compila il modulo di richiesta di aiuto su utrecht.nl, oppure chiama il 14 030",
         "Il comune ti chiama entro 5 giorni lavorativi per un colloquio o una visita a casa",
-        "La squadra di quartiere valuta con te se serve l’aiuto del comune",
-        "È urgente? Chiama il 14 030 e dillo"
+        "Durante il colloquio il comune valuta se l’aiuto domestico è la soluzione giusta",
+        "È urgente? Chiama il 14 030 e dillo; il colloquio si fa il giorno dopo"
       ],
       "pt": [
         "Preencha o formulário de pedido de ajuda em utrecht.nl, ou ligue 14 030",
         "O município liga-lhe em 5 dias úteis para uma conversa ou visita domiciliária",
-        "A equipa de bairro avalia consigo se é necessária ajuda municipal",
-        "É urgente? Ligue 14 030 e diga-o"
+        "Nessa conversa o município avalia se a ajuda doméstica é a solução adequada",
+        "É urgente? Ligue 14 030 e diga-o; a conversa é no dia seguinte"
       ],
       "pt-BR": [
         "Preencha o formulário de pedido de ajuda em utrecht.nl, ou ligue 14 030",
         "A prefeitura liga em até 5 dias úteis para uma conversa ou visita em casa",
-        "A equipe de bairro avalia com você se a ajuda municipal é necessária",
-        "É urgente? Ligue 14 030 e avise"
+        "Nessa conversa a prefeitura avalia se a ajuda doméstica é a solução adequada",
+        "É urgente? Ligue 14 030 e avise; a conversa é no dia seguinte"
       ]
     }
   },
