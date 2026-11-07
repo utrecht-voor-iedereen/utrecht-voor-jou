@@ -47,7 +47,7 @@ async function request(url, method) {
       signal: controller.signal,
       headers: { 'User-Agent': USER_AGENT, Accept: '*/*' }
     });
-    return { status: res.status, finalUrl: res.url };
+    return { status: res.status, finalUrl: res.url, cloudflare: res.headers.has('cf-ray') };
   } finally {
     clearTimeout(timer);
   }
@@ -73,6 +73,14 @@ async function checkUrl(url) {
       const res = await probe(url);
       if (res.status < 400) {
         return { ok: true, status: String(res.status), finalUrl: res.finalUrl, attempts: attempt };
+      }
+      // A 403 served by Cloudflare is its bot protection turning the checker
+      // away, not a missing page: buurtteamsutrecht.nl answers that to any
+      // script while it loads fine in a browser. Reported as unverifiable
+      // instead of broken, so it does not reopen the issue every week. A page
+      // that is really gone behind Cloudflare still answers 404.
+      if (res.status === 403 && res.cloudflare) {
+        return { ok: true, blocked: true, status: '403 (Cloudflare)', finalUrl: res.finalUrl, attempts: attempt };
       }
       last = { ok: false, status: String(res.status), finalUrl: res.finalUrl, attempts: attempt };
       // 4xx means the page is genuinely gone; only server errors are worth
@@ -140,8 +148,11 @@ async function main() {
   const failures = results.filter(r => !r.ok);
 
   results
-    .filter(r => r.ok)
+    .filter(r => r.ok && !r.blocked)
     .forEach(r => console.log(`  ✅ ${r.status}  ${r.url}`));
+  results
+    .filter(r => r.blocked)
+    .forEach(r => console.log(`  ⚠️  ${r.status}  ${r.url}  (bot protection, check it in a browser)`));
   failures.forEach(r =>
     console.log(`  ❌ ${r.status}  ${r.url}  (${r.attempts} attempt${r.attempts > 1 ? 's' : ''})`)
   );
