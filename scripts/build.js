@@ -966,6 +966,14 @@ function build() {
   <title>Utrecht Voor Jou</title>
   <meta name="description" content="${escapeHtml(locales.nl.tagline)}">
   <meta name="theme-color" content="#CC0000">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Utrecht Voor Jou">
+  <meta property="og:description" content="${escapeHtml(locales.nl.tagline)}">
+  <meta property="og:url" content="https://utrecht-voor-iedereen.github.io/utrecht-voor-jou/">
+  <meta property="og:image" content="https://utrecht-voor-iedereen.github.io/utrecht-voor-jou/img/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="manifest" href="./manifest.webmanifest">
 ${rootHreflangs}
   <link rel="alternate" hreflang="x-default" href="./nl/" />
