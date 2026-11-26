@@ -2690,9 +2690,9 @@
     "type": "gratis",
     "wijk": "all",
     "verificationStatus": "verificado",
-    "lastReviewed": "2026-07-27",
+    "lastReviewed": "2026-11-26",
     "expiresSoon": false,
-    "officialUrl": "https://www.bibliotheekutrecht.nl/nieuws/publicroam-291021.html",
+    "officialUrl": "https://publicroam.net/",
     "profiles": ["iedereen", "student"],
     "searchAliases": {
       "all": ["wifi","wi-fi","internet","publicroam","bibliotheek","stadskantoor"]
